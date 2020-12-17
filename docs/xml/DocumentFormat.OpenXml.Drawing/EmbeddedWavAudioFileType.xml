@@ -1,4 +1,4 @@
-﻿<Type Name="EmbeddedWavAudioFileType" FullName="DocumentFormat.OpenXml.Drawing.EmbeddedWavAudioFileType">
+<Type Name="EmbeddedWavAudioFileType" FullName="DocumentFormat.OpenXml.Drawing.EmbeddedWavAudioFileType">
   <TypeSignature Language="C#" Value="public abstract class EmbeddedWavAudioFileType : DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit EmbeddedWavAudioFileType extends DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Drawing.EmbeddedWavAudioFileType" />
@@ -8,20 +8,18 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafElement</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>
-            Defines the EmbeddedWavAudioFileType class.
-            </summary>
+      <para>Defines the EmbeddedWavAudioFileType Class.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is :.</para>
+    </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -35,6 +33,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -55,10 +54,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "builtIn")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "builtIn")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "builtIn")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -66,8 +67,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Recognized Built-In Sound.</para>
-          <para>Represents the following attribute in the schema: builtIn </para>
+          <para>Recognized Built-In Sound</para>
+          <para>Represents the following attribute in the schema: builtIn</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>
@@ -95,10 +96,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(19, "embed")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(19, "embed")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(19, "embed")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -106,8 +109,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Embedded Audio File Relationship ID.</para>
-          <para>Represents the following attribute in the schema: r:embed </para>
+          <para>Embedded Audio File Relationship ID</para>
+          <para>Represents the following attribute in the schema: r:embed</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>
@@ -122,7 +125,8 @@
   
  ]]></format>
         </remarks>
-        <remark> xmlns:r=http://schemas.openxmlformats.org/officeDocument/2006/relationships
+        <remark>
+            xmlns:r=http://schemas.openxmlformats.org/officeDocument/2006/relationships
             </remark>
       </Docs>
     </Member>
@@ -137,10 +141,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "name")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "name")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "name")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -148,8 +154,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Sound Name.</para>
-          <para>Represents the following attribute in the schema: name </para>
+          <para>Sound Name</para>
+          <para>Represents the following attribute in the schema: name</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>

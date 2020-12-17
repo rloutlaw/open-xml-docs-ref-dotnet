@@ -1,4 +1,4 @@
-﻿<Type Name="LayoutContainer" FullName="DocumentFormat.OpenXml.Office2010.CustomUI.LayoutContainer">
+<Type Name="LayoutContainer" FullName="DocumentFormat.OpenXml.Office2010.CustomUI.LayoutContainer">
   <TypeSignature Language="C#" Value="public class LayoutContainer : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LayoutContainer extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2010.CustomUI.LayoutContainer" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,54 +16,57 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.CustomUI.BackstageGroupButton), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.CustomUI.BackstageCheckBox), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.CustomUI.BackstageEditBox), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.CustomUI.BackstageDropDown), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.CustomUI.RadioGroup), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.CustomUI.BackstageComboBox), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.CustomUI.Hyperlink), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.CustomUI.BackstageLabelControl), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.CustomUI.GroupBox), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.CustomUI.LayoutContainer), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.CustomUI.ImageControl), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(57, "layoutContainer")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(57, "layoutContainer")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the LayoutContainer Class.</para>
-      <para>This class is available in Office2010 or above.</para>
-      <para> When the object is serialized out as xml, its qualified name is mso14:layoutContainer.</para>
+      <para>This class is available in Office 2010 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is mso14:layoutContainer.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>BackstageGroupButton &lt;mso14:button&gt;</description></item><item><description>BackstageCheckBox &lt;mso14:checkBox&gt;</description></item><item><description>BackstageEditBox &lt;mso14:editBox&gt;</description></item><item><description>BackstageDropDown &lt;mso14:dropDown&gt;</description></item><item><description>RadioGroup &lt;mso14:radioGroup&gt;</description></item><item><description>BackstageComboBox &lt;mso14:comboBox&gt;</description></item><item><description>Hyperlink &lt;mso14:hyperlink&gt;</description></item><item><description>BackstageLabelControl &lt;mso14:labelControl&gt;</description></item><item><description>GroupBox &lt;mso14:groupBox&gt;</description></item><item><description>LayoutContainer &lt;mso14:layoutContainer&gt;</description></item><item><description>ImageControl &lt;mso14:imageControl&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>BackstageGroupButton &lt;mso14:button&gt;</description>
+        </item>
+        <item>
+          <description>BackstageCheckBox &lt;mso14:checkBox&gt;</description>
+        </item>
+        <item>
+          <description>BackstageEditBox &lt;mso14:editBox&gt;</description>
+        </item>
+        <item>
+          <description>BackstageDropDown &lt;mso14:dropDown&gt;</description>
+        </item>
+        <item>
+          <description>RadioGroup &lt;mso14:radioGroup&gt;</description>
+        </item>
+        <item>
+          <description>BackstageComboBox &lt;mso14:comboBox&gt;</description>
+        </item>
+        <item>
+          <description>Hyperlink &lt;mso14:hyperlink&gt;</description>
+        </item>
+        <item>
+          <description>BackstageLabelControl &lt;mso14:labelControl&gt;</description>
+        </item>
+        <item>
+          <description>GroupBox &lt;mso14:groupBox&gt;</description>
+        </item>
+        <item>
+          <description>LayoutContainer &lt;mso14:layoutContainer&gt;</description>
+        </item>
+        <item>
+          <description>ImageControl &lt;mso14:imageControl&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -75,6 +79,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -95,12 +100,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -124,6 +131,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -132,7 +140,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the LayoutContainer class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -147,6 +155,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -170,10 +179,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "align")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "align")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "align")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -181,8 +192,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> align.</para>
-          <para>Represents the following attribute in the schema: align </para>
+          <para>align, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: align</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -199,6 +210,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -213,6 +225,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Expand">
@@ -226,10 +239,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "expand")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "expand")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "expand")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -237,8 +252,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> expand.</para>
-          <para>Represents the following attribute in the schema: expand </para>
+          <para>expand, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: expand</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -255,10 +270,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "id")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "id")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "id")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -266,8 +283,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> id.</para>
-          <para>Represents the following attribute in the schema: id </para>
+          <para>id, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: id</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -284,10 +301,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "layoutChildren")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "layoutChildren")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "layoutChildren")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -295,32 +314,9 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> layoutChildren.</para>
-          <para>Represents the following attribute in the schema: layoutChildren </para>
+          <para>layoutChildren, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: layoutChildren</para>
         </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2010.CustomUI.LayoutContainer.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office2010.CustomUI.LayoutContainer.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -336,10 +332,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "idQ")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "idQ")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "idQ")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -347,8 +345,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> idQ.</para>
-          <para>Represents the following attribute in the schema: idQ </para>
+          <para>idQ, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: idQ</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -365,10 +363,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "tag")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "tag")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "tag")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -376,8 +376,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> tag.</para>
-          <para>Represents the following attribute in the schema: tag </para>
+          <para>tag, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: tag</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

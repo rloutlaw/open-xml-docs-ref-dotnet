@@ -1,4 +1,4 @@
-﻿<Type Name="Columns" FullName="DocumentFormat.OpenXml.Wordprocessing.Columns">
+<Type Name="Columns" FullName="DocumentFormat.OpenXml.Wordprocessing.Columns">
   <TypeSignature Language="C#" Value="public class Columns : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Columns extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.Columns" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,20 +16,27 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Column))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "cols")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "cols")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the Columns Class.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:cols.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:cols.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>Column &lt;w:col&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>Column &lt;w:col&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -41,6 +49,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -61,12 +70,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -90,6 +101,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -98,7 +110,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Columns class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -113,6 +125,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -136,6 +149,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -150,6 +164,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ColumnCount">
@@ -163,10 +178,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "num")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "num")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "num")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -174,8 +191,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Number of Equal Width Columns.</para>
-          <para>Represents the following attribute in the schema: w:num </para>
+          <para>Number of Equal Width Columns</para>
+          <para>Represents the following attribute in the schema: w:num</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>
@@ -203,7 +220,8 @@
   
  ]]></format>
         </remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -218,10 +236,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "equalWidth")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "equalWidth")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "equalWidth")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -229,8 +249,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Equal Column Widths.</para>
-          <para>Represents the following attribute in the schema: w:equalWidth </para>
+          <para>Equal Column Widths</para>
+          <para>Represents the following attribute in the schema: w:equalWidth</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>
@@ -276,31 +296,9 @@
   
  ]]></format>
         </remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.Columns.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.Columns.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Separator">
@@ -314,10 +312,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "sep")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "sep")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "sep")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -325,8 +325,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Draw Line Between Columns.</para>
-          <para>Represents the following attribute in the schema: w:sep </para>
+          <para>Draw Line Between Columns</para>
+          <para>Represents the following attribute in the schema: w:sep</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>
@@ -353,7 +353,8 @@
   
  ]]></format>
         </remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -368,10 +369,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "space")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "space")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "space")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -379,8 +382,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Spacing Between Equal Width Columns.</para>
-          <para>Represents the following attribute in the schema: w:space </para>
+          <para>Spacing Between Equal Width Columns</para>
+          <para>Represents the following attribute in the schema: w:space</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.UInt64Value" />.</value>
         <remarks>
@@ -408,7 +411,8 @@
   
  ]]></format>
         </remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>

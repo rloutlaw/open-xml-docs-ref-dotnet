@@ -1,4 +1,4 @@
-﻿<Type Name="Annotation" FullName="DocumentFormat.OpenXml.InkML.Annotation">
+<Type Name="Annotation" FullName="DocumentFormat.OpenXml.InkML.Annotation">
   <TypeSignature Language="C#" Value="public class Annotation : DocumentFormat.OpenXml.OpenXmlLeafTextElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Annotation extends DocumentFormat.OpenXml.OpenXmlLeafTextElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.InkML.Annotation" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafTextElement</BaseTypeName>
@@ -15,13 +16,15 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(43, "annotation")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(43, "annotation")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the Annotation Class.</para>
-      <para> When the object is serialized out as xml, its qualified name is inkml:annotation.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is inkml:annotation.</para>
     </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -36,6 +39,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -56,6 +60,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="text" Type="System.String" />
@@ -79,6 +84,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -93,6 +99,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Encoding">
@@ -106,10 +113,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "encoding")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "encoding")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "encoding")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -117,32 +126,9 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> encoding.</para>
-          <para>Represents the following attribute in the schema: encoding </para>
+          <para>encoding</para>
+          <para>Represents the following attribute in the schema: encoding</para>
         </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.InkML.Annotation.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.InkML.Annotation.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -158,10 +144,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "type")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "type")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "type")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -169,8 +157,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> type.</para>
-          <para>Represents the following attribute in the schema: type </para>
+          <para>type</para>
+          <para>Represents the following attribute in the schema: type</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

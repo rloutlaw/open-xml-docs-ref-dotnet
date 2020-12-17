@@ -1,4 +1,4 @@
-﻿<Type Name="OpenXmlWriter" FullName="DocumentFormat.OpenXml.OpenXmlWriter">
+<Type Name="OpenXmlWriter" FullName="DocumentFormat.OpenXml.OpenXmlWriter">
   <TypeSignature Language="C#" Value="public abstract class OpenXmlWriter : IDisposable" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit OpenXmlWriter extends System.Object implements class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.OpenXmlWriter" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -34,6 +35,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -54,6 +56,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -70,12 +73,14 @@
       <MemberSignature Language="C#" Value="public static DocumentFormat.OpenXml.OpenXmlWriter Create (DocumentFormat.OpenXml.Packaging.OpenXmlPart openXmlPart);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DocumentFormat.OpenXml.OpenXmlWriter Create(class DocumentFormat.OpenXml.Packaging.OpenXmlPart openXmlPart) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.OpenXmlWriter.Create(DocumentFormat.OpenXml.Packaging.OpenXmlPart)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (openXmlPart As OpenXmlPart) As OpenXmlWriter" />
       <MemberSignature Language="F#" Value="static member Create : DocumentFormat.OpenXml.Packaging.OpenXmlPart -&gt; DocumentFormat.OpenXml.OpenXmlWriter" Usage="DocumentFormat.OpenXml.OpenXmlWriter.Create openXmlPart" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlWriter</ReturnType>
@@ -84,7 +89,7 @@
         <Parameter Name="openXmlPart" Type="DocumentFormat.OpenXml.Packaging.OpenXmlPart" />
       </Parameters>
       <Docs>
-        <param name="openXmlPart">The OpenXmlPart to be writern.</param>
+        <param name="openXmlPart">The OpenXmlPart to be written.</param>
         <summary>
             Create an OpenXmlWriter from the OpenXmlPart.
             </summary>
@@ -103,6 +108,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlWriter</ReturnType>
@@ -123,12 +129,14 @@
       <MemberSignature Language="C#" Value="public static DocumentFormat.OpenXml.OpenXmlWriter Create (DocumentFormat.OpenXml.Packaging.OpenXmlPart openXmlPart, System.Text.Encoding encoding);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DocumentFormat.OpenXml.OpenXmlWriter Create(class DocumentFormat.OpenXml.Packaging.OpenXmlPart openXmlPart, class System.Text.Encoding encoding) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.OpenXmlWriter.Create(DocumentFormat.OpenXml.Packaging.OpenXmlPart,System.Text.Encoding)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (openXmlPart As OpenXmlPart, encoding As Encoding) As OpenXmlWriter" />
       <MemberSignature Language="F#" Value="static member Create : DocumentFormat.OpenXml.Packaging.OpenXmlPart * System.Text.Encoding -&gt; DocumentFormat.OpenXml.OpenXmlWriter" Usage="DocumentFormat.OpenXml.OpenXmlWriter.Create (openXmlPart, encoding)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlWriter</ReturnType>
@@ -138,7 +146,7 @@
         <Parameter Name="encoding" Type="System.Text.Encoding" />
       </Parameters>
       <Docs>
-        <param name="openXmlPart">The OpenXmlPart to be writern.</param>
+        <param name="openXmlPart">The OpenXmlPart to be written.</param>
         <param name="encoding">The encoding for the XML stream.</param>
         <summary>
             Create an OpenXmlWriter from the OpenXmlPart.
@@ -151,12 +159,14 @@
       <MemberSignature Language="C#" Value="public static DocumentFormat.OpenXml.OpenXmlWriter Create (System.IO.Stream partStream, System.Text.Encoding encoding);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class DocumentFormat.OpenXml.OpenXmlWriter Create(class System.IO.Stream partStream, class System.Text.Encoding encoding) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.OpenXmlWriter.Create(System.IO.Stream,System.Text.Encoding)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (partStream As Stream, encoding As Encoding) As OpenXmlWriter" />
       <MemberSignature Language="F#" Value="static member Create : System.IO.Stream * System.Text.Encoding -&gt; DocumentFormat.OpenXml.OpenXmlWriter" Usage="DocumentFormat.OpenXml.OpenXmlWriter.Create (partStream, encoding)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlWriter</ReturnType>
@@ -189,6 +199,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -212,6 +223,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -238,6 +250,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -261,6 +274,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -269,7 +283,7 @@
         <Parameter Name="elementObject" Type="DocumentFormat.OpenXml.OpenXmlElement" />
       </Parameters>
       <Docs>
-        <param name="elementObject">The OpenXmlElement object to be writen.</param>
+        <param name="elementObject">The OpenXmlElement object to be written.</param>
         <summary>
             Write the OpenXmlElement to the writer.
             </summary>
@@ -287,6 +301,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -310,6 +325,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -333,6 +349,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -359,6 +376,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -367,7 +385,7 @@
         <Parameter Name="elementObject" Type="DocumentFormat.OpenXml.OpenXmlElement" />
       </Parameters>
       <Docs>
-        <param name="elementObject">The OpenXmlElement object to be writen.</param>
+        <param name="elementObject">The OpenXmlElement object to be written.</param>
         <summary>
             Writes out a start tag of the element and all the attributes of the element.
             </summary>
@@ -385,6 +403,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -411,6 +430,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -420,8 +440,8 @@
         <Parameter Name="attributes" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlAttribute&gt;" />
       </Parameters>
       <Docs>
-        <param name="elementObject">The OpenXmlElement object to be writen.</param>
-        <param name="attributes">The attributes to be writtern.</param>
+        <param name="elementObject">The OpenXmlElement object to be written.</param>
+        <param name="attributes">The attributes to be written.</param>
         <summary>
             Writes out a start tag of the element. And write the attributes in attributes. The attributes of the element will be omitted.
             </summary>
@@ -439,6 +459,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -449,7 +470,7 @@
       </Parameters>
       <Docs>
         <param name="elementReader">The OpenXmlReader to read from. </param>
-        <param name="attributes">The attributes to be writtern, can be null if no attrbutes.</param>
+        <param name="attributes">The attributes to be written, can be null if no attributes.</param>
         <summary>
             Writes out a start element tag of the current element of the OpenXmlReader. And write the attributes in attributes.
             </summary>
@@ -467,6 +488,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -477,8 +499,8 @@
         <Parameter Name="namespaceDeclarations" Type="System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;" />
       </Parameters>
       <Docs>
-        <param name="elementObject">The OpenXmlElement object to be writen.</param>
-        <param name="attributes">The attributes to be writtern.</param>
+        <param name="elementObject">The OpenXmlElement object to be written.</param>
+        <param name="attributes">The attributes to be written.</param>
         <param name="namespaceDeclarations">The namespace declarations to be written, can be null if no namespace declarations.</param>
         <summary>
             Writes out a start tag of the element. And write the attributes in attributes. The attributes of the element will be omitted.
@@ -497,6 +519,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -508,7 +531,7 @@
       </Parameters>
       <Docs>
         <param name="elementReader">The OpenXmlReader to read from. </param>
-        <param name="attributes">The attributes to be writtern, can be null if no attrbutes.</param>
+        <param name="attributes">The attributes to be written, can be null if no attributes.</param>
         <param name="namespaceDeclarations">The namespace declarations to be written, can be null if no namespace declarations.</param>
         <summary>
             Writes out a start element tag of the current element of the OpenXmlReader. And write the attributes in attributes.
@@ -527,6 +550,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

@@ -1,4 +1,4 @@
-﻿<Type Name="ButtonGroup" FullName="DocumentFormat.OpenXml.Office.CustomUI.ButtonGroup">
+<Type Name="ButtonGroup" FullName="DocumentFormat.OpenXml.Office.CustomUI.ButtonGroup">
   <TypeSignature Language="C#" Value="public class ButtonGroup : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ButtonGroup extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office.CustomUI.ButtonGroup" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,38 +16,45 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office.CustomUI.UnsizedControlClone))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office.CustomUI.UnsizedButton))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office.CustomUI.UnsizedToggleButton))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office.CustomUI.UnsizedGallery))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office.CustomUI.UnsizedMenu))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office.CustomUI.UnsizedDynamicMenu))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office.CustomUI.UnsizedSplitButton))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(34, "buttonGroup")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(34, "buttonGroup")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the ButtonGroup Class.</para>
-      <para> When the object is serialized out as xml, its qualified name is mso:buttonGroup.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is mso:buttonGroup.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>UnsizedControlClone &lt;mso:control&gt;</description></item><item><description>UnsizedButton &lt;mso:button&gt;</description></item><item><description>UnsizedToggleButton &lt;mso:toggleButton&gt;</description></item><item><description>UnsizedGallery &lt;mso:gallery&gt;</description></item><item><description>UnsizedMenu &lt;mso:menu&gt;</description></item><item><description>UnsizedDynamicMenu &lt;mso:dynamicMenu&gt;</description></item><item><description>UnsizedSplitButton &lt;mso:splitButton&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>UnsizedControlClone &lt;mso:control&gt;</description>
+        </item>
+        <item>
+          <description>UnsizedButton &lt;mso:button&gt;</description>
+        </item>
+        <item>
+          <description>UnsizedToggleButton &lt;mso:toggleButton&gt;</description>
+        </item>
+        <item>
+          <description>UnsizedGallery &lt;mso:gallery&gt;</description>
+        </item>
+        <item>
+          <description>UnsizedMenu &lt;mso:menu&gt;</description>
+        </item>
+        <item>
+          <description>UnsizedDynamicMenu &lt;mso:dynamicMenu&gt;</description>
+        </item>
+        <item>
+          <description>UnsizedSplitButton &lt;mso:splitButton&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -59,6 +67,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -79,12 +88,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -108,6 +119,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -116,7 +128,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the ButtonGroup class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -131,6 +143,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -154,6 +167,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -168,6 +182,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="GetVisible">
@@ -181,10 +196,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "getVisible")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "getVisible")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "getVisible")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -192,8 +209,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> getVisible.</para>
-          <para>Represents the following attribute in the schema: getVisible </para>
+          <para>getVisible</para>
+          <para>Represents the following attribute in the schema: getVisible</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -210,10 +227,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "id")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "id")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "id")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -221,8 +240,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> id.</para>
-          <para>Represents the following attribute in the schema: id </para>
+          <para>id</para>
+          <para>Represents the following attribute in the schema: id</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -239,10 +258,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "idQ")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "idQ")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "idQ")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -250,8 +271,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> idQ.</para>
-          <para>Represents the following attribute in the schema: idQ </para>
+          <para>idQ</para>
+          <para>Represents the following attribute in the schema: idQ</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -268,10 +289,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "insertAfterMso")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "insertAfterMso")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "insertAfterMso")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -279,8 +302,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> insertAfterMso.</para>
-          <para>Represents the following attribute in the schema: insertAfterMso </para>
+          <para>insertAfterMso</para>
+          <para>Represents the following attribute in the schema: insertAfterMso</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -297,10 +320,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "insertAfterQ")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "insertAfterQ")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "insertAfterQ")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -308,8 +333,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> insertAfterQ.</para>
-          <para>Represents the following attribute in the schema: insertAfterQ </para>
+          <para>insertAfterQ</para>
+          <para>Represents the following attribute in the schema: insertAfterQ</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -326,10 +351,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "insertBeforeMso")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "insertBeforeMso")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "insertBeforeMso")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -337,8 +364,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> insertBeforeMso.</para>
-          <para>Represents the following attribute in the schema: insertBeforeMso </para>
+          <para>insertBeforeMso</para>
+          <para>Represents the following attribute in the schema: insertBeforeMso</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -355,10 +382,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "insertBeforeQ")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "insertBeforeQ")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "insertBeforeQ")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -366,32 +395,9 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> insertBeforeQ.</para>
-          <para>Represents the following attribute in the schema: insertBeforeQ </para>
+          <para>insertBeforeQ</para>
+          <para>Represents the following attribute in the schema: insertBeforeQ</para>
         </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office.CustomUI.ButtonGroup.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office.CustomUI.ButtonGroup.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -407,10 +413,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "visible")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "visible")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "visible")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -418,8 +426,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> visible.</para>
-          <para>Represents the following attribute in the schema: visible </para>
+          <para>visible</para>
+          <para>Represents the following attribute in the schema: visible</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

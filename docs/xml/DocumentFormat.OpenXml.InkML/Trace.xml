@@ -1,4 +1,4 @@
-﻿<Type Name="Trace" FullName="DocumentFormat.OpenXml.InkML.Trace">
+<Type Name="Trace" FullName="DocumentFormat.OpenXml.InkML.Trace">
   <TypeSignature Language="C#" Value="public class Trace : DocumentFormat.OpenXml.OpenXmlLeafTextElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Trace extends DocumentFormat.OpenXml.OpenXmlLeafTextElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.InkML.Trace" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafTextElement</BaseTypeName>
@@ -15,13 +16,15 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(43, "trace")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(43, "trace")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the Trace Class.</para>
-      <para> When the object is serialized out as xml, its qualified name is inkml:trace.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is inkml:trace.</para>
     </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -36,6 +39,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -56,6 +60,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="text" Type="System.String" />
@@ -79,10 +84,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "brushRef")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "brushRef")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "brushRef")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -90,8 +97,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> brushRef.</para>
-          <para>Represents the following attribute in the schema: brushRef </para>
+          <para>brushRef</para>
+          <para>Represents the following attribute in the schema: brushRef</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -108,6 +115,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -122,6 +130,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ContextRef">
@@ -135,10 +144,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "contextRef")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "contextRef")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "contextRef")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -146,8 +157,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> contextRef.</para>
-          <para>Represents the following attribute in the schema: contextRef </para>
+          <para>contextRef</para>
+          <para>Represents the following attribute in the schema: contextRef</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -164,10 +175,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "continuation")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "continuation")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "continuation")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -175,8 +188,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> continuation.</para>
-          <para>Represents the following attribute in the schema: continuation </para>
+          <para>continuation</para>
+          <para>Represents the following attribute in the schema: continuation</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -193,10 +206,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "duration")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "duration")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "duration")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -204,8 +219,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> duration.</para>
-          <para>Represents the following attribute in the schema: duration </para>
+          <para>duration</para>
+          <para>Represents the following attribute in the schema: duration</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -222,10 +237,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(1, "id")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(1, "id")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(1, "id")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -233,36 +250,14 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> id.</para>
-          <para>Represents the following attribute in the schema: xml:id </para>
+          <para>id</para>
+          <para>Represents the following attribute in the schema: xml:id</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:xml=http://www.w3.org/XML/1998/namespace
+        <remark>
+            xmlns:xml=http://www.w3.org/XML/1998/namespace
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.InkML.Trace.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.InkML.Trace.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="PriorRef">
@@ -276,10 +271,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "priorRef")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "priorRef")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "priorRef")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -287,8 +284,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> priorRef.</para>
-          <para>Represents the following attribute in the schema: priorRef </para>
+          <para>priorRef</para>
+          <para>Represents the following attribute in the schema: priorRef</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -305,10 +302,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "timeOffset")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "timeOffset")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "timeOffset")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -316,8 +315,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> timeOffset.</para>
-          <para>Represents the following attribute in the schema: timeOffset </para>
+          <para>timeOffset</para>
+          <para>Represents the following attribute in the schema: timeOffset</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -334,10 +333,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "type")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "type")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "type")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -345,8 +346,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> type.</para>
-          <para>Represents the following attribute in the schema: type </para>
+          <para>type</para>
+          <para>Represents the following attribute in the schema: type</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

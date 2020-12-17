@@ -1,4 +1,4 @@
-﻿<Type Name="TableCellProperties" FullName="DocumentFormat.OpenXml.Drawing.TableCellProperties">
+<Type Name="TableCellProperties" FullName="DocumentFormat.OpenXml.Drawing.TableCellProperties">
   <TypeSignature Language="C#" Value="public class TableCellProperties : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TableCellProperties extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Drawing.TableCellProperties" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,59 +16,66 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.LeftBorderLineProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.RightBorderLineProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.TopBorderLineProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.BottomBorderLineProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.TopLeftToBottomRightBorderLineProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.BottomLeftToTopRightBorderLineProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Cell3DProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.NoFill))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.SolidFill))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.GradientFill))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.BlipFill))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.PatternFill))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.GroupFill))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.ExtensionList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(10, "tcPr")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(10, "tcPr")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Table Cell Properties.</para>
-      <para> When the object is serialized out as xml, its qualified name is a:tcPr.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is a:tcPr.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>LeftBorderLineProperties &lt;a:lnL&gt;</description></item><item><description>RightBorderLineProperties &lt;a:lnR&gt;</description></item><item><description>TopBorderLineProperties &lt;a:lnT&gt;</description></item><item><description>BottomBorderLineProperties &lt;a:lnB&gt;</description></item><item><description>TopLeftToBottomRightBorderLineProperties &lt;a:lnTlToBr&gt;</description></item><item><description>BottomLeftToTopRightBorderLineProperties &lt;a:lnBlToTr&gt;</description></item><item><description>Cell3DProperties &lt;a:cell3D&gt;</description></item><item><description>NoFill &lt;a:noFill&gt;</description></item><item><description>SolidFill &lt;a:solidFill&gt;</description></item><item><description>GradientFill &lt;a:gradFill&gt;</description></item><item><description>BlipFill &lt;a:blipFill&gt;</description></item><item><description>PatternFill &lt;a:pattFill&gt;</description></item><item><description>GroupFill &lt;a:grpFill&gt;</description></item><item><description>ExtensionList &lt;a:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>LeftBorderLineProperties &lt;a:lnL&gt;</description>
+        </item>
+        <item>
+          <description>RightBorderLineProperties &lt;a:lnR&gt;</description>
+        </item>
+        <item>
+          <description>TopBorderLineProperties &lt;a:lnT&gt;</description>
+        </item>
+        <item>
+          <description>BottomBorderLineProperties &lt;a:lnB&gt;</description>
+        </item>
+        <item>
+          <description>TopLeftToBottomRightBorderLineProperties &lt;a:lnTlToBr&gt;</description>
+        </item>
+        <item>
+          <description>BottomLeftToTopRightBorderLineProperties &lt;a:lnBlToTr&gt;</description>
+        </item>
+        <item>
+          <description>Cell3DProperties &lt;a:cell3D&gt;</description>
+        </item>
+        <item>
+          <description>NoFill &lt;a:noFill&gt;</description>
+        </item>
+        <item>
+          <description>SolidFill &lt;a:solidFill&gt;</description>
+        </item>
+        <item>
+          <description>GradientFill &lt;a:gradFill&gt;</description>
+        </item>
+        <item>
+          <description>BlipFill &lt;a:blipFill&gt;</description>
+        </item>
+        <item>
+          <description>PatternFill &lt;a:pattFill&gt;</description>
+        </item>
+        <item>
+          <description>GroupFill &lt;a:grpFill&gt;</description>
+        </item>
+        <item>
+          <description>ExtensionList &lt;a:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -80,6 +88,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -100,12 +109,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -129,6 +140,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -137,7 +149,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the TableCellProperties class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -152,6 +164,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -175,10 +188,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "anchor")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "anchor")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "anchor")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -186,8 +201,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Anchor.</para>
-          <para>Represents the following attribute in the schema: anchor </para>
+          <para>Anchor</para>
+          <para>Represents the following attribute in the schema: anchor</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>
@@ -223,10 +238,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "anchorCtr")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "anchorCtr")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "anchorCtr")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -234,8 +251,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Anchor Center.</para>
-          <para>Represents the following attribute in the schema: anchorCtr </para>
+          <para>Anchor Center</para>
+          <para>Represents the following attribute in the schema: anchorCtr</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>
@@ -263,14 +280,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.BottomBorderLineProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Bottom Border Line Properties.</para>
-          <para> Represents the following element tag in the schema: a:lnB </para>
+          <para>Bottom Border Line Properties.</para>
+          <para>Represents the following element tag in the schema: a:lnB.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -290,14 +308,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.BottomLeftToTopRightBorderLineProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Bottom-Left to Top-Right Border Line Properties.</para>
-          <para> Represents the following element tag in the schema: a:lnBlToTr </para>
+          <para>Bottom-Left to Top-Right Border Line Properties.</para>
+          <para>Represents the following element tag in the schema: a:lnBlToTr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -317,10 +336,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "marB")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "marB")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "marB")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -328,8 +349,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Bottom Margin.</para>
-          <para>Represents the following attribute in the schema: marB </para>
+          <para>Bottom Margin</para>
+          <para>Represents the following attribute in the schema: marB</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>
@@ -367,14 +388,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Cell3DProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Cell 3-D.</para>
-          <para> Represents the following element tag in the schema: a:cell3D </para>
+          <para>Cell 3-D.</para>
+          <para>Represents the following element tag in the schema: a:cell3D.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -394,6 +416,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -408,6 +431,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="HorizontalOverflow">
@@ -421,10 +445,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "horzOverflow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "horzOverflow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "horzOverflow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -432,8 +458,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Horizontal Overflow.</para>
-          <para>Represents the following attribute in the schema: horzOverflow </para>
+          <para>Horizontal Overflow</para>
+          <para>Represents the following attribute in the schema: horzOverflow</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>
@@ -471,14 +497,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.LeftBorderLineProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Left Border Line Properties.</para>
-          <para> Represents the following element tag in the schema: a:lnL </para>
+          <para>Left Border Line Properties.</para>
+          <para>Represents the following element tag in the schema: a:lnL.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -498,10 +525,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "marL")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "marL")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "marL")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -509,8 +538,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Left Margin.</para>
-          <para>Represents the following attribute in the schema: marL </para>
+          <para>Left Margin</para>
+          <para>Represents the following attribute in the schema: marL</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>
@@ -537,29 +566,6 @@
         </remarks>
       </Docs>
     </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Drawing.TableCellProperties.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Drawing.TableCellProperties.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="RightBorderLineProperties">
       <MemberSignature Language="C#" Value="public DocumentFormat.OpenXml.Drawing.RightBorderLineProperties RightBorderLineProperties { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class DocumentFormat.OpenXml.Drawing.RightBorderLineProperties RightBorderLineProperties" />
@@ -571,14 +577,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.RightBorderLineProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Right Border Line Properties.</para>
-          <para> Represents the following element tag in the schema: a:lnR </para>
+          <para>Right Border Line Properties.</para>
+          <para>Represents the following element tag in the schema: a:lnR.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -598,10 +605,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "marR")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "marR")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "marR")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -609,8 +618,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Right Margin.</para>
-          <para>Represents the following attribute in the schema: marR </para>
+          <para>Right Margin</para>
+          <para>Represents the following attribute in the schema: marR</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>
@@ -648,14 +657,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.TopBorderLineProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Top Border Line Properties.</para>
-          <para> Represents the following element tag in the schema: a:lnT </para>
+          <para>Top Border Line Properties.</para>
+          <para>Represents the following element tag in the schema: a:lnT.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -675,14 +685,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.TopLeftToBottomRightBorderLineProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Top-Left to Bottom-Right Border Line Properties.</para>
-          <para> Represents the following element tag in the schema: a:lnTlToBr </para>
+          <para>Top-Left to Bottom-Right Border Line Properties.</para>
+          <para>Represents the following element tag in the schema: a:lnTlToBr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -702,10 +713,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "marT")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "marT")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "marT")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -713,8 +726,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Top Margin.</para>
-          <para>Represents the following attribute in the schema: marT </para>
+          <para>Top Margin</para>
+          <para>Represents the following attribute in the schema: marT</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>
@@ -752,10 +765,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "vert")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "vert")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "vert")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -763,8 +778,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Text Direction.</para>
-          <para>Represents the following attribute in the schema: vert </para>
+          <para>Text Direction</para>
+          <para>Represents the following attribute in the schema: vert</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>

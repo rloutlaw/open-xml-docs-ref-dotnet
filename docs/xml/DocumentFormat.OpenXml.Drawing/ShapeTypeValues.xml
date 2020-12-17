@@ -1,4 +1,4 @@
-﻿<Type Name="ShapeTypeValues" FullName="DocumentFormat.OpenXml.Drawing.ShapeTypeValues">
+<Type Name="ShapeTypeValues" FullName="DocumentFormat.OpenXml.Drawing.ShapeTypeValues">
   <TypeSignature Language="C#" Value="public enum ShapeTypeValues" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ShapeTypeValues extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Drawing.ShapeTypeValues" />
@@ -8,18 +8,14 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>
-            Preset Shape Types 
+            Preset Shape Types
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -35,10 +31,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("accentBorderCallout1")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("accentBorderCallout1")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("accentBorderCallout1")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -62,10 +60,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("accentBorderCallout2")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("accentBorderCallout2")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("accentBorderCallout2")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -89,10 +89,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("accentBorderCallout3")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("accentBorderCallout3")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("accentBorderCallout3")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -116,10 +118,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("accentCallout1")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("accentCallout1")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("accentCallout1")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -143,10 +147,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("accentCallout2")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("accentCallout2")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("accentCallout2")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -170,10 +176,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("accentCallout3")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("accentCallout3")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("accentCallout3")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -197,10 +205,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("actionButtonBackPrevious")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("actionButtonBackPrevious")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("actionButtonBackPrevious")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -224,10 +234,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("actionButtonBeginning")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("actionButtonBeginning")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("actionButtonBeginning")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -251,10 +263,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("actionButtonBlank")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("actionButtonBlank")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("actionButtonBlank")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -278,10 +292,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("actionButtonDocument")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("actionButtonDocument")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("actionButtonDocument")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -305,10 +321,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("actionButtonEnd")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("actionButtonEnd")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("actionButtonEnd")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -332,10 +350,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("actionButtonForwardNext")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("actionButtonForwardNext")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("actionButtonForwardNext")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -359,10 +379,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("actionButtonHelp")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("actionButtonHelp")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("actionButtonHelp")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -386,10 +408,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("actionButtonHome")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("actionButtonHome")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("actionButtonHome")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -413,10 +437,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("actionButtonInformation")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("actionButtonInformation")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("actionButtonInformation")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -440,10 +466,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("actionButtonMovie")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("actionButtonMovie")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("actionButtonMovie")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -467,10 +495,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("actionButtonReturn")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("actionButtonReturn")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("actionButtonReturn")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -494,10 +524,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("actionButtonSound")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("actionButtonSound")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("actionButtonSound")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -521,10 +553,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("arc")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("arc")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("arc")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -548,10 +582,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("bentArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("bentArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("bentArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -575,10 +611,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("bentConnector2")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("bentConnector2")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("bentConnector2")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -602,10 +640,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("bentConnector3")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("bentConnector3")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("bentConnector3")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -629,10 +669,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("bentConnector4")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("bentConnector4")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("bentConnector4")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -656,10 +698,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("bentConnector5")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("bentConnector5")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("bentConnector5")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -683,10 +727,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("bentUpArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("bentUpArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("bentUpArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -710,10 +756,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("bevel")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("bevel")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("bevel")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -737,10 +785,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("blockArc")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("blockArc")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("blockArc")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -764,10 +814,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("borderCallout1")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("borderCallout1")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("borderCallout1")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -791,10 +843,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("borderCallout2")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("borderCallout2")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("borderCallout2")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -818,10 +872,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("borderCallout3")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("borderCallout3")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("borderCallout3")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -845,10 +901,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("bracePair")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("bracePair")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("bracePair")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -872,10 +930,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("bracketPair")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("bracketPair")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("bracketPair")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -899,10 +959,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("callout1")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("callout1")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("callout1")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -926,10 +988,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("callout2")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("callout2")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("callout2")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -953,10 +1017,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("callout3")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("callout3")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("callout3")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -980,10 +1046,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("can")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("can")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("can")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1007,10 +1075,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("chartPlus")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("chartPlus")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("chartPlus")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1034,10 +1104,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("chartStar")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("chartStar")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("chartStar")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1061,10 +1133,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("chartX")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("chartX")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("chartX")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1088,10 +1162,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("chevron")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("chevron")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("chevron")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1115,10 +1191,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("chord")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("chord")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("chord")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1142,10 +1220,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("circularArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("circularArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("circularArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1169,10 +1249,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("cloud")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("cloud")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("cloud")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1196,10 +1278,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("cloudCallout")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("cloudCallout")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("cloudCallout")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1223,10 +1307,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("corner")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("corner")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("corner")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1250,10 +1336,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("cornerTabs")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("cornerTabs")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("cornerTabs")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1277,10 +1365,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("cube")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("cube")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("cube")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1304,10 +1394,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("curvedConnector2")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("curvedConnector2")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("curvedConnector2")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1331,10 +1423,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("curvedConnector3")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("curvedConnector3")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("curvedConnector3")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1358,10 +1452,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("curvedConnector4")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("curvedConnector4")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("curvedConnector4")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1385,10 +1481,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("curvedConnector5")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("curvedConnector5")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("curvedConnector5")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1412,10 +1510,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("curvedDownArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("curvedDownArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("curvedDownArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1439,10 +1539,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("curvedLeftArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("curvedLeftArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("curvedLeftArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1466,10 +1568,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("curvedRightArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("curvedRightArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("curvedRightArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1493,10 +1597,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("curvedUpArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("curvedUpArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("curvedUpArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1520,10 +1626,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("decagon")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("decagon")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("decagon")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1547,10 +1655,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("diagStripe")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("diagStripe")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("diagStripe")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1574,10 +1684,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("diamond")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("diamond")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("diamond")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1601,10 +1713,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("dodecagon")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("dodecagon")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("dodecagon")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1628,10 +1742,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("donut")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("donut")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("donut")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1655,10 +1771,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("doubleWave")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("doubleWave")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("doubleWave")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1682,10 +1800,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("downArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("downArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("downArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1709,10 +1829,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("downArrowCallout")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("downArrowCallout")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("downArrowCallout")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1736,10 +1858,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("ellipse")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("ellipse")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("ellipse")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1763,10 +1887,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("ellipseRibbon")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("ellipseRibbon")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("ellipseRibbon")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1790,10 +1916,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("ellipseRibbon2")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("ellipseRibbon2")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("ellipseRibbon2")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1817,10 +1945,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartAlternateProcess")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartAlternateProcess")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartAlternateProcess")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1844,10 +1974,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartCollate")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartCollate")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartCollate")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1871,10 +2003,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartConnector")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartConnector")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartConnector")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1898,10 +2032,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartDecision")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartDecision")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartDecision")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1925,10 +2061,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartDelay")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartDelay")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartDelay")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1952,10 +2090,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartDisplay")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartDisplay")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartDisplay")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1979,10 +2119,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartDocument")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartDocument")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartDocument")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2006,10 +2148,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartExtract")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartExtract")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartExtract")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2033,10 +2177,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartInputOutput")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartInputOutput")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartInputOutput")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2060,10 +2206,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartInternalStorage")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartInternalStorage")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartInternalStorage")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2087,10 +2235,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartMagneticDisk")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartMagneticDisk")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartMagneticDisk")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2114,10 +2264,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartMagneticDrum")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartMagneticDrum")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartMagneticDrum")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2141,10 +2293,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartMagneticTape")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartMagneticTape")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartMagneticTape")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2168,10 +2322,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartManualInput")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartManualInput")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartManualInput")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2195,10 +2351,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartManualOperation")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartManualOperation")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartManualOperation")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2222,10 +2380,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartMerge")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartMerge")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartMerge")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2249,10 +2409,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartMultidocument")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartMultidocument")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartMultidocument")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2276,10 +2438,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartOfflineStorage")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartOfflineStorage")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartOfflineStorage")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2303,10 +2467,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartOffpageConnector")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartOffpageConnector")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartOffpageConnector")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2330,10 +2496,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartOnlineStorage")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartOnlineStorage")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartOnlineStorage")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2357,10 +2525,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartOr")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartOr")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartOr")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2384,10 +2554,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartPredefinedProcess")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartPredefinedProcess")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartPredefinedProcess")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2411,10 +2583,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartPreparation")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartPreparation")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartPreparation")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2438,10 +2612,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartProcess")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartProcess")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartProcess")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2465,10 +2641,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartPunchedCard")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartPunchedCard")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartPunchedCard")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2492,10 +2670,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartPunchedTape")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartPunchedTape")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartPunchedTape")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2519,10 +2699,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartSort")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartSort")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartSort")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2546,10 +2728,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartSummingJunction")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartSummingJunction")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartSummingJunction")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2573,10 +2757,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("flowChartTerminator")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("flowChartTerminator")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("flowChartTerminator")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2600,10 +2786,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("foldedCorner")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("foldedCorner")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("foldedCorner")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2627,10 +2815,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("frame")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("frame")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("frame")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2654,10 +2844,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("funnel")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("funnel")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("funnel")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2681,10 +2873,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("gear6")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("gear6")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("gear6")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2708,10 +2902,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("gear9")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("gear9")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("gear9")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2735,10 +2931,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("halfFrame")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("halfFrame")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("halfFrame")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2762,10 +2960,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("heart")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("heart")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("heart")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2789,10 +2989,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("heptagon")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("heptagon")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("heptagon")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2816,10 +3018,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("hexagon")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("hexagon")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("hexagon")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2843,10 +3047,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("homePlate")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("homePlate")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("homePlate")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2870,10 +3076,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("horizontalScroll")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("horizontalScroll")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("horizontalScroll")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2897,10 +3105,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("irregularSeal1")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("irregularSeal1")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("irregularSeal1")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2924,10 +3134,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("irregularSeal2")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("irregularSeal2")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("irregularSeal2")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2951,10 +3163,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("leftArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("leftArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("leftArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2978,10 +3192,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("leftArrowCallout")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("leftArrowCallout")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("leftArrowCallout")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3005,10 +3221,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("leftBrace")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("leftBrace")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("leftBrace")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3032,10 +3250,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("leftBracket")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("leftBracket")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("leftBracket")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3059,10 +3279,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("leftCircularArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("leftCircularArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("leftCircularArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3086,10 +3308,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("leftRightArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("leftRightArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("leftRightArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3113,10 +3337,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("leftRightArrowCallout")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("leftRightArrowCallout")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("leftRightArrowCallout")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3140,10 +3366,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("leftRightCircularArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("leftRightCircularArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("leftRightCircularArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3167,10 +3395,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("leftRightRibbon")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("leftRightRibbon")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("leftRightRibbon")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3194,10 +3424,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("leftRightUpArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("leftRightUpArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("leftRightUpArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3221,10 +3453,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("leftUpArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("leftUpArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("leftUpArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3248,10 +3482,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("lightningBolt")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("lightningBolt")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("lightningBolt")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3275,10 +3511,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("line")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("line")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("line")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3302,10 +3540,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("lineInv")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("lineInv")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("lineInv")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3329,10 +3569,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("mathDivide")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("mathDivide")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("mathDivide")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3356,10 +3598,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("mathEqual")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("mathEqual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("mathEqual")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3383,10 +3627,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("mathMinus")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("mathMinus")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("mathMinus")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3410,10 +3656,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("mathMultiply")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("mathMultiply")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("mathMultiply")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3437,10 +3685,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("mathNotEqual")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("mathNotEqual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("mathNotEqual")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3464,10 +3714,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("mathPlus")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("mathPlus")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("mathPlus")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3491,10 +3743,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("moon")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("moon")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("moon")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3518,10 +3772,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("nonIsoscelesTrapezoid")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("nonIsoscelesTrapezoid")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("nonIsoscelesTrapezoid")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3545,10 +3801,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("noSmoking")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("noSmoking")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("noSmoking")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3572,10 +3830,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("notchedRightArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("notchedRightArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("notchedRightArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3599,10 +3859,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("octagon")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("octagon")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("octagon")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3626,10 +3888,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("parallelogram")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("parallelogram")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("parallelogram")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3653,10 +3917,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("pentagon")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("pentagon")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("pentagon")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3680,10 +3946,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("pie")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("pie")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("pie")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3707,10 +3975,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("pieWedge")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("pieWedge")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("pieWedge")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3734,10 +4004,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("plaque")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("plaque")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("plaque")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3761,10 +4033,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("plaqueTabs")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("plaqueTabs")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("plaqueTabs")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3788,10 +4062,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("plus")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("plus")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("plus")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3815,10 +4091,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("quadArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("quadArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("quadArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3842,10 +4120,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("quadArrowCallout")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("quadArrowCallout")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("quadArrowCallout")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3869,10 +4149,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("rect")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("rect")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("rect")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3896,10 +4178,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("ribbon")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("ribbon")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("ribbon")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3923,10 +4207,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("ribbon2")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("ribbon2")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("ribbon2")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3950,10 +4236,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("rightArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("rightArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("rightArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -3977,10 +4265,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("rightArrowCallout")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("rightArrowCallout")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("rightArrowCallout")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4004,10 +4294,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("rightBrace")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("rightBrace")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("rightBrace")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4031,10 +4323,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("rightBracket")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("rightBracket")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("rightBracket")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4058,10 +4352,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("rtTriangle")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("rtTriangle")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("rtTriangle")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4085,10 +4381,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("round1Rect")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("round1Rect")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("round1Rect")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4112,10 +4410,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("round2DiagRect")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("round2DiagRect")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("round2DiagRect")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4139,10 +4439,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("round2SameRect")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("round2SameRect")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("round2SameRect")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4166,10 +4468,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("roundRect")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("roundRect")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("roundRect")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4193,10 +4497,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("smileyFace")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("smileyFace")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("smileyFace")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4220,10 +4526,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("snip1Rect")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("snip1Rect")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("snip1Rect")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4247,10 +4555,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("snip2DiagRect")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("snip2DiagRect")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("snip2DiagRect")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4274,10 +4584,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("snip2SameRect")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("snip2SameRect")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("snip2SameRect")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4301,10 +4613,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("snipRoundRect")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("snipRoundRect")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("snipRoundRect")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4328,10 +4642,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("squareTabs")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("squareTabs")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("squareTabs")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4355,10 +4671,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("star10")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("star10")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("star10")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4382,10 +4700,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("star12")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("star12")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("star12")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4409,10 +4729,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("star16")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("star16")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("star16")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4436,10 +4758,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("star24")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("star24")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("star24")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4463,10 +4787,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("star32")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("star32")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("star32")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4490,10 +4816,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("star4")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("star4")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("star4")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4517,10 +4845,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("star5")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("star5")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("star5")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4544,10 +4874,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("star6")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("star6")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("star6")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4571,10 +4903,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("star7")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("star7")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("star7")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4598,10 +4932,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("star8")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("star8")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("star8")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4625,10 +4961,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("straightConnector1")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("straightConnector1")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("straightConnector1")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4652,10 +4990,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("stripedRightArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("stripedRightArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("stripedRightArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4679,10 +5019,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("sun")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("sun")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("sun")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4706,10 +5048,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("swooshArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("swooshArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("swooshArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4733,10 +5077,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("teardrop")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("teardrop")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("teardrop")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4760,10 +5106,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("trapezoid")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("trapezoid")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("trapezoid")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4787,10 +5135,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("triangle")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("triangle")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("triangle")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4814,10 +5164,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("upArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("upArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("upArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4841,10 +5193,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("upArrowCallout")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("upArrowCallout")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("upArrowCallout")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4868,10 +5222,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("upDownArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("upDownArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("upDownArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4895,10 +5251,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("upDownArrowCallout")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("upDownArrowCallout")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("upDownArrowCallout")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4922,10 +5280,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("uturnArrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("uturnArrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("uturnArrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4949,10 +5309,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("verticalScroll")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("verticalScroll")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("verticalScroll")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4976,10 +5338,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("wave")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("wave")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("wave")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -5003,10 +5367,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("wedgeEllipseCallout")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("wedgeEllipseCallout")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("wedgeEllipseCallout")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -5030,10 +5396,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("wedgeRectCallout")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("wedgeRectCallout")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("wedgeRectCallout")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -5057,10 +5425,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("wedgeRoundRectCallout")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("wedgeRoundRectCallout")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("wedgeRoundRectCallout")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

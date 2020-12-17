@@ -1,4 +1,4 @@
-﻿<Type Name="TimeNodeRestartValues" FullName="DocumentFormat.OpenXml.Presentation.TimeNodeRestartValues">
+<Type Name="TimeNodeRestartValues" FullName="DocumentFormat.OpenXml.Presentation.TimeNodeRestartValues">
   <TypeSignature Language="C#" Value="public enum TimeNodeRestartValues" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed TimeNodeRestartValues extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Presentation.TimeNodeRestartValues" />
@@ -8,18 +8,14 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>
-            Time Node Restart Type 
+            Time Node Restart Type
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -35,10 +31,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("always")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("always")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("always")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -62,10 +60,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("never")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("never")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("never")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -89,10 +89,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("whenNotActive")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("whenNotActive")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("whenNotActive")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

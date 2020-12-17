@@ -1,4 +1,4 @@
-﻿<Type Name="TableCellBorders" FullName="DocumentFormat.OpenXml.Wordprocessing.TableCellBorders">
+<Type Name="TableCellBorders" FullName="DocumentFormat.OpenXml.Wordprocessing.TableCellBorders">
   <TypeSignature Language="C#" Value="public class TableCellBorders : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TableCellBorders extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.TableCellBorders" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,47 +16,54 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TopBorder))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.LeftBorder))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.StartBorder), DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BottomBorder))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.RightBorder))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.EndBorder), DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.InsideHorizontalBorder))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.InsideVerticalBorder))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TopLeftToBottomRightCellBorder))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TopRightToBottomLeftCellBorder))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "tcBorders")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "tcBorders")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the TableCellBorders Class.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:tcBorders.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:tcBorders.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>TopBorder &lt;w:top&gt;</description></item><item><description>LeftBorder &lt;w:left&gt;</description></item><item><description>StartBorder &lt;w:start&gt;</description></item><item><description>BottomBorder &lt;w:bottom&gt;</description></item><item><description>RightBorder &lt;w:right&gt;</description></item><item><description>EndBorder &lt;w:end&gt;</description></item><item><description>InsideHorizontalBorder &lt;w:insideH&gt;</description></item><item><description>InsideVerticalBorder &lt;w:insideV&gt;</description></item><item><description>TopLeftToBottomRightCellBorder &lt;w:tl2br&gt;</description></item><item><description>TopRightToBottomLeftCellBorder &lt;w:tr2bl&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>TopBorder &lt;w:top&gt;</description>
+        </item>
+        <item>
+          <description>LeftBorder &lt;w:left&gt;</description>
+        </item>
+        <item>
+          <description>StartBorder &lt;w:start&gt;</description>
+        </item>
+        <item>
+          <description>BottomBorder &lt;w:bottom&gt;</description>
+        </item>
+        <item>
+          <description>RightBorder &lt;w:right&gt;</description>
+        </item>
+        <item>
+          <description>EndBorder &lt;w:end&gt;</description>
+        </item>
+        <item>
+          <description>InsideHorizontalBorder &lt;w:insideH&gt;</description>
+        </item>
+        <item>
+          <description>InsideVerticalBorder &lt;w:insideV&gt;</description>
+        </item>
+        <item>
+          <description>TopLeftToBottomRightCellBorder &lt;w:tl2br&gt;</description>
+        </item>
+        <item>
+          <description>TopRightToBottomLeftCellBorder &lt;w:tr2bl&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -68,6 +76,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -88,12 +97,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -117,6 +128,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -125,7 +137,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the TableCellBorders class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -140,6 +152,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -163,14 +176,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.BottomBorder</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Cell Bottom Border.</para>
-          <para> Represents the following element tag in the schema: w:bottom </para>
+          <para>Table Cell Bottom Border.</para>
+          <para>Represents the following element tag in the schema: w:bottom.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.BottomBorder" />.</value>
         <remarks>To be added.</remarks>
@@ -190,6 +204,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -204,6 +219,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="EndBorder">
@@ -217,19 +233,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.EndBorder</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> EndBorder, this property is only available in Office2010.</para>
-          <para> Represents the following element tag in the schema: w:end </para>
+          <para>EndBorder.</para>
+          <para>Represents the following element tag in the schema: w:end.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -249,14 +261,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.InsideHorizontalBorder</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Cell Inside Horizontal Edges Border.</para>
-          <para> Represents the following element tag in the schema: w:insideH </para>
+          <para>Table Cell Inside Horizontal Edges Border.</para>
+          <para>Represents the following element tag in the schema: w:insideH.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.InsideHorizontalBorder" />.</value>
         <remarks>To be added.</remarks>
@@ -276,14 +289,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.InsideVerticalBorder</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Cell Inside Vertical Edges Border.</para>
-          <para> Represents the following element tag in the schema: w:insideV </para>
+          <para>Table Cell Inside Vertical Edges Border.</para>
+          <para>Represents the following element tag in the schema: w:insideV.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.InsideVerticalBorder" />.</value>
         <remarks>To be added.</remarks>
@@ -303,43 +317,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.LeftBorder</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Cell Left Border.</para>
-          <para> Represents the following element tag in the schema: w:left </para>
+          <para>Table Cell Left Border.</para>
+          <para>Represents the following element tag in the schema: w:left.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.LeftBorder" />.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:w = http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.TableCellBorders.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.TableCellBorders.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RightBorder">
@@ -353,14 +345,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.RightBorder</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Cell Right Border.</para>
-          <para> Represents the following element tag in the schema: w:right </para>
+          <para>Table Cell Right Border.</para>
+          <para>Represents the following element tag in the schema: w:right.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.RightBorder" />.</value>
         <remarks>To be added.</remarks>
@@ -380,19 +373,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.StartBorder</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> StartBorder, this property is only available in Office2010.</para>
-          <para> Represents the following element tag in the schema: w:start </para>
+          <para>StartBorder.</para>
+          <para>Represents the following element tag in the schema: w:start.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -412,14 +401,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TopBorder</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Cell Top Border.</para>
-          <para> Represents the following element tag in the schema: w:top </para>
+          <para>Table Cell Top Border.</para>
+          <para>Represents the following element tag in the schema: w:top.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.TopBorder" />.</value>
         <remarks>To be added.</remarks>
@@ -439,14 +429,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TopLeftToBottomRightCellBorder</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Cell Top Left to Bottom Right Diagonal Border.</para>
-          <para> Represents the following element tag in the schema: w:tl2br </para>
+          <para>Table Cell Top Left to Bottom Right Diagonal Border.</para>
+          <para>Represents the following element tag in the schema: w:tl2br.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.TopLeftToBottomRightCellBorder" />.</value>
         <remarks>To be added.</remarks>
@@ -466,14 +457,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TopRightToBottomLeftCellBorder</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Cell Top Right to Bottom Left Diagonal Border.</para>
-          <para> Represents the following element tag in the schema: w:tr2bl </para>
+          <para>Table Cell Top Right to Bottom Left Diagonal Border.</para>
+          <para>Represents the following element tag in the schema: w:tr2bl.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.TopRightToBottomLeftCellBorder" />.</value>
         <remarks>To be added.</remarks>

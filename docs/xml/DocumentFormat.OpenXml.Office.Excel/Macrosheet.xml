@@ -1,4 +1,4 @@
-﻿<Type Name="Macrosheet" FullName="DocumentFormat.OpenXml.Office.Excel.Macrosheet">
+<Type Name="Macrosheet" FullName="DocumentFormat.OpenXml.Office.Excel.Macrosheet">
   <TypeSignature Language="C#" Value="public class Macrosheet : DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Macrosheet extends DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office.Excel.Macrosheet" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlPartRootElement</BaseTypeName>
@@ -15,98 +16,105 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.SheetProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.SheetDimension))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.SheetViews))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.SheetFormatProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Columns))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.SheetData))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.SheetProtection))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.AutoFilter))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.SortState))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.DataConsolidate))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.CustomSheetViews))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.PhoneticProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.ConditionalFormatting))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.PrintOptions))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.PageMargins))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.PageSetup))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.HeaderFooter))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.RowBreaks))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.ColumnBreaks))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.CustomProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Drawing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.LegacyDrawing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.LegacyDrawingHeaderFooter))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Picture))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.OleObjects))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.DrawingHeaderFooter), DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.ExtensionList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(32, "macrosheet")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(32, "macrosheet")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
-      <para>Defines the Macrosheet Class. The root element of MacroSheetPart.</para>
-      <para> When the object is serialized out as xml, its qualified name is xne:macrosheet.</para>
+      <para>Defines the Macrosheet Class.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is xne:macrosheet.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>DocumentFormat.OpenXml.Spreadsheet.SheetProperties &lt;x:sheetPr&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.SheetDimension &lt;x:dimension&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.SheetViews &lt;x:sheetViews&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.SheetFormatProperties &lt;x:sheetFormatPr&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.Columns &lt;x:cols&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.SheetData &lt;x:sheetData&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.SheetProtection &lt;x:sheetProtection&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.AutoFilter &lt;x:autoFilter&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.SortState &lt;x:sortState&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.DataConsolidate &lt;x:dataConsolidate&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.CustomSheetViews &lt;x:customSheetViews&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.PhoneticProperties &lt;x:phoneticPr&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.ConditionalFormatting &lt;x:conditionalFormatting&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.PrintOptions &lt;x:printOptions&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.PageMargins &lt;x:pageMargins&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.PageSetup &lt;x:pageSetup&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.HeaderFooter &lt;x:headerFooter&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.RowBreaks &lt;x:rowBreaks&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.ColumnBreaks &lt;x:colBreaks&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.CustomProperties &lt;x:customProperties&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.Drawing &lt;x:drawing&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.LegacyDrawing &lt;x:legacyDrawing&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.LegacyDrawingHeaderFooter &lt;x:legacyDrawingHF&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.Picture &lt;x:picture&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.OleObjects &lt;x:oleObjects&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.DrawingHeaderFooter &lt;x:drawingHF&gt;</description></item><item><description>DocumentFormat.OpenXml.Spreadsheet.ExtensionList &lt;x:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.SheetProperties &lt;x:sheetPr&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.SheetDimension &lt;x:dimension&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.SheetViews &lt;x:sheetViews&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.SheetFormatProperties &lt;x:sheetFormatPr&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.Columns &lt;x:cols&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.SheetData &lt;x:sheetData&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.SheetProtection &lt;x:sheetProtection&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.AutoFilter &lt;x:autoFilter&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.SortState &lt;x:sortState&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.DataConsolidate &lt;x:dataConsolidate&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.CustomSheetViews &lt;x:customSheetViews&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.PhoneticProperties &lt;x:phoneticPr&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.ConditionalFormatting &lt;x:conditionalFormatting&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.PrintOptions &lt;x:printOptions&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.PageMargins &lt;x:pageMargins&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.PageSetup &lt;x:pageSetup&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.HeaderFooter &lt;x:headerFooter&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.RowBreaks &lt;x:rowBreaks&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.ColumnBreaks &lt;x:colBreaks&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.CustomProperties &lt;x:customProperties&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.Drawing &lt;x:drawing&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.LegacyDrawing &lt;x:legacyDrawing&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.LegacyDrawingHeaderFooter &lt;x:legacyDrawingHF&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.Picture &lt;x:picture&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.OleObjects &lt;x:oleObjects&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.DrawingHeaderFooter &lt;x:drawingHF&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Spreadsheet.ExtensionList &lt;x:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -119,6 +127,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -139,12 +148,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -168,6 +179,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -176,7 +188,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Macrosheet class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -191,6 +203,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -214,6 +227,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -228,6 +242,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Load">
@@ -241,6 +256,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -251,31 +267,8 @@
       <Docs>
         <param name="openXmlPart">Specifies the part to be loaded.</param>
         <summary>
-            Loads the DOM from the MacroSheetPart.
+            Loads the DOM from the MacroSheetPart
             </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office.Excel.Macrosheet.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office.Excel.Macrosheet.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -290,6 +283,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.MacroSheetPart</ReturnType>
@@ -313,6 +307,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -339,14 +334,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.SheetDimension</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Macro Sheet Dimensions.</para>
-          <para> Represents the following element tag in the schema: x:dimension </para>
+          <para>Macro Sheet Dimensions.</para>
+          <para>Represents the following element tag in the schema: x:dimension.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -366,14 +362,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.SheetFormatProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Sheet Format Properties.</para>
-          <para> Represents the following element tag in the schema: x:sheetFormatPr </para>
+          <para>Sheet Format Properties.</para>
+          <para>Represents the following element tag in the schema: x:sheetFormatPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -393,14 +390,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.SheetProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Sheet Properties.</para>
-          <para> Represents the following element tag in the schema: x:sheetPr </para>
+          <para>Sheet Properties.</para>
+          <para>Represents the following element tag in the schema: x:sheetPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -420,14 +418,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.SheetViews</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Macro Sheet Views.</para>
-          <para> Represents the following element tag in the schema: x:sheetViews </para>
+          <para>Macro Sheet Views.</para>
+          <para>Represents the following element tag in the schema: x:sheetViews.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

@@ -1,4 +1,4 @@
-﻿<Type Name="ImageData" FullName="DocumentFormat.OpenXml.Vml.ImageData">
+<Type Name="ImageData" FullName="DocumentFormat.OpenXml.Vml.ImageData">
   <TypeSignature Language="C#" Value="public class ImageData : DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ImageData extends DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Vml.ImageData" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafElement</BaseTypeName>
@@ -15,13 +16,15 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(26, "imagedata")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(26, "imagedata")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the ImageData Class.</para>
-      <para> When the object is serialized out as xml, its qualified name is v:imagedata.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is v:imagedata.</para>
     </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
@@ -68,6 +71,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -88,10 +92,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "bilevel")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "bilevel")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "bilevel")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -99,8 +105,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Image Bilevel Toggle.</para>
-          <para>Represents the following attribute in the schema: bilevel </para>
+          <para>Image Bilevel Toggle</para>
+          <para>Represents the following attribute in the schema: bilevel</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
@@ -117,10 +123,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "blacklevel")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "blacklevel")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "blacklevel")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -128,8 +136,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Image Brightness.</para>
-          <para>Represents the following attribute in the schema: blacklevel </para>
+          <para>Image Brightness</para>
+          <para>Represents the following attribute in the schema: blacklevel</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -146,10 +154,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "chromakey")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "chromakey")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "chromakey")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -157,8 +167,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Image Transparency Color.</para>
-          <para>Represents the following attribute in the schema: chromakey </para>
+          <para>Image Transparency Color</para>
+          <para>Represents the following attribute in the schema: chromakey</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -175,6 +185,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -189,6 +200,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="CropBottom">
@@ -202,10 +214,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "cropbottom")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "cropbottom")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "cropbottom")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -213,8 +227,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Image Bottom Crop.</para>
-          <para>Represents the following attribute in the schema: cropbottom </para>
+          <para>Image Bottom Crop</para>
+          <para>Represents the following attribute in the schema: cropbottom</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -231,10 +245,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "cropleft")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "cropleft")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "cropleft")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -242,8 +258,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Image Left Crop.</para>
-          <para>Represents the following attribute in the schema: cropleft </para>
+          <para>Image Left Crop</para>
+          <para>Represents the following attribute in the schema: cropleft</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -260,10 +276,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "cropright")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "cropright")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "cropright")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -271,8 +289,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Image Right Crop.</para>
-          <para>Represents the following attribute in the schema: cropright </para>
+          <para>Image Right Crop</para>
+          <para>Represents the following attribute in the schema: cropright</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -289,10 +307,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "croptop")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "croptop")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "croptop")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -300,8 +320,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Image Top Crop.</para>
-          <para>Represents the following attribute in the schema: croptop </para>
+          <para>Image Top Crop</para>
+          <para>Represents the following attribute in the schema: croptop</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -318,10 +338,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "detectmouseclick")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "detectmouseclick")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "detectmouseclick")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -329,12 +351,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Detect Mouse Click.</para>
-          <para>Represents the following attribute in the schema: o:detectmouseclick </para>
+          <para>Detect Mouse Click</para>
+          <para>Represents the following attribute in the schema: o:detectmouseclick</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -349,10 +372,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "embosscolor")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "embosscolor")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "embosscolor")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -360,8 +385,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Embossed Color.</para>
-          <para>Represents the following attribute in the schema: embosscolor </para>
+          <para>Embossed Color</para>
+          <para>Represents the following attribute in the schema: embosscolor</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -378,10 +403,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "gain")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "gain")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "gain")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -389,8 +416,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Image Intensity.</para>
-          <para>Represents the following attribute in the schema: gain </para>
+          <para>Image Intensity</para>
+          <para>Represents the following attribute in the schema: gain</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -407,10 +434,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "gamma")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "gamma")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "gamma")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -418,8 +447,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Image Gamma Correction.</para>
-          <para>Represents the following attribute in the schema: gamma </para>
+          <para>Image Gamma Correction</para>
+          <para>Represents the following attribute in the schema: gamma</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -436,10 +465,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "grayscale")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "grayscale")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "grayscale")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -447,8 +478,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Image Grayscale Toggle.</para>
-          <para>Represents the following attribute in the schema: grayscale </para>
+          <para>Image Grayscale Toggle</para>
+          <para>Represents the following attribute in the schema: grayscale</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -465,10 +496,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "id")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "id")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "id")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -476,33 +509,10 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Unique Identifier.</para>
-          <para>Represents the following attribute in the schema: id </para>
+          <para>Unique Identifier</para>
+          <para>Represents the following attribute in the schema: id</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Vml.ImageData.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Vml.ImageData.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -517,10 +527,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(19, "pict")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(19, "pict")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(19, "pict")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -528,12 +540,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Explicit Relationship to Alternate Image Data.</para>
-          <para>Represents the following attribute in the schema: r:pict </para>
+          <para>Explicit Relationship to Alternate Image Data</para>
+          <para>Represents the following attribute in the schema: r:pict</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:r=http://schemas.openxmlformats.org/officeDocument/2006/relationships
+        <remark>
+            xmlns:r=http://schemas.openxmlformats.org/officeDocument/2006/relationships
             </remark>
       </Docs>
     </Member>
@@ -548,10 +561,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "recolortarget")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "recolortarget")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "recolortarget")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -559,8 +574,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Black Recoloring Color.</para>
-          <para>Represents the following attribute in the schema: recolortarget </para>
+          <para>Black Recoloring Color</para>
+          <para>Represents the following attribute in the schema: recolortarget</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -577,10 +592,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(19, "id")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(19, "id")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(19, "id")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -588,12 +605,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Explicit Relationship to Image Data.</para>
-          <para>Represents the following attribute in the schema: r:id </para>
+          <para>Explicit Relationship to Image Data</para>
+          <para>Represents the following attribute in the schema: r:id</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:r=http://schemas.openxmlformats.org/officeDocument/2006/relationships
+        <remark>
+            xmlns:r=http://schemas.openxmlformats.org/officeDocument/2006/relationships
             </remark>
       </Docs>
     </Member>
@@ -608,10 +626,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(19, "href")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(19, "href")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(19, "href")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -619,12 +639,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Explicit Relationship to Hyperlink Target.</para>
-          <para>Represents the following attribute in the schema: r:href </para>
+          <para>Explicit Relationship to Hyperlink Target</para>
+          <para>Represents the following attribute in the schema: r:href</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:r=http://schemas.openxmlformats.org/officeDocument/2006/relationships
+        <remark>
+            xmlns:r=http://schemas.openxmlformats.org/officeDocument/2006/relationships
             </remark>
       </Docs>
     </Member>
@@ -639,10 +660,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "relid")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "relid")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "relid")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -650,12 +673,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Relationship to Part.</para>
-          <para>Represents the following attribute in the schema: o:relid </para>
+          <para>Relationship to Part</para>
+          <para>Represents the following attribute in the schema: o:relid</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -670,10 +694,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "title")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "title")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "title")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -681,12 +707,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Image Data Title.</para>
-          <para>Represents the following attribute in the schema: o:title </para>
+          <para>Image Data Title</para>
+          <para>Represents the following attribute in the schema: o:title</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>

@@ -1,4 +1,4 @@
-﻿<Type Name="OpenXmlPart" FullName="DocumentFormat.OpenXml.Packaging.OpenXmlPart">
+<Type Name="OpenXmlPart" FullName="DocumentFormat.OpenXml.Packaging.OpenXmlPart">
   <TypeSignature Language="C#" Value="public abstract class OpenXmlPart : DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit OpenXmlPart extends DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Packaging.OpenXmlPart" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer</BaseTypeName>
@@ -30,12 +31,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>
-            OpenXmlPart constructor
-            </summary>
+            Create an instance of <see cref="T:DocumentFormat.OpenXml.Packaging.OpenXmlPart" /></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -50,6 +51,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -73,6 +75,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -101,10 +104,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(DocumentFormat.OpenXml.Packaging.OpenXmlPart/&lt;GetParentParts&gt;d__16))</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(DocumentFormat.OpenXml.Packaging.OpenXmlPart/&lt;GetParentParts&gt;d__13))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(DocumentFormat.OpenXml.Packaging.OpenXmlPart/&lt;GetParentParts&gt;d__13))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -130,6 +135,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
@@ -154,6 +160,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
@@ -181,6 +188,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
@@ -210,13 +218,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.OpenXmlPackage</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets a part that is in the OpenXmlPackage container.
+            Gets the OpenXmlPackage which contains the current part.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -233,6 +242,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -256,6 +266,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlPartRootElement</ReturnType>
@@ -280,6 +291,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -303,6 +315,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -319,16 +332,23 @@
       <MemberSignature Language="C#" Value="public void ValidateXml (string schemaFile, System.Xml.Schema.ValidationEventHandler validationEventHandler);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ValidateXml(string schemaFile, class System.Xml.Schema.ValidationEventHandler validationEventHandler) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.Packaging.OpenXmlPart.ValidateXml(System.String,System.Xml.Schema.ValidationEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ValidateXml (schemaFile As String, validationEventHandler As ValidationEventHandler)" />
       <MemberSignature Language="F#" Value="member this.ValidateXml : string * System.Xml.Schema.ValidationEventHandler -&gt; unit" Usage="openXmlPart.ValidateXml (schemaFile, validationEventHandler)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Obsolete("This functionality is obsolete and will be removed from future version release. Please see OpenXmlValidator class for supported validation functionality.", false)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("This functionality is obsolete and will be removed from future version release. Please see OpenXmlValidator class for supported validation functionality.", false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("This functionality is obsolete and will be removed from future version release. Please see OpenXmlValidator class for supported validation functionality.", false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -351,16 +371,23 @@
       <MemberSignature Language="C#" Value="public void ValidateXml (System.Xml.Schema.XmlSchemaSet schemas, System.Xml.Schema.ValidationEventHandler validationEventHandler);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ValidateXml(class System.Xml.Schema.XmlSchemaSet schemas, class System.Xml.Schema.ValidationEventHandler validationEventHandler) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.Packaging.OpenXmlPart.ValidateXml(System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ValidateXml (schemas As XmlSchemaSet, validationEventHandler As ValidationEventHandler)" />
       <MemberSignature Language="F#" Value="member this.ValidateXml : System.Xml.Schema.XmlSchemaSet * System.Xml.Schema.ValidationEventHandler -&gt; unit" Usage="openXmlPart.ValidateXml (schemas, validationEventHandler)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Obsolete("This functionality is obsolete and will be removed from future version release. Please see OpenXmlValidator class for supported validation functionality.", false)</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("This functionality is obsolete and will be removed from future version release. Please see OpenXmlValidator class for supported validation functionality.", false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("This functionality is obsolete and will be removed from future version release. Please see OpenXmlValidator class for supported validation functionality.", false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

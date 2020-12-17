@@ -1,4 +1,4 @@
-﻿<Type Name="ViewValues" FullName="DocumentFormat.OpenXml.Presentation.ViewValues">
+<Type Name="ViewValues" FullName="DocumentFormat.OpenXml.Presentation.ViewValues">
   <TypeSignature Language="C#" Value="public enum ViewValues" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ViewValues extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Presentation.ViewValues" />
@@ -8,18 +8,14 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>
-            List of View Types 
+            List of View Types
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -35,10 +31,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("handoutView")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("handoutView")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("handoutView")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -62,10 +60,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("notesMasterView")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("notesMasterView")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("notesMasterView")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -89,10 +89,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("notesView")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("notesView")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("notesView")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -116,10 +118,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("outlineView")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("outlineView")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("outlineView")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -143,10 +147,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("sldMasterView")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("sldMasterView")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("sldMasterView")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -170,10 +176,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("sldSorterView")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("sldSorterView")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("sldSorterView")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -197,10 +205,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("sldThumbnailView")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("sldThumbnailView")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("sldThumbnailView")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -224,10 +234,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("sldView")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("sldView")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("sldView")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

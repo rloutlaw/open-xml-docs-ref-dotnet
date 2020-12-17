@@ -1,4 +1,4 @@
-﻿<Type Name="PivotFilterValues" FullName="DocumentFormat.OpenXml.Spreadsheet.PivotFilterValues">
+<Type Name="PivotFilterValues" FullName="DocumentFormat.OpenXml.Spreadsheet.PivotFilterValues">
   <TypeSignature Language="C#" Value="public enum PivotFilterValues" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PivotFilterValues extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Spreadsheet.PivotFilterValues" />
@@ -8,18 +8,14 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>
-            Pivot Filter Types 
+            Pivot Filter Types
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -35,10 +31,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("M4")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("M4")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("M4")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -62,10 +60,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("M8")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("M8")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("M8")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -89,10 +89,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("captionBeginsWith")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("captionBeginsWith")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("captionBeginsWith")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -116,10 +118,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("captionBetween")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("captionBetween")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("captionBetween")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -143,10 +147,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("captionContains")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("captionContains")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("captionContains")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -170,10 +176,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("captionEndsWith")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("captionEndsWith")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("captionEndsWith")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -197,10 +205,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("captionEqual")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("captionEqual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("captionEqual")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -224,10 +234,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("captionGreaterThan")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("captionGreaterThan")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("captionGreaterThan")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -251,10 +263,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("captionGreaterThanOrEqual")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("captionGreaterThanOrEqual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("captionGreaterThanOrEqual")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -278,10 +292,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("captionLessThan")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("captionLessThan")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("captionLessThan")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -305,10 +321,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("captionLessThanOrEqual")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("captionLessThanOrEqual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("captionLessThanOrEqual")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -332,10 +350,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("captionNotBeginsWith")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("captionNotBeginsWith")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("captionNotBeginsWith")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -359,10 +379,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("captionNotBetween")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("captionNotBetween")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("captionNotBetween")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -386,10 +408,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("captionNotContains")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("captionNotContains")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("captionNotContains")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -413,10 +437,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("captionNotEndsWith")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("captionNotEndsWith")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("captionNotEndsWith")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -440,10 +466,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("captionNotEqual")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("captionNotEqual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("captionNotEqual")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -467,10 +495,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("count")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("count")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("count")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -494,10 +524,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("dateBetween")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("dateBetween")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("dateBetween")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -521,10 +553,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("dateEqual")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("dateEqual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("dateEqual")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -548,10 +582,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("dateNewerThan")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("dateNewerThan")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("dateNewerThan")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -575,10 +611,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("dateNewerThanOrEqual")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("dateNewerThanOrEqual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("dateNewerThanOrEqual")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -602,10 +640,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("dateNotBetween")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("dateNotBetween")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("dateNotBetween")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -629,10 +669,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("dateNotEqual")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("dateNotEqual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("dateNotEqual")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -656,10 +698,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("dateOlderThan")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("dateOlderThan")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("dateOlderThan")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -683,10 +727,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("dateOlderThanOrEqual")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("dateOlderThanOrEqual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("dateOlderThanOrEqual")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -710,10 +756,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("M12")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("M12")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("M12")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -737,10 +785,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("M2")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("M2")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("M2")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -764,10 +814,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("M1")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("M1")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("M1")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -791,10 +843,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("M7")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("M7")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("M7")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -818,10 +872,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("M6")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("M6")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("M6")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -845,10 +901,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("lastMonth")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("lastMonth")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("lastMonth")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -872,10 +930,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("lastQuarter")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("lastQuarter")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("lastQuarter")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -899,10 +959,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("lastWeek")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("lastWeek")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("lastWeek")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -926,10 +988,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("lastYear")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("lastYear")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("lastYear")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -953,10 +1017,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("M3")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("M3")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("M3")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -980,10 +1046,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("M5")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("M5")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("M5")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1007,10 +1075,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("nextMonth")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("nextMonth")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("nextMonth")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1034,10 +1104,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("nextQuarter")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("nextQuarter")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("nextQuarter")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1061,10 +1133,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("nextWeek")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("nextWeek")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("nextWeek")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1088,10 +1162,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("nextYear")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("nextYear")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("nextYear")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1115,10 +1191,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("M11")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("M11")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("M11")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1142,10 +1220,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("M10")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("M10")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("M10")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1169,10 +1249,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("percent")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("percent")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("percent")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1196,10 +1278,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("Q1")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("Q1")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("Q1")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1223,10 +1307,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("Q2")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("Q2")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("Q2")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1250,10 +1336,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("Q3")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("Q3")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("Q3")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1277,10 +1365,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("Q4")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("Q4")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("Q4")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1304,10 +1394,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("M9")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("M9")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("M9")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1331,10 +1423,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("sum")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("sum")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("sum")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1358,10 +1452,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("thisMonth")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("thisMonth")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("thisMonth")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1385,10 +1481,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("thisQuarter")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("thisQuarter")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("thisQuarter")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1412,10 +1510,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("thisWeek")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("thisWeek")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("thisWeek")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1439,10 +1539,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("thisYear")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("thisYear")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("thisYear")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1466,10 +1568,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("today")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("today")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("today")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1493,10 +1597,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("tomorrow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("tomorrow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("tomorrow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1520,10 +1626,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("unknown")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("unknown")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("unknown")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1547,10 +1655,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("valueBetween")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("valueBetween")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("valueBetween")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1574,10 +1684,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("valueEqual")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("valueEqual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("valueEqual")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1601,10 +1713,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("valueGreaterThan")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("valueGreaterThan")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("valueGreaterThan")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1628,10 +1742,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("valueGreaterThanOrEqual")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("valueGreaterThanOrEqual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("valueGreaterThanOrEqual")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1655,10 +1771,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("valueLessThan")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("valueLessThan")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("valueLessThan")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1682,10 +1800,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("valueLessThanOrEqual")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("valueLessThanOrEqual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("valueLessThanOrEqual")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1709,10 +1829,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("valueNotBetween")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("valueNotBetween")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("valueNotBetween")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1736,10 +1858,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("valueNotEqual")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("valueNotEqual")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("valueNotEqual")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1763,10 +1887,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("yearToDate")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("yearToDate")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("yearToDate")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1790,10 +1916,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("yesterday")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("yesterday")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("yesterday")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

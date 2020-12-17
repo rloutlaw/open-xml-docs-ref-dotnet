@@ -1,4 +1,4 @@
-﻿<Type Name="SdtRow" FullName="DocumentFormat.OpenXml.Wordprocessing.SdtRow">
+<Type Name="SdtRow" FullName="DocumentFormat.OpenXml.Wordprocessing.SdtRow">
   <TypeSignature Language="C#" Value="public class SdtRow : DocumentFormat.OpenXml.Wordprocessing.SdtElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SdtRow extends DocumentFormat.OpenXml.Wordprocessing.SdtElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.SdtRow" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.Wordprocessing.SdtElement</BaseTypeName>
@@ -15,86 +16,93 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SdtProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SdtEndCharProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SdtContentRow))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BookmarkStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BookmarkEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CommentRangeStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CommentRangeEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MoveFromRangeStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MoveFromRangeEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MoveToRangeStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MoveToRangeEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlInsRangeStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlInsRangeEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlDelRangeStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlDelRangeEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlMoveFromRangeStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlMoveFromRangeEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlMoveToRangeStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlMoveToRangeEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictInsertionRangeStart), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictInsertionRangeEnd), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictDeletionRangeStart), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictDeletionRangeEnd), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "sdt")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "sdt")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Row-Level Structured Document Tag.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:sdt.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:sdt.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>SdtProperties &lt;w:sdtPr&gt;</description></item><item><description>SdtEndCharProperties &lt;w:sdtEndPr&gt;</description></item><item><description>SdtContentRow &lt;w:sdtContent&gt;</description></item><item><description>BookmarkStart &lt;w:bookmarkStart&gt;</description></item><item><description>BookmarkEnd &lt;w:bookmarkEnd&gt;</description></item><item><description>CommentRangeStart &lt;w:commentRangeStart&gt;</description></item><item><description>CommentRangeEnd &lt;w:commentRangeEnd&gt;</description></item><item><description>MoveFromRangeStart &lt;w:moveFromRangeStart&gt;</description></item><item><description>MoveFromRangeEnd &lt;w:moveFromRangeEnd&gt;</description></item><item><description>MoveToRangeStart &lt;w:moveToRangeStart&gt;</description></item><item><description>MoveToRangeEnd &lt;w:moveToRangeEnd&gt;</description></item><item><description>CustomXmlInsRangeStart &lt;w:customXmlInsRangeStart&gt;</description></item><item><description>CustomXmlInsRangeEnd &lt;w:customXmlInsRangeEnd&gt;</description></item><item><description>CustomXmlDelRangeStart &lt;w:customXmlDelRangeStart&gt;</description></item><item><description>CustomXmlDelRangeEnd &lt;w:customXmlDelRangeEnd&gt;</description></item><item><description>CustomXmlMoveFromRangeStart &lt;w:customXmlMoveFromRangeStart&gt;</description></item><item><description>CustomXmlMoveFromRangeEnd &lt;w:customXmlMoveFromRangeEnd&gt;</description></item><item><description>CustomXmlMoveToRangeStart &lt;w:customXmlMoveToRangeStart&gt;</description></item><item><description>CustomXmlMoveToRangeEnd &lt;w:customXmlMoveToRangeEnd&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictInsertionRangeStart &lt;w14:customXmlConflictInsRangeStart&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictInsertionRangeEnd &lt;w14:customXmlConflictInsRangeEnd&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictDeletionRangeStart &lt;w14:customXmlConflictDelRangeStart&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictDeletionRangeEnd &lt;w14:customXmlConflictDelRangeEnd&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>SdtProperties &lt;w:sdtPr&gt;</description>
+        </item>
+        <item>
+          <description>SdtEndCharProperties &lt;w:sdtEndPr&gt;</description>
+        </item>
+        <item>
+          <description>SdtContentRow &lt;w:sdtContent&gt;</description>
+        </item>
+        <item>
+          <description>BookmarkStart &lt;w:bookmarkStart&gt;</description>
+        </item>
+        <item>
+          <description>BookmarkEnd &lt;w:bookmarkEnd&gt;</description>
+        </item>
+        <item>
+          <description>CommentRangeStart &lt;w:commentRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>CommentRangeEnd &lt;w:commentRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>MoveFromRangeStart &lt;w:moveFromRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>MoveFromRangeEnd &lt;w:moveFromRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>MoveToRangeStart &lt;w:moveToRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>MoveToRangeEnd &lt;w:moveToRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlInsRangeStart &lt;w:customXmlInsRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlInsRangeEnd &lt;w:customXmlInsRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlDelRangeStart &lt;w:customXmlDelRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlDelRangeEnd &lt;w:customXmlDelRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlMoveFromRangeStart &lt;w:customXmlMoveFromRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlMoveFromRangeEnd &lt;w:customXmlMoveFromRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlMoveToRangeStart &lt;w:customXmlMoveToRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlMoveToRangeEnd &lt;w:customXmlMoveToRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictInsertionRangeStart &lt;w14:customXmlConflictInsRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictInsertionRangeEnd &lt;w14:customXmlConflictInsRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictDeletionRangeStart &lt;w14:customXmlConflictDelRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictDeletionRangeEnd &lt;w14:customXmlConflictDelRangeEnd&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -107,6 +115,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -127,12 +136,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -156,6 +167,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -164,7 +176,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the SdtRow class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -179,6 +191,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -202,6 +215,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -216,29 +230,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.SdtRow.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.SdtRow.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="SdtContentRow">
@@ -252,14 +244,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.SdtContentRow</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Row-Level Structured Document Tag Content.</para>
-          <para> Represents the following element tag in the schema: w:sdtContent </para>
+          <para>Row-Level Structured Document Tag Content.</para>
+          <para>Represents the following element tag in the schema: w:sdtContent.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.SdtContentRow" />.</value>
         <remarks>To be added.</remarks>

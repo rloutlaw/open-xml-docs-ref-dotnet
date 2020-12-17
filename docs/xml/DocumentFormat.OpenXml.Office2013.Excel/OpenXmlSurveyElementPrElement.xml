@@ -1,4 +1,4 @@
-﻿<Type Name="OpenXmlSurveyElementPrElement" FullName="DocumentFormat.OpenXml.Office2013.Excel.OpenXmlSurveyElementPrElement">
+<Type Name="OpenXmlSurveyElementPrElement" FullName="DocumentFormat.OpenXml.Office2013.Excel.OpenXmlSurveyElementPrElement">
   <TypeSignature Language="C#" Value="public abstract class OpenXmlSurveyElementPrElement : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit OpenXmlSurveyElementPrElement extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2013.Excel.OpenXmlSurveyElementPrElement" />
@@ -8,26 +8,29 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2013.Excel.ExtensionList), DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>
-             Defines the OpenXmlSurveyElementPrElement class.
-             </summary>
+      <para>Defines the OpenXmlSurveyElementPrElement Class.</para>
+      <para>This class is available in Office 2013 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is :.</para>
+    </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>ExtensionList &lt;x15:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>ExtensionList &lt;x15:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -40,6 +43,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -60,12 +64,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -89,6 +95,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -97,7 +104,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the OpenXmlSurveyElementPrElement class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -112,6 +119,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -135,10 +143,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "bottom")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "bottom")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "bottom")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -146,8 +156,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> bottom.</para>
-          <para>Represents the following attribute in the schema: bottom </para>
+          <para>bottom, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: bottom</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -164,10 +174,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "cssClass")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "cssClass")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "cssClass")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -175,8 +187,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> cssClass.</para>
-          <para>Represents the following attribute in the schema: cssClass </para>
+          <para>cssClass, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: cssClass</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -193,14 +205,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2013.Excel.ExtensionList</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ExtensionList.</para>
-          <para> Represents the following element tag in the schema: x15:extLst </para>
+          <para>ExtensionList.</para>
+          <para>Represents the following element tag in the schema: x15:extLst.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -220,10 +233,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "height")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "height")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "height")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -231,8 +246,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> height.</para>
-          <para>Represents the following attribute in the schema: height </para>
+          <para>height, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: height</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -249,10 +264,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "left")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "left")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "left")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -260,8 +277,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> left.</para>
-          <para>Represents the following attribute in the schema: left </para>
+          <para>left, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: left</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -278,10 +295,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "position")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "position")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "position")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -289,8 +308,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> position.</para>
-          <para>Represents the following attribute in the schema: position </para>
+          <para>position, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: position</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -307,10 +326,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "right")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "right")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "right")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -318,8 +339,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> right.</para>
-          <para>Represents the following attribute in the schema: right </para>
+          <para>right, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: right</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -336,10 +357,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "top")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "top")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "top")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -347,8 +370,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> top.</para>
-          <para>Represents the following attribute in the schema: top </para>
+          <para>top, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: top</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -365,10 +388,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "width")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "width")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "width")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -376,8 +401,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> width.</para>
-          <para>Represents the following attribute in the schema: width </para>
+          <para>width, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: width</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

@@ -1,4 +1,4 @@
-﻿<Type Name="Stylesheet" FullName="DocumentFormat.OpenXml.Spreadsheet.Stylesheet">
+<Type Name="Stylesheet" FullName="DocumentFormat.OpenXml.Spreadsheet.Stylesheet">
   <TypeSignature Language="C#" Value="public class Stylesheet : DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Stylesheet extends DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Spreadsheet.Stylesheet" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlPartRootElement</BaseTypeName>
@@ -15,50 +16,57 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.NumberingFormats))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Fonts))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Fills))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Borders))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.CellStyleFormats))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.CellFormats))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.CellStyles))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.DifferentialFormats))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.TableStyles))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Colors))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.StylesheetExtensionList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(22, "styleSheet")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(22, "styleSheet")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
-      <para>Style Sheet. The root element of WorkbookStylesPart.</para>
-      <para> When the object is serialized out as xml, its qualified name is x:styleSheet.</para>
+      <para>Style Sheet.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is x:styleSheet.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>NumberingFormats &lt;x:numFmts&gt;</description></item><item><description>Fonts &lt;x:fonts&gt;</description></item><item><description>Fills &lt;x:fills&gt;</description></item><item><description>Borders &lt;x:borders&gt;</description></item><item><description>CellStyleFormats &lt;x:cellStyleXfs&gt;</description></item><item><description>CellFormats &lt;x:cellXfs&gt;</description></item><item><description>CellStyles &lt;x:cellStyles&gt;</description></item><item><description>DifferentialFormats &lt;x:dxfs&gt;</description></item><item><description>TableStyles &lt;x:tableStyles&gt;</description></item><item><description>Colors &lt;x:colors&gt;</description></item><item><description>StylesheetExtensionList &lt;x:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>NumberingFormats &lt;x:numFmts&gt;</description>
+        </item>
+        <item>
+          <description>Fonts &lt;x:fonts&gt;</description>
+        </item>
+        <item>
+          <description>Fills &lt;x:fills&gt;</description>
+        </item>
+        <item>
+          <description>Borders &lt;x:borders&gt;</description>
+        </item>
+        <item>
+          <description>CellStyleFormats &lt;x:cellStyleXfs&gt;</description>
+        </item>
+        <item>
+          <description>CellFormats &lt;x:cellXfs&gt;</description>
+        </item>
+        <item>
+          <description>CellStyles &lt;x:cellStyles&gt;</description>
+        </item>
+        <item>
+          <description>DifferentialFormats &lt;x:dxfs&gt;</description>
+        </item>
+        <item>
+          <description>TableStyles &lt;x:tableStyles&gt;</description>
+        </item>
+        <item>
+          <description>Colors &lt;x:colors&gt;</description>
+        </item>
+        <item>
+          <description>StylesheetExtensionList &lt;x:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -71,6 +79,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -91,12 +100,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -120,6 +131,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -128,7 +140,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Stylesheet class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -143,6 +155,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -166,14 +179,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.Borders</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Borders.</para>
-          <para> Represents the following element tag in the schema: x:borders </para>
+          <para>Borders.</para>
+          <para>Represents the following element tag in the schema: x:borders.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.Borders" />.</value>
         <remarks>To be added.</remarks>
@@ -193,14 +207,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.CellFormats</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> CellFormats.</para>
-          <para> Represents the following element tag in the schema: x:cellXfs </para>
+          <para>CellFormats.</para>
+          <para>Represents the following element tag in the schema: x:cellXfs.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.CellFormats" />.</value>
         <remarks>To be added.</remarks>
@@ -220,14 +235,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.CellStyleFormats</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> CellStyleFormats.</para>
-          <para> Represents the following element tag in the schema: x:cellStyleXfs </para>
+          <para>CellStyleFormats.</para>
+          <para>Represents the following element tag in the schema: x:cellStyleXfs.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.CellStyleFormats" />.</value>
         <remarks>To be added.</remarks>
@@ -247,14 +263,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.CellStyles</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> CellStyles.</para>
-          <para> Represents the following element tag in the schema: x:cellStyles </para>
+          <para>CellStyles.</para>
+          <para>Represents the following element tag in the schema: x:cellStyles.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.CellStyles" />.</value>
         <remarks>To be added.</remarks>
@@ -274,6 +291,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -288,6 +306,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Colors">
@@ -301,14 +320,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.Colors</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Colors.</para>
-          <para> Represents the following element tag in the schema: x:colors </para>
+          <para>Colors.</para>
+          <para>Represents the following element tag in the schema: x:colors.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.Colors" />.</value>
         <remarks>To be added.</remarks>
@@ -328,14 +348,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.DifferentialFormats</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> DifferentialFormats.</para>
-          <para> Represents the following element tag in the schema: x:dxfs </para>
+          <para>DifferentialFormats.</para>
+          <para>Represents the following element tag in the schema: x:dxfs.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.DifferentialFormats" />.</value>
         <remarks>To be added.</remarks>
@@ -355,14 +376,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.Fills</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Fills.</para>
-          <para> Represents the following element tag in the schema: x:fills </para>
+          <para>Fills.</para>
+          <para>Represents the following element tag in the schema: x:fills.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.Fills" />.</value>
         <remarks>To be added.</remarks>
@@ -382,14 +404,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.Fonts</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Fonts.</para>
-          <para> Represents the following element tag in the schema: x:fonts </para>
+          <para>Fonts.</para>
+          <para>Represents the following element tag in the schema: x:fonts.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.Fonts" />.</value>
         <remarks>To be added.</remarks>
@@ -409,6 +432,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -419,31 +443,8 @@
       <Docs>
         <param name="openXmlPart">Specifies the part to be loaded.</param>
         <summary>
-            Loads the DOM from the WorkbookStylesPart.
+            Loads the DOM from the WorkbookStylesPart
             </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Spreadsheet.Stylesheet.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Spreadsheet.Stylesheet.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -458,14 +459,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.NumberingFormats</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> NumberingFormats.</para>
-          <para> Represents the following element tag in the schema: x:numFmts </para>
+          <para>NumberingFormats.</para>
+          <para>Represents the following element tag in the schema: x:numFmts.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -485,6 +487,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -511,14 +514,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.StylesheetExtensionList</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> StylesheetExtensionList.</para>
-          <para> Represents the following element tag in the schema: x:extLst </para>
+          <para>StylesheetExtensionList.</para>
+          <para>Represents the following element tag in the schema: x:extLst.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -538,14 +542,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.TableStyles</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TableStyles.</para>
-          <para> Represents the following element tag in the schema: x:tableStyles </para>
+          <para>TableStyles.</para>
+          <para>Represents the following element tag in the schema: x:tableStyles.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.TableStyles" />.</value>
         <remarks>To be added.</remarks>
@@ -565,6 +570,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.WorkbookStylesPart</ReturnType>

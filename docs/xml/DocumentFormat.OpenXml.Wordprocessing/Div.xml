@@ -1,4 +1,4 @@
-﻿<Type Name="Div" FullName="DocumentFormat.OpenXml.Wordprocessing.Div">
+<Type Name="Div" FullName="DocumentFormat.OpenXml.Wordprocessing.Div">
   <TypeSignature Language="C#" Value="public class Div : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Div extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.Div" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,41 +16,48 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BlockQuote))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BodyDiv))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.LeftMarginDiv))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.RightMarginDiv))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TopMarginDiv))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BottomMarginDiv))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DivBorder))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DivsChild))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "div")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "div")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Information About Single HTML div Element.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:div.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:div.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>BlockQuote &lt;w:blockQuote&gt;</description></item><item><description>BodyDiv &lt;w:bodyDiv&gt;</description></item><item><description>LeftMarginDiv &lt;w:marLeft&gt;</description></item><item><description>RightMarginDiv &lt;w:marRight&gt;</description></item><item><description>TopMarginDiv &lt;w:marTop&gt;</description></item><item><description>BottomMarginDiv &lt;w:marBottom&gt;</description></item><item><description>DivBorder &lt;w:divBdr&gt;</description></item><item><description>DivsChild &lt;w:divsChild&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>BlockQuote &lt;w:blockQuote&gt;</description>
+        </item>
+        <item>
+          <description>BodyDiv &lt;w:bodyDiv&gt;</description>
+        </item>
+        <item>
+          <description>LeftMarginDiv &lt;w:marLeft&gt;</description>
+        </item>
+        <item>
+          <description>RightMarginDiv &lt;w:marRight&gt;</description>
+        </item>
+        <item>
+          <description>TopMarginDiv &lt;w:marTop&gt;</description>
+        </item>
+        <item>
+          <description>BottomMarginDiv &lt;w:marBottom&gt;</description>
+        </item>
+        <item>
+          <description>DivBorder &lt;w:divBdr&gt;</description>
+        </item>
+        <item>
+          <description>DivsChild &lt;w:divsChild&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -62,6 +70,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -82,12 +91,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -111,6 +122,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -119,7 +131,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Div class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -134,6 +146,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -157,14 +170,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.BlockQuote</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Data for HTML blockquote Element.</para>
-          <para> Represents the following element tag in the schema: w:blockQuote </para>
+          <para>Data for HTML blockquote Element.</para>
+          <para>Represents the following element tag in the schema: w:blockQuote.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -184,14 +198,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.BodyDiv</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Data for HTML body Element.</para>
-          <para> Represents the following element tag in the schema: w:bodyDiv </para>
+          <para>Data for HTML body Element.</para>
+          <para>Represents the following element tag in the schema: w:bodyDiv.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -211,14 +226,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.BottomMarginDiv</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Bottom Margin for HTML div.</para>
-          <para> Represents the following element tag in the schema: w:marBottom </para>
+          <para>Bottom Margin for HTML div.</para>
+          <para>Represents the following element tag in the schema: w:marBottom.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -238,6 +254,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -252,6 +269,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="DivBorder">
@@ -265,14 +283,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.DivBorder</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Set of Borders for HTML div.</para>
-          <para> Represents the following element tag in the schema: w:divBdr </para>
+          <para>Set of Borders for HTML div.</para>
+          <para>Represents the following element tag in the schema: w:divBdr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -292,10 +311,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "id")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "id")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "id")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -303,12 +324,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> div Data ID.</para>
-          <para>Represents the following attribute in the schema: w:id </para>
+          <para>div Data ID</para>
+          <para>Represents the following attribute in the schema: w:id</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -323,43 +345,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.LeftMarginDiv</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Left Margin for HTML div.</para>
-          <para> Represents the following element tag in the schema: w:marLeft </para>
+          <para>Left Margin for HTML div.</para>
+          <para>Represents the following element tag in the schema: w:marLeft.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:w = http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.Div.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.Div.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RightMarginDiv">
@@ -373,14 +373,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.RightMarginDiv</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Right Margin for HTML div.</para>
-          <para> Represents the following element tag in the schema: w:marRight </para>
+          <para>Right Margin for HTML div.</para>
+          <para>Represents the following element tag in the schema: w:marRight.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -400,14 +401,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TopMarginDiv</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Top Margin for HTML div.</para>
-          <para> Represents the following element tag in the schema: w:marTop </para>
+          <para>Top Margin for HTML div.</para>
+          <para>Represents the following element tag in the schema: w:marTop.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

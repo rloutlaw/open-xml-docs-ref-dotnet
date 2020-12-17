@@ -1,4 +1,4 @@
-﻿<Type Name="Reflection" FullName="DocumentFormat.OpenXml.Office2010.Word.Reflection">
+<Type Name="Reflection" FullName="DocumentFormat.OpenXml.Office2010.Word.Reflection">
   <TypeSignature Language="C#" Value="public class Reflection : DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Reflection extends DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2010.Word.Reflection" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafElement</BaseTypeName>
@@ -15,17 +16,15 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "reflection")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "reflection")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the Reflection Class.</para>
-      <para>This class is available in Office2010 or above.</para>
-      <para> When the object is serialized out as xml, its qualified name is w14:reflection.</para>
+      <para>This class is available in Office 2010 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w14:reflection.</para>
     </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
@@ -127,6 +126,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -147,10 +147,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "algn")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "algn")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "algn")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -158,12 +160,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> algn.</para>
-          <para>Represents the following attribute in the schema: w14:algn </para>
+          <para>algn, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:algn</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -178,10 +181,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "blurRad")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "blurRad")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "blurRad")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -189,12 +194,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> blurRad.</para>
-          <para>Represents the following attribute in the schema: w14:blurRad </para>
+          <para>blurRad, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:blurRad</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -209,6 +215,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -223,6 +230,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="DirectionAngle">
@@ -236,10 +244,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "dir")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "dir")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "dir")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -247,12 +257,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> dir.</para>
-          <para>Represents the following attribute in the schema: w14:dir </para>
+          <para>dir, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:dir</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -267,10 +278,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "dist")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "dist")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "dist")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -278,12 +291,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> dist.</para>
-          <para>Represents the following attribute in the schema: w14:dist </para>
+          <para>dist, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:dist</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -298,10 +312,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "endA")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "endA")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "endA")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -309,12 +325,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> endA.</para>
-          <para>Represents the following attribute in the schema: w14:endA </para>
+          <para>endA, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:endA</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -329,10 +346,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "endPos")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "endPos")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "endPos")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -340,12 +359,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> endPos.</para>
-          <para>Represents the following attribute in the schema: w14:endPos </para>
+          <para>endPos, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:endPos</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -360,10 +380,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "fadeDir")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "fadeDir")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "fadeDir")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -371,12 +393,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> fadeDir.</para>
-          <para>Represents the following attribute in the schema: w14:fadeDir </para>
+          <para>fadeDir, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:fadeDir</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -391,10 +414,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "sx")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "sx")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "sx")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -402,12 +427,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> sx.</para>
-          <para>Represents the following attribute in the schema: w14:sx </para>
+          <para>sx, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:sx</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -422,10 +448,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "kx")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "kx")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "kx")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -433,36 +461,14 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> kx.</para>
-          <para>Represents the following attribute in the schema: w14:kx </para>
+          <para>kx, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:kx</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2010.Word.Reflection.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office2010.Word.Reflection.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="StartingOpacity">
@@ -476,10 +482,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "stA")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "stA")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "stA")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -487,12 +495,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> stA.</para>
-          <para>Represents the following attribute in the schema: w14:stA </para>
+          <para>stA, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:stA</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -507,10 +516,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "stPos")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "stPos")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "stPos")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -518,12 +529,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> stPos.</para>
-          <para>Represents the following attribute in the schema: w14:stPos </para>
+          <para>stPos, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:stPos</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -538,10 +550,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "sy")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "sy")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "sy")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -549,12 +563,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> sy.</para>
-          <para>Represents the following attribute in the schema: w14:sy </para>
+          <para>sy, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:sy</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -569,10 +584,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "ky")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "ky")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "ky")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -580,12 +597,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ky.</para>
-          <para>Represents the following attribute in the schema: w14:ky </para>
+          <para>ky, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:ky</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>

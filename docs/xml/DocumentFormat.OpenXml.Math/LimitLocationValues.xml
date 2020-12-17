@@ -1,4 +1,4 @@
-﻿<Type Name="LimitLocationValues" FullName="DocumentFormat.OpenXml.Math.LimitLocationValues">
+<Type Name="LimitLocationValues" FullName="DocumentFormat.OpenXml.Math.LimitLocationValues">
   <TypeSignature Language="C#" Value="public enum LimitLocationValues" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LimitLocationValues extends System.Enum" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Math.LimitLocationValues" />
@@ -8,18 +8,14 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>
-            Defines the LimitLocationValues enumeration. 
+            Defines the LimitLocationValues enumeration.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -35,10 +31,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("subSup")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("subSup")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("subSup")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -62,10 +60,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.EnumString("undOvr")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.EnumString("undOvr")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.EnumString("undOvr")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

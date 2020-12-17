@@ -1,4 +1,4 @@
-﻿<Type Name="ActiveWritingStyle" FullName="DocumentFormat.OpenXml.Wordprocessing.ActiveWritingStyle">
+<Type Name="ActiveWritingStyle" FullName="DocumentFormat.OpenXml.Wordprocessing.ActiveWritingStyle">
   <TypeSignature Language="C#" Value="public class ActiveWritingStyle : DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ActiveWritingStyle extends DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.ActiveWritingStyle" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafElement</BaseTypeName>
@@ -15,13 +16,15 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "activeWritingStyle")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "activeWritingStyle")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Grammar Checking Settings.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:activeWritingStyle.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:activeWritingStyle.</para>
     </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
@@ -63,6 +66,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -83,10 +87,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "appName")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "appName")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "appName")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -94,12 +100,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Application Name.</para>
-          <para>Represents the following attribute in the schema: w:appName </para>
+          <para>Application Name</para>
+          <para>Represents the following attribute in the schema: w:appName</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -114,10 +121,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "checkStyle")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "checkStyle")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "checkStyle")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -125,12 +134,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Check Stylistic Rules With Grammar.</para>
-          <para>Represents the following attribute in the schema: w:checkStyle </para>
+          <para>Check Stylistic Rules With Grammar</para>
+          <para>Represents the following attribute in the schema: w:checkStyle</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -145,6 +155,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -159,6 +170,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="DllVersion">
@@ -172,10 +184,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "dllVersion")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "dllVersion")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "dllVersion")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -183,12 +197,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Grammatical Check Engine Version.</para>
-          <para>Represents the following attribute in the schema: w:dllVersion </para>
+          <para>Grammatical Check Engine Version</para>
+          <para>Represents the following attribute in the schema: w:dllVersion</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -203,10 +218,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "lang")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "lang")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "lang")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -214,36 +231,14 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Writing Style Language.</para>
-          <para>Represents the following attribute in the schema: w:lang </para>
+          <para>Writing Style Language</para>
+          <para>Represents the following attribute in the schema: w:lang</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.ActiveWritingStyle.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.ActiveWritingStyle.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="NaturalLanguageGrammarCheck">
@@ -257,10 +252,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "nlCheck")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "nlCheck")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "nlCheck")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -268,12 +265,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Natural Language Grammar Check.</para>
-          <para>Represents the following attribute in the schema: w:nlCheck </para>
+          <para>Natural Language Grammar Check</para>
+          <para>Represents the following attribute in the schema: w:nlCheck</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -288,10 +286,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "vendorID")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "vendorID")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "vendorID")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -299,12 +299,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Grammatical Engine ID.</para>
-          <para>Represents the following attribute in the schema: w:vendorID </para>
+          <para>Grammatical Engine ID</para>
+          <para>Represents the following attribute in the schema: w:vendorID</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>

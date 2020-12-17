@@ -1,4 +1,4 @@
-﻿<Type Name="TextFontType" FullName="DocumentFormat.OpenXml.Drawing.TextFontType">
+<Type Name="TextFontType" FullName="DocumentFormat.OpenXml.Drawing.TextFontType">
   <TypeSignature Language="C#" Value="public abstract class TextFontType : DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TextFontType extends DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Drawing.TextFontType" />
@@ -8,20 +8,18 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafElement</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>
-            Defines the TextFontType class.
-            </summary>
+      <para>Defines the TextFontType Class.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is :.</para>
+    </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -35,6 +33,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -55,10 +54,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "charset")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "charset")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "charset")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -66,8 +67,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Similar Character Set.</para>
-          <para>Represents the following attribute in the schema: charset </para>
+          <para>Similar Character Set</para>
+          <para>Represents the following attribute in the schema: charset</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.SByteValue" />.</value>
         <remarks>To be added.</remarks>
@@ -84,10 +85,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "panose")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "panose")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "panose")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -95,8 +98,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Panose Setting.</para>
-          <para>Represents the following attribute in the schema: panose </para>
+          <para>Panose Setting</para>
+          <para>Represents the following attribute in the schema: panose</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -113,10 +116,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "pitchFamily")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "pitchFamily")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "pitchFamily")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -124,8 +129,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Similar Font Family.</para>
-          <para>Represents the following attribute in the schema: pitchFamily </para>
+          <para>Similar Font Family</para>
+          <para>Represents the following attribute in the schema: pitchFamily</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.SByteValue" />.</value>
         <remarks>To be added.</remarks>
@@ -142,10 +147,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "typeface")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "typeface")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "typeface")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -153,8 +160,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Text Typeface.</para>
-          <para>Represents the following attribute in the schema: typeface </para>
+          <para>Text Typeface</para>
+          <para>Represents the following attribute in the schema: typeface</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>

@@ -1,4 +1,4 @@
-﻿<Type Name="OuterShadow" FullName="DocumentFormat.OpenXml.Drawing.OuterShadow">
+<Type Name="OuterShadow" FullName="DocumentFormat.OpenXml.Drawing.OuterShadow">
   <TypeSignature Language="C#" Value="public class OuterShadow : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit OuterShadow extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Drawing.OuterShadow" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,35 +16,42 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.RgbColorModelPercentage))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.RgbColorModelHex))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.HslColor))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.SystemColor))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.SchemeColor))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.PresetColor))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(10, "outerShdw")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(10, "outerShdw")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Outer Shadow Effect.</para>
-      <para> When the object is serialized out as xml, its qualified name is a:outerShdw.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is a:outerShdw.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>RgbColorModelPercentage &lt;a:scrgbClr&gt;</description></item><item><description>RgbColorModelHex &lt;a:srgbClr&gt;</description></item><item><description>HslColor &lt;a:hslClr&gt;</description></item><item><description>SystemColor &lt;a:sysClr&gt;</description></item><item><description>SchemeColor &lt;a:schemeClr&gt;</description></item><item><description>PresetColor &lt;a:prstClr&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>RgbColorModelPercentage &lt;a:scrgbClr&gt;</description>
+        </item>
+        <item>
+          <description>RgbColorModelHex &lt;a:srgbClr&gt;</description>
+        </item>
+        <item>
+          <description>HslColor &lt;a:hslClr&gt;</description>
+        </item>
+        <item>
+          <description>SystemColor &lt;a:sysClr&gt;</description>
+        </item>
+        <item>
+          <description>SchemeColor &lt;a:schemeClr&gt;</description>
+        </item>
+        <item>
+          <description>PresetColor &lt;a:prstClr&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -56,6 +64,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -76,12 +85,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -105,6 +116,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -113,7 +125,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the OuterShadow class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,6 +140,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -151,10 +164,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "algn")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "algn")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "algn")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -162,8 +177,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shadow Alignment.</para>
-          <para>Represents the following attribute in the schema: algn </para>
+          <para>Shadow Alignment</para>
+          <para>Represents the following attribute in the schema: algn</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>
@@ -191,10 +206,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "blurRad")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "blurRad")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "blurRad")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -202,8 +219,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Blur Radius.</para>
-          <para>Represents the following attribute in the schema: blurRad </para>
+          <para>Blur Radius</para>
+          <para>Represents the following attribute in the schema: blurRad</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int64Value" />.</value>
         <remarks>
@@ -231,6 +248,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -245,6 +263,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Direction">
@@ -258,10 +277,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "dir")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "dir")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "dir")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -269,8 +290,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shadow Direction.</para>
-          <para>Represents the following attribute in the schema: dir </para>
+          <para>Shadow Direction</para>
+          <para>Represents the following attribute in the schema: dir</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>
@@ -298,10 +319,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "dist")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "dist")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "dist")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -309,8 +332,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shadow Offset Distance.</para>
-          <para>Represents the following attribute in the schema: dist </para>
+          <para>Shadow Offset Distance</para>
+          <para>Represents the following attribute in the schema: dist</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int64Value" />.</value>
         <remarks>
@@ -338,10 +361,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "sx")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "sx")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "sx")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -349,8 +374,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Horizontal Scaling Factor.</para>
-          <para>Represents the following attribute in the schema: sx </para>
+          <para>Horizontal Scaling Factor</para>
+          <para>Represents the following attribute in the schema: sx</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>
@@ -378,10 +403,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "kx")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "kx")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "kx")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -389,8 +416,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Horizontal Skew.</para>
-          <para>Represents the following attribute in the schema: kx </para>
+          <para>Horizontal Skew</para>
+          <para>Represents the following attribute in the schema: kx</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>
@@ -418,43 +445,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.HslColor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Hue, Saturation, Luminance Color Model.</para>
-          <para> Represents the following element tag in the schema: a:hslClr </para>
+          <para>Hue, Saturation, Luminance Color Model.</para>
+          <para>Represents the following element tag in the schema: a:hslClr.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.HslColor" />.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:a = http://schemas.openxmlformats.org/drawingml/2006/main
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Drawing.OuterShadow.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Drawing.OuterShadow.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="PresetColor">
@@ -468,14 +473,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.PresetColor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Preset Color.</para>
-          <para> Represents the following element tag in the schema: a:prstClr </para>
+          <para>Preset Color.</para>
+          <para>Represents the following element tag in the schema: a:prstClr.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.PresetColor" />.</value>
         <remarks>To be added.</remarks>
@@ -495,14 +501,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.RgbColorModelHex</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> RGB Color Model - Hex Variant.</para>
-          <para> Represents the following element tag in the schema: a:srgbClr </para>
+          <para>RGB Color Model - Hex Variant.</para>
+          <para>Represents the following element tag in the schema: a:srgbClr.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.RgbColorModelHex" />.</value>
         <remarks>To be added.</remarks>
@@ -522,14 +529,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.RgbColorModelPercentage</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> RGB Color Model - Percentage Variant.</para>
-          <para> Represents the following element tag in the schema: a:scrgbClr </para>
+          <para>RGB Color Model - Percentage Variant.</para>
+          <para>Represents the following element tag in the schema: a:scrgbClr.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.RgbColorModelPercentage" />.</value>
         <remarks>To be added.</remarks>
@@ -549,10 +557,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "rotWithShape")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "rotWithShape")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "rotWithShape")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -560,8 +570,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Rotate With Shape.</para>
-          <para>Represents the following attribute in the schema: rotWithShape </para>
+          <para>Rotate With Shape</para>
+          <para>Represents the following attribute in the schema: rotWithShape</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>
@@ -589,14 +599,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.SchemeColor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Scheme Color.</para>
-          <para> Represents the following element tag in the schema: a:schemeClr </para>
+          <para>Scheme Color.</para>
+          <para>Represents the following element tag in the schema: a:schemeClr.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.SchemeColor" />.</value>
         <remarks>To be added.</remarks>
@@ -616,14 +627,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.SystemColor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> System Color.</para>
-          <para> Represents the following element tag in the schema: a:sysClr </para>
+          <para>System Color.</para>
+          <para>Represents the following element tag in the schema: a:sysClr.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.SystemColor" />.</value>
         <remarks>To be added.</remarks>
@@ -643,10 +655,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "sy")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "sy")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "sy")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -654,8 +668,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Vertical Scaling Factor.</para>
-          <para>Represents the following attribute in the schema: sy </para>
+          <para>Vertical Scaling Factor</para>
+          <para>Represents the following attribute in the schema: sy</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>
@@ -683,10 +697,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "ky")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "ky")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "ky")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -694,8 +710,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Vertical Skew.</para>
-          <para>Represents the following attribute in the schema: ky </para>
+          <para>Vertical Skew</para>
+          <para>Represents the following attribute in the schema: ky</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>

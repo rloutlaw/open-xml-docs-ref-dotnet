@@ -1,4 +1,4 @@
-﻿<Type Name="TableRow" FullName="DocumentFormat.OpenXml.Wordprocessing.TableRow">
+<Type Name="TableRow" FullName="DocumentFormat.OpenXml.Wordprocessing.TableRow">
   <TypeSignature Language="C#" Value="public class TableRow : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TableRow extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.TableRow" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,122 +16,129 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TablePropertyExceptions))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableRowProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableCell))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlCell))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SdtCell))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ProofError))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.PermStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.PermEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BookmarkStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BookmarkEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CommentRangeStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CommentRangeEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MoveFromRangeStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MoveFromRangeEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MoveToRangeStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MoveToRangeEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlInsRangeStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlInsRangeEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlDelRangeStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlDelRangeEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlMoveFromRangeStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlMoveFromRangeEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlMoveToRangeStart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CustomXmlMoveToRangeEnd))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictInsertionRangeStart), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictInsertionRangeEnd), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictDeletionRangeStart), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictDeletionRangeEnd), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.InsertedRun))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DeletedRun))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MoveFromRun))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MoveToRun))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ContentPart), DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.RunConflictInsertion), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.RunConflictDeletion), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "tr")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "tr")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Table Row.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:tr.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:tr.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>TablePropertyExceptions &lt;w:tblPrEx&gt;</description></item><item><description>TableRowProperties &lt;w:trPr&gt;</description></item><item><description>TableCell &lt;w:tc&gt;</description></item><item><description>CustomXmlCell &lt;w:customXml&gt;</description></item><item><description>SdtCell &lt;w:sdt&gt;</description></item><item><description>ProofError &lt;w:proofErr&gt;</description></item><item><description>PermStart &lt;w:permStart&gt;</description></item><item><description>PermEnd &lt;w:permEnd&gt;</description></item><item><description>BookmarkStart &lt;w:bookmarkStart&gt;</description></item><item><description>BookmarkEnd &lt;w:bookmarkEnd&gt;</description></item><item><description>CommentRangeStart &lt;w:commentRangeStart&gt;</description></item><item><description>CommentRangeEnd &lt;w:commentRangeEnd&gt;</description></item><item><description>MoveFromRangeStart &lt;w:moveFromRangeStart&gt;</description></item><item><description>MoveFromRangeEnd &lt;w:moveFromRangeEnd&gt;</description></item><item><description>MoveToRangeStart &lt;w:moveToRangeStart&gt;</description></item><item><description>MoveToRangeEnd &lt;w:moveToRangeEnd&gt;</description></item><item><description>CustomXmlInsRangeStart &lt;w:customXmlInsRangeStart&gt;</description></item><item><description>CustomXmlInsRangeEnd &lt;w:customXmlInsRangeEnd&gt;</description></item><item><description>CustomXmlDelRangeStart &lt;w:customXmlDelRangeStart&gt;</description></item><item><description>CustomXmlDelRangeEnd &lt;w:customXmlDelRangeEnd&gt;</description></item><item><description>CustomXmlMoveFromRangeStart &lt;w:customXmlMoveFromRangeStart&gt;</description></item><item><description>CustomXmlMoveFromRangeEnd &lt;w:customXmlMoveFromRangeEnd&gt;</description></item><item><description>CustomXmlMoveToRangeStart &lt;w:customXmlMoveToRangeStart&gt;</description></item><item><description>CustomXmlMoveToRangeEnd &lt;w:customXmlMoveToRangeEnd&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictInsertionRangeStart &lt;w14:customXmlConflictInsRangeStart&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictInsertionRangeEnd &lt;w14:customXmlConflictInsRangeEnd&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictDeletionRangeStart &lt;w14:customXmlConflictDelRangeStart&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictDeletionRangeEnd &lt;w14:customXmlConflictDelRangeEnd&gt;</description></item><item><description>InsertedRun &lt;w:ins&gt;</description></item><item><description>DeletedRun &lt;w:del&gt;</description></item><item><description>MoveFromRun &lt;w:moveFrom&gt;</description></item><item><description>MoveToRun &lt;w:moveTo&gt;</description></item><item><description>ContentPart &lt;w:contentPart&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.RunConflictInsertion &lt;w14:conflictIns&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.RunConflictDeletion &lt;w14:conflictDel&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>TablePropertyExceptions &lt;w:tblPrEx&gt;</description>
+        </item>
+        <item>
+          <description>TableRowProperties &lt;w:trPr&gt;</description>
+        </item>
+        <item>
+          <description>TableCell &lt;w:tc&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlCell &lt;w:customXml&gt;</description>
+        </item>
+        <item>
+          <description>SdtCell &lt;w:sdt&gt;</description>
+        </item>
+        <item>
+          <description>ProofError &lt;w:proofErr&gt;</description>
+        </item>
+        <item>
+          <description>PermStart &lt;w:permStart&gt;</description>
+        </item>
+        <item>
+          <description>PermEnd &lt;w:permEnd&gt;</description>
+        </item>
+        <item>
+          <description>BookmarkStart &lt;w:bookmarkStart&gt;</description>
+        </item>
+        <item>
+          <description>BookmarkEnd &lt;w:bookmarkEnd&gt;</description>
+        </item>
+        <item>
+          <description>CommentRangeStart &lt;w:commentRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>CommentRangeEnd &lt;w:commentRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>MoveFromRangeStart &lt;w:moveFromRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>MoveFromRangeEnd &lt;w:moveFromRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>MoveToRangeStart &lt;w:moveToRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>MoveToRangeEnd &lt;w:moveToRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlInsRangeStart &lt;w:customXmlInsRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlInsRangeEnd &lt;w:customXmlInsRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlDelRangeStart &lt;w:customXmlDelRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlDelRangeEnd &lt;w:customXmlDelRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlMoveFromRangeStart &lt;w:customXmlMoveFromRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlMoveFromRangeEnd &lt;w:customXmlMoveFromRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlMoveToRangeStart &lt;w:customXmlMoveToRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>CustomXmlMoveToRangeEnd &lt;w:customXmlMoveToRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictInsertionRangeStart &lt;w14:customXmlConflictInsRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictInsertionRangeEnd &lt;w14:customXmlConflictInsRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictDeletionRangeStart &lt;w14:customXmlConflictDelRangeStart&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.CustomXmlConflictDeletionRangeEnd &lt;w14:customXmlConflictDelRangeEnd&gt;</description>
+        </item>
+        <item>
+          <description>InsertedRun &lt;w:ins&gt;</description>
+        </item>
+        <item>
+          <description>DeletedRun &lt;w:del&gt;</description>
+        </item>
+        <item>
+          <description>MoveFromRun &lt;w:moveFrom&gt;</description>
+        </item>
+        <item>
+          <description>MoveToRun &lt;w:moveTo&gt;</description>
+        </item>
+        <item>
+          <description>ContentPart &lt;w:contentPart&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.RunConflictInsertion &lt;w14:conflictIns&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.RunConflictDeletion &lt;w14:conflictDel&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -143,6 +151,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -163,12 +172,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -192,6 +203,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -200,7 +212,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the TableRow class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -215,6 +227,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -238,6 +251,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -252,29 +266,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.TableRow.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.TableRow.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ParagraphId">
@@ -288,10 +280,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "paraId")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "paraId")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "paraId")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -299,12 +293,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> paraId.</para>
-          <para>Represents the following attribute in the schema: w14:paraId </para>
+          <para>paraId, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:paraId</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -319,10 +314,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "rsidR")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "rsidR")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "rsidR")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -330,12 +327,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Revision Identifier for Table Row.</para>
-          <para>Represents the following attribute in the schema: w:rsidR </para>
+          <para>Revision Identifier for Table Row</para>
+          <para>Represents the following attribute in the schema: w:rsidR</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -350,10 +348,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "rsidDel")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "rsidDel")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "rsidDel")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -361,12 +361,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Revision Identifier for Table Row Deletion.</para>
-          <para>Represents the following attribute in the schema: w:rsidDel </para>
+          <para>Revision Identifier for Table Row Deletion</para>
+          <para>Represents the following attribute in the schema: w:rsidDel</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -381,10 +382,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "rsidRPr")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "rsidRPr")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "rsidRPr")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -392,12 +395,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Revision Identifier for Table Row Glyph Formatting.</para>
-          <para>Represents the following attribute in the schema: w:rsidRPr </para>
+          <para>Revision Identifier for Table Row Glyph Formatting</para>
+          <para>Represents the following attribute in the schema: w:rsidRPr</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -412,10 +416,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "rsidTr")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "rsidTr")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "rsidTr")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -423,12 +429,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Revision Identifier for Table Row Properties.</para>
-          <para>Represents the following attribute in the schema: w:rsidTr </para>
+          <para>Revision Identifier for Table Row Properties</para>
+          <para>Represents the following attribute in the schema: w:rsidTr</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -443,14 +450,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TablePropertyExceptions</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table-Level Property Exceptions.</para>
-          <para> Represents the following element tag in the schema: w:tblPrEx </para>
+          <para>Table-Level Property Exceptions.</para>
+          <para>Represents the following element tag in the schema: w:tblPrEx.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -470,14 +478,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TableRowProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Row Properties.</para>
-          <para> Represents the following element tag in the schema: w:trPr </para>
+          <para>Table Row Properties.</para>
+          <para>Represents the following element tag in the schema: w:trPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -497,10 +506,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "textId")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "textId")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "textId")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -508,12 +519,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> textId.</para>
-          <para>Represents the following attribute in the schema: w14:textId </para>
+          <para>textId, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:textId</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>

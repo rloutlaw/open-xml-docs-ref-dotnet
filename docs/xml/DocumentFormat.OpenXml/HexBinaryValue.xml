@@ -1,21 +1,23 @@
-﻿<Type Name="HexBinaryValue" FullName="DocumentFormat.OpenXml.HexBinaryValue">
-  <TypeSignature Language="C#" Value="public class HexBinaryValue : DocumentFormat.OpenXml.OpenXmlSimpleType" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HexBinaryValue extends DocumentFormat.OpenXml.OpenXmlSimpleType" />
+<Type Name="HexBinaryValue" FullName="DocumentFormat.OpenXml.HexBinaryValue">
+  <TypeSignature Language="C#" Value="public class HexBinaryValue : DocumentFormat.OpenXml.StringValue" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit HexBinaryValue extends DocumentFormat.OpenXml.StringValue" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.HexBinaryValue" />
-  <TypeSignature Language="VB.NET" Value="Public Class HexBinaryValue&#xA;Inherits OpenXmlSimpleType" />
-  <TypeSignature Language="F#" Value="type HexBinaryValue = class&#xA;    inherit OpenXmlSimpleType" />
+  <TypeSignature Language="VB.NET" Value="Public Class HexBinaryValue&#xA;Inherits StringValue" />
+  <TypeSignature Language="F#" Value="type HexBinaryValue = class&#xA;    inherit StringValue" />
   <AssemblyInfo>
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>DocumentFormat.OpenXml.OpenXmlSimpleType</BaseTypeName>
+    <BaseTypeName>DocumentFormat.OpenXml.StringValue</BaseTypeName>
   </Base>
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Diagnostics.DebuggerDisplay("{InnerText}")</AttributeName>
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("{InnerText}")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("{InnerText}")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -35,6 +37,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -55,6 +58,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="source" Type="DocumentFormat.OpenXml.HexBinaryValue" />
@@ -78,6 +82,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="hexBinary" Type="System.String" />
@@ -101,6 +106,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.HexBinaryValue</ReturnType>
@@ -128,6 +134,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -155,6 +162,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.HexBinaryValue</ReturnType>
@@ -182,6 +190,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -201,16 +210,17 @@
       </Docs>
     </Member>
     <Member MemberName="Value">
-      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="C#" Value="public override string Value { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Value" />
       <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.HexBinaryValue.Value" />
-      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property Value As String" />
       <MemberSignature Language="F#" Value="member this.Value : string with get, set" Usage="DocumentFormat.OpenXml.HexBinaryValue.Value" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

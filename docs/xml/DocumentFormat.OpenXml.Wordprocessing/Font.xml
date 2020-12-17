@@ -1,4 +1,4 @@
-﻿<Type Name="Font" FullName="DocumentFormat.OpenXml.Wordprocessing.Font">
+<Type Name="Font" FullName="DocumentFormat.OpenXml.Wordprocessing.Font">
   <TypeSignature Language="C#" Value="public class Font : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Font extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.Font" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,50 +16,57 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.AltName))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Panose1Number))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.FontCharSet))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.FontFamily))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.NotTrueType))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Pitch))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.FontSignature))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.EmbedRegularFont))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.EmbedBoldFont))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.EmbedItalicFont))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.EmbedBoldItalicFont))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "font")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "font")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Properties for a Single Font.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:font.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:font.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>AltName &lt;w:altName&gt;</description></item><item><description>Panose1Number &lt;w:panose1&gt;</description></item><item><description>FontCharSet &lt;w:charset&gt;</description></item><item><description>FontFamily &lt;w:family&gt;</description></item><item><description>NotTrueType &lt;w:notTrueType&gt;</description></item><item><description>Pitch &lt;w:pitch&gt;</description></item><item><description>FontSignature &lt;w:sig&gt;</description></item><item><description>EmbedRegularFont &lt;w:embedRegular&gt;</description></item><item><description>EmbedBoldFont &lt;w:embedBold&gt;</description></item><item><description>EmbedItalicFont &lt;w:embedItalic&gt;</description></item><item><description>EmbedBoldItalicFont &lt;w:embedBoldItalic&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>AltName &lt;w:altName&gt;</description>
+        </item>
+        <item>
+          <description>Panose1Number &lt;w:panose1&gt;</description>
+        </item>
+        <item>
+          <description>FontCharSet &lt;w:charset&gt;</description>
+        </item>
+        <item>
+          <description>FontFamily &lt;w:family&gt;</description>
+        </item>
+        <item>
+          <description>NotTrueType &lt;w:notTrueType&gt;</description>
+        </item>
+        <item>
+          <description>Pitch &lt;w:pitch&gt;</description>
+        </item>
+        <item>
+          <description>FontSignature &lt;w:sig&gt;</description>
+        </item>
+        <item>
+          <description>EmbedRegularFont &lt;w:embedRegular&gt;</description>
+        </item>
+        <item>
+          <description>EmbedBoldFont &lt;w:embedBold&gt;</description>
+        </item>
+        <item>
+          <description>EmbedItalicFont &lt;w:embedItalic&gt;</description>
+        </item>
+        <item>
+          <description>EmbedBoldItalicFont &lt;w:embedBoldItalic&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -71,6 +79,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -91,12 +100,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -120,6 +131,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -128,7 +140,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Font class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -143,6 +155,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -166,14 +179,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.AltName</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> AltName.</para>
-          <para> Represents the following element tag in the schema: w:altName </para>
+          <para>AltName.</para>
+          <para>Represents the following element tag in the schema: w:altName.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.AltName" />.</value>
         <remarks>To be added.</remarks>
@@ -193,6 +207,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -207,6 +222,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="EmbedBoldFont">
@@ -220,14 +236,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.EmbedBoldFont</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> EmbedBoldFont.</para>
-          <para> Represents the following element tag in the schema: w:embedBold </para>
+          <para>EmbedBoldFont.</para>
+          <para>Represents the following element tag in the schema: w:embedBold.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.EmbedBoldFont" />.</value>
         <remarks>To be added.</remarks>
@@ -247,14 +264,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.EmbedBoldItalicFont</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> EmbedBoldItalicFont.</para>
-          <para> Represents the following element tag in the schema: w:embedBoldItalic </para>
+          <para>EmbedBoldItalicFont.</para>
+          <para>Represents the following element tag in the schema: w:embedBoldItalic.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.EmbedBoldItalicFont" />.</value>
         <remarks>To be added.</remarks>
@@ -274,14 +292,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.EmbedItalicFont</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> EmbedItalicFont.</para>
-          <para> Represents the following element tag in the schema: w:embedItalic </para>
+          <para>EmbedItalicFont.</para>
+          <para>Represents the following element tag in the schema: w:embedItalic.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.EmbedItalicFont" />.</value>
         <remarks>To be added.</remarks>
@@ -301,14 +320,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.EmbedRegularFont</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> EmbedRegularFont.</para>
-          <para> Represents the following element tag in the schema: w:embedRegular </para>
+          <para>EmbedRegularFont.</para>
+          <para>Represents the following element tag in the schema: w:embedRegular.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.EmbedRegularFont" />.</value>
         <remarks>To be added.</remarks>
@@ -328,14 +348,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.FontCharSet</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> FontCharSet.</para>
-          <para> Represents the following element tag in the schema: w:charset </para>
+          <para>FontCharSet.</para>
+          <para>Represents the following element tag in the schema: w:charset.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -355,14 +376,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.FontFamily</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> FontFamily.</para>
-          <para> Represents the following element tag in the schema: w:family </para>
+          <para>FontFamily.</para>
+          <para>Represents the following element tag in the schema: w:family.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.FontFamily" />.</value>
         <remarks>To be added.</remarks>
@@ -382,43 +404,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.FontSignature</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> FontSignature.</para>
-          <para> Represents the following element tag in the schema: w:sig </para>
+          <para>FontSignature.</para>
+          <para>Represents the following element tag in the schema: w:sig.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.FontSignature" />.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:w = http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.Font.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.Font.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -432,10 +432,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "name")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "name")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "name")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -443,12 +445,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> name.</para>
-          <para>Represents the following attribute in the schema: w:name </para>
+          <para>name</para>
+          <para>Represents the following attribute in the schema: w:name</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -463,14 +466,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.NotTrueType</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> NotTrueType.</para>
-          <para> Represents the following element tag in the schema: w:notTrueType </para>
+          <para>NotTrueType.</para>
+          <para>Represents the following element tag in the schema: w:notTrueType.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.NotTrueType" />.</value>
         <remarks>To be added.</remarks>
@@ -490,14 +494,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Panose1Number</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Panose1Number.</para>
-          <para> Represents the following element tag in the schema: w:panose1 </para>
+          <para>Panose1Number.</para>
+          <para>Represents the following element tag in the schema: w:panose1.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.Panose1Number" />.</value>
         <remarks>To be added.</remarks>
@@ -517,14 +522,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Pitch</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Pitch.</para>
-          <para> Represents the following element tag in the schema: w:pitch </para>
+          <para>Pitch.</para>
+          <para>Represents the following element tag in the schema: w:pitch.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.Pitch" />.</value>
         <remarks>To be added.</remarks>

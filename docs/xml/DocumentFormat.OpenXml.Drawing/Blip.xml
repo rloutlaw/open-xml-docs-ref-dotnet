@@ -1,4 +1,4 @@
-﻿<Type Name="Blip" FullName="DocumentFormat.OpenXml.Drawing.Blip">
+<Type Name="Blip" FullName="DocumentFormat.OpenXml.Drawing.Blip">
   <TypeSignature Language="C#" Value="public class Blip : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Blip extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Drawing.Blip" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,71 +16,78 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.AlphaBiLevel))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.AlphaCeiling))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.AlphaFloor))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.AlphaInverse))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.AlphaModulationEffect))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.AlphaModulationFixed))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.AlphaReplace))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.BiLevel))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Blur))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.ColorChange))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.ColorReplacement))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Duotone))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.FillOverlay))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Grayscale))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Hsl))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.LuminanceEffect))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.TintEffect))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.BlipExtensionList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(10, "blip")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(10, "blip")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the Blip Class.</para>
-      <para> When the object is serialized out as xml, its qualified name is a:blip.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is a:blip.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>AlphaBiLevel &lt;a:alphaBiLevel&gt;</description></item><item><description>AlphaCeiling &lt;a:alphaCeiling&gt;</description></item><item><description>AlphaFloor &lt;a:alphaFloor&gt;</description></item><item><description>AlphaInverse &lt;a:alphaInv&gt;</description></item><item><description>AlphaModulationEffect &lt;a:alphaMod&gt;</description></item><item><description>AlphaModulationFixed &lt;a:alphaModFix&gt;</description></item><item><description>AlphaReplace &lt;a:alphaRepl&gt;</description></item><item><description>BiLevel &lt;a:biLevel&gt;</description></item><item><description>Blur &lt;a:blur&gt;</description></item><item><description>ColorChange &lt;a:clrChange&gt;</description></item><item><description>ColorReplacement &lt;a:clrRepl&gt;</description></item><item><description>Duotone &lt;a:duotone&gt;</description></item><item><description>FillOverlay &lt;a:fillOverlay&gt;</description></item><item><description>Grayscale &lt;a:grayscl&gt;</description></item><item><description>Hsl &lt;a:hsl&gt;</description></item><item><description>LuminanceEffect &lt;a:lum&gt;</description></item><item><description>TintEffect &lt;a:tint&gt;</description></item><item><description>BlipExtensionList &lt;a:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>AlphaBiLevel &lt;a:alphaBiLevel&gt;</description>
+        </item>
+        <item>
+          <description>AlphaCeiling &lt;a:alphaCeiling&gt;</description>
+        </item>
+        <item>
+          <description>AlphaFloor &lt;a:alphaFloor&gt;</description>
+        </item>
+        <item>
+          <description>AlphaInverse &lt;a:alphaInv&gt;</description>
+        </item>
+        <item>
+          <description>AlphaModulationEffect &lt;a:alphaMod&gt;</description>
+        </item>
+        <item>
+          <description>AlphaModulationFixed &lt;a:alphaModFix&gt;</description>
+        </item>
+        <item>
+          <description>AlphaReplace &lt;a:alphaRepl&gt;</description>
+        </item>
+        <item>
+          <description>BiLevel &lt;a:biLevel&gt;</description>
+        </item>
+        <item>
+          <description>Blur &lt;a:blur&gt;</description>
+        </item>
+        <item>
+          <description>ColorChange &lt;a:clrChange&gt;</description>
+        </item>
+        <item>
+          <description>ColorReplacement &lt;a:clrRepl&gt;</description>
+        </item>
+        <item>
+          <description>Duotone &lt;a:duotone&gt;</description>
+        </item>
+        <item>
+          <description>FillOverlay &lt;a:fillOverlay&gt;</description>
+        </item>
+        <item>
+          <description>Grayscale &lt;a:grayscl&gt;</description>
+        </item>
+        <item>
+          <description>Hsl &lt;a:hsl&gt;</description>
+        </item>
+        <item>
+          <description>LuminanceEffect &lt;a:lum&gt;</description>
+        </item>
+        <item>
+          <description>TintEffect &lt;a:tint&gt;</description>
+        </item>
+        <item>
+          <description>BlipExtensionList &lt;a:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -92,6 +100,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -112,12 +121,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -141,6 +152,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -149,7 +161,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Blip class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -164,6 +176,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -187,6 +200,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -201,6 +215,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="CompressionState">
@@ -214,10 +229,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "cstate")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "cstate")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "cstate")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -225,8 +242,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> cstate.</para>
-          <para>Represents the following attribute in the schema: cstate </para>
+          <para>cstate</para>
+          <para>Represents the following attribute in the schema: cstate</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>
@@ -254,10 +271,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(19, "embed")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(19, "embed")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(19, "embed")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -265,8 +284,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Embedded Picture Reference.</para>
-          <para>Represents the following attribute in the schema: r:embed </para>
+          <para>Embedded Picture Reference</para>
+          <para>Represents the following attribute in the schema: r:embed</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>
@@ -281,7 +300,8 @@
   
  ]]></format>
         </remarks>
-        <remark> xmlns:r=http://schemas.openxmlformats.org/officeDocument/2006/relationships
+        <remark>
+            xmlns:r=http://schemas.openxmlformats.org/officeDocument/2006/relationships
             </remark>
       </Docs>
     </Member>
@@ -296,10 +316,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(19, "link")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(19, "link")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(19, "link")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -307,8 +329,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Linked Picture Reference.</para>
-          <para>Represents the following attribute in the schema: r:link </para>
+          <para>Linked Picture Reference</para>
+          <para>Represents the following attribute in the schema: r:link</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>
@@ -323,31 +345,9 @@
   
  ]]></format>
         </remarks>
-        <remark> xmlns:r=http://schemas.openxmlformats.org/officeDocument/2006/relationships
+        <remark>
+            xmlns:r=http://schemas.openxmlformats.org/officeDocument/2006/relationships
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Drawing.Blip.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Drawing.Blip.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
   </Members>

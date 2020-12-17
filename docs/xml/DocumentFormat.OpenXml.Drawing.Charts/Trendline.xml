@@ -1,4 +1,4 @@
-﻿<Type Name="Trendline" FullName="DocumentFormat.OpenXml.Drawing.Charts.Trendline">
+<Type Name="Trendline" FullName="DocumentFormat.OpenXml.Drawing.Charts.Trendline">
   <TypeSignature Language="C#" Value="public class Trendline : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Trendline extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Drawing.Charts.Trendline" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,53 +16,60 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.TrendlineName))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.ChartShapeProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.TrendlineType))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.PolynomialOrder))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.Period))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.Forward))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.Backward))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.Intercept))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.DisplayRSquaredValue))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.DisplayEquation))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.TrendlineLabel))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.ExtensionList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(11, "trendline")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(11, "trendline")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the Trendline Class.</para>
-      <para> When the object is serialized out as xml, its qualified name is c:trendline.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is c:trendline.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>TrendlineName &lt;c:name&gt;</description></item><item><description>ChartShapeProperties &lt;c:spPr&gt;</description></item><item><description>TrendlineType &lt;c:trendlineType&gt;</description></item><item><description>PolynomialOrder &lt;c:order&gt;</description></item><item><description>Period &lt;c:period&gt;</description></item><item><description>Forward &lt;c:forward&gt;</description></item><item><description>Backward &lt;c:backward&gt;</description></item><item><description>Intercept &lt;c:intercept&gt;</description></item><item><description>DisplayRSquaredValue &lt;c:dispRSqr&gt;</description></item><item><description>DisplayEquation &lt;c:dispEq&gt;</description></item><item><description>TrendlineLabel &lt;c:trendlineLbl&gt;</description></item><item><description>ExtensionList &lt;c:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>TrendlineName &lt;c:name&gt;</description>
+        </item>
+        <item>
+          <description>ChartShapeProperties &lt;c:spPr&gt;</description>
+        </item>
+        <item>
+          <description>TrendlineType &lt;c:trendlineType&gt;</description>
+        </item>
+        <item>
+          <description>PolynomialOrder &lt;c:order&gt;</description>
+        </item>
+        <item>
+          <description>Period &lt;c:period&gt;</description>
+        </item>
+        <item>
+          <description>Forward &lt;c:forward&gt;</description>
+        </item>
+        <item>
+          <description>Backward &lt;c:backward&gt;</description>
+        </item>
+        <item>
+          <description>Intercept &lt;c:intercept&gt;</description>
+        </item>
+        <item>
+          <description>DisplayRSquaredValue &lt;c:dispRSqr&gt;</description>
+        </item>
+        <item>
+          <description>DisplayEquation &lt;c:dispEq&gt;</description>
+        </item>
+        <item>
+          <description>TrendlineLabel &lt;c:trendlineLbl&gt;</description>
+        </item>
+        <item>
+          <description>ExtensionList &lt;c:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -74,6 +82,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -94,12 +103,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -123,6 +134,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -131,7 +143,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Trendline class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -146,6 +158,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -169,14 +182,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.Backward</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Backward.</para>
-          <para> Represents the following element tag in the schema: c:backward </para>
+          <para>Backward.</para>
+          <para>Represents the following element tag in the schema: c:backward.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Charts.Backward" />.</value>
         <remarks>To be added.</remarks>
@@ -196,14 +210,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.ChartShapeProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ChartShapeProperties.</para>
-          <para> Represents the following element tag in the schema: c:spPr </para>
+          <para>ChartShapeProperties.</para>
+          <para>Represents the following element tag in the schema: c:spPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -223,6 +238,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -237,6 +253,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="DisplayEquation">
@@ -250,14 +267,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.DisplayEquation</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Display Equation.</para>
-          <para> Represents the following element tag in the schema: c:dispEq </para>
+          <para>Display Equation.</para>
+          <para>Represents the following element tag in the schema: c:dispEq.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Charts.DisplayEquation" />.</value>
         <remarks>To be added.</remarks>
@@ -277,14 +295,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.DisplayRSquaredValue</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Display R Squared Value.</para>
-          <para> Represents the following element tag in the schema: c:dispRSqr </para>
+          <para>Display R Squared Value.</para>
+          <para>Represents the following element tag in the schema: c:dispRSqr.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Charts.DisplayRSquaredValue" />.</value>
         <remarks>To be added.</remarks>
@@ -304,14 +323,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.ExtensionList</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Chart Extensibility.</para>
-          <para> Represents the following element tag in the schema: c:extLst </para>
+          <para>Chart Extensibility.</para>
+          <para>Represents the following element tag in the schema: c:extLst.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Charts.ExtensionList" />.</value>
         <remarks>To be added.</remarks>
@@ -331,14 +351,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.Forward</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Forward.</para>
-          <para> Represents the following element tag in the schema: c:forward </para>
+          <para>Forward.</para>
+          <para>Represents the following element tag in the schema: c:forward.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Charts.Forward" />.</value>
         <remarks>To be added.</remarks>
@@ -358,43 +379,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.Intercept</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Intercept.</para>
-          <para> Represents the following element tag in the schema: c:intercept </para>
+          <para>Intercept.</para>
+          <para>Represents the following element tag in the schema: c:intercept.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Charts.Intercept" />.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:c = http://schemas.openxmlformats.org/drawingml/2006/chart
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Drawing.Charts.Trendline.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Drawing.Charts.Trendline.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Period">
@@ -408,14 +407,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.Period</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Period.</para>
-          <para> Represents the following element tag in the schema: c:period </para>
+          <para>Period.</para>
+          <para>Represents the following element tag in the schema: c:period.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Charts.Period" />.</value>
         <remarks>To be added.</remarks>
@@ -435,14 +435,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.PolynomialOrder</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Polynomial Trendline Order.</para>
-          <para> Represents the following element tag in the schema: c:order </para>
+          <para>Polynomial Trendline Order.</para>
+          <para>Represents the following element tag in the schema: c:order.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Charts.PolynomialOrder" />.</value>
         <remarks>To be added.</remarks>
@@ -462,14 +463,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.TrendlineLabel</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Trendline Label.</para>
-          <para> Represents the following element tag in the schema: c:trendlineLbl </para>
+          <para>Trendline Label.</para>
+          <para>Represents the following element tag in the schema: c:trendlineLbl.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Charts.TrendlineLabel" />.</value>
         <remarks>To be added.</remarks>
@@ -489,14 +491,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.TrendlineName</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Trendline Name.</para>
-          <para> Represents the following element tag in the schema: c:name </para>
+          <para>Trendline Name.</para>
+          <para>Represents the following element tag in the schema: c:name.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Charts.TrendlineName" />.</value>
         <remarks>To be added.</remarks>
@@ -516,14 +519,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.TrendlineType</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Trendline Type.</para>
-          <para> Represents the following element tag in the schema: c:trendlineType </para>
+          <para>Trendline Type.</para>
+          <para>Represents the following element tag in the schema: c:trendlineType.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Charts.TrendlineType" />.</value>
         <remarks>To be added.</remarks>

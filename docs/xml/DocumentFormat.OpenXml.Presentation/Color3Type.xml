@@ -1,4 +1,4 @@
-﻿<Type Name="Color3Type" FullName="DocumentFormat.OpenXml.Presentation.Color3Type">
+<Type Name="Color3Type" FullName="DocumentFormat.OpenXml.Presentation.Color3Type">
   <TypeSignature Language="C#" Value="public abstract class Color3Type : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Color3Type extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Presentation.Color3Type" />
@@ -8,41 +8,44 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.RgbColorModelPercentage), DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.RgbColorModelHex))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.HslColor), DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.SystemColor), DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.SchemeColor))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.PresetColor), DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>
-             Defines the Color3Type class.
-             </summary>
+      <para>Defines the Color3Type Class.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is :.</para>
+    </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>DocumentFormat.OpenXml.Drawing.RgbColorModelPercentage &lt;a:scrgbClr&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.RgbColorModelHex &lt;a:srgbClr&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.HslColor &lt;a:hslClr&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.SystemColor &lt;a:sysClr&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.SchemeColor &lt;a:schemeClr&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.PresetColor &lt;a:prstClr&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.RgbColorModelPercentage &lt;a:scrgbClr&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.RgbColorModelHex &lt;a:srgbClr&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.HslColor &lt;a:hslClr&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.SystemColor &lt;a:sysClr&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.SchemeColor &lt;a:schemeClr&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.PresetColor &lt;a:prstClr&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -55,6 +58,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -75,12 +79,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -104,6 +110,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -112,7 +119,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Color3Type class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -127,6 +134,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -150,19 +158,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.HslColor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Hue, Saturation, Luminance Color Model, this property is only available in Office2010.</para>
-          <para> Represents the following element tag in the schema: a:hslClr </para>
+          <para>Hue, Saturation, Luminance Color Model.</para>
+          <para>Represents the following element tag in the schema: a:hslClr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -182,19 +186,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.PresetColor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Preset Color, this property is only available in Office2010.</para>
-          <para> Represents the following element tag in the schema: a:prstClr </para>
+          <para>Preset Color.</para>
+          <para>Represents the following element tag in the schema: a:prstClr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -214,14 +214,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.RgbColorModelHex</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> RGB Color Model - Hex Variant.</para>
-          <para> Represents the following element tag in the schema: a:srgbClr </para>
+          <para>RGB Color Model - Hex Variant.</para>
+          <para>Represents the following element tag in the schema: a:srgbClr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -241,19 +242,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.RgbColorModelPercentage</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> RGB Color Model - Percentage Variant, this property is only available in Office2010.</para>
-          <para> Represents the following element tag in the schema: a:scrgbClr </para>
+          <para>RGB Color Model - Percentage Variant.</para>
+          <para>Represents the following element tag in the schema: a:scrgbClr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -273,14 +270,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.SchemeColor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Scheme Color.</para>
-          <para> Represents the following element tag in the schema: a:schemeClr </para>
+          <para>Scheme Color.</para>
+          <para>Represents the following element tag in the schema: a:schemeClr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -300,19 +298,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.SystemColor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> System Color, this property is only available in Office2010.</para>
-          <para> Represents the following element tag in the schema: a:sysClr </para>
+          <para>System Color.</para>
+          <para>Represents the following element tag in the schema: a:sysClr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

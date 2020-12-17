@@ -1,4 +1,4 @@
-﻿<Type Name="TimeListType" FullName="DocumentFormat.OpenXml.Presentation.TimeListType">
+<Type Name="TimeListType" FullName="DocumentFormat.OpenXml.Presentation.TimeListType">
   <TypeSignature Language="C#" Value="public abstract class TimeListType : DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TimeListType extends DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Presentation.TimeListType" />
@@ -8,20 +8,18 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafElement</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>
-            Defines the TimeListType class.
-            </summary>
+      <para>Defines the TimeListType Class.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is :.</para>
+    </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -35,6 +33,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -55,10 +54,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "x")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "x")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "x")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -66,8 +67,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> X coordinate.</para>
-          <para>Represents the following attribute in the schema: x </para>
+          <para>X coordinate</para>
+          <para>Represents the following attribute in the schema: x</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -84,10 +85,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "y")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "y")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "y")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -95,8 +98,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Y coordinate.</para>
-          <para>Represents the following attribute in the schema: y </para>
+          <para>Y coordinate</para>
+          <para>Represents the following attribute in the schema: y</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

@@ -1,4 +1,4 @@
-﻿<Type Name="QueryTable" FullName="DocumentFormat.OpenXml.Spreadsheet.QueryTable">
+<Type Name="QueryTable" FullName="DocumentFormat.OpenXml.Spreadsheet.QueryTable">
   <TypeSignature Language="C#" Value="public class QueryTable : DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit QueryTable extends DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Spreadsheet.QueryTable" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlPartRootElement</BaseTypeName>
@@ -15,23 +16,30 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.QueryTableRefresh))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.QueryTableExtensionList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(22, "queryTable")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(22, "queryTable")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
-      <para>Query Table. The root element of QueryTablePart.</para>
-      <para> When the object is serialized out as xml, its qualified name is x:queryTable.</para>
+      <para>Query Table.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is x:queryTable.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>QueryTableRefresh &lt;x:queryTableRefresh&gt;</description></item><item><description>QueryTableExtensionList &lt;x:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>QueryTableRefresh &lt;x:queryTableRefresh&gt;</description>
+        </item>
+        <item>
+          <description>QueryTableExtensionList &lt;x:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -44,6 +52,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -64,12 +73,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -93,6 +104,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -101,7 +113,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the QueryTable class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -116,6 +128,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -139,10 +152,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "adjustColumnWidth")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "adjustColumnWidth")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "adjustColumnWidth")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -150,8 +165,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> adjustColumnWidth.</para>
-          <para>Represents the following attribute in the schema: adjustColumnWidth </para>
+          <para>adjustColumnWidth</para>
+          <para>Represents the following attribute in the schema: adjustColumnWidth</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -168,10 +183,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "applyAlignmentFormats")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "applyAlignmentFormats")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "applyAlignmentFormats")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -179,8 +196,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Apply Alignment Formats.</para>
-          <para>Represents the following attribute in the schema: applyAlignmentFormats </para>
+          <para>Apply Alignment Formats</para>
+          <para>Represents the following attribute in the schema: applyAlignmentFormats</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -197,10 +214,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "applyBorderFormats")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "applyBorderFormats")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "applyBorderFormats")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -208,8 +227,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Apply Border Formats.</para>
-          <para>Represents the following attribute in the schema: applyBorderFormats </para>
+          <para>Apply Border Formats</para>
+          <para>Represents the following attribute in the schema: applyBorderFormats</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -226,10 +245,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "applyFontFormats")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "applyFontFormats")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "applyFontFormats")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -237,8 +258,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Apply Font Formats.</para>
-          <para>Represents the following attribute in the schema: applyFontFormats </para>
+          <para>Apply Font Formats</para>
+          <para>Represents the following attribute in the schema: applyFontFormats</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -255,10 +276,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "applyNumberFormats")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "applyNumberFormats")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "applyNumberFormats")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -266,8 +289,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Apply Number Formats.</para>
-          <para>Represents the following attribute in the schema: applyNumberFormats </para>
+          <para>Apply Number Formats</para>
+          <para>Represents the following attribute in the schema: applyNumberFormats</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -284,10 +307,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "applyPatternFormats")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "applyPatternFormats")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "applyPatternFormats")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -295,8 +320,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Apply Pattern Formats.</para>
-          <para>Represents the following attribute in the schema: applyPatternFormats </para>
+          <para>Apply Pattern Formats</para>
+          <para>Represents the following attribute in the schema: applyPatternFormats</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -313,10 +338,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "applyWidthHeightFormats")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "applyWidthHeightFormats")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "applyWidthHeightFormats")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -324,8 +351,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Apply Width / Height Formats.</para>
-          <para>Represents the following attribute in the schema: applyWidthHeightFormats </para>
+          <para>Apply Width / Height Formats</para>
+          <para>Represents the following attribute in the schema: applyWidthHeightFormats</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -342,10 +369,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "autoFormatId")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "autoFormatId")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "autoFormatId")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -353,8 +382,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Auto Format Id.</para>
-          <para>Represents the following attribute in the schema: autoFormatId </para>
+          <para>Auto Format Id</para>
+          <para>Represents the following attribute in the schema: autoFormatId</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.UInt32Value" />.</value>
         <remarks>To be added.</remarks>
@@ -371,10 +400,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "backgroundRefresh")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "backgroundRefresh")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "backgroundRefresh")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -382,8 +413,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> backgroundRefresh.</para>
-          <para>Represents the following attribute in the schema: backgroundRefresh </para>
+          <para>backgroundRefresh</para>
+          <para>Represents the following attribute in the schema: backgroundRefresh</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -400,6 +431,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -414,6 +446,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ConnectionId">
@@ -427,10 +460,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "connectionId")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "connectionId")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "connectionId")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -438,8 +473,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> connectionId.</para>
-          <para>Represents the following attribute in the schema: connectionId </para>
+          <para>connectionId</para>
+          <para>Represents the following attribute in the schema: connectionId</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.UInt32Value" />.</value>
         <remarks>To be added.</remarks>
@@ -456,10 +491,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "disableEdit")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "disableEdit")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "disableEdit")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -467,8 +504,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> disableEdit.</para>
-          <para>Represents the following attribute in the schema: disableEdit </para>
+          <para>disableEdit</para>
+          <para>Represents the following attribute in the schema: disableEdit</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -485,10 +522,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "disableRefresh")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "disableRefresh")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "disableRefresh")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -496,8 +535,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> disableRefresh.</para>
-          <para>Represents the following attribute in the schema: disableRefresh </para>
+          <para>disableRefresh</para>
+          <para>Represents the following attribute in the schema: disableRefresh</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -514,10 +553,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "fillFormulas")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "fillFormulas")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "fillFormulas")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -525,8 +566,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> fillFormulas.</para>
-          <para>Represents the following attribute in the schema: fillFormulas </para>
+          <para>fillFormulas</para>
+          <para>Represents the following attribute in the schema: fillFormulas</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -543,10 +584,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "firstBackgroundRefresh")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "firstBackgroundRefresh")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "firstBackgroundRefresh")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -554,8 +597,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> firstBackgroundRefresh.</para>
-          <para>Represents the following attribute in the schema: firstBackgroundRefresh </para>
+          <para>firstBackgroundRefresh</para>
+          <para>Represents the following attribute in the schema: firstBackgroundRefresh</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -572,10 +615,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "growShrinkType")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "growShrinkType")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "growShrinkType")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -583,8 +628,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> growShrinkType.</para>
-          <para>Represents the following attribute in the schema: growShrinkType </para>
+          <para>growShrinkType</para>
+          <para>Represents the following attribute in the schema: growShrinkType</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
@@ -601,10 +646,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "headers")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "headers")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "headers")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -612,8 +659,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> headers.</para>
-          <para>Represents the following attribute in the schema: headers </para>
+          <para>headers</para>
+          <para>Represents the following attribute in the schema: headers</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -630,10 +677,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "intermediate")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "intermediate")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "intermediate")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -641,8 +690,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> intermediate.</para>
-          <para>Represents the following attribute in the schema: intermediate </para>
+          <para>intermediate</para>
+          <para>Represents the following attribute in the schema: intermediate</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -659,6 +708,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -669,31 +719,8 @@
       <Docs>
         <param name="openXmlPart">Specifies the part to be loaded.</param>
         <summary>
-            Loads the DOM from the QueryTablePart.
+            Loads the DOM from the QueryTablePart
             </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Spreadsheet.QueryTable.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Spreadsheet.QueryTable.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -708,10 +735,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "name")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "name")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "name")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -719,8 +748,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> name.</para>
-          <para>Represents the following attribute in the schema: name </para>
+          <para>name</para>
+          <para>Represents the following attribute in the schema: name</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -737,10 +766,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "preserveFormatting")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "preserveFormatting")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "preserveFormatting")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -748,8 +779,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> preserveFormatting.</para>
-          <para>Represents the following attribute in the schema: preserveFormatting </para>
+          <para>preserveFormatting</para>
+          <para>Represents the following attribute in the schema: preserveFormatting</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -766,14 +797,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.QueryTableExtensionList</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> QueryTableExtensionList.</para>
-          <para> Represents the following element tag in the schema: x:extLst </para>
+          <para>QueryTableExtensionList.</para>
+          <para>Represents the following element tag in the schema: x:extLst.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -793,6 +825,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.QueryTablePart</ReturnType>
@@ -816,14 +849,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.QueryTableRefresh</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> QueryTableRefresh.</para>
-          <para> Represents the following element tag in the schema: x:queryTableRefresh </para>
+          <para>QueryTableRefresh.</para>
+          <para>Represents the following element tag in the schema: x:queryTableRefresh.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.QueryTableRefresh" />.</value>
         <remarks>To be added.</remarks>
@@ -843,10 +877,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "refreshOnLoad")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "refreshOnLoad")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "refreshOnLoad")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -854,8 +890,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> refreshOnLoad.</para>
-          <para>Represents the following attribute in the schema: refreshOnLoad </para>
+          <para>refreshOnLoad</para>
+          <para>Represents the following attribute in the schema: refreshOnLoad</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -872,10 +908,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "removeDataOnSave")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "removeDataOnSave")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "removeDataOnSave")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -883,8 +921,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> removeDataOnSave.</para>
-          <para>Represents the following attribute in the schema: removeDataOnSave </para>
+          <para>removeDataOnSave</para>
+          <para>Represents the following attribute in the schema: removeDataOnSave</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -901,10 +939,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "rowNumbers")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "rowNumbers")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "rowNumbers")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -912,8 +952,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> rowNumbers.</para>
-          <para>Represents the following attribute in the schema: rowNumbers </para>
+          <para>rowNumbers</para>
+          <para>Represents the following attribute in the schema: rowNumbers</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -930,6 +970,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

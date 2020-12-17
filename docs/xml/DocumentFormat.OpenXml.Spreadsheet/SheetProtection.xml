@@ -1,4 +1,4 @@
-﻿<Type Name="SheetProtection" FullName="DocumentFormat.OpenXml.Spreadsheet.SheetProtection">
+<Type Name="SheetProtection" FullName="DocumentFormat.OpenXml.Spreadsheet.SheetProtection">
   <TypeSignature Language="C#" Value="public class SheetProtection : DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SheetProtection extends DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Spreadsheet.SheetProtection" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafElement</BaseTypeName>
@@ -15,13 +16,15 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(22, "sheetProtection")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(22, "sheetProtection")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Sheet Protection.</para>
-      <para> When the object is serialized out as xml, its qualified name is x:sheetProtection.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is x:sheetProtection.</para>
     </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
@@ -65,6 +68,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -85,10 +89,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "algorithmName")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "algorithmName")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "algorithmName")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -96,8 +102,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Cryptographic Algorithm Name.</para>
-          <para>Represents the following attribute in the schema: algorithmName </para>
+          <para>Cryptographic Algorithm Name</para>
+          <para>Represents the following attribute in the schema: algorithmName</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -114,10 +120,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "autoFilter")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "autoFilter")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "autoFilter")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -125,8 +133,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> AutoFilter Locked.</para>
-          <para>Represents the following attribute in the schema: autoFilter </para>
+          <para>AutoFilter Locked</para>
+          <para>Represents the following attribute in the schema: autoFilter</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -143,6 +151,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -157,6 +166,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="DeleteColumns">
@@ -170,10 +180,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "deleteColumns")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "deleteColumns")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "deleteColumns")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -181,8 +193,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Delete Columns Locked.</para>
-          <para>Represents the following attribute in the schema: deleteColumns </para>
+          <para>Delete Columns Locked</para>
+          <para>Represents the following attribute in the schema: deleteColumns</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -199,10 +211,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "deleteRows")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "deleteRows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "deleteRows")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -210,8 +224,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Delete Rows Locked.</para>
-          <para>Represents the following attribute in the schema: deleteRows </para>
+          <para>Delete Rows Locked</para>
+          <para>Represents the following attribute in the schema: deleteRows</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -228,10 +242,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "formatCells")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "formatCells")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "formatCells")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -239,8 +255,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Format Cells Locked.</para>
-          <para>Represents the following attribute in the schema: formatCells </para>
+          <para>Format Cells Locked</para>
+          <para>Represents the following attribute in the schema: formatCells</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -257,10 +273,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "formatColumns")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "formatColumns")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "formatColumns")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -268,8 +286,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Format Columns Locked.</para>
-          <para>Represents the following attribute in the schema: formatColumns </para>
+          <para>Format Columns Locked</para>
+          <para>Represents the following attribute in the schema: formatColumns</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -286,10 +304,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "formatRows")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "formatRows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "formatRows")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -297,8 +317,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Format Rows Locked.</para>
-          <para>Represents the following attribute in the schema: formatRows </para>
+          <para>Format Rows Locked</para>
+          <para>Represents the following attribute in the schema: formatRows</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -315,10 +335,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "hashValue")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "hashValue")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "hashValue")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -326,8 +348,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Password Hash Value.</para>
-          <para>Represents the following attribute in the schema: hashValue </para>
+          <para>Password Hash Value</para>
+          <para>Represents the following attribute in the schema: hashValue</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -344,10 +366,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "insertColumns")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "insertColumns")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "insertColumns")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -355,8 +379,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Insert Columns Locked.</para>
-          <para>Represents the following attribute in the schema: insertColumns </para>
+          <para>Insert Columns Locked</para>
+          <para>Represents the following attribute in the schema: insertColumns</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -373,10 +397,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "insertHyperlinks")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "insertHyperlinks")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "insertHyperlinks")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -384,8 +410,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Insert Hyperlinks Locked.</para>
-          <para>Represents the following attribute in the schema: insertHyperlinks </para>
+          <para>Insert Hyperlinks Locked</para>
+          <para>Represents the following attribute in the schema: insertHyperlinks</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -402,10 +428,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "insertRows")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "insertRows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "insertRows")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -413,33 +441,10 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Insert Rows Locked.</para>
-          <para>Represents the following attribute in the schema: insertRows </para>
+          <para>Insert Rows Locked</para>
+          <para>Represents the following attribute in the schema: insertRows</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Spreadsheet.SheetProtection.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Spreadsheet.SheetProtection.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -454,10 +459,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "objects")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "objects")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "objects")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -465,8 +472,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Objects Locked.</para>
-          <para>Represents the following attribute in the schema: objects </para>
+          <para>Objects Locked</para>
+          <para>Represents the following attribute in the schema: objects</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -483,10 +490,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "password")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "password")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "password")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -494,8 +503,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Password.</para>
-          <para>Represents the following attribute in the schema: password </para>
+          <para>Password</para>
+          <para>Represents the following attribute in the schema: password</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -512,10 +521,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "pivotTables")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "pivotTables")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "pivotTables")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -523,8 +534,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Pivot Tables Locked.</para>
-          <para>Represents the following attribute in the schema: pivotTables </para>
+          <para>Pivot Tables Locked</para>
+          <para>Represents the following attribute in the schema: pivotTables</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -541,10 +552,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "saltValue")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "saltValue")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "saltValue")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -552,8 +565,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Salt Value for Password Verifier.</para>
-          <para>Represents the following attribute in the schema: saltValue </para>
+          <para>Salt Value for Password Verifier</para>
+          <para>Represents the following attribute in the schema: saltValue</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -570,10 +583,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "scenarios")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "scenarios")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "scenarios")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -581,8 +596,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Scenarios Locked.</para>
-          <para>Represents the following attribute in the schema: scenarios </para>
+          <para>Scenarios Locked</para>
+          <para>Represents the following attribute in the schema: scenarios</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -599,10 +614,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "selectLockedCells")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "selectLockedCells")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "selectLockedCells")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -610,8 +627,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Select Locked Cells Locked.</para>
-          <para>Represents the following attribute in the schema: selectLockedCells </para>
+          <para>Select Locked Cells Locked</para>
+          <para>Represents the following attribute in the schema: selectLockedCells</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -628,10 +645,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "selectUnlockedCells")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "selectUnlockedCells")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "selectUnlockedCells")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -639,8 +658,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Select Unlocked Cells Locked.</para>
-          <para>Represents the following attribute in the schema: selectUnlockedCells </para>
+          <para>Select Unlocked Cells Locked</para>
+          <para>Represents the following attribute in the schema: selectUnlockedCells</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -657,10 +676,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "sheet")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "sheet")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "sheet")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -668,8 +689,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Sheet Locked.</para>
-          <para>Represents the following attribute in the schema: sheet </para>
+          <para>Sheet Locked</para>
+          <para>Represents the following attribute in the schema: sheet</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -686,10 +707,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "sort")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "sort")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "sort")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -697,8 +720,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Sort Locked.</para>
-          <para>Represents the following attribute in the schema: sort </para>
+          <para>Sort Locked</para>
+          <para>Represents the following attribute in the schema: sort</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -715,10 +738,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "spinCount")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "spinCount")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "spinCount")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -726,8 +751,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Iterations to Run Hashing Algorithm.</para>
-          <para>Represents the following attribute in the schema: spinCount </para>
+          <para>Iterations to Run Hashing Algorithm</para>
+          <para>Represents the following attribute in the schema: spinCount</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

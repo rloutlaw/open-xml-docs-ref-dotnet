@@ -1,4 +1,4 @@
-﻿<Type Name="OpenXmlCompositeElement" FullName="DocumentFormat.OpenXml.OpenXmlCompositeElement">
+<Type Name="OpenXmlCompositeElement" FullName="DocumentFormat.OpenXml.OpenXmlCompositeElement">
   <TypeSignature Language="C#" Value="public abstract class OpenXmlCompositeElement : DocumentFormat.OpenXml.OpenXmlElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit OpenXmlCompositeElement extends DocumentFormat.OpenXml.OpenXmlElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.OpenXmlCompositeElement" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlElement</BaseTypeName>
@@ -30,6 +31,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,12 +52,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childrenElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -79,6 +83,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childrenElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -102,6 +107,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childrenElements" Type="System.Collections.IEnumerable" />
@@ -125,6 +131,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -134,6 +141,34 @@
         <summary>
             Initializes a new instance of the OpenXmlCompositeElement class using the supplied outer XML.
             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddChild">
+      <MemberSignature Language="C#" Value="public bool AddChild (DocumentFormat.OpenXml.OpenXmlElement newChild, bool throwOnError = true);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool AddChild(class DocumentFormat.OpenXml.OpenXmlElement newChild, bool throwOnError) cil managed" />
+      <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.OpenXmlCompositeElement.AddChild(DocumentFormat.OpenXml.OpenXmlElement,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddChild (newChild As OpenXmlElement, Optional throwOnError As Boolean = true) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.AddChild : DocumentFormat.OpenXml.OpenXmlElement * bool -&gt; bool" Usage="openXmlCompositeElement.AddChild (newChild, throwOnError)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="newChild" Type="DocumentFormat.OpenXml.OpenXmlElement" />
+        <Parameter Name="throwOnError" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="newChild">The OpenXmlElement element to append.</param>
+        <param name="throwOnError">A flag to indicate if the method should throw if the child could not be added.</param>
+        <summary>
+            Adds the specified element to the element if it is a known child. This adds the element in the correct location according to the schema.
+            </summary>
+        <returns>Success if the element was added, otherwise <c>false</c>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -148,6 +183,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -169,7 +205,7 @@
             Appends the specified element to the end of the current element's list of child nodes.
             </summary>
         <returns>The OpenXmlElement element that was appended. </returns>
-        <remarks>Returns null if newChild equals null.</remarks>
+        <remarks>Returns null if <paramref name="newChild" /> equals <c>null</c>.</remarks>
       </Docs>
     </Member>
     <Member MemberName="FirstChild">
@@ -183,6 +219,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -208,6 +245,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -230,6 +268,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -252,6 +291,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -264,16 +304,17 @@
       </Docs>
     </Member>
     <Member MemberName="InsertAfter&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public override T InsertAfter&lt;T&gt; (T newChild, DocumentFormat.OpenXml.OpenXmlElement refChild) where T : DocumentFormat.OpenXml.OpenXmlElement;" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance !!T InsertAfter&lt;(class DocumentFormat.OpenXml.OpenXmlElement) T&gt;(!!T newChild, class DocumentFormat.OpenXml.OpenXmlElement refChild) cil managed" />
+      <MemberSignature Language="C#" Value="public override T InsertAfter&lt;T&gt; (T newChild, DocumentFormat.OpenXml.OpenXmlElement referenceChild) where T : DocumentFormat.OpenXml.OpenXmlElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance !!T InsertAfter&lt;(class DocumentFormat.OpenXml.OpenXmlElement) T&gt;(!!T newChild, class DocumentFormat.OpenXml.OpenXmlElement referenceChild) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.OpenXmlCompositeElement.InsertAfter``1(``0,DocumentFormat.OpenXml.OpenXmlElement)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function InsertAfter(Of T As OpenXmlElement) (newChild As T, refChild As OpenXmlElement) As T" />
-      <MemberSignature Language="F#" Value="override this.InsertAfter : 'T * DocumentFormat.OpenXml.OpenXmlElement -&gt; 'T (requires 'T :&gt; DocumentFormat.OpenXml.OpenXmlElement)" Usage="openXmlCompositeElement.InsertAfter (newChild, refChild)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function InsertAfter(Of T As OpenXmlElement) (newChild As T, referenceChild As OpenXmlElement) As T" />
+      <MemberSignature Language="F#" Value="override this.InsertAfter : 'T * DocumentFormat.OpenXml.OpenXmlElement -&gt; 'T (requires 'T :&gt; DocumentFormat.OpenXml.OpenXmlElement)" Usage="openXmlCompositeElement.InsertAfter (newChild, referenceChild)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -287,17 +328,17 @@
       </TypeParameters>
       <Parameters>
         <Parameter Name="newChild" Type="T" />
-        <Parameter Name="refChild" Type="DocumentFormat.OpenXml.OpenXmlElement" />
+        <Parameter Name="referenceChild" Type="DocumentFormat.OpenXml.OpenXmlElement" />
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
         <param name="newChild">The OpenXmlElement element to insert.</param>
-        <param name="refChild">The OpenXmlElement element that is in the reference node.</param>
+        <param name="referenceChild">The OpenXmlElement element after which <paramref name="newChild" /> should be added. Must be a child of this element.</param>
         <summary>
             Inserts the specified element immediately after the specified reference element.
             </summary>
         <returns>The OpenXmlElement element that was inserted.</returns>
-        <remarks>Returns null if newChild is null. </remarks>
+        <remarks>Returns <c>null</c> if <paramref name="newChild" /> is null. Inserted as first child if <paramref name="referenceChild" /> is <c>null</c>.</remarks>
       </Docs>
     </Member>
     <Member MemberName="InsertAt&lt;T&gt;">
@@ -311,6 +352,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -334,21 +376,22 @@
             Inserts the specified element at the specified index of the current element's children.
             </summary>
         <returns>The OpenXmlElement element that was inserted.</returns>
-        <remarks>Returns null if newChild equals null.</remarks>
-        <exception cref="T:System.ArgumentOutOfRangeException">Thrown when index is less than 0 or is greater than the count of children.</exception>
+        <remarks>Returns <c>null</c> if <paramref name="newChild" /> equals <c>null</c>.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">Thrown when <paramref name="index" /> is less than 0 or is greater than the count of children.</exception>
       </Docs>
     </Member>
     <Member MemberName="InsertBefore&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public override T InsertBefore&lt;T&gt; (T newChild, DocumentFormat.OpenXml.OpenXmlElement refChild) where T : DocumentFormat.OpenXml.OpenXmlElement;" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance !!T InsertBefore&lt;(class DocumentFormat.OpenXml.OpenXmlElement) T&gt;(!!T newChild, class DocumentFormat.OpenXml.OpenXmlElement refChild) cil managed" />
+      <MemberSignature Language="C#" Value="public override T InsertBefore&lt;T&gt; (T newChild, DocumentFormat.OpenXml.OpenXmlElement referenceChild) where T : DocumentFormat.OpenXml.OpenXmlElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance !!T InsertBefore&lt;(class DocumentFormat.OpenXml.OpenXmlElement) T&gt;(!!T newChild, class DocumentFormat.OpenXml.OpenXmlElement referenceChild) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.OpenXmlCompositeElement.InsertBefore``1(``0,DocumentFormat.OpenXml.OpenXmlElement)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function InsertBefore(Of T As OpenXmlElement) (newChild As T, refChild As OpenXmlElement) As T" />
-      <MemberSignature Language="F#" Value="override this.InsertBefore : 'T * DocumentFormat.OpenXml.OpenXmlElement -&gt; 'T (requires 'T :&gt; DocumentFormat.OpenXml.OpenXmlElement)" Usage="openXmlCompositeElement.InsertBefore (newChild, refChild)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function InsertBefore(Of T As OpenXmlElement) (newChild As T, referenceChild As OpenXmlElement) As T" />
+      <MemberSignature Language="F#" Value="override this.InsertBefore : 'T * DocumentFormat.OpenXml.OpenXmlElement -&gt; 'T (requires 'T :&gt; DocumentFormat.OpenXml.OpenXmlElement)" Usage="openXmlCompositeElement.InsertBefore (newChild, referenceChild)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -362,17 +405,17 @@
       </TypeParameters>
       <Parameters>
         <Parameter Name="newChild" Type="T" />
-        <Parameter Name="refChild" Type="DocumentFormat.OpenXml.OpenXmlElement" />
+        <Parameter Name="referenceChild" Type="DocumentFormat.OpenXml.OpenXmlElement" />
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
         <param name="newChild">The OpenXmlElement to insert.</param>
-        <param name="refChild">The OpenXmlElement that is in the reference node.</param>
+        <param name="referenceChild">The OpenXmlElement element before which <paramref name="newChild" /> should be added. Must be a child of this element.</param>
         <summary>
             Inserts the specified element immediately before the specified reference element.
             </summary>
         <returns>The OpenXmlElement that was inserted.</returns>
-        <remarks>Returns null if newChild equals null.</remarks>
+        <remarks>Returns <c>null</c> if <paramref name="newChild" /> is null. Inserted as first child if <paramref name="referenceChild" /> is <c>null</c>.</remarks>
       </Docs>
     </Member>
     <Member MemberName="LastChild">
@@ -386,6 +429,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -410,6 +454,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -431,7 +476,7 @@
             Inserts the specified element at the beginning of the current element's list of child nodes.
             </summary>
         <returns>The OpenXmlElement that was added.</returns>
-        <remarks>Returns null if newChild equals null.</remarks>
+        <remarks>Returns <c>null</c> if <paramref name="newChild" /> equals <c>null</c>.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RemoveAllChildren">
@@ -445,6 +490,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -458,16 +504,17 @@
       </Docs>
     </Member>
     <Member MemberName="RemoveChild&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public override T RemoveChild&lt;T&gt; (T oldChild) where T : DocumentFormat.OpenXml.OpenXmlElement;" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance !!T RemoveChild&lt;(class DocumentFormat.OpenXml.OpenXmlElement) T&gt;(!!T oldChild) cil managed" />
+      <MemberSignature Language="C#" Value="public override T RemoveChild&lt;T&gt; (T child) where T : DocumentFormat.OpenXml.OpenXmlElement;" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance !!T RemoveChild&lt;(class DocumentFormat.OpenXml.OpenXmlElement) T&gt;(!!T child) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.OpenXmlCompositeElement.RemoveChild``1(``0)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function RemoveChild(Of T As OpenXmlElement) (oldChild As T) As T" />
-      <MemberSignature Language="F#" Value="override this.RemoveChild : 'T -&gt; 'T (requires 'T :&gt; DocumentFormat.OpenXml.OpenXmlElement)" Usage="openXmlCompositeElement.RemoveChild oldChild" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function RemoveChild(Of T As OpenXmlElement) (child As T) As T" />
+      <MemberSignature Language="F#" Value="override this.RemoveChild : 'T -&gt; 'T (requires 'T :&gt; DocumentFormat.OpenXml.OpenXmlElement)" Usage="openXmlCompositeElement.RemoveChild child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -480,16 +527,16 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="oldChild" Type="T" />
+        <Parameter Name="child" Type="T" />
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="oldChild">The element to remove. </param>
+        <param name="child">The element to remove. Must be a child of this element.</param>
         <summary>
             Removes the specified child element.
             </summary>
         <returns>The element that was removed. </returns>
-        <remarks>Returns null if newChild equals null. </remarks>
+        <remarks>Returns <c>null</c> if <paramref name="child" /> is <c>null</c>.</remarks>
       </Docs>
     </Member>
     <Member MemberName="ReplaceChild&lt;T&gt;">
@@ -503,6 +550,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -521,12 +569,12 @@
       <Docs>
         <typeparam name="T">To be added.</typeparam>
         <param name="newChild">The new OpenXmlElement to put in the child list.</param>
-        <param name="oldChild">The OpenXmlElement to be replaced in the child list.</param>
+        <param name="oldChild">The OpenXmlElement to be replaced in the child list. Must be a child of the current element.</param>
         <summary>
             Replaces one of the current element's child elements with another OpenXmlElement element.
             </summary>
         <returns>The OpenXmlElement that was replaced.</returns>
-        <remarks>Returns null if newChild equals null.</remarks>
+        <remarks>Returns <c>null</c> if <paramref name="newChild" /> equals <c>null</c>.</remarks>
       </Docs>
     </Member>
   </Members>

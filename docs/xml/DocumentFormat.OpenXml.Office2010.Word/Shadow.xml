@@ -1,4 +1,4 @@
-﻿<Type Name="Shadow" FullName="DocumentFormat.OpenXml.Office2010.Word.Shadow">
+<Type Name="Shadow" FullName="DocumentFormat.OpenXml.Office2010.Word.Shadow">
   <TypeSignature Language="C#" Value="public class Shadow : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Shadow extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2010.Word.Shadow" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,27 +16,30 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.RgbColorModelHex), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.SchemeColor), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "shadow")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "shadow")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the Shadow Class.</para>
-      <para>This class is available in Office2010 or above.</para>
-      <para> When the object is serialized out as xml, its qualified name is w14:shadow.</para>
+      <para>This class is available in Office 2010 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w14:shadow.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>RgbColorModelHex &lt;w14:srgbClr&gt;</description></item><item><description>SchemeColor &lt;w14:schemeClr&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>RgbColorModelHex &lt;w14:srgbClr&gt;</description>
+        </item>
+        <item>
+          <description>SchemeColor &lt;w14:schemeClr&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -48,6 +52,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -68,12 +73,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -97,6 +104,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -105,7 +113,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Shadow class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -120,6 +128,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -143,10 +152,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "algn")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "algn")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "algn")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -154,12 +165,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> algn.</para>
-          <para>Represents the following attribute in the schema: w14:algn </para>
+          <para>algn, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:algn</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -174,10 +186,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "blurRad")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "blurRad")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "blurRad")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -185,12 +199,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> blurRad.</para>
-          <para>Represents the following attribute in the schema: w14:blurRad </para>
+          <para>blurRad, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:blurRad</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -205,6 +220,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -219,6 +235,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="DirectionAngle">
@@ -232,10 +249,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "dir")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "dir")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "dir")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -243,12 +262,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> dir.</para>
-          <para>Represents the following attribute in the schema: w14:dir </para>
+          <para>dir, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:dir</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -263,10 +283,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "dist")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "dist")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "dist")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -274,12 +296,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> dist.</para>
-          <para>Represents the following attribute in the schema: w14:dist </para>
+          <para>dist, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:dist</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -294,10 +317,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "sx")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "sx")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "sx")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -305,12 +330,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> sx.</para>
-          <para>Represents the following attribute in the schema: w14:sx </para>
+          <para>sx, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:sx</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -325,10 +351,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "kx")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "kx")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "kx")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -336,36 +364,14 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> kx.</para>
-          <para>Represents the following attribute in the schema: w14:kx </para>
+          <para>kx, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:kx</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2010.Word.Shadow.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office2010.Word.Shadow.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="RgbColorModelHex">
@@ -379,14 +385,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Word.RgbColorModelHex</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> RgbColorModelHex.</para>
-          <para> Represents the following element tag in the schema: w14:srgbClr </para>
+          <para>RgbColorModelHex.</para>
+          <para>Represents the following element tag in the schema: w14:srgbClr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -406,14 +413,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Word.SchemeColor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> SchemeColor.</para>
-          <para> Represents the following element tag in the schema: w14:schemeClr </para>
+          <para>SchemeColor.</para>
+          <para>Represents the following element tag in the schema: w14:schemeClr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -433,10 +441,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "sy")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "sy")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "sy")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -444,12 +454,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> sy.</para>
-          <para>Represents the following attribute in the schema: w14:sy </para>
+          <para>sy, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:sy</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>
@@ -464,10 +475,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(52, "ky")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(52, "ky")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(52, "ky")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -475,12 +488,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ky.</para>
-          <para>Represents the following attribute in the schema: w14:ky </para>
+          <para>ky, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w14:ky</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
+        <remark>
+            xmlns:w14=http://schemas.microsoft.com/office/word/2010/wordml
             </remark>
       </Docs>
     </Member>

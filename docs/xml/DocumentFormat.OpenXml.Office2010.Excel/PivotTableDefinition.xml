@@ -1,4 +1,4 @@
-﻿<Type Name="PivotTableDefinition" FullName="DocumentFormat.OpenXml.Office2010.Excel.PivotTableDefinition">
+<Type Name="PivotTableDefinition" FullName="DocumentFormat.OpenXml.Office2010.Excel.PivotTableDefinition">
   <TypeSignature Language="C#" Value="public class PivotTableDefinition : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PivotTableDefinition extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2010.Excel.PivotTableDefinition" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,30 +16,33 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Excel.PivotEdits), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Excel.PivotChanges), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Excel.ConditionalFormats), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(53, "pivotTableDefinition")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(53, "pivotTableDefinition")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the PivotTableDefinition Class.</para>
-      <para>This class is available in Office2010 or above.</para>
-      <para> When the object is serialized out as xml, its qualified name is x14:pivotTableDefinition.</para>
+      <para>This class is available in Office 2010 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is x14:pivotTableDefinition.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>PivotEdits &lt;x14:pivotEdits&gt;</description></item><item><description>PivotChanges &lt;x14:pivotChanges&gt;</description></item><item><description>ConditionalFormats &lt;x14:conditionalFormats&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>PivotEdits &lt;x14:pivotEdits&gt;</description>
+        </item>
+        <item>
+          <description>PivotChanges &lt;x14:pivotChanges&gt;</description>
+        </item>
+        <item>
+          <description>ConditionalFormats &lt;x14:conditionalFormats&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -51,6 +55,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -71,12 +76,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -100,6 +107,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -108,7 +116,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the PivotTableDefinition class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -123,6 +131,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -146,10 +155,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "allocationMethod")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "allocationMethod")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "allocationMethod")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -157,8 +168,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> allocationMethod.</para>
-          <para>Represents the following attribute in the schema: allocationMethod </para>
+          <para>allocationMethod, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: allocationMethod</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -175,10 +186,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "altText")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "altText")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "altText")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -186,8 +199,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> altText.</para>
-          <para>Represents the following attribute in the schema: altText </para>
+          <para>altText, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: altText</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -204,10 +217,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "altTextSummary")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "altTextSummary")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "altTextSummary")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -215,8 +230,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> altTextSummary.</para>
-          <para>Represents the following attribute in the schema: altTextSummary </para>
+          <para>altTextSummary, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: altTextSummary</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -233,10 +248,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "autoApply")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "autoApply")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "autoApply")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -244,8 +261,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> autoApply.</para>
-          <para>Represents the following attribute in the schema: autoApply </para>
+          <para>autoApply, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: autoApply</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -262,10 +279,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "calculatedMembersInFilters")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "calculatedMembersInFilters")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "calculatedMembersInFilters")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -273,8 +292,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> calculatedMembersInFilters.</para>
-          <para>Represents the following attribute in the schema: calculatedMembersInFilters </para>
+          <para>calculatedMembersInFilters, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: calculatedMembersInFilters</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -291,6 +310,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -305,6 +325,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ConditionalFormats">
@@ -318,14 +339,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Excel.ConditionalFormats</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ConditionalFormats.</para>
-          <para> Represents the following element tag in the schema: x14:conditionalFormats </para>
+          <para>ConditionalFormats.</para>
+          <para>Represents the following element tag in the schema: x14:conditionalFormats.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -345,10 +367,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "enableEdit")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "enableEdit")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "enableEdit")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -356,8 +380,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> enableEdit.</para>
-          <para>Represents the following attribute in the schema: enableEdit </para>
+          <para>enableEdit, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: enableEdit</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -374,10 +398,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "fillDownLabelsDefault")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "fillDownLabelsDefault")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "fillDownLabelsDefault")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -385,8 +411,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> fillDownLabelsDefault.</para>
-          <para>Represents the following attribute in the schema: fillDownLabelsDefault </para>
+          <para>fillDownLabelsDefault, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: fillDownLabelsDefault</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -403,10 +429,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "hideValuesRow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "hideValuesRow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "hideValuesRow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -414,32 +442,9 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> hideValuesRow.</para>
-          <para>Represents the following attribute in the schema: hideValuesRow </para>
+          <para>hideValuesRow, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: hideValuesRow</para>
         </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2010.Excel.PivotTableDefinition.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office2010.Excel.PivotTableDefinition.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -455,14 +460,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Excel.PivotChanges</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> PivotChanges.</para>
-          <para> Represents the following element tag in the schema: x14:pivotChanges </para>
+          <para>PivotChanges.</para>
+          <para>Represents the following element tag in the schema: x14:pivotChanges.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -482,14 +488,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Excel.PivotEdits</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> PivotEdits.</para>
-          <para> Represents the following element tag in the schema: x14:pivotEdits </para>
+          <para>PivotEdits.</para>
+          <para>Represents the following element tag in the schema: x14:pivotEdits.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -509,10 +516,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "visualTotalsForSets")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "visualTotalsForSets")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "visualTotalsForSets")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -520,8 +529,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> visualTotalsForSets.</para>
-          <para>Represents the following attribute in the schema: visualTotalsForSets </para>
+          <para>visualTotalsForSets, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: visualTotalsForSets</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -538,10 +547,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "weightExpression")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "weightExpression")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "weightExpression")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -549,8 +560,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> weightExpression.</para>
-          <para>Represents the following attribute in the schema: weightExpression </para>
+          <para>weightExpression, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: weightExpression</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

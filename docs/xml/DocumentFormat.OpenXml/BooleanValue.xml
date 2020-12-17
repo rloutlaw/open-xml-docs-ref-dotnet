@@ -1,16 +1,17 @@
-﻿<Type Name="BooleanValue" FullName="DocumentFormat.OpenXml.BooleanValue">
-  <TypeSignature Language="C#" Value="public class BooleanValue : DocumentFormat.OpenXml.OpenXmlSimpleValue&lt;bool&gt;" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BooleanValue extends DocumentFormat.OpenXml.OpenXmlSimpleValue`1&lt;bool&gt;" />
+<Type Name="BooleanValue" FullName="DocumentFormat.OpenXml.BooleanValue">
+  <TypeSignature Language="C#" Value="public class BooleanValue : DocumentFormat.OpenXml.OpenXmlComparableSimpleValue&lt;bool&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BooleanValue extends DocumentFormat.OpenXml.OpenXmlComparableSimpleValue`1&lt;bool&gt;" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.BooleanValue" />
-  <TypeSignature Language="VB.NET" Value="Public Class BooleanValue&#xA;Inherits OpenXmlSimpleValue(Of Boolean)" />
-  <TypeSignature Language="F#" Value="type BooleanValue = class&#xA;    inherit OpenXmlSimpleValue&lt;bool&gt;" />
+  <TypeSignature Language="VB.NET" Value="Public Class BooleanValue&#xA;Inherits OpenXmlComparableSimpleValue(Of Boolean)" />
+  <TypeSignature Language="F#" Value="type BooleanValue = class&#xA;    inherit OpenXmlComparableSimpleValue&lt;bool&gt;" />
   <AssemblyInfo>
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>DocumentFormat.OpenXml.OpenXmlSimpleValue&lt;System.Boolean&gt;</BaseTypeName>
+    <BaseTypeName>DocumentFormat.OpenXml.OpenXmlComparableSimpleValue&lt;System.Boolean&gt;</BaseTypeName>
     <BaseTypeArguments>
       <BaseTypeArgument TypeParamName="T">System.Boolean</BaseTypeArgument>
     </BaseTypeArguments>
@@ -18,7 +19,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Diagnostics.DebuggerDisplay("{InnerText}")</AttributeName>
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("{InnerText}")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("{InnerText}")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -38,6 +40,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -58,6 +61,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="source" Type="DocumentFormat.OpenXml.BooleanValue" />
@@ -84,6 +88,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.Boolean" />
@@ -107,6 +112,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.BooleanValue</ReturnType>
@@ -123,28 +129,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="InnerText">
-      <MemberSignature Language="C#" Value="public override string InnerText { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string InnerText" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.BooleanValue.InnerText" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property InnerText As String" />
-      <MemberSignature Language="F#" Value="member this.InnerText : string" Usage="DocumentFormat.OpenXml.BooleanValue.InnerText" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets or sets the inner XML text.</summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
-        <inheritdoc />
-      </Docs>
-    </Member>
     <Member MemberName="op_Implicit">
       <MemberSignature Language="C#" Value="public static implicit operator bool (DocumentFormat.OpenXml.BooleanValue xmlAttribute);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Implicit(class DocumentFormat.OpenXml.BooleanValue xmlAttribute) cil managed" />
@@ -156,6 +140,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -184,6 +169,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.BooleanValue</ReturnType>
@@ -212,6 +198,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

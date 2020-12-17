@@ -1,4 +1,4 @@
-﻿<Type Name="BackstageDropDown" FullName="DocumentFormat.OpenXml.Office2010.CustomUI.BackstageDropDown">
+<Type Name="BackstageDropDown" FullName="DocumentFormat.OpenXml.Office2010.CustomUI.BackstageDropDown">
   <TypeSignature Language="C#" Value="public class BackstageDropDown : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BackstageDropDown extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2010.CustomUI.BackstageDropDown" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,24 +16,27 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.CustomUI.ItemBackstageItem), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(57, "dropDown")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(57, "dropDown")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the BackstageDropDown Class.</para>
-      <para>This class is available in Office2010 or above.</para>
-      <para> When the object is serialized out as xml, its qualified name is mso14:dropDown.</para>
+      <para>This class is available in Office 2010 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is mso14:dropDown.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>ItemBackstageItem &lt;mso14:item&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>ItemBackstageItem &lt;mso14:item&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -45,6 +49,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -65,12 +70,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -94,6 +101,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -102,7 +110,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the BackstageDropDown class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,6 +125,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -140,10 +149,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "alignLabel")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "alignLabel")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "alignLabel")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -151,8 +162,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> alignLabel.</para>
-          <para>Represents the following attribute in the schema: alignLabel </para>
+          <para>alignLabel, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: alignLabel</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -169,6 +180,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -183,6 +195,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Enabled">
@@ -196,10 +209,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "enabled")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "enabled")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "enabled")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -207,8 +222,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> enabled.</para>
-          <para>Represents the following attribute in the schema: enabled </para>
+          <para>enabled, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: enabled</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -225,10 +240,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "expand")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "expand")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "expand")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -236,8 +253,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> expand.</para>
-          <para>Represents the following attribute in the schema: expand </para>
+          <para>expand, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: expand</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -254,10 +271,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "getEnabled")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "getEnabled")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "getEnabled")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -265,8 +284,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> getEnabled.</para>
-          <para>Represents the following attribute in the schema: getEnabled </para>
+          <para>getEnabled, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: getEnabled</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -283,10 +302,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "getItemCount")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "getItemCount")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "getItemCount")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -294,8 +315,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> getItemCount.</para>
-          <para>Represents the following attribute in the schema: getItemCount </para>
+          <para>getItemCount, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: getItemCount</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -312,10 +333,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "getItemID")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "getItemID")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "getItemID")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -323,8 +346,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> getItemID.</para>
-          <para>Represents the following attribute in the schema: getItemID </para>
+          <para>getItemID, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: getItemID</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -341,10 +364,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "getItemLabel")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "getItemLabel")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "getItemLabel")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -352,8 +377,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> getItemLabel.</para>
-          <para>Represents the following attribute in the schema: getItemLabel </para>
+          <para>getItemLabel, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: getItemLabel</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -370,10 +395,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "getKeytip")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "getKeytip")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "getKeytip")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -381,8 +408,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> getKeytip.</para>
-          <para>Represents the following attribute in the schema: getKeytip </para>
+          <para>getKeytip, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: getKeytip</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -399,10 +426,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "getLabel")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "getLabel")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "getLabel")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -410,8 +439,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> getLabel.</para>
-          <para>Represents the following attribute in the schema: getLabel </para>
+          <para>getLabel, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: getLabel</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -428,10 +457,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "getScreentip")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "getScreentip")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "getScreentip")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -439,8 +470,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> getScreentip.</para>
-          <para>Represents the following attribute in the schema: getScreentip </para>
+          <para>getScreentip, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: getScreentip</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -457,10 +488,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "getSelectedItemIndex")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "getSelectedItemIndex")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "getSelectedItemIndex")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -468,8 +501,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> getSelectedItemIndex.</para>
-          <para>Represents the following attribute in the schema: getSelectedItemIndex </para>
+          <para>getSelectedItemIndex, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: getSelectedItemIndex</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -486,10 +519,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "getSupertip")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "getSupertip")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "getSupertip")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -497,8 +532,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> getSupertip.</para>
-          <para>Represents the following attribute in the schema: getSupertip </para>
+          <para>getSupertip, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: getSupertip</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -515,10 +550,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "getVisible")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "getVisible")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "getVisible")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -526,8 +563,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> getVisible.</para>
-          <para>Represents the following attribute in the schema: getVisible </para>
+          <para>getVisible, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: getVisible</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -544,10 +581,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "id")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "id")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "id")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -555,8 +594,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> id.</para>
-          <para>Represents the following attribute in the schema: id </para>
+          <para>id, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: id</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -573,10 +612,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "keytip")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "keytip")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "keytip")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -584,8 +625,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> keytip.</para>
-          <para>Represents the following attribute in the schema: keytip </para>
+          <para>keytip, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: keytip</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -602,10 +643,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "label")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "label")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "label")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -613,32 +656,9 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> label.</para>
-          <para>Represents the following attribute in the schema: label </para>
+          <para>label, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: label</para>
         </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2010.CustomUI.BackstageDropDown.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office2010.CustomUI.BackstageDropDown.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -654,10 +674,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "onAction")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "onAction")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "onAction")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -665,8 +687,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> onAction.</para>
-          <para>Represents the following attribute in the schema: onAction </para>
+          <para>onAction, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: onAction</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -683,10 +705,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "idQ")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "idQ")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "idQ")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -694,8 +718,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> idQ.</para>
-          <para>Represents the following attribute in the schema: idQ </para>
+          <para>idQ, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: idQ</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -712,10 +736,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "screentip")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "screentip")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "screentip")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -723,8 +749,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> screentip.</para>
-          <para>Represents the following attribute in the schema: screentip </para>
+          <para>screentip, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: screentip</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -741,10 +767,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "sizeString")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "sizeString")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "sizeString")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -752,8 +780,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> sizeString.</para>
-          <para>Represents the following attribute in the schema: sizeString </para>
+          <para>sizeString, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: sizeString</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -770,10 +798,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "supertip")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "supertip")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "supertip")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -781,8 +811,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> supertip.</para>
-          <para>Represents the following attribute in the schema: supertip </para>
+          <para>supertip, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: supertip</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -799,10 +829,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "tag")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "tag")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "tag")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -810,8 +842,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> tag.</para>
-          <para>Represents the following attribute in the schema: tag </para>
+          <para>tag, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: tag</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -828,10 +860,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "visible")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "visible")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "visible")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -839,8 +873,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> visible.</para>
-          <para>Represents the following attribute in the schema: visible </para>
+          <para>visible, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: visible</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

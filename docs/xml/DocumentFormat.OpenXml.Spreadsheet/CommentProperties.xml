@@ -1,4 +1,4 @@
-﻿<Type Name="CommentProperties" FullName="DocumentFormat.OpenXml.Spreadsheet.CommentProperties">
+<Type Name="CommentProperties" FullName="DocumentFormat.OpenXml.Spreadsheet.CommentProperties">
   <TypeSignature Language="C#" Value="public class CommentProperties : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CommentProperties extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Spreadsheet.CommentProperties" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,24 +16,27 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.ObjectAnchor), DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(22, "commentPr")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(22, "commentPr")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the CommentProperties Class.</para>
-      <para>This class is only available in Office2010.</para>
-      <para> When the object is serialized out as xml, its qualified name is x:commentPr.</para>
+      <para>This class is available in Office 2010 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is x:commentPr.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>ObjectAnchor &lt;x:anchor&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>ObjectAnchor &lt;x:anchor&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -45,6 +49,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -65,12 +70,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -94,6 +101,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -102,7 +110,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the CommentProperties class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,6 +125,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -140,10 +149,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "altText")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "altText")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "altText")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -151,8 +162,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> altText.</para>
-          <para>Represents the following attribute in the schema: altText </para>
+          <para>altText</para>
+          <para>Represents the following attribute in the schema: altText</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -169,10 +180,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "autoFill")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "autoFill")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "autoFill")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -180,8 +193,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> autoFill.</para>
-          <para>Represents the following attribute in the schema: autoFill </para>
+          <para>autoFill</para>
+          <para>Represents the following attribute in the schema: autoFill</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -198,10 +211,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "autoLine")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "autoLine")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "autoLine")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -209,8 +224,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> autoLine.</para>
-          <para>Represents the following attribute in the schema: autoLine </para>
+          <para>autoLine</para>
+          <para>Represents the following attribute in the schema: autoLine</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -227,10 +242,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "autoScale")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "autoScale")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "autoScale")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -238,8 +255,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> autoScale.</para>
-          <para>Represents the following attribute in the schema: autoScale </para>
+          <para>autoScale</para>
+          <para>Represents the following attribute in the schema: autoScale</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -256,6 +273,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -270,6 +288,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ColHidden">
@@ -283,10 +302,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "colHidden")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "colHidden")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "colHidden")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -294,8 +315,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> colHidden.</para>
-          <para>Represents the following attribute in the schema: colHidden </para>
+          <para>colHidden</para>
+          <para>Represents the following attribute in the schema: colHidden</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -312,10 +333,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "defaultSize")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "defaultSize")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "defaultSize")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -323,8 +346,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> defaultSize.</para>
-          <para>Represents the following attribute in the schema: defaultSize </para>
+          <para>defaultSize</para>
+          <para>Represents the following attribute in the schema: defaultSize</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -341,10 +364,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "disabled")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "disabled")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "disabled")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -352,8 +377,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> disabled.</para>
-          <para>Represents the following attribute in the schema: disabled </para>
+          <para>disabled</para>
+          <para>Represents the following attribute in the schema: disabled</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -370,10 +395,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "justLastX")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "justLastX")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "justLastX")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -381,32 +408,9 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> justLastX.</para>
-          <para>Represents the following attribute in the schema: justLastX </para>
+          <para>justLastX</para>
+          <para>Represents the following attribute in the schema: justLastX</para>
         </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Spreadsheet.CommentProperties.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Spreadsheet.CommentProperties.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -422,10 +426,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "locked")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "locked")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "locked")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -433,8 +439,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> locked.</para>
-          <para>Represents the following attribute in the schema: locked </para>
+          <para>locked</para>
+          <para>Represents the following attribute in the schema: locked</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -451,10 +457,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "lockText")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "lockText")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "lockText")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -462,8 +470,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> lockText.</para>
-          <para>Represents the following attribute in the schema: lockText </para>
+          <para>lockText</para>
+          <para>Represents the following attribute in the schema: lockText</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -480,14 +488,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.ObjectAnchor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ObjectAnchor.</para>
-          <para> Represents the following element tag in the schema: x:anchor </para>
+          <para>ObjectAnchor.</para>
+          <para>Represents the following element tag in the schema: x:anchor.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -507,10 +516,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "print")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "print")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "print")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -518,8 +529,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> print.</para>
-          <para>Represents the following attribute in the schema: print </para>
+          <para>print</para>
+          <para>Represents the following attribute in the schema: print</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -536,10 +547,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "rowHidden")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "rowHidden")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "rowHidden")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -547,8 +560,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> rowHidden.</para>
-          <para>Represents the following attribute in the schema: rowHidden </para>
+          <para>rowHidden</para>
+          <para>Represents the following attribute in the schema: rowHidden</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -565,10 +578,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "textHAlign")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "textHAlign")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "textHAlign")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -576,8 +591,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> textHAlign.</para>
-          <para>Represents the following attribute in the schema: textHAlign </para>
+          <para>textHAlign</para>
+          <para>Represents the following attribute in the schema: textHAlign</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -594,10 +609,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "textVAlign")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "textVAlign")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "textVAlign")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -605,8 +622,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> textVAlign.</para>
-          <para>Represents the following attribute in the schema: textVAlign </para>
+          <para>textVAlign</para>
+          <para>Represents the following attribute in the schema: textVAlign</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -623,10 +640,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "uiObject")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "uiObject")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "uiObject")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -634,8 +653,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> uiObject.</para>
-          <para>Represents the following attribute in the schema: uiObject </para>
+          <para>uiObject</para>
+          <para>Represents the following attribute in the schema: uiObject</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

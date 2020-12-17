@@ -1,4 +1,4 @@
-﻿<Type Name="Properties" FullName="DocumentFormat.OpenXml.ExtendedProperties.Properties">
+<Type Name="Properties" FullName="DocumentFormat.OpenXml.ExtendedProperties.Properties">
   <TypeSignature Language="C#" Value="public class Properties : DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Properties extends DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.ExtendedProperties.Properties" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlPartRootElement</BaseTypeName>
@@ -15,98 +16,105 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.Template))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.Manager))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.Company))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.Pages))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.Words))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.Characters))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.PresentationFormat))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.Lines))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.Paragraphs))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.Slides))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.Notes))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.TotalTime))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.HiddenSlides))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.MultimediaClips))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.ScaleCrop))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.HeadingPairs))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.TitlesOfParts))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.LinksUpToDate))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.CharactersWithSpaces))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.SharedDocument))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.HyperlinkBase))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.HyperlinkList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.HyperlinksChanged))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.DigitalSignature))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.Application))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.ApplicationVersion))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.ExtendedProperties.DocumentSecurity))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(3, "Properties")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(3, "Properties")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
-      <para>Application Specific File Properties. The root element of ExtendedFilePropertiesPart.</para>
-      <para> When the object is serialized out as xml, its qualified name is ap:Properties.</para>
+      <para>Application Specific File Properties.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is ap:Properties.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>Template &lt;ap:Template&gt;</description></item><item><description>Manager &lt;ap:Manager&gt;</description></item><item><description>Company &lt;ap:Company&gt;</description></item><item><description>Pages &lt;ap:Pages&gt;</description></item><item><description>Words &lt;ap:Words&gt;</description></item><item><description>Characters &lt;ap:Characters&gt;</description></item><item><description>PresentationFormat &lt;ap:PresentationFormat&gt;</description></item><item><description>Lines &lt;ap:Lines&gt;</description></item><item><description>Paragraphs &lt;ap:Paragraphs&gt;</description></item><item><description>Slides &lt;ap:Slides&gt;</description></item><item><description>Notes &lt;ap:Notes&gt;</description></item><item><description>TotalTime &lt;ap:TotalTime&gt;</description></item><item><description>HiddenSlides &lt;ap:HiddenSlides&gt;</description></item><item><description>MultimediaClips &lt;ap:MMClips&gt;</description></item><item><description>ScaleCrop &lt;ap:ScaleCrop&gt;</description></item><item><description>HeadingPairs &lt;ap:HeadingPairs&gt;</description></item><item><description>TitlesOfParts &lt;ap:TitlesOfParts&gt;</description></item><item><description>LinksUpToDate &lt;ap:LinksUpToDate&gt;</description></item><item><description>CharactersWithSpaces &lt;ap:CharactersWithSpaces&gt;</description></item><item><description>SharedDocument &lt;ap:SharedDoc&gt;</description></item><item><description>HyperlinkBase &lt;ap:HyperlinkBase&gt;</description></item><item><description>HyperlinkList &lt;ap:HLinks&gt;</description></item><item><description>HyperlinksChanged &lt;ap:HyperlinksChanged&gt;</description></item><item><description>DigitalSignature &lt;ap:DigSig&gt;</description></item><item><description>Application &lt;ap:Application&gt;</description></item><item><description>ApplicationVersion &lt;ap:AppVersion&gt;</description></item><item><description>DocumentSecurity &lt;ap:DocSecurity&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>Template &lt;ap:Template&gt;</description>
+        </item>
+        <item>
+          <description>Manager &lt;ap:Manager&gt;</description>
+        </item>
+        <item>
+          <description>Company &lt;ap:Company&gt;</description>
+        </item>
+        <item>
+          <description>Pages &lt;ap:Pages&gt;</description>
+        </item>
+        <item>
+          <description>Words &lt;ap:Words&gt;</description>
+        </item>
+        <item>
+          <description>Characters &lt;ap:Characters&gt;</description>
+        </item>
+        <item>
+          <description>PresentationFormat &lt;ap:PresentationFormat&gt;</description>
+        </item>
+        <item>
+          <description>Lines &lt;ap:Lines&gt;</description>
+        </item>
+        <item>
+          <description>Paragraphs &lt;ap:Paragraphs&gt;</description>
+        </item>
+        <item>
+          <description>Slides &lt;ap:Slides&gt;</description>
+        </item>
+        <item>
+          <description>Notes &lt;ap:Notes&gt;</description>
+        </item>
+        <item>
+          <description>TotalTime &lt;ap:TotalTime&gt;</description>
+        </item>
+        <item>
+          <description>HiddenSlides &lt;ap:HiddenSlides&gt;</description>
+        </item>
+        <item>
+          <description>MultimediaClips &lt;ap:MMClips&gt;</description>
+        </item>
+        <item>
+          <description>ScaleCrop &lt;ap:ScaleCrop&gt;</description>
+        </item>
+        <item>
+          <description>HeadingPairs &lt;ap:HeadingPairs&gt;</description>
+        </item>
+        <item>
+          <description>TitlesOfParts &lt;ap:TitlesOfParts&gt;</description>
+        </item>
+        <item>
+          <description>LinksUpToDate &lt;ap:LinksUpToDate&gt;</description>
+        </item>
+        <item>
+          <description>CharactersWithSpaces &lt;ap:CharactersWithSpaces&gt;</description>
+        </item>
+        <item>
+          <description>SharedDocument &lt;ap:SharedDoc&gt;</description>
+        </item>
+        <item>
+          <description>HyperlinkBase &lt;ap:HyperlinkBase&gt;</description>
+        </item>
+        <item>
+          <description>HyperlinkList &lt;ap:HLinks&gt;</description>
+        </item>
+        <item>
+          <description>HyperlinksChanged &lt;ap:HyperlinksChanged&gt;</description>
+        </item>
+        <item>
+          <description>DigitalSignature &lt;ap:DigSig&gt;</description>
+        </item>
+        <item>
+          <description>Application &lt;ap:Application&gt;</description>
+        </item>
+        <item>
+          <description>ApplicationVersion &lt;ap:AppVersion&gt;</description>
+        </item>
+        <item>
+          <description>DocumentSecurity &lt;ap:DocSecurity&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -119,6 +127,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -139,12 +148,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -168,6 +179,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -176,7 +188,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Properties class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -191,6 +203,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -214,14 +227,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.Application</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Application Name.</para>
-          <para> Represents the following element tag in the schema: ap:Application </para>
+          <para>Application Name.</para>
+          <para>Represents the following element tag in the schema: ap:Application.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.Application" />.</value>
         <remarks>To be added.</remarks>
@@ -241,14 +255,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.ApplicationVersion</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Application Version.</para>
-          <para> Represents the following element tag in the schema: ap:AppVersion </para>
+          <para>Application Version.</para>
+          <para>Represents the following element tag in the schema: ap:AppVersion.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -268,14 +283,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.Characters</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Total Number of Characters.</para>
-          <para> Represents the following element tag in the schema: ap:Characters </para>
+          <para>Total Number of Characters.</para>
+          <para>Represents the following element tag in the schema: ap:Characters.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.Characters" />.</value>
         <remarks>To be added.</remarks>
@@ -295,14 +311,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.CharactersWithSpaces</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Number of Characters (With Spaces).</para>
-          <para> Represents the following element tag in the schema: ap:CharactersWithSpaces </para>
+          <para>Number of Characters (With Spaces).</para>
+          <para>Represents the following element tag in the schema: ap:CharactersWithSpaces.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.CharactersWithSpaces" />.</value>
         <remarks>To be added.</remarks>
@@ -322,6 +339,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -336,6 +354,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Company">
@@ -349,14 +368,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.Company</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Name of Company.</para>
-          <para> Represents the following element tag in the schema: ap:Company </para>
+          <para>Name of Company.</para>
+          <para>Represents the following element tag in the schema: ap:Company.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.Company" />.</value>
         <remarks>To be added.</remarks>
@@ -376,14 +396,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.DigitalSignature</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Digital Signature.</para>
-          <para> Represents the following element tag in the schema: ap:DigSig </para>
+          <para>Digital Signature.</para>
+          <para>Represents the following element tag in the schema: ap:DigSig.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.DigitalSignature" />.</value>
         <remarks>To be added.</remarks>
@@ -403,14 +424,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.DocumentSecurity</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Document Security.</para>
-          <para> Represents the following element tag in the schema: ap:DocSecurity </para>
+          <para>Document Security.</para>
+          <para>Represents the following element tag in the schema: ap:DocSecurity.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.DocumentSecurity" />.</value>
         <remarks>To be added.</remarks>
@@ -430,6 +452,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ExtendedFilePropertiesPart</ReturnType>
@@ -453,14 +476,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.HeadingPairs</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Heading Pairs.</para>
-          <para> Represents the following element tag in the schema: ap:HeadingPairs </para>
+          <para>Heading Pairs.</para>
+          <para>Represents the following element tag in the schema: ap:HeadingPairs.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.HeadingPairs" />.</value>
         <remarks>To be added.</remarks>
@@ -480,14 +504,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.HiddenSlides</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Number of Hidden Slides.</para>
-          <para> Represents the following element tag in the schema: ap:HiddenSlides </para>
+          <para>Number of Hidden Slides.</para>
+          <para>Represents the following element tag in the schema: ap:HiddenSlides.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.HiddenSlides" />.</value>
         <remarks>To be added.</remarks>
@@ -507,14 +532,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.HyperlinkBase</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Relative Hyperlink Base.</para>
-          <para> Represents the following element tag in the schema: ap:HyperlinkBase </para>
+          <para>Relative Hyperlink Base.</para>
+          <para>Represents the following element tag in the schema: ap:HyperlinkBase.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.HyperlinkBase" />.</value>
         <remarks>To be added.</remarks>
@@ -534,14 +560,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.HyperlinkList</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Hyperlink List.</para>
-          <para> Represents the following element tag in the schema: ap:HLinks </para>
+          <para>Hyperlink List.</para>
+          <para>Represents the following element tag in the schema: ap:HLinks.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.HyperlinkList" />.</value>
         <remarks>To be added.</remarks>
@@ -561,14 +588,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.HyperlinksChanged</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Hyperlinks Changed.</para>
-          <para> Represents the following element tag in the schema: ap:HyperlinksChanged </para>
+          <para>Hyperlinks Changed.</para>
+          <para>Represents the following element tag in the schema: ap:HyperlinksChanged.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.HyperlinksChanged" />.</value>
         <remarks>To be added.</remarks>
@@ -588,14 +616,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.Lines</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Number of Lines.</para>
-          <para> Represents the following element tag in the schema: ap:Lines </para>
+          <para>Number of Lines.</para>
+          <para>Represents the following element tag in the schema: ap:Lines.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.Lines" />.</value>
         <remarks>To be added.</remarks>
@@ -615,14 +644,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.LinksUpToDate</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Links Up-to-Date.</para>
-          <para> Represents the following element tag in the schema: ap:LinksUpToDate </para>
+          <para>Links Up-to-Date.</para>
+          <para>Represents the following element tag in the schema: ap:LinksUpToDate.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.LinksUpToDate" />.</value>
         <remarks>To be added.</remarks>
@@ -642,6 +672,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -652,31 +683,8 @@
       <Docs>
         <param name="openXmlPart">Specifies the part to be loaded.</param>
         <summary>
-            Loads the DOM from the ExtendedFilePropertiesPart.
+            Loads the DOM from the ExtendedFilePropertiesPart
             </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.ExtendedProperties.Properties.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.ExtendedProperties.Properties.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -691,14 +699,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.Manager</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Name of Manager.</para>
-          <para> Represents the following element tag in the schema: ap:Manager </para>
+          <para>Name of Manager.</para>
+          <para>Represents the following element tag in the schema: ap:Manager.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.Manager" />.</value>
         <remarks>To be added.</remarks>
@@ -718,14 +727,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.MultimediaClips</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Total Number of Multimedia Clips.</para>
-          <para> Represents the following element tag in the schema: ap:MMClips </para>
+          <para>Total Number of Multimedia Clips.</para>
+          <para>Represents the following element tag in the schema: ap:MMClips.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.MultimediaClips" />.</value>
         <remarks>To be added.</remarks>
@@ -745,14 +755,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.Notes</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Number of Slides Containing Notes.</para>
-          <para> Represents the following element tag in the schema: ap:Notes </para>
+          <para>Number of Slides Containing Notes.</para>
+          <para>Represents the following element tag in the schema: ap:Notes.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.Notes" />.</value>
         <remarks>To be added.</remarks>
@@ -772,14 +783,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.Pages</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Total Number of Pages.</para>
-          <para> Represents the following element tag in the schema: ap:Pages </para>
+          <para>Total Number of Pages.</para>
+          <para>Represents the following element tag in the schema: ap:Pages.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.Pages" />.</value>
         <remarks>To be added.</remarks>
@@ -799,14 +811,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.Paragraphs</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Total Number of Paragraphs.</para>
-          <para> Represents the following element tag in the schema: ap:Paragraphs </para>
+          <para>Total Number of Paragraphs.</para>
+          <para>Represents the following element tag in the schema: ap:Paragraphs.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.Paragraphs" />.</value>
         <remarks>To be added.</remarks>
@@ -826,14 +839,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.PresentationFormat</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Intended Format of Presentation.</para>
-          <para> Represents the following element tag in the schema: ap:PresentationFormat </para>
+          <para>Intended Format of Presentation.</para>
+          <para>Represents the following element tag in the schema: ap:PresentationFormat.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.PresentationFormat" />.</value>
         <remarks>To be added.</remarks>
@@ -853,6 +867,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -879,14 +894,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.ScaleCrop</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Thumbnail Display Mode.</para>
-          <para> Represents the following element tag in the schema: ap:ScaleCrop </para>
+          <para>Thumbnail Display Mode.</para>
+          <para>Represents the following element tag in the schema: ap:ScaleCrop.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.ScaleCrop" />.</value>
         <remarks>To be added.</remarks>
@@ -906,14 +922,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.SharedDocument</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shared Document.</para>
-          <para> Represents the following element tag in the schema: ap:SharedDoc </para>
+          <para>Shared Document.</para>
+          <para>Represents the following element tag in the schema: ap:SharedDoc.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.SharedDocument" />.</value>
         <remarks>To be added.</remarks>
@@ -933,14 +950,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.Slides</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Slides Metadata Element.</para>
-          <para> Represents the following element tag in the schema: ap:Slides </para>
+          <para>Slides Metadata Element.</para>
+          <para>Represents the following element tag in the schema: ap:Slides.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.Slides" />.</value>
         <remarks>To be added.</remarks>
@@ -960,14 +978,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.Template</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Name of Document Template.</para>
-          <para> Represents the following element tag in the schema: ap:Template </para>
+          <para>Name of Document Template.</para>
+          <para>Represents the following element tag in the schema: ap:Template.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.Template" />.</value>
         <remarks>To be added.</remarks>
@@ -987,14 +1006,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.TitlesOfParts</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Part Titles.</para>
-          <para> Represents the following element tag in the schema: ap:TitlesOfParts </para>
+          <para>Part Titles.</para>
+          <para>Represents the following element tag in the schema: ap:TitlesOfParts.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.TitlesOfParts" />.</value>
         <remarks>To be added.</remarks>
@@ -1014,14 +1034,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.TotalTime</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Total Edit Time Metadata Element.</para>
-          <para> Represents the following element tag in the schema: ap:TotalTime </para>
+          <para>Total Edit Time Metadata Element.</para>
+          <para>Represents the following element tag in the schema: ap:TotalTime.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.TotalTime" />.</value>
         <remarks>To be added.</remarks>
@@ -1041,14 +1062,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.ExtendedProperties.Words</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Word Count.</para>
-          <para> Represents the following element tag in the schema: ap:Words </para>
+          <para>Word Count.</para>
+          <para>Represents the following element tag in the schema: ap:Words.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ExtendedProperties.Words" />.</value>
         <remarks>To be added.</remarks>

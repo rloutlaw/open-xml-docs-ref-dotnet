@@ -1,4 +1,4 @@
-﻿<Type Name="Chartsheet" FullName="DocumentFormat.OpenXml.Spreadsheet.Chartsheet">
+<Type Name="Chartsheet" FullName="DocumentFormat.OpenXml.Spreadsheet.Chartsheet">
   <TypeSignature Language="C#" Value="public class Chartsheet : DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Chartsheet extends DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Spreadsheet.Chartsheet" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlPartRootElement</BaseTypeName>
@@ -15,59 +16,66 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.ChartSheetProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.ChartSheetViews))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.ChartSheetProtection))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.CustomChartsheetViews))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.PageMargins))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.ChartSheetPageSetup))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.HeaderFooter))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Drawing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.LegacyDrawing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.LegacyDrawingHeaderFooter))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.DrawingHeaderFooter), DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Picture))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.WebPublishItems))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.ExtensionList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(22, "chartsheet")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(22, "chartsheet")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
-      <para>Chart Sheet. The root element of ChartsheetPart.</para>
-      <para> When the object is serialized out as xml, its qualified name is x:chartsheet.</para>
+      <para>Chart Sheet.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is x:chartsheet.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>ChartSheetProperties &lt;x:sheetPr&gt;</description></item><item><description>ChartSheetViews &lt;x:sheetViews&gt;</description></item><item><description>ChartSheetProtection &lt;x:sheetProtection&gt;</description></item><item><description>CustomChartsheetViews &lt;x:customSheetViews&gt;</description></item><item><description>PageMargins &lt;x:pageMargins&gt;</description></item><item><description>ChartSheetPageSetup &lt;x:pageSetup&gt;</description></item><item><description>HeaderFooter &lt;x:headerFooter&gt;</description></item><item><description>Drawing &lt;x:drawing&gt;</description></item><item><description>LegacyDrawing &lt;x:legacyDrawing&gt;</description></item><item><description>LegacyDrawingHeaderFooter &lt;x:legacyDrawingHF&gt;</description></item><item><description>DrawingHeaderFooter &lt;x:drawingHF&gt;</description></item><item><description>Picture &lt;x:picture&gt;</description></item><item><description>WebPublishItems &lt;x:webPublishItems&gt;</description></item><item><description>ExtensionList &lt;x:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>ChartSheetProperties &lt;x:sheetPr&gt;</description>
+        </item>
+        <item>
+          <description>ChartSheetViews &lt;x:sheetViews&gt;</description>
+        </item>
+        <item>
+          <description>ChartSheetProtection &lt;x:sheetProtection&gt;</description>
+        </item>
+        <item>
+          <description>CustomChartsheetViews &lt;x:customSheetViews&gt;</description>
+        </item>
+        <item>
+          <description>PageMargins &lt;x:pageMargins&gt;</description>
+        </item>
+        <item>
+          <description>ChartSheetPageSetup &lt;x:pageSetup&gt;</description>
+        </item>
+        <item>
+          <description>HeaderFooter &lt;x:headerFooter&gt;</description>
+        </item>
+        <item>
+          <description>Drawing &lt;x:drawing&gt;</description>
+        </item>
+        <item>
+          <description>LegacyDrawing &lt;x:legacyDrawing&gt;</description>
+        </item>
+        <item>
+          <description>LegacyDrawingHeaderFooter &lt;x:legacyDrawingHF&gt;</description>
+        </item>
+        <item>
+          <description>DrawingHeaderFooter &lt;x:drawingHF&gt;</description>
+        </item>
+        <item>
+          <description>Picture &lt;x:picture&gt;</description>
+        </item>
+        <item>
+          <description>WebPublishItems &lt;x:webPublishItems&gt;</description>
+        </item>
+        <item>
+          <description>ExtensionList &lt;x:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -80,6 +88,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -100,12 +109,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -129,6 +140,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -137,7 +149,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Chartsheet class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -152,6 +164,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -175,14 +188,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.ChartSheetPageSetup</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ChartSheetPageSetup.</para>
-          <para> Represents the following element tag in the schema: x:pageSetup </para>
+          <para>ChartSheetPageSetup.</para>
+          <para>Represents the following element tag in the schema: x:pageSetup.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.ChartSheetPageSetup" />.</value>
         <remarks>To be added.</remarks>
@@ -202,6 +216,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ChartsheetPart</ReturnType>
@@ -225,14 +240,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.ChartSheetProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Chart Sheet Properties.</para>
-          <para> Represents the following element tag in the schema: x:sheetPr </para>
+          <para>Chart Sheet Properties.</para>
+          <para>Represents the following element tag in the schema: x:sheetPr.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.ChartSheetProperties" />.</value>
         <remarks>To be added.</remarks>
@@ -252,14 +268,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.ChartSheetProtection</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Chart Sheet Protection.</para>
-          <para> Represents the following element tag in the schema: x:sheetProtection </para>
+          <para>Chart Sheet Protection.</para>
+          <para>Represents the following element tag in the schema: x:sheetProtection.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.ChartSheetProtection" />.</value>
         <remarks>To be added.</remarks>
@@ -279,14 +296,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.ChartSheetViews</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Chart Sheet Views.</para>
-          <para> Represents the following element tag in the schema: x:sheetViews </para>
+          <para>Chart Sheet Views.</para>
+          <para>Represents the following element tag in the schema: x:sheetViews.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.ChartSheetViews" />.</value>
         <remarks>To be added.</remarks>
@@ -306,6 +324,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -320,6 +339,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="CustomChartsheetViews">
@@ -333,14 +353,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.CustomChartsheetViews</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Custom Chart Sheet Views.</para>
-          <para> Represents the following element tag in the schema: x:customSheetViews </para>
+          <para>Custom Chart Sheet Views.</para>
+          <para>Represents the following element tag in the schema: x:customSheetViews.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.CustomChartsheetViews" />.</value>
         <remarks>To be added.</remarks>
@@ -360,14 +381,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.Drawing</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Drawing.</para>
-          <para> Represents the following element tag in the schema: x:drawing </para>
+          <para>Drawing.</para>
+          <para>Represents the following element tag in the schema: x:drawing.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.Drawing" />.</value>
         <remarks>To be added.</remarks>
@@ -387,19 +409,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.DrawingHeaderFooter</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> DrawingHeaderFooter, this property is only available in Office2010.</para>
-          <para> Represents the following element tag in the schema: x:drawingHF </para>
+          <para>DrawingHeaderFooter.</para>
+          <para>Represents the following element tag in the schema: x:drawingHF.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -419,14 +437,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.ExtensionList</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ExtensionList.</para>
-          <para> Represents the following element tag in the schema: x:extLst </para>
+          <para>ExtensionList.</para>
+          <para>Represents the following element tag in the schema: x:extLst.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.ExtensionList" />.</value>
         <remarks>To be added.</remarks>
@@ -446,14 +465,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.HeaderFooter</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> HeaderFooter.</para>
-          <para> Represents the following element tag in the schema: x:headerFooter </para>
+          <para>HeaderFooter.</para>
+          <para>Represents the following element tag in the schema: x:headerFooter.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.HeaderFooter" />.</value>
         <remarks>To be added.</remarks>
@@ -473,14 +493,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.LegacyDrawing</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> LegacyDrawing.</para>
-          <para> Represents the following element tag in the schema: x:legacyDrawing </para>
+          <para>LegacyDrawing.</para>
+          <para>Represents the following element tag in the schema: x:legacyDrawing.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.LegacyDrawing" />.</value>
         <remarks>To be added.</remarks>
@@ -500,14 +521,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.LegacyDrawingHeaderFooter</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Legacy Drawing Reference in  Header Footer.</para>
-          <para> Represents the following element tag in the schema: x:legacyDrawingHF </para>
+          <para>Legacy Drawing Reference in  Header Footer.</para>
+          <para>Represents the following element tag in the schema: x:legacyDrawingHF.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.LegacyDrawingHeaderFooter" />.</value>
         <remarks>To be added.</remarks>
@@ -527,6 +549,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -537,31 +560,8 @@
       <Docs>
         <param name="openXmlPart">Specifies the part to be loaded.</param>
         <summary>
-            Loads the DOM from the ChartsheetPart.
+            Loads the DOM from the ChartsheetPart
             </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Spreadsheet.Chartsheet.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Spreadsheet.Chartsheet.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -576,14 +576,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.PageMargins</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> PageMargins.</para>
-          <para> Represents the following element tag in the schema: x:pageMargins </para>
+          <para>PageMargins.</para>
+          <para>Represents the following element tag in the schema: x:pageMargins.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.PageMargins" />.</value>
         <remarks>To be added.</remarks>
@@ -603,14 +604,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.Picture</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Picture.</para>
-          <para> Represents the following element tag in the schema: x:picture </para>
+          <para>Picture.</para>
+          <para>Represents the following element tag in the schema: x:picture.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.Picture" />.</value>
         <remarks>To be added.</remarks>
@@ -630,6 +632,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -656,14 +659,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.WebPublishItems</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> WebPublishItems.</para>
-          <para> Represents the following element tag in the schema: x:webPublishItems </para>
+          <para>WebPublishItems.</para>
+          <para>Represents the following element tag in the schema: x:webPublishItems.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.WebPublishItems" />.</value>
         <remarks>To be added.</remarks>

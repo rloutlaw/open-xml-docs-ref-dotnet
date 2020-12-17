@@ -1,4 +1,4 @@
-﻿<Type Name="SortCondition" FullName="DocumentFormat.OpenXml.Office2010.Excel.SortCondition">
+<Type Name="SortCondition" FullName="DocumentFormat.OpenXml.Office2010.Excel.SortCondition">
   <TypeSignature Language="C#" Value="public class SortCondition : DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SortCondition extends DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2010.Excel.SortCondition" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafElement</BaseTypeName>
@@ -15,17 +16,15 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(53, "sortCondition")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(53, "sortCondition")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the SortCondition Class.</para>
-      <para>This class is available in Office2010 or above.</para>
-      <para> When the object is serialized out as xml, its qualified name is x14:sortCondition.</para>
+      <para>This class is available in Office 2010 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is x14:sortCondition.</para>
     </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
@@ -109,6 +108,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -129,6 +129,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -143,6 +144,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="CustomList">
@@ -156,10 +158,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "customList")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "customList")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "customList")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -167,8 +171,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> customList.</para>
-          <para>Represents the following attribute in the schema: customList </para>
+          <para>customList, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: customList</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -185,10 +189,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "descending")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "descending")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "descending")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -196,8 +202,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> descending.</para>
-          <para>Represents the following attribute in the schema: descending </para>
+          <para>descending, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: descending</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -214,10 +220,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "dxfId")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "dxfId")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "dxfId")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -225,8 +233,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> dxfId.</para>
-          <para>Represents the following attribute in the schema: dxfId </para>
+          <para>dxfId, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: dxfId</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -243,10 +251,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "iconId")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "iconId")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "iconId")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -254,8 +264,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> iconId.</para>
-          <para>Represents the following attribute in the schema: iconId </para>
+          <para>iconId, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: iconId</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -272,10 +282,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "iconSet")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "iconSet")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "iconSet")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -283,32 +295,9 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> iconSet.</para>
-          <para>Represents the following attribute in the schema: iconSet </para>
+          <para>iconSet, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: iconSet</para>
         </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2010.Excel.SortCondition.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office2010.Excel.SortCondition.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -324,10 +313,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "ref")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "ref")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "ref")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -335,8 +326,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ref.</para>
-          <para>Represents the following attribute in the schema: ref </para>
+          <para>ref, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: ref</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -353,10 +344,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "sortBy")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "sortBy")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "sortBy")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -364,8 +357,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> sortBy.</para>
-          <para>Represents the following attribute in the schema: sortBy </para>
+          <para>sortBy, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: sortBy</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

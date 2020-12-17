@@ -1,4 +1,4 @@
-﻿<Type Name="CategoryFilterException" FullName="DocumentFormat.OpenXml.Office2013.Drawing.Chart.CategoryFilterException">
+<Type Name="CategoryFilterException" FullName="DocumentFormat.OpenXml.Office2013.Drawing.Chart.CategoryFilterException">
   <TypeSignature Language="C#" Value="public class CategoryFilterException : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CategoryFilterException extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2013.Drawing.Chart.CategoryFilterException" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,42 +16,45 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2013.Drawing.Chart.SequenceOfReferences), DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2013.Drawing.Chart.ShapeProperties), DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2013.Drawing.Chart.Explosion), DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2013.Drawing.Chart.InvertIfNegativeBoolean), DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2013.Drawing.Chart.Bubble3D), DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2013.Drawing.Chart.Marker), DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2013.Drawing.Chart.DataLabel), DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(64, "categoryFilterException")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(64, "categoryFilterException")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the CategoryFilterException Class.</para>
-      <para>This class is only available in Office2013.</para>
-      <para> When the object is serialized out as xml, its qualified name is c15:categoryFilterException.</para>
+      <para>This class is available in Office 2013 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is c15:categoryFilterException.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>SequenceOfReferences &lt;c15:sqref&gt;</description></item><item><description>ShapeProperties &lt;c15:spPr&gt;</description></item><item><description>Explosion &lt;c15:explosion&gt;</description></item><item><description>InvertIfNegativeBoolean &lt;c15:invertIfNegative&gt;</description></item><item><description>Bubble3D &lt;c15:bubble3D&gt;</description></item><item><description>Marker &lt;c15:marker&gt;</description></item><item><description>DataLabel &lt;c15:dLbl&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>SequenceOfReferences &lt;c15:sqref&gt;</description>
+        </item>
+        <item>
+          <description>ShapeProperties &lt;c15:spPr&gt;</description>
+        </item>
+        <item>
+          <description>Explosion &lt;c15:explosion&gt;</description>
+        </item>
+        <item>
+          <description>InvertIfNegativeBoolean &lt;c15:invertIfNegative&gt;</description>
+        </item>
+        <item>
+          <description>Bubble3D &lt;c15:bubble3D&gt;</description>
+        </item>
+        <item>
+          <description>Marker &lt;c15:marker&gt;</description>
+        </item>
+        <item>
+          <description>DataLabel &lt;c15:dLbl&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -63,6 +67,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -83,12 +88,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -112,6 +119,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -120,7 +128,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the CategoryFilterException class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -135,6 +143,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -158,14 +167,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2013.Drawing.Chart.Bubble3D</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Bubble3D.</para>
-          <para> Represents the following element tag in the schema: c15:bubble3D </para>
+          <para>Bubble3D.</para>
+          <para>Represents the following element tag in the schema: c15:bubble3D.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -185,6 +195,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -199,6 +210,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="DataLabel">
@@ -212,14 +224,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2013.Drawing.Chart.DataLabel</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> DataLabel.</para>
-          <para> Represents the following element tag in the schema: c15:dLbl </para>
+          <para>DataLabel.</para>
+          <para>Represents the following element tag in the schema: c15:dLbl.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -239,14 +252,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2013.Drawing.Chart.Explosion</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Explosion.</para>
-          <para> Represents the following element tag in the schema: c15:explosion </para>
+          <para>Explosion.</para>
+          <para>Represents the following element tag in the schema: c15:explosion.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -266,43 +280,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2013.Drawing.Chart.InvertIfNegativeBoolean</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> InvertIfNegativeBoolean.</para>
-          <para> Represents the following element tag in the schema: c15:invertIfNegative </para>
+          <para>InvertIfNegativeBoolean.</para>
+          <para>Represents the following element tag in the schema: c15:invertIfNegative.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:c15 = http://schemas.microsoft.com/office/drawing/2012/chart
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2013.Drawing.Chart.CategoryFilterException.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office2013.Drawing.Chart.CategoryFilterException.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Marker">
@@ -316,14 +308,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2013.Drawing.Chart.Marker</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Marker.</para>
-          <para> Represents the following element tag in the schema: c15:marker </para>
+          <para>Marker.</para>
+          <para>Represents the following element tag in the schema: c15:marker.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -343,14 +336,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2013.Drawing.Chart.SequenceOfReferences</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> SequenceOfReferences.</para>
-          <para> Represents the following element tag in the schema: c15:sqref </para>
+          <para>SequenceOfReferences.</para>
+          <para>Represents the following element tag in the schema: c15:sqref.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -370,14 +364,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2013.Drawing.Chart.ShapeProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ShapeProperties.</para>
-          <para> Represents the following element tag in the schema: c15:spPr </para>
+          <para>ShapeProperties.</para>
+          <para>Represents the following element tag in the schema: c15:spPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

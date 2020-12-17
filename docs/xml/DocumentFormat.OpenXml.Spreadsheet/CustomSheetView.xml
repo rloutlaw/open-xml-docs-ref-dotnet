@@ -1,4 +1,4 @@
-﻿<Type Name="CustomSheetView" FullName="DocumentFormat.OpenXml.Spreadsheet.CustomSheetView">
+<Type Name="CustomSheetView" FullName="DocumentFormat.OpenXml.Spreadsheet.CustomSheetView">
   <TypeSignature Language="C#" Value="public class CustomSheetView : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CustomSheetView extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Spreadsheet.CustomSheetView" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,47 +16,54 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Pane))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Selection))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.RowBreaks))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.ColumnBreaks))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.PageMargins))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.PrintOptions))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.PageSetup))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.HeaderFooter))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.AutoFilter))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.ExtensionList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(22, "customSheetView")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(22, "customSheetView")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Custom Sheet View.</para>
-      <para> When the object is serialized out as xml, its qualified name is x:customSheetView.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is x:customSheetView.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>Pane &lt;x:pane&gt;</description></item><item><description>Selection &lt;x:selection&gt;</description></item><item><description>RowBreaks &lt;x:rowBreaks&gt;</description></item><item><description>ColumnBreaks &lt;x:colBreaks&gt;</description></item><item><description>PageMargins &lt;x:pageMargins&gt;</description></item><item><description>PrintOptions &lt;x:printOptions&gt;</description></item><item><description>PageSetup &lt;x:pageSetup&gt;</description></item><item><description>HeaderFooter &lt;x:headerFooter&gt;</description></item><item><description>AutoFilter &lt;x:autoFilter&gt;</description></item><item><description>ExtensionList &lt;x:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>Pane &lt;x:pane&gt;</description>
+        </item>
+        <item>
+          <description>Selection &lt;x:selection&gt;</description>
+        </item>
+        <item>
+          <description>RowBreaks &lt;x:rowBreaks&gt;</description>
+        </item>
+        <item>
+          <description>ColumnBreaks &lt;x:colBreaks&gt;</description>
+        </item>
+        <item>
+          <description>PageMargins &lt;x:pageMargins&gt;</description>
+        </item>
+        <item>
+          <description>PrintOptions &lt;x:printOptions&gt;</description>
+        </item>
+        <item>
+          <description>PageSetup &lt;x:pageSetup&gt;</description>
+        </item>
+        <item>
+          <description>HeaderFooter &lt;x:headerFooter&gt;</description>
+        </item>
+        <item>
+          <description>AutoFilter &lt;x:autoFilter&gt;</description>
+        </item>
+        <item>
+          <description>ExtensionList &lt;x:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -68,6 +76,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -88,12 +97,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -117,6 +128,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -125,7 +137,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the CustomSheetView class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -140,6 +152,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -163,14 +176,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.AutoFilter</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> AutoFilter Settings.</para>
-          <para> Represents the following element tag in the schema: x:autoFilter </para>
+          <para>AutoFilter Settings.</para>
+          <para>Represents the following element tag in the schema: x:autoFilter.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.AutoFilter" />.</value>
         <remarks>To be added.</remarks>
@@ -190,6 +204,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -204,6 +219,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ColorId">
@@ -217,10 +233,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "colorId")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "colorId")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "colorId")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -228,8 +246,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Color Id.</para>
-          <para>Represents the following attribute in the schema: colorId </para>
+          <para>Color Id</para>
+          <para>Represents the following attribute in the schema: colorId</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.UInt32Value" />.</value>
         <remarks>To be added.</remarks>
@@ -246,14 +264,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.ColumnBreaks</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Vertical Page Breaks.</para>
-          <para> Represents the following element tag in the schema: x:colBreaks </para>
+          <para>Vertical Page Breaks.</para>
+          <para>Represents the following element tag in the schema: x:colBreaks.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.ColumnBreaks" />.</value>
         <remarks>To be added.</remarks>
@@ -273,14 +292,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.ExtensionList</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ExtensionList.</para>
-          <para> Represents the following element tag in the schema: x:extLst </para>
+          <para>ExtensionList.</para>
+          <para>Represents the following element tag in the schema: x:extLst.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.ExtensionList" />.</value>
         <remarks>To be added.</remarks>
@@ -300,10 +320,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "filter")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "filter")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "filter")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -311,8 +333,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Filtered List.</para>
-          <para>Represents the following attribute in the schema: filter </para>
+          <para>Filtered List</para>
+          <para>Represents the following attribute in the schema: filter</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -329,10 +351,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "filterUnique")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "filterUnique")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "filterUnique")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -340,8 +364,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Filter.</para>
-          <para>Represents the following attribute in the schema: filterUnique </para>
+          <para>Filter</para>
+          <para>Represents the following attribute in the schema: filterUnique</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -358,10 +382,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "fitToPage")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "fitToPage")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "fitToPage")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -369,8 +395,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Fit To Page.</para>
-          <para>Represents the following attribute in the schema: fitToPage </para>
+          <para>Fit To Page</para>
+          <para>Represents the following attribute in the schema: fitToPage</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -387,10 +413,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "guid")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "guid")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "guid")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -398,8 +426,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> GUID.</para>
-          <para>Represents the following attribute in the schema: guid </para>
+          <para>GUID</para>
+          <para>Represents the following attribute in the schema: guid</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -416,14 +444,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.HeaderFooter</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Header Footer Settings.</para>
-          <para> Represents the following element tag in the schema: x:headerFooter </para>
+          <para>Header Footer Settings.</para>
+          <para>Represents the following element tag in the schema: x:headerFooter.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.HeaderFooter" />.</value>
         <remarks>To be added.</remarks>
@@ -443,10 +472,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "hiddenColumns")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "hiddenColumns")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "hiddenColumns")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -454,8 +485,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Hidden Columns.</para>
-          <para>Represents the following attribute in the schema: hiddenColumns </para>
+          <para>Hidden Columns</para>
+          <para>Represents the following attribute in the schema: hiddenColumns</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -472,10 +503,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "hiddenRows")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "hiddenRows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "hiddenRows")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -483,33 +516,10 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Hidden Rows.</para>
-          <para>Represents the following attribute in the schema: hiddenRows </para>
+          <para>Hidden Rows</para>
+          <para>Represents the following attribute in the schema: hiddenRows</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Spreadsheet.CustomSheetView.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Spreadsheet.CustomSheetView.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -524,10 +534,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "outlineSymbols")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "outlineSymbols")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "outlineSymbols")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -535,8 +547,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Show Outline Symbols.</para>
-          <para>Represents the following attribute in the schema: outlineSymbols </para>
+          <para>Show Outline Symbols</para>
+          <para>Represents the following attribute in the schema: outlineSymbols</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -553,14 +565,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.PageMargins</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Page Margins.</para>
-          <para> Represents the following element tag in the schema: x:pageMargins </para>
+          <para>Page Margins.</para>
+          <para>Represents the following element tag in the schema: x:pageMargins.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.PageMargins" />.</value>
         <remarks>To be added.</remarks>
@@ -580,14 +593,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.PageSetup</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Page Setup Settings.</para>
-          <para> Represents the following element tag in the schema: x:pageSetup </para>
+          <para>Page Setup Settings.</para>
+          <para>Represents the following element tag in the schema: x:pageSetup.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.PageSetup" />.</value>
         <remarks>To be added.</remarks>
@@ -607,14 +621,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.Pane</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Pane Split Information.</para>
-          <para> Represents the following element tag in the schema: x:pane </para>
+          <para>Pane Split Information.</para>
+          <para>Represents the following element tag in the schema: x:pane.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.Pane" />.</value>
         <remarks>To be added.</remarks>
@@ -634,10 +649,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "printArea")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "printArea")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "printArea")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -645,8 +662,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Print Area Defined.</para>
-          <para>Represents the following attribute in the schema: printArea </para>
+          <para>Print Area Defined</para>
+          <para>Represents the following attribute in the schema: printArea</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -663,14 +680,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.PrintOptions</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Print Options.</para>
-          <para> Represents the following element tag in the schema: x:printOptions </para>
+          <para>Print Options.</para>
+          <para>Represents the following element tag in the schema: x:printOptions.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.PrintOptions" />.</value>
         <remarks>To be added.</remarks>
@@ -690,14 +708,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.RowBreaks</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Horizontal Page Breaks.</para>
-          <para> Represents the following element tag in the schema: x:rowBreaks </para>
+          <para>Horizontal Page Breaks.</para>
+          <para>Represents the following element tag in the schema: x:rowBreaks.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.RowBreaks" />.</value>
         <remarks>To be added.</remarks>
@@ -717,10 +736,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "scale")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "scale")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "scale")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -728,8 +749,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Print Scale.</para>
-          <para>Represents the following attribute in the schema: scale </para>
+          <para>Print Scale</para>
+          <para>Represents the following attribute in the schema: scale</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.UInt32Value" />.</value>
         <remarks>To be added.</remarks>
@@ -746,14 +767,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.Selection</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Selection.</para>
-          <para> Represents the following element tag in the schema: x:selection </para>
+          <para>Selection.</para>
+          <para>Represents the following element tag in the schema: x:selection.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.Selection" />.</value>
         <remarks>To be added.</remarks>
@@ -773,10 +795,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "showAutoFilter")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "showAutoFilter")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "showAutoFilter")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -784,8 +808,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Show AutoFitler Drop Down Controls.</para>
-          <para>Represents the following attribute in the schema: showAutoFilter </para>
+          <para>Show AutoFitler Drop Down Controls</para>
+          <para>Represents the following attribute in the schema: showAutoFilter</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -802,10 +826,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "showFormulas")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "showFormulas")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "showFormulas")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -813,8 +839,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Show Formulas.</para>
-          <para>Represents the following attribute in the schema: showFormulas </para>
+          <para>Show Formulas</para>
+          <para>Represents the following attribute in the schema: showFormulas</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -831,10 +857,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "showGridLines")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "showGridLines")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "showGridLines")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -842,8 +870,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Show Grid Lines.</para>
-          <para>Represents the following attribute in the schema: showGridLines </para>
+          <para>Show Grid Lines</para>
+          <para>Represents the following attribute in the schema: showGridLines</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -860,10 +888,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "showPageBreaks")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "showPageBreaks")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "showPageBreaks")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -871,8 +901,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Show Page Breaks.</para>
-          <para>Represents the following attribute in the schema: showPageBreaks </para>
+          <para>Show Page Breaks</para>
+          <para>Represents the following attribute in the schema: showPageBreaks</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -889,10 +919,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "showRowCol")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "showRowCol")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "showRowCol")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -900,8 +932,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Show Headers.</para>
-          <para>Represents the following attribute in the schema: showRowCol </para>
+          <para>Show Headers</para>
+          <para>Represents the following attribute in the schema: showRowCol</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -918,10 +950,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "showRuler")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "showRuler")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "showRuler")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -929,8 +963,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Show Ruler.</para>
-          <para>Represents the following attribute in the schema: showRuler </para>
+          <para>Show Ruler</para>
+          <para>Represents the following attribute in the schema: showRuler</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -947,10 +981,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "state")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "state")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "state")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -958,8 +994,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Visible State.</para>
-          <para>Represents the following attribute in the schema: state </para>
+          <para>Visible State</para>
+          <para>Represents the following attribute in the schema: state</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
@@ -976,10 +1012,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "topLeftCell")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "topLeftCell")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "topLeftCell")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -987,8 +1025,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Top Left Visible Cell.</para>
-          <para>Represents the following attribute in the schema: topLeftCell </para>
+          <para>Top Left Visible Cell</para>
+          <para>Represents the following attribute in the schema: topLeftCell</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -1005,10 +1043,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "view")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "view")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "view")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1016,8 +1056,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> View Type.</para>
-          <para>Represents the following attribute in the schema: view </para>
+          <para>View Type</para>
+          <para>Represents the following attribute in the schema: view</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
@@ -1034,10 +1074,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "zeroValues")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "zeroValues")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "zeroValues")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1045,8 +1087,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Show Zero Values.</para>
-          <para>Represents the following attribute in the schema: zeroValues </para>
+          <para>Show Zero Values</para>
+          <para>Represents the following attribute in the schema: zeroValues</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>

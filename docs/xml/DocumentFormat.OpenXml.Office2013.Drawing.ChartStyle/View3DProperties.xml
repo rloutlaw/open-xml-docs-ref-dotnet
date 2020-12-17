@@ -1,4 +1,4 @@
-﻿<Type Name="View3DProperties" FullName="DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.View3DProperties">
+<Type Name="View3DProperties" FullName="DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.View3DProperties">
   <TypeSignature Language="C#" Value="public class View3DProperties : DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit View3DProperties extends DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.View3DProperties" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafElement</BaseTypeName>
@@ -15,17 +16,15 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(65, "view3D")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(65, "view3D")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the View3DProperties Class.</para>
-      <para>This class is only available in Office2013.</para>
-      <para> When the object is serialized out as xml, its qualified name is cs:view3D.</para>
+      <para>This class is available in Office 2013 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is cs:view3D.</para>
     </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -40,6 +39,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -60,6 +60,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -74,6 +75,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="DepthPercent">
@@ -87,10 +89,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "depthPercent")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "depthPercent")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "depthPercent")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -98,8 +102,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> depthPercent.</para>
-          <para>Represents the following attribute in the schema: depthPercent </para>
+          <para>depthPercent, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: depthPercent</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -116,10 +120,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "heightPercent")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "heightPercent")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "heightPercent")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -127,32 +133,9 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> heightPercent.</para>
-          <para>Represents the following attribute in the schema: heightPercent </para>
+          <para>heightPercent, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: heightPercent</para>
         </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.View3DProperties.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.View3DProperties.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -168,10 +151,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "perspective")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "perspective")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "perspective")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -179,8 +164,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> perspective.</para>
-          <para>Represents the following attribute in the schema: perspective </para>
+          <para>perspective, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: perspective</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -197,10 +182,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "rAngAx")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "rAngAx")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "rAngAx")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -208,8 +195,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> rAngAx.</para>
-          <para>Represents the following attribute in the schema: rAngAx </para>
+          <para>rAngAx, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: rAngAx</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -226,10 +213,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "rotX")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "rotX")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "rotX")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -237,8 +226,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> rotX.</para>
-          <para>Represents the following attribute in the schema: rotX </para>
+          <para>rotX, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: rotX</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -255,10 +244,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "rotY")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "rotY")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "rotY")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -266,8 +257,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> rotY.</para>
-          <para>Represents the following attribute in the schema: rotY </para>
+          <para>rotY, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: rotY</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

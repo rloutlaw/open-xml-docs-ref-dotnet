@@ -1,4 +1,4 @@
-﻿<Type Name="DataValidation" FullName="DocumentFormat.OpenXml.Office2010.Excel.DataValidation">
+<Type Name="DataValidation" FullName="DocumentFormat.OpenXml.Office2010.Excel.DataValidation">
   <TypeSignature Language="C#" Value="public class DataValidation : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DataValidation extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2010.Excel.DataValidation" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,30 +16,33 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Excel.DataValidationForumla1), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Excel.DataValidationForumla2), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office.Excel.ReferenceSequence))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(53, "dataValidation")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(53, "dataValidation")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the DataValidation Class.</para>
-      <para>This class is available in Office2010 or above.</para>
-      <para> When the object is serialized out as xml, its qualified name is x14:dataValidation.</para>
+      <para>This class is available in Office 2010 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is x14:dataValidation.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>DataValidationForumla1 &lt;x14:formula1&gt;</description></item><item><description>DataValidationForumla2 &lt;x14:formula2&gt;</description></item><item><description>DocumentFormat.OpenXml.Office.Excel.ReferenceSequence &lt;xne:sqref&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>DataValidationForumla1 &lt;x14:formula1&gt;</description>
+        </item>
+        <item>
+          <description>DataValidationForumla2 &lt;x14:formula2&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office.Excel.ReferenceSequence &lt;xne:sqref&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -51,6 +55,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -71,12 +76,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -100,6 +107,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -108,7 +116,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the DataValidation class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -123,6 +131,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -146,10 +155,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "allowBlank")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "allowBlank")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "allowBlank")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -157,8 +168,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> allowBlank.</para>
-          <para>Represents the following attribute in the schema: allowBlank </para>
+          <para>allowBlank, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: allowBlank</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -175,6 +186,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -189,6 +201,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="DataValidationForumla1">
@@ -202,14 +215,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Excel.DataValidationForumla1</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> DataValidationForumla1.</para>
-          <para> Represents the following element tag in the schema: x14:formula1 </para>
+          <para>DataValidationForumla1.</para>
+          <para>Represents the following element tag in the schema: x14:formula1.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -229,14 +243,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Excel.DataValidationForumla2</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> DataValidationForumla2.</para>
-          <para> Represents the following element tag in the schema: x14:formula2 </para>
+          <para>DataValidationForumla2.</para>
+          <para>Represents the following element tag in the schema: x14:formula2.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -256,10 +271,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "error")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "error")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "error")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -267,8 +284,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> error.</para>
-          <para>Represents the following attribute in the schema: error </para>
+          <para>error, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: error</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -285,10 +302,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "errorStyle")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "errorStyle")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "errorStyle")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -296,8 +315,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> errorStyle.</para>
-          <para>Represents the following attribute in the schema: errorStyle </para>
+          <para>errorStyle, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: errorStyle</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -314,10 +333,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "errorTitle")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "errorTitle")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "errorTitle")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -325,8 +346,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> errorTitle.</para>
-          <para>Represents the following attribute in the schema: errorTitle </para>
+          <para>errorTitle, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: errorTitle</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -343,10 +364,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "imeMode")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "imeMode")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "imeMode")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -354,32 +377,9 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> imeMode.</para>
-          <para>Represents the following attribute in the schema: imeMode </para>
+          <para>imeMode, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: imeMode</para>
         </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2010.Excel.DataValidation.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office2010.Excel.DataValidation.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -395,10 +395,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "operator")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "operator")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "operator")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -406,8 +408,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> operator.</para>
-          <para>Represents the following attribute in the schema: operator </para>
+          <para>operator, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: operator</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -424,10 +426,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "prompt")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "prompt")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "prompt")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -435,8 +439,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> prompt.</para>
-          <para>Represents the following attribute in the schema: prompt </para>
+          <para>prompt, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: prompt</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -453,10 +457,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "promptTitle")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "promptTitle")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "promptTitle")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -464,8 +470,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> promptTitle.</para>
-          <para>Represents the following attribute in the schema: promptTitle </para>
+          <para>promptTitle, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: promptTitle</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -482,14 +488,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office.Excel.ReferenceSequence</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ReferenceSequence.</para>
-          <para> Represents the following element tag in the schema: xne:sqref </para>
+          <para>ReferenceSequence.</para>
+          <para>Represents the following element tag in the schema: xne:sqref.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -509,10 +516,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "showDropDown")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "showDropDown")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "showDropDown")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -520,8 +529,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> showDropDown.</para>
-          <para>Represents the following attribute in the schema: showDropDown </para>
+          <para>showDropDown, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: showDropDown</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -538,10 +547,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "showErrorMessage")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "showErrorMessage")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "showErrorMessage")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -549,8 +560,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> showErrorMessage.</para>
-          <para>Represents the following attribute in the schema: showErrorMessage </para>
+          <para>showErrorMessage, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: showErrorMessage</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -567,10 +578,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "showInputMessage")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "showInputMessage")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "showInputMessage")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -578,8 +591,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> showInputMessage.</para>
-          <para>Represents the following attribute in the schema: showInputMessage </para>
+          <para>showInputMessage, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: showInputMessage</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -596,10 +609,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "type")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "type")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "type")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -607,8 +622,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> type.</para>
-          <para>Represents the following attribute in the schema: type </para>
+          <para>type, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: type</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

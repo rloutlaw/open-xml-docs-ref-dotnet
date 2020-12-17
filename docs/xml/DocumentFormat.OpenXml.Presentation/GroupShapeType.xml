@@ -1,4 +1,4 @@
-﻿<Type Name="GroupShapeType" FullName="DocumentFormat.OpenXml.Presentation.GroupShapeType">
+<Type Name="GroupShapeType" FullName="DocumentFormat.OpenXml.Presentation.GroupShapeType">
   <TypeSignature Language="C#" Value="public abstract class GroupShapeType : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit GroupShapeType extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Presentation.GroupShapeType" />
@@ -8,50 +8,53 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Presentation.NonVisualGroupShapeProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Presentation.GroupShapeProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Presentation.Shape))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Presentation.GroupShape))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Presentation.GraphicFrame))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Presentation.ConnectionShape))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Presentation.Picture))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Presentation.ContentPart), DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Presentation.ExtensionListWithModification))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>
-             Defines the GroupShapeType class.
-             </summary>
+      <para>Defines the GroupShapeType Class.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is :.</para>
+    </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>NonVisualGroupShapeProperties &lt;p:nvGrpSpPr&gt;</description></item><item><description>GroupShapeProperties &lt;p:grpSpPr&gt;</description></item><item><description>Shape &lt;p:sp&gt;</description></item><item><description>GroupShape &lt;p:grpSp&gt;</description></item><item><description>GraphicFrame &lt;p:graphicFrame&gt;</description></item><item><description>ConnectionShape &lt;p:cxnSp&gt;</description></item><item><description>Picture &lt;p:pic&gt;</description></item><item><description>ContentPart &lt;p:contentPart&gt;</description></item><item><description>ExtensionListWithModification &lt;p:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>NonVisualGroupShapeProperties &lt;p:nvGrpSpPr&gt;</description>
+        </item>
+        <item>
+          <description>GroupShapeProperties &lt;p:grpSpPr&gt;</description>
+        </item>
+        <item>
+          <description>Shape &lt;p:sp&gt;</description>
+        </item>
+        <item>
+          <description>GroupShape &lt;p:grpSp&gt;</description>
+        </item>
+        <item>
+          <description>GraphicFrame &lt;p:graphicFrame&gt;</description>
+        </item>
+        <item>
+          <description>ConnectionShape &lt;p:cxnSp&gt;</description>
+        </item>
+        <item>
+          <description>Picture &lt;p:pic&gt;</description>
+        </item>
+        <item>
+          <description>ContentPart &lt;p:contentPart&gt;</description>
+        </item>
+        <item>
+          <description>ExtensionListWithModification &lt;p:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -64,6 +67,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -84,12 +88,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -113,6 +119,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -121,7 +128,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the GroupShapeType class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -136,6 +143,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -159,14 +167,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Presentation.GroupShapeProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Group Shape Properties.</para>
-          <para> Represents the following element tag in the schema: p:grpSpPr </para>
+          <para>Group Shape Properties.</para>
+          <para>Represents the following element tag in the schema: p:grpSpPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -186,14 +195,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Presentation.NonVisualGroupShapeProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Non-Visual Properties for a Group Shape.</para>
-          <para> Represents the following element tag in the schema: p:nvGrpSpPr </para>
+          <para>Non-Visual Properties for a Group Shape.</para>
+          <para>Represents the following element tag in the schema: p:nvGrpSpPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

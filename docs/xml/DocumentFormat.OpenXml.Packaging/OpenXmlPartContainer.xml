@@ -1,4 +1,4 @@
-﻿<Type Name="OpenXmlPartContainer" FullName="DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer">
+<Type Name="OpenXmlPartContainer" FullName="DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer">
   <TypeSignature Language="C#" Value="public abstract class OpenXmlPartContainer" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit OpenXmlPartContainer extends System.Object" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -30,6 +31,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,6 +52,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -76,6 +79,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ExtendedPart</ReturnType>
@@ -107,6 +111,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ExtendedPart</ReturnType>
@@ -140,6 +145,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ExternalRelationship</ReturnType>
@@ -171,6 +177,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ExternalRelationship</ReturnType>
@@ -191,7 +198,7 @@
         <returns>An ExternalRelationship with the relationship ID. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when "relationshipType" or the "externalUri" is null reference.</exception>
-        <exception cref="T:System.InvalidOperationException">Thrown when the relatioship type is hyperlink relationship type (http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink). </exception>
+        <exception cref="T:System.InvalidOperationException">Thrown when the relationship type is hyperlink relationship type (http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink). </exception>
       </Docs>
     </Member>
     <Member MemberName="AddHyperlinkRelationship">
@@ -205,6 +212,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.HyperlinkRelationship</ReturnType>
@@ -235,6 +243,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.HyperlinkRelationship</ReturnType>
@@ -267,6 +276,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -301,6 +311,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -338,6 +349,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -356,7 +368,7 @@
       <Docs>
         <typeparam name="T">The class of the part.</typeparam>
         <param name="contentType">The content type of the part. Must match the defined content type if the part is fixed content type.</param>
-        <param name="id">The relationship id. The id will be automaticly generated if this param is null.</param>
+        <param name="id">The relationship id. The id will be automatically generated if this param is null.</param>
         <summary>
             Adds a new part of type T.
             </summary>
@@ -378,6 +390,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -417,6 +430,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -451,12 +465,14 @@
       <MemberSignature Language="C#" Value="public object Annotation (Type type);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object Annotation(class System.Type type) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer.Annotation(System.Type)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Annotation (type As Type) As Object" />
       <MemberSignature Language="F#" Value="member this.Annotation : Type -&gt; obj" Usage="openXmlPartContainer.Annotation type" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -484,6 +500,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -509,16 +526,19 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;object&gt; Annotations (Type type);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;object&gt; Annotations(class System.Type type) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer.Annotations(System.Type)" />
+      <MemberSignature Language="VB.NET" Value="Public Iterator Function Annotations (type As Type) As IEnumerable(Of Object)" />
       <MemberSignature Language="F#" Value="member this.Annotations : Type -&gt; seq&lt;obj&gt;" Usage="openXmlPartContainer.Annotations type" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer/&lt;Annotations&gt;d__52))</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer/&lt;Annotations&gt;d__50))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer/&lt;Annotations&gt;d__50))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -547,10 +567,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer/&lt;Annotations&gt;d__51`1))</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer/&lt;Annotations&gt;d__49`1))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer/&lt;Annotations&gt;d__49`1))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -584,6 +606,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -616,6 +639,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -647,6 +671,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -680,6 +705,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.DataPartReferenceRelationship&gt;</ReturnType>
@@ -696,12 +722,14 @@
       <MemberSignature Language="C#" Value="public void DeleteExternalRelationship (DocumentFormat.OpenXml.Packaging.ExternalRelationship externalRelationship);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteExternalRelationship(class DocumentFormat.OpenXml.Packaging.ExternalRelationship externalRelationship) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer.DeleteExternalRelationship(DocumentFormat.OpenXml.Packaging.ExternalRelationship)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeleteExternalRelationship (externalRelationship As ExternalRelationship)" />
       <MemberSignature Language="F#" Value="member this.DeleteExternalRelationship : DocumentFormat.OpenXml.Packaging.ExternalRelationship -&gt; unit" Usage="openXmlPartContainer.DeleteExternalRelationship externalRelationship" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -730,6 +758,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -758,6 +787,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -786,6 +816,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -814,6 +845,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -842,12 +874,14 @@
       <MemberSignature Language="C#" Value="public void DeleteReferenceRelationship (DocumentFormat.OpenXml.Packaging.ReferenceRelationship referenceRelationship);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteReferenceRelationship(class DocumentFormat.OpenXml.Packaging.ReferenceRelationship referenceRelationship) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer.DeleteReferenceRelationship(DocumentFormat.OpenXml.Packaging.ReferenceRelationship)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeleteReferenceRelationship (referenceRelationship As ReferenceRelationship)" />
       <MemberSignature Language="F#" Value="member this.DeleteReferenceRelationship : DocumentFormat.OpenXml.Packaging.ReferenceRelationship -&gt; unit" Usage="openXmlPartContainer.DeleteReferenceRelationship referenceRelationship" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -876,6 +910,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -904,6 +939,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.ExternalRelationship&gt;</ReturnType>
@@ -928,6 +964,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ExternalRelationship</ReturnType>
@@ -957,6 +994,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -986,6 +1024,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.OpenXmlPart</ReturnType>
@@ -1014,7 +1053,18 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("Use GetPartsOfType&lt;T&gt;().Count() instead")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("Use GetPartsOfType&lt;T&gt;().Count() instead")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
@@ -1039,19 +1089,15 @@
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;T&gt; GetPartsOfType&lt;T&gt; () where T : DocumentFormat.OpenXml.Packaging.OpenXmlPart;" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; GetPartsOfType&lt;(class DocumentFormat.OpenXml.Packaging.OpenXmlPart) T&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer.GetPartsOfType``1" />
-      <MemberSignature Language="VB.NET" Value="Public Iterator Function GetPartsOfType(Of T As OpenXmlPart) () As IEnumerable(Of T)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPartsOfType(Of T As OpenXmlPart) () As IEnumerable(Of T)" />
       <MemberSignature Language="F#" Value="member this.GetPartsOfType : unit -&gt; seq&lt;'T (requires 'T :&gt; DocumentFormat.OpenXml.Packaging.OpenXmlPart)&gt; (requires 'T :&gt; DocumentFormat.OpenXml.Packaging.OpenXmlPart)" Usage="openXmlPartContainer.GetPartsOfType " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer/&lt;GetPartsOfType&gt;d__55`1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;T&gt;</ReturnType>
       </ReturnValue>
@@ -1066,7 +1112,7 @@
       <Docs>
         <typeparam name="T">Derived class from OpenXmlPart.</typeparam>
         <summary>
-            Enumerates all the children parts of the specified type "T" of this part.
+            Enumerates all the children parts of the specified type <typeparamref name="T" /> of this part.
             </summary>
         <returns />
         <remarks>To be added.</remarks>
@@ -1083,7 +1129,18 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("Use GetPartsOfType&lt;T&gt; to manually add to a collection")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("Use GetPartsOfType&lt;T&gt; to manually add to a collection")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -1101,10 +1158,10 @@
         <typeparam name="T">Derived class from OpenXmlPart.</typeparam>
         <param name="partCollection">The part collection to be filled in.</param>
         <summary>
-            Gets all the children parts of the specified type "T" into "partCollection" of this part.
+            Gets all the children parts of the specified type <typeparamref name="T" /> into <paramref name="partCollection" /> of this part.
             </summary>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentNullException">Thrown when "partCollection" is null reference.</exception>
+        <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="partCollection" /> is null.</exception>
       </Docs>
     </Member>
     <Member MemberName="GetReferenceRelationship">
@@ -1118,6 +1175,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ReferenceRelationship</ReturnType>
@@ -1147,6 +1205,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.HyperlinkRelationship&gt;</ReturnType>
@@ -1170,10 +1229,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer/&lt;get_Parts&gt;d__31))</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer/&lt;get_Parts&gt;d__28))]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer/&lt;get_Parts&gt;d__28))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1191,12 +1252,14 @@
       <MemberSignature Language="C#" Value="public void RemoveAnnotations (Type type);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAnnotations(class System.Type type) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer.RemoveAnnotations(System.Type)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveAnnotations (type As Type)" />
       <MemberSignature Language="F#" Value="member this.RemoveAnnotations : Type -&gt; unit" Usage="openXmlPartContainer.RemoveAnnotations type" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1223,6 +1286,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1254,6 +1318,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1263,6 +1328,34 @@
         <summary>
             Test whether the object is already disposed.
             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetPartById">
+      <MemberSignature Language="C#" Value="public bool TryGetPartById (string id, out DocumentFormat.OpenXml.Packaging.OpenXmlPart part);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetPartById(string id, [out] class DocumentFormat.OpenXml.Packaging.OpenXmlPart&amp; part) cil managed" />
+      <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.Packaging.OpenXmlPartContainer.TryGetPartById(System.String,DocumentFormat.OpenXml.Packaging.OpenXmlPart@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetPartById (id As String, ByRef part As OpenXmlPart) As Boolean" />
+      <MemberSignature Language="F#" Value="member this.TryGetPartById : string * OpenXmlPart -&gt; bool" Usage="openXmlPartContainer.TryGetPartById (id, part)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="part" Type="DocumentFormat.OpenXml.Packaging.OpenXmlPart" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="id">The relationship ID of the part.</param>
+        <param name="part">The part.</param>
+        <summary>
+            Try to get the child part by the relationship ID.
+            </summary>
+        <returns>Return <c>true</c> when the part with the specified id exist, otherwise <c>false</c></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

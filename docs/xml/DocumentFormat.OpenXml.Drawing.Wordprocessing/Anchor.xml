@@ -1,4 +1,4 @@
-﻿<Type Name="Anchor" FullName="DocumentFormat.OpenXml.Drawing.Wordprocessing.Anchor">
+<Type Name="Anchor" FullName="DocumentFormat.OpenXml.Drawing.Wordprocessing.Anchor">
   <TypeSignature Language="C#" Value="public class Anchor : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Anchor extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Drawing.Wordprocessing.Anchor" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,62 +16,69 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Wordprocessing.SimplePosition))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Wordprocessing.HorizontalPosition))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Wordprocessing.VerticalPosition))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Wordprocessing.Extent))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Wordprocessing.EffectExtent))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Wordprocessing.WrapNone))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Wordprocessing.WrapSquare))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Wordprocessing.WrapTight))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Wordprocessing.WrapThrough))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Wordprocessing.WrapTopBottom))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Wordprocessing.DocProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Wordprocessing.NonVisualGraphicFrameDrawingProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Graphic))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.Drawing.RelativeWidth), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.Drawing.RelativeHeight), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(16, "anchor")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(16, "anchor")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Anchor for Floating DrawingML Object.</para>
-      <para> When the object is serialized out as xml, its qualified name is wp:anchor.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is wp:anchor.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>SimplePosition &lt;wp:simplePos&gt;</description></item><item><description>HorizontalPosition &lt;wp:positionH&gt;</description></item><item><description>VerticalPosition &lt;wp:positionV&gt;</description></item><item><description>Extent &lt;wp:extent&gt;</description></item><item><description>EffectExtent &lt;wp:effectExtent&gt;</description></item><item><description>WrapNone &lt;wp:wrapNone&gt;</description></item><item><description>WrapSquare &lt;wp:wrapSquare&gt;</description></item><item><description>WrapTight &lt;wp:wrapTight&gt;</description></item><item><description>WrapThrough &lt;wp:wrapThrough&gt;</description></item><item><description>WrapTopBottom &lt;wp:wrapTopAndBottom&gt;</description></item><item><description>DocProperties &lt;wp:docPr&gt;</description></item><item><description>NonVisualGraphicFrameDrawingProperties &lt;wp:cNvGraphicFramePr&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.Graphic &lt;a:graphic&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.Drawing.RelativeWidth &lt;wp14:sizeRelH&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.Drawing.RelativeHeight &lt;wp14:sizeRelV&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>SimplePosition &lt;wp:simplePos&gt;</description>
+        </item>
+        <item>
+          <description>HorizontalPosition &lt;wp:positionH&gt;</description>
+        </item>
+        <item>
+          <description>VerticalPosition &lt;wp:positionV&gt;</description>
+        </item>
+        <item>
+          <description>Extent &lt;wp:extent&gt;</description>
+        </item>
+        <item>
+          <description>EffectExtent &lt;wp:effectExtent&gt;</description>
+        </item>
+        <item>
+          <description>WrapNone &lt;wp:wrapNone&gt;</description>
+        </item>
+        <item>
+          <description>WrapSquare &lt;wp:wrapSquare&gt;</description>
+        </item>
+        <item>
+          <description>WrapTight &lt;wp:wrapTight&gt;</description>
+        </item>
+        <item>
+          <description>WrapThrough &lt;wp:wrapThrough&gt;</description>
+        </item>
+        <item>
+          <description>WrapTopBottom &lt;wp:wrapTopAndBottom&gt;</description>
+        </item>
+        <item>
+          <description>DocProperties &lt;wp:docPr&gt;</description>
+        </item>
+        <item>
+          <description>NonVisualGraphicFrameDrawingProperties &lt;wp:cNvGraphicFramePr&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.Graphic &lt;a:graphic&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.Drawing.RelativeWidth &lt;wp14:sizeRelH&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.Drawing.RelativeHeight &lt;wp14:sizeRelV&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -83,6 +91,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -103,12 +112,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -132,6 +143,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -140,7 +152,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Anchor class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -155,6 +167,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -178,10 +191,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "allowOverlap")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "allowOverlap")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "allowOverlap")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -189,8 +204,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Allow Objects to Overlap.</para>
-          <para>Represents the following attribute in the schema: allowOverlap </para>
+          <para>Allow Objects to Overlap</para>
+          <para>Represents the following attribute in the schema: allowOverlap</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -207,10 +222,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(51, "anchorId")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(51, "anchorId")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(51, "anchorId")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -218,12 +235,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> anchorId.</para>
-          <para>Represents the following attribute in the schema: wp14:anchorId </para>
+          <para>anchorId, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: wp14:anchorId</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:wp14=http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing
+        <remark>
+            xmlns:wp14=http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing
             </remark>
       </Docs>
     </Member>
@@ -238,10 +256,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "behindDoc")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "behindDoc")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "behindDoc")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -249,8 +269,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Display Behind Document Text.</para>
-          <para>Represents the following attribute in the schema: behindDoc </para>
+          <para>Display Behind Document Text</para>
+          <para>Represents the following attribute in the schema: behindDoc</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -267,6 +287,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -281,6 +302,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="DistanceFromBottom">
@@ -294,10 +316,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "distB")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "distB")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "distB")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -305,8 +329,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Distance From Text on Bottom Edge.</para>
-          <para>Represents the following attribute in the schema: distB </para>
+          <para>Distance From Text on Bottom Edge</para>
+          <para>Represents the following attribute in the schema: distB</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.UInt32Value" />.</value>
         <remarks>To be added.</remarks>
@@ -323,10 +347,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "distL")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "distL")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "distL")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -334,8 +360,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Distance From Text on Left Edge.</para>
-          <para>Represents the following attribute in the schema: distL </para>
+          <para>Distance From Text on Left Edge</para>
+          <para>Represents the following attribute in the schema: distL</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.UInt32Value" />.</value>
         <remarks>To be added.</remarks>
@@ -352,10 +378,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "distR")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "distR")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "distR")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -363,8 +391,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Distance From Text on Right Edge.</para>
-          <para>Represents the following attribute in the schema: distR </para>
+          <para>Distance From Text on Right Edge</para>
+          <para>Represents the following attribute in the schema: distR</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.UInt32Value" />.</value>
         <remarks>To be added.</remarks>
@@ -381,10 +409,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "distT")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "distT")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "distT")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -392,8 +422,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Distance From Text on Top Edge.</para>
-          <para>Represents the following attribute in the schema: distT </para>
+          <para>Distance From Text on Top Edge</para>
+          <para>Represents the following attribute in the schema: distT</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.UInt32Value" />.</value>
         <remarks>To be added.</remarks>
@@ -410,10 +440,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(51, "editId")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(51, "editId")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(51, "editId")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -421,12 +453,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> editId.</para>
-          <para>Represents the following attribute in the schema: wp14:editId </para>
+          <para>editId, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: wp14:editId</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:wp14=http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing
+        <remark>
+            xmlns:wp14=http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing
             </remark>
       </Docs>
     </Member>
@@ -441,14 +474,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Wordprocessing.EffectExtent</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> EffectExtent.</para>
-          <para> Represents the following element tag in the schema: wp:effectExtent </para>
+          <para>EffectExtent.</para>
+          <para>Represents the following element tag in the schema: wp:effectExtent.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -468,14 +502,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Wordprocessing.Extent</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Inline Drawing Object Extents.</para>
-          <para> Represents the following element tag in the schema: wp:extent </para>
+          <para>Inline Drawing Object Extents.</para>
+          <para>Represents the following element tag in the schema: wp:extent.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -495,10 +530,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "hidden")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "hidden")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "hidden")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -506,8 +543,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Hidden.</para>
-          <para>Represents the following attribute in the schema: hidden </para>
+          <para>Hidden</para>
+          <para>Represents the following attribute in the schema: hidden</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -524,14 +561,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Wordprocessing.HorizontalPosition</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Horizontal Positioning.</para>
-          <para> Represents the following element tag in the schema: wp:positionH </para>
+          <para>Horizontal Positioning.</para>
+          <para>Represents the following element tag in the schema: wp:positionH.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -551,10 +589,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "layoutInCell")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "layoutInCell")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "layoutInCell")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -562,33 +602,10 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Layout In Table Cell.</para>
-          <para>Represents the following attribute in the schema: layoutInCell </para>
+          <para>Layout In Table Cell</para>
+          <para>Represents the following attribute in the schema: layoutInCell</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Drawing.Wordprocessing.Anchor.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Drawing.Wordprocessing.Anchor.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -603,10 +620,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "locked")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "locked")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "locked")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -614,8 +633,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Lock Anchor.</para>
-          <para>Represents the following attribute in the schema: locked </para>
+          <para>Lock Anchor</para>
+          <para>Represents the following attribute in the schema: locked</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -632,10 +651,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "relativeHeight")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "relativeHeight")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "relativeHeight")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -643,8 +664,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Relative Z-Ordering Position.</para>
-          <para>Represents the following attribute in the schema: relativeHeight </para>
+          <para>Relative Z-Ordering Position</para>
+          <para>Represents the following attribute in the schema: relativeHeight</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.UInt32Value" />.</value>
         <remarks>To be added.</remarks>
@@ -661,10 +682,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "simplePos")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "simplePos")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "simplePos")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -672,8 +695,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Page Positioning.</para>
-          <para>Represents the following attribute in the schema: simplePos </para>
+          <para>Page Positioning</para>
+          <para>Represents the following attribute in the schema: simplePos</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -690,14 +713,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Wordprocessing.SimplePosition</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Simple Positioning Coordinates.</para>
-          <para> Represents the following element tag in the schema: wp:simplePos </para>
+          <para>Simple Positioning Coordinates.</para>
+          <para>Represents the following element tag in the schema: wp:simplePos.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -717,14 +741,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Wordprocessing.VerticalPosition</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Vertical Positioning.</para>
-          <para> Represents the following element tag in the schema: wp:positionV </para>
+          <para>Vertical Positioning.</para>
+          <para>Represents the following element tag in the schema: wp:positionV.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

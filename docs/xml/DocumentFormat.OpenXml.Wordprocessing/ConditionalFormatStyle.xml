@@ -1,4 +1,4 @@
-﻿<Type Name="ConditionalFormatStyle" FullName="DocumentFormat.OpenXml.Wordprocessing.ConditionalFormatStyle">
+<Type Name="ConditionalFormatStyle" FullName="DocumentFormat.OpenXml.Wordprocessing.ConditionalFormatStyle">
   <TypeSignature Language="C#" Value="public class ConditionalFormatStyle : DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConditionalFormatStyle extends DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.ConditionalFormatStyle" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafElement</BaseTypeName>
@@ -15,13 +16,15 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "cnfStyle")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "cnfStyle")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the ConditionalFormatStyle Class.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:cnfStyle.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:cnfStyle.</para>
     </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
@@ -127,6 +130,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -147,6 +151,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -161,6 +166,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="EvenHorizontalBand">
@@ -174,13 +180,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "evenHBand")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "evenHBand")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "evenHBand")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -188,12 +193,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> evenHBand, this property is only available in Office2010.</para>
-          <para>Represents the following attribute in the schema: w:evenHBand </para>
+          <para>evenHBand, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w:evenHBand</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -208,13 +214,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "evenVBand")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "evenVBand")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "evenVBand")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -222,12 +227,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> evenVBand, this property is only available in Office2010.</para>
-          <para>Represents the following attribute in the schema: w:evenVBand </para>
+          <para>evenVBand, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w:evenVBand</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -242,13 +248,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "firstColumn")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "firstColumn")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "firstColumn")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -256,12 +261,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> firstColumn, this property is only available in Office2010.</para>
-          <para>Represents the following attribute in the schema: w:firstColumn </para>
+          <para>firstColumn, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w:firstColumn</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -276,13 +282,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "firstRow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "firstRow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "firstRow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -290,12 +295,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> firstRow, this property is only available in Office2010.</para>
-          <para>Represents the following attribute in the schema: w:firstRow </para>
+          <para>firstRow, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w:firstRow</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -310,13 +316,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "firstRowFirstColumn")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "firstRowFirstColumn")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "firstRowFirstColumn")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -324,12 +329,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> firstRowFirstColumn, this property is only available in Office2010.</para>
-          <para>Represents the following attribute in the schema: w:firstRowFirstColumn </para>
+          <para>firstRowFirstColumn, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w:firstRowFirstColumn</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -344,13 +350,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "firstRowLastColumn")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "firstRowLastColumn")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "firstRowLastColumn")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -358,12 +363,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> firstRowLastColumn, this property is only available in Office2010.</para>
-          <para>Represents the following attribute in the schema: w:firstRowLastColumn </para>
+          <para>firstRowLastColumn, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w:firstRowLastColumn</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -378,13 +384,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "lastColumn")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "lastColumn")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "lastColumn")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -392,12 +397,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> lastColumn, this property is only available in Office2010.</para>
-          <para>Represents the following attribute in the schema: w:lastColumn </para>
+          <para>lastColumn, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w:lastColumn</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -412,13 +418,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "lastRow")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "lastRow")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "lastRow")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -426,12 +431,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> lastRow, this property is only available in Office2010.</para>
-          <para>Represents the following attribute in the schema: w:lastRow </para>
+          <para>lastRow, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w:lastRow</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -446,13 +452,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "lastRowFirstColumn")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "lastRowFirstColumn")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "lastRowFirstColumn")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -460,12 +465,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> lastRowFirstColumn, this property is only available in Office2010.</para>
-          <para>Represents the following attribute in the schema: w:lastRowFirstColumn </para>
+          <para>lastRowFirstColumn, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w:lastRowFirstColumn</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -480,13 +486,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "lastRowLastColumn")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "lastRowLastColumn")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "lastRowLastColumn")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -494,36 +499,14 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> lastRowLastColumn, this property is only available in Office2010.</para>
-          <para>Represents the following attribute in the schema: w:lastRowLastColumn </para>
+          <para>lastRowLastColumn, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w:lastRowLastColumn</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.ConditionalFormatStyle.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.ConditionalFormatStyle.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="OddHorizontalBand">
@@ -537,13 +520,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "oddHBand")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "oddHBand")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "oddHBand")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -551,12 +533,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> oddHBand, this property is only available in Office2010.</para>
-          <para>Represents the following attribute in the schema: w:oddHBand </para>
+          <para>oddHBand, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w:oddHBand</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -571,13 +554,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "oddVBand")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "oddVBand")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "oddVBand")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -585,12 +567,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> oddVBand, this property is only available in Office2010.</para>
-          <para>Represents the following attribute in the schema: w:oddVBand </para>
+          <para>oddVBand, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: w:oddVBand</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -605,10 +588,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "val")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "val")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "val")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -616,8 +601,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Conditional Formatting Bit Mask.</para>
-          <para>Represents the following attribute in the schema: w:val </para>
+          <para>Conditional Formatting Bit Mask</para>
+          <para>Represents the following attribute in the schema: w:val</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>
@@ -674,7 +659,8 @@
   
  ]]></format>
         </remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>

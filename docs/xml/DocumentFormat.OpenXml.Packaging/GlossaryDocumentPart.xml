@@ -1,4 +1,4 @@
-﻿<Type Name="GlossaryDocumentPart" FullName="DocumentFormat.OpenXml.Packaging.GlossaryDocumentPart">
+<Type Name="GlossaryDocumentPart" FullName="DocumentFormat.OpenXml.Packaging.GlossaryDocumentPart">
   <TypeSignature Language="C#" Value="public class GlossaryDocumentPart : DocumentFormat.OpenXml.Packaging.OpenXmlPart, DocumentFormat.OpenXml.Packaging.IFixedContentTypePart" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GlossaryDocumentPart extends DocumentFormat.OpenXml.Packaging.OpenXmlPart implements class DocumentFormat.OpenXml.Packaging.IFixedContentTypePart" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Packaging.GlossaryDocumentPart" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.Packaging.OpenXmlPart</BaseTypeName>
@@ -19,7 +20,7 @@
   </Interfaces>
   <Docs>
     <summary>
-            Defines the GlossaryDocumentPart.
+            Defines the GlossaryDocumentPart
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -34,11 +35,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>
-            Construtor of GlossaryDocumentPart
+            Creates an instance of the GlossaryDocumentPart OpenXmlType
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -54,6 +56,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.AlternativeFormatImportPart</ReturnType>
@@ -62,12 +65,13 @@
         <Parameter Name="partType" Type="DocumentFormat.OpenXml.Packaging.AlternativeFormatImportPartType" />
       </Parameters>
       <Docs>
-        <param name="partType">The part type of the AlternativeFormatImportPart.</param>
+        <param name="partType">The part type of the AlternativeFormatImportPart</param>
         <summary>
-            Adds a AlternativeFormatImportPart to the GlossaryDocumentPart.
+            Adds a AlternativeFormatImportPart to the GlossaryDocumentPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddAlternativeFormatImportPart">
@@ -81,6 +85,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.AlternativeFormatImportPart</ReturnType>
@@ -89,12 +94,13 @@
         <Parameter Name="contentType" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="contentType">the content type of the AlternativeFormatImportPart.</param>
+        <param name="contentType">The content type of the AlternativeFormatImportPart</param>
         <summary>
-            Adds a AlternativeFormatImportPart to the GlossaryDocumentPart.
+            Adds a AlternativeFormatImportPart to the GlossaryDocumentPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddAlternativeFormatImportPart">
@@ -108,6 +114,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.AlternativeFormatImportPart</ReturnType>
@@ -117,13 +124,14 @@
         <Parameter Name="id" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="partType">The part type of the AlternativeFormatImportPart.</param>
-        <param name="id">The relationship id.</param>
+        <param name="partType">The part type of the AlternativeFormatImportPart</param>
+        <param name="id">The relationship id</param>
         <summary>
-            Adds a AlternativeFormatImportPart to the GlossaryDocumentPart.
+            Adds a AlternativeFormatImportPart to the GlossaryDocumentPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddAlternativeFormatImportPart">
@@ -137,6 +145,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.AlternativeFormatImportPart</ReturnType>
@@ -146,13 +155,14 @@
         <Parameter Name="id" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="contentType">the content type of the AlternativeFormatImportPart.</param>
-        <param name="id">The relationship id.</param>
+        <param name="contentType">The content type of the AlternativeFormatImportPart</param>
+        <param name="id">The relationship id</param>
         <summary>
-            Adds a AlternativeFormatImportPart to the GlossaryDocumentPart.
+            Adds a AlternativeFormatImportPart to the GlossaryDocumentPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddEmbeddedControlPersistencePart">
@@ -166,6 +176,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.EmbeddedControlPersistencePart</ReturnType>
@@ -174,12 +185,13 @@
         <Parameter Name="partType" Type="DocumentFormat.OpenXml.Packaging.EmbeddedControlPersistencePartType" />
       </Parameters>
       <Docs>
-        <param name="partType">The part type of the EmbeddedControlPersistencePart.</param>
+        <param name="partType">The part type of the EmbeddedControlPersistencePart</param>
         <summary>
-            Adds a EmbeddedControlPersistencePart to the GlossaryDocumentPart.
+            Adds a EmbeddedControlPersistencePart to the GlossaryDocumentPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddEmbeddedControlPersistencePart">
@@ -193,6 +205,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.EmbeddedControlPersistencePart</ReturnType>
@@ -201,12 +214,13 @@
         <Parameter Name="contentType" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="contentType">the content type of the EmbeddedControlPersistencePart.</param>
+        <param name="contentType">The content type of the EmbeddedControlPersistencePart</param>
         <summary>
-            Adds a EmbeddedControlPersistencePart to the GlossaryDocumentPart.
+            Adds a EmbeddedControlPersistencePart to the GlossaryDocumentPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddEmbeddedControlPersistencePart">
@@ -220,6 +234,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.EmbeddedControlPersistencePart</ReturnType>
@@ -229,13 +244,14 @@
         <Parameter Name="id" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="partType">The part type of the EmbeddedControlPersistencePart.</param>
-        <param name="id">The relationship id.</param>
+        <param name="partType">The part type of the EmbeddedControlPersistencePart</param>
+        <param name="id">The relationship id</param>
         <summary>
-            Adds a EmbeddedControlPersistencePart to the GlossaryDocumentPart.
+            Adds a EmbeddedControlPersistencePart to the GlossaryDocumentPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddEmbeddedControlPersistencePart">
@@ -249,6 +265,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.EmbeddedControlPersistencePart</ReturnType>
@@ -258,13 +275,14 @@
         <Parameter Name="id" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="contentType">the content type of the EmbeddedControlPersistencePart.</param>
-        <param name="id">The relationship id.</param>
+        <param name="contentType">The content type of the EmbeddedControlPersistencePart</param>
+        <param name="id">The relationship id</param>
         <summary>
-            Adds a EmbeddedControlPersistencePart to the GlossaryDocumentPart.
+            Adds a EmbeddedControlPersistencePart to the GlossaryDocumentPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddEmbeddedObjectPart">
@@ -278,6 +296,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.EmbeddedObjectPart</ReturnType>
@@ -286,12 +305,13 @@
         <Parameter Name="contentType" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="contentType">The content type of the EmbeddedObjectPart.</param>
+        <param name="contentType">The content type of the EmbeddedObjectPart</param>
         <summary>
-            Adds a EmbeddedObjectPart to the GlossaryDocumentPart.
+            Adds a EmbeddedObjectPart to the GlossaryDocumentPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddEmbeddedPackagePart">
@@ -305,6 +325,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.EmbeddedPackagePart</ReturnType>
@@ -313,12 +334,13 @@
         <Parameter Name="contentType" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="contentType">The content type of the EmbeddedPackagePart.</param>
+        <param name="contentType">The content type of the EmbeddedPackagePart</param>
         <summary>
-            Adds a EmbeddedPackagePart to the GlossaryDocumentPart.
+            Adds a EmbeddedPackagePart to the GlossaryDocumentPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddImagePart">
@@ -332,6 +354,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ImagePart</ReturnType>
@@ -340,12 +363,13 @@
         <Parameter Name="partType" Type="DocumentFormat.OpenXml.Packaging.ImagePartType" />
       </Parameters>
       <Docs>
-        <param name="partType">The part type of the ImagePart.</param>
+        <param name="partType">The part type of the ImagePart</param>
         <summary>
-            Adds a ImagePart to the GlossaryDocumentPart.
+            Adds a ImagePart to the GlossaryDocumentPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddImagePart">
@@ -359,6 +383,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ImagePart</ReturnType>
@@ -367,12 +392,13 @@
         <Parameter Name="contentType" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="contentType">the content type of the ImagePart.</param>
+        <param name="contentType">The content type of the ImagePart</param>
         <summary>
-            Adds a ImagePart to the GlossaryDocumentPart.
+            Adds a ImagePart to the GlossaryDocumentPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddImagePart">
@@ -386,6 +412,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ImagePart</ReturnType>
@@ -395,13 +422,14 @@
         <Parameter Name="id" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="partType">The part type of the ImagePart.</param>
-        <param name="id">The relationship id.</param>
+        <param name="partType">The part type of the ImagePart</param>
+        <param name="id">The relationship id</param>
         <summary>
-            Adds a ImagePart to the GlossaryDocumentPart.
+            Adds a ImagePart to the GlossaryDocumentPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddImagePart">
@@ -415,6 +443,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ImagePart</ReturnType>
@@ -424,25 +453,28 @@
         <Parameter Name="id" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="contentType">the content type of the ImagePart.</param>
-        <param name="id">The relationship id.</param>
+        <param name="contentType">The content type of the ImagePart</param>
+        <param name="id">The relationship id</param>
         <summary>
-            Adds a ImagePart to the GlossaryDocumentPart.
+            Adds a ImagePart to the GlossaryDocumentPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddVideoReferenceRelationship">
       <MemberSignature Language="C#" Value="public DocumentFormat.OpenXml.Packaging.VideoReferenceRelationship AddVideoReferenceRelationship (DocumentFormat.OpenXml.Packaging.MediaDataPart mediaDataPart);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class DocumentFormat.OpenXml.Packaging.VideoReferenceRelationship AddVideoReferenceRelationship(class DocumentFormat.OpenXml.Packaging.MediaDataPart mediaDataPart) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.Packaging.GlossaryDocumentPart.AddVideoReferenceRelationship(DocumentFormat.OpenXml.Packaging.MediaDataPart)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddVideoReferenceRelationship (mediaDataPart As MediaDataPart) As VideoReferenceRelationship" />
       <MemberSignature Language="F#" Value="member this.AddVideoReferenceRelationship : DocumentFormat.OpenXml.Packaging.MediaDataPart -&gt; DocumentFormat.OpenXml.Packaging.VideoReferenceRelationship" Usage="glossaryDocumentPart.AddVideoReferenceRelationship mediaDataPart" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.VideoReferenceRelationship</ReturnType>
@@ -451,26 +483,29 @@
         <Parameter Name="mediaDataPart" Type="DocumentFormat.OpenXml.Packaging.MediaDataPart" />
       </Parameters>
       <Docs>
-        <param name="mediaDataPart">The specified target <see cref="T:DocumentFormat.OpenXml.Packaging.MediaDataPart" />.</param>
+        <param name="mediaDataPart">The part type of the VideoReferenceRelationship</param>
         <summary>
-            Adds a new <see cref="T:DocumentFormat.OpenXml.Packaging.VideoReferenceRelationship" /> to the specified <see cref="T:DocumentFormat.OpenXml.Packaging.MediaDataPart" />.
+            Adds a VideoReferenceRelationship to the GlossaryDocumentPart
             </summary>
         <returns>The new <see cref="T:DocumentFormat.OpenXml.Packaging.VideoReferenceRelationship" />.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="mediaDataPart" /> is null.</exception>
         <exception cref="T:System.InvalidOperationException">Thrown when the specified <paramref name="mediaDataPart" /> is not in this document.</exception>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddVideoReferenceRelationship">
       <MemberSignature Language="C#" Value="public DocumentFormat.OpenXml.Packaging.VideoReferenceRelationship AddVideoReferenceRelationship (DocumentFormat.OpenXml.Packaging.MediaDataPart mediaDataPart, string id);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class DocumentFormat.OpenXml.Packaging.VideoReferenceRelationship AddVideoReferenceRelationship(class DocumentFormat.OpenXml.Packaging.MediaDataPart mediaDataPart, string id) cil managed" />
       <MemberSignature Language="DocId" Value="M:DocumentFormat.OpenXml.Packaging.GlossaryDocumentPart.AddVideoReferenceRelationship(DocumentFormat.OpenXml.Packaging.MediaDataPart,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddVideoReferenceRelationship (mediaDataPart As MediaDataPart, id As String) As VideoReferenceRelationship" />
       <MemberSignature Language="F#" Value="member this.AddVideoReferenceRelationship : DocumentFormat.OpenXml.Packaging.MediaDataPart * string -&gt; DocumentFormat.OpenXml.Packaging.VideoReferenceRelationship" Usage="glossaryDocumentPart.AddVideoReferenceRelationship (mediaDataPart, id)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.VideoReferenceRelationship</ReturnType>
@@ -480,15 +515,16 @@
         <Parameter Name="id" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="mediaDataPart">The specified target <see cref="T:DocumentFormat.OpenXml.Packaging.MediaDataPart" />.</param>
-        <param name="id">The desired relationship ID. </param>
+        <param name="mediaDataPart">The part type of the VideoReferenceRelationship</param>
+        <param name="id">The relationship id</param>
         <summary>
-            Adds a new <see cref="T:DocumentFormat.OpenXml.Packaging.VideoReferenceRelationship" /> to the specified <see cref="T:DocumentFormat.OpenXml.Packaging.MediaDataPart" />.
+            Adds a VideoReferenceRelationship to the GlossaryDocumentPart
             </summary>
         <returns>The new <see cref="T:DocumentFormat.OpenXml.Packaging.VideoReferenceRelationship" />.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="id" /> is null.</exception>
         <exception cref="T:System.InvalidOperationException">Thrown when the specified <paramref name="mediaDataPart" /> is not in this document.</exception>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AlternativeFormatImportParts">
@@ -502,13 +538,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.AlternativeFormatImportPart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the AlternativeFormatImportParts of the GlossaryDocumentPart.
+            Gets the AlternativeFormatImportParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -525,13 +562,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.ChartPart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the ChartParts of the GlossaryDocumentPart.
+            Gets the ChartParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -548,6 +586,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -558,6 +597,7 @@
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="CustomizationPart">
@@ -571,13 +611,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.CustomizationPart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the CustomizationPart of the GlossaryDocumentPart.
+            Gets the CustomizationPart of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -594,13 +635,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.DiagramColorsPart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the DiagramColorsParts of the GlossaryDocumentPart.
+            Gets the DiagramColorsParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -617,13 +659,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.DiagramDataPart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the DiagramDataParts of the GlossaryDocumentPart.
+            Gets the DiagramDataParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -640,13 +683,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.DiagramLayoutDefinitionPart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the DiagramLayoutDefinitionParts of the GlossaryDocumentPart.
+            Gets the DiagramLayoutDefinitionParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -663,13 +707,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.DiagramPersistLayoutPart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the DiagramPersistLayoutParts of the GlossaryDocumentPart.
+            Gets the DiagramPersistLayoutParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -686,13 +731,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.DiagramStylePart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the DiagramStyleParts of the GlossaryDocumentPart.
+            Gets the DiagramStyleParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -709,13 +755,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.DocumentSettingsPart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the DocumentSettingsPart of the GlossaryDocumentPart.
+            Gets the DocumentSettingsPart of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -732,13 +779,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.EmbeddedControlPersistencePart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the EmbeddedControlPersistenceParts of the GlossaryDocumentPart.
+            Gets the EmbeddedControlPersistenceParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -755,13 +803,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.EmbeddedObjectPart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the EmbeddedObjectParts of the GlossaryDocumentPart.
+            Gets the EmbeddedObjectParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -778,13 +827,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.EmbeddedPackagePart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the EmbeddedPackageParts of the GlossaryDocumentPart.
+            Gets the EmbeddedPackageParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -801,13 +851,36 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.EndnotesPart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the EndnotesPart of the GlossaryDocumentPart.
+            Gets the EndnotesPart of the GlossaryDocumentPart
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedChartParts">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.ExtendedChartPart&gt; ExtendedChartParts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;class DocumentFormat.OpenXml.Packaging.ExtendedChartPart&gt; ExtendedChartParts" />
+      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Packaging.GlossaryDocumentPart.ExtendedChartParts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExtendedChartParts As IEnumerable(Of ExtendedChartPart)" />
+      <MemberSignature Language="F#" Value="member this.ExtendedChartParts : seq&lt;DocumentFormat.OpenXml.Packaging.ExtendedChartPart&gt;" Usage="DocumentFormat.OpenXml.Packaging.GlossaryDocumentPart.ExtendedChartParts" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.ExtendedChartPart&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the ExtendedChartParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -824,13 +897,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.FontTablePart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the FontTablePart of the GlossaryDocumentPart.
+            Gets the FontTablePart of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -847,13 +921,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.FooterPart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the FooterParts of the GlossaryDocumentPart.
+            Gets the FooterParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -870,13 +945,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.FootnotesPart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the FootnotesPart of the GlossaryDocumentPart.
+            Gets the FootnotesPart of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -893,13 +969,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.GlossaryDocument</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets/Sets the root element of this part.
+            Gets or sets the root element of this part.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -916,13 +993,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.HeaderPart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the HeaderParts of the GlossaryDocumentPart.
+            Gets the HeaderParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -939,13 +1017,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.ImagePart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the ImageParts of the GlossaryDocumentPart.
+            Gets the ImageParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -962,13 +1041,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.NumberingDefinitionsPart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the NumberingDefinitionsPart of the GlossaryDocumentPart.
+            Gets the NumberingDefinitionsPart of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -985,6 +1065,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -995,6 +1076,7 @@
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="StyleDefinitionsPart">
@@ -1008,13 +1090,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.StyleDefinitionsPart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the StyleDefinitionsPart of the GlossaryDocumentPart.
+            Gets the StyleDefinitionsPart of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1031,18 +1114,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.StylesWithEffectsPart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the StylesWithEffectsPart of the GlossaryDocumentPart., only available in Office2010
+            Gets the StylesWithEffectsPart of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1059,13 +1138,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.VbaProjectPart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the VbaProjectPart of the GlossaryDocumentPart.
+            Gets the VbaProjectPart of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1082,13 +1162,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.WebSettingsPart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the WebSettingsPart of the GlossaryDocumentPart.
+            Gets the WebSettingsPart of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1105,13 +1186,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.WordprocessingCommentsExPart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the WordprocessingCommentsExPart of the GlossaryDocumentPart.
+            Gets the WordprocessingCommentsExPart of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1128,13 +1210,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.WordprocessingCommentsPart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the WordprocessingCommentsPart of the GlossaryDocumentPart.
+            Gets the WordprocessingCommentsPart of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1151,13 +1234,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.WordprocessingPeoplePart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the WordprocessingPeoplePart of the GlossaryDocumentPart.
+            Gets the WordprocessingPeoplePart of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1174,13 +1258,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.WordprocessingPrinterSettingsPart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the WordprocessingPrinterSettingsParts of the GlossaryDocumentPart.
+            Gets the WordprocessingPrinterSettingsParts of the GlossaryDocumentPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

@@ -1,4 +1,4 @@
-﻿<Type Name="InkSource" FullName="DocumentFormat.OpenXml.InkML.InkSource">
+<Type Name="InkSource" FullName="DocumentFormat.OpenXml.InkML.InkSource">
   <TypeSignature Language="C#" Value="public class InkSource : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit InkSource extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.InkML.InkSource" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,35 +16,42 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.InkML.TraceFormat))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.InkML.SampleRate))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.InkML.Latency))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.InkML.ActiveArea))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.InkML.SourceProperty))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.InkML.ChannelProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(43, "inkSource")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(43, "inkSource")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the InkSource Class.</para>
-      <para> When the object is serialized out as xml, its qualified name is inkml:inkSource.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is inkml:inkSource.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>TraceFormat &lt;inkml:traceFormat&gt;</description></item><item><description>SampleRate &lt;inkml:sampleRate&gt;</description></item><item><description>Latency &lt;inkml:latency&gt;</description></item><item><description>ActiveArea &lt;inkml:activeArea&gt;</description></item><item><description>SourceProperty &lt;inkml:srcProperty&gt;</description></item><item><description>ChannelProperties &lt;inkml:channelProperties&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>TraceFormat &lt;inkml:traceFormat&gt;</description>
+        </item>
+        <item>
+          <description>SampleRate &lt;inkml:sampleRate&gt;</description>
+        </item>
+        <item>
+          <description>Latency &lt;inkml:latency&gt;</description>
+        </item>
+        <item>
+          <description>ActiveArea &lt;inkml:activeArea&gt;</description>
+        </item>
+        <item>
+          <description>SourceProperty &lt;inkml:srcProperty&gt;</description>
+        </item>
+        <item>
+          <description>ChannelProperties &lt;inkml:channelProperties&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -56,6 +64,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -76,12 +85,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -105,6 +116,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -113,7 +125,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the InkSource class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,6 +140,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -151,14 +164,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.InkML.ActiveArea</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ActiveArea.</para>
-          <para> Represents the following element tag in the schema: inkml:activeArea </para>
+          <para>ActiveArea.</para>
+          <para>Represents the following element tag in the schema: inkml:activeArea.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -178,6 +192,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -192,6 +207,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Description">
@@ -205,10 +221,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "description")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "description")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "description")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -216,8 +234,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> description.</para>
-          <para>Represents the following attribute in the schema: description </para>
+          <para>description</para>
+          <para>Represents the following attribute in the schema: description</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -234,10 +252,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(1, "id")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(1, "id")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(1, "id")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -245,12 +265,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> id.</para>
-          <para>Represents the following attribute in the schema: xml:id </para>
+          <para>id</para>
+          <para>Represents the following attribute in the schema: xml:id</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:xml=http://www.w3.org/XML/1998/namespace
+        <remark>
+            xmlns:xml=http://www.w3.org/XML/1998/namespace
             </remark>
       </Docs>
     </Member>
@@ -265,43 +286,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.InkML.Latency</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Latency.</para>
-          <para> Represents the following element tag in the schema: inkml:latency </para>
+          <para>Latency.</para>
+          <para>Represents the following element tag in the schema: inkml:latency.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:inkml = http://www.w3.org/2003/InkML
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.InkML.InkSource.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.InkML.InkSource.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Manufacturer">
@@ -315,10 +314,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "manufacturer")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "manufacturer")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "manufacturer")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -326,8 +327,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> manufacturer.</para>
-          <para>Represents the following attribute in the schema: manufacturer </para>
+          <para>manufacturer</para>
+          <para>Represents the following attribute in the schema: manufacturer</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -344,10 +345,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "model")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "model")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "model")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -355,8 +358,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> model.</para>
-          <para>Represents the following attribute in the schema: model </para>
+          <para>model</para>
+          <para>Represents the following attribute in the schema: model</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -373,14 +376,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.InkML.SampleRate</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> SampleRate.</para>
-          <para> Represents the following element tag in the schema: inkml:sampleRate </para>
+          <para>SampleRate.</para>
+          <para>Represents the following element tag in the schema: inkml:sampleRate.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -400,10 +404,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "serialNo")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "serialNo")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "serialNo")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -411,8 +417,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> serialNo.</para>
-          <para>Represents the following attribute in the schema: serialNo </para>
+          <para>serialNo</para>
+          <para>Represents the following attribute in the schema: serialNo</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -429,10 +435,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "specificationRef")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "specificationRef")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "specificationRef")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -440,8 +448,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> specificationRef.</para>
-          <para>Represents the following attribute in the schema: specificationRef </para>
+          <para>specificationRef</para>
+          <para>Represents the following attribute in the schema: specificationRef</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -458,14 +466,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.InkML.TraceFormat</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TraceFormat.</para>
-          <para> Represents the following element tag in the schema: inkml:traceFormat </para>
+          <para>TraceFormat.</para>
+          <para>Represents the following element tag in the schema: inkml:traceFormat.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

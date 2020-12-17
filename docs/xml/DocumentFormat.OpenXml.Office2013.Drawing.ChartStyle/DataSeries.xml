@@ -1,4 +1,4 @@
-﻿<Type Name="DataSeries" FullName="DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.DataSeries">
+<Type Name="DataSeries" FullName="DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.DataSeries">
   <TypeSignature Language="C#" Value="public class DataSeries : DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DataSeries extends DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.DataSeries" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafElement</BaseTypeName>
@@ -15,17 +16,15 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(65, "dataSeries")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(65, "dataSeries")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the DataSeries Class.</para>
-      <para>This class is only available in Office2013.</para>
-      <para> When the object is serialized out as xml, its qualified name is cs:dataSeries.</para>
+      <para>This class is available in Office 2013 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is cs:dataSeries.</para>
     </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -40,6 +39,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -60,6 +60,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -74,6 +75,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="DoughnutHoleSize">
@@ -87,10 +89,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "doughnutHoleSize")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "doughnutHoleSize")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "doughnutHoleSize")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -98,8 +102,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> doughnutHoleSize.</para>
-          <para>Represents the following attribute in the schema: doughnutHoleSize </para>
+          <para>doughnutHoleSize, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: doughnutHoleSize</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -116,10 +120,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "dropLines")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "dropLines")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "dropLines")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -127,8 +133,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> dropLines.</para>
-          <para>Represents the following attribute in the schema: dropLines </para>
+          <para>dropLines, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: dropLines</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -145,10 +151,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "gapDepth")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "gapDepth")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "gapDepth")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -156,8 +164,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> gapDepth.</para>
-          <para>Represents the following attribute in the schema: gapDepth </para>
+          <para>gapDepth, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: gapDepth</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -174,10 +182,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "gapWidth")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "gapWidth")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "gapWidth")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -185,8 +195,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> gapWidth.</para>
-          <para>Represents the following attribute in the schema: gapWidth </para>
+          <para>gapWidth, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: gapWidth</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -203,10 +213,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "hiloLines")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "hiloLines")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "hiloLines")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -214,32 +226,9 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> hiloLines.</para>
-          <para>Represents the following attribute in the schema: hiloLines </para>
+          <para>hiloLines, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: hiloLines</para>
         </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.DataSeries.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.DataSeries.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -255,10 +244,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "markerVisible")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "markerVisible")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "markerVisible")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -266,8 +257,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> markerVisible.</para>
-          <para>Represents the following attribute in the schema: markerVisible </para>
+          <para>markerVisible, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: markerVisible</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -284,10 +275,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "overlap")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "overlap")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "overlap")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -295,8 +288,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> overlap.</para>
-          <para>Represents the following attribute in the schema: overlap </para>
+          <para>overlap, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: overlap</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -313,10 +306,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "seriesLines")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "seriesLines")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "seriesLines")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -324,8 +319,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> seriesLines.</para>
-          <para>Represents the following attribute in the schema: seriesLines </para>
+          <para>seriesLines, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: seriesLines</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

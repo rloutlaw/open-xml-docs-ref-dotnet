@@ -1,4 +1,4 @@
-﻿<Type Name="ChartPart" FullName="DocumentFormat.OpenXml.Packaging.ChartPart">
+<Type Name="ChartPart" FullName="DocumentFormat.OpenXml.Packaging.ChartPart">
   <TypeSignature Language="C#" Value="public class ChartPart : DocumentFormat.OpenXml.Packaging.OpenXmlPart, DocumentFormat.OpenXml.Packaging.IFixedContentTypePart" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ChartPart extends DocumentFormat.OpenXml.Packaging.OpenXmlPart implements class DocumentFormat.OpenXml.Packaging.IFixedContentTypePart" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Packaging.ChartPart" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.Packaging.OpenXmlPart</BaseTypeName>
@@ -19,7 +20,7 @@
   </Interfaces>
   <Docs>
     <summary>
-            Defines the ChartPart.
+            Defines the ChartPart
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -34,11 +35,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>
-            Construtor of ChartPart
+            Creates an instance of the ChartPart OpenXmlType
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -54,6 +56,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.EmbeddedPackagePart</ReturnType>
@@ -62,12 +65,13 @@
         <Parameter Name="contentType" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="contentType">The content type of the EmbeddedPackagePart.</param>
+        <param name="contentType">The content type of the EmbeddedPackagePart</param>
         <summary>
-            Adds a EmbeddedPackagePart to the ChartPart.
+            Adds a EmbeddedPackagePart to the ChartPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddImagePart">
@@ -81,6 +85,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ImagePart</ReturnType>
@@ -89,12 +94,13 @@
         <Parameter Name="partType" Type="DocumentFormat.OpenXml.Packaging.ImagePartType" />
       </Parameters>
       <Docs>
-        <param name="partType">The part type of the ImagePart.</param>
+        <param name="partType">The part type of the ImagePart</param>
         <summary>
-            Adds a ImagePart to the ChartPart.
+            Adds a ImagePart to the ChartPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddImagePart">
@@ -108,6 +114,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ImagePart</ReturnType>
@@ -116,12 +123,13 @@
         <Parameter Name="contentType" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="contentType">the content type of the ImagePart.</param>
+        <param name="contentType">The content type of the ImagePart</param>
         <summary>
-            Adds a ImagePart to the ChartPart.
+            Adds a ImagePart to the ChartPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddImagePart">
@@ -135,6 +143,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ImagePart</ReturnType>
@@ -144,13 +153,14 @@
         <Parameter Name="id" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="partType">The part type of the ImagePart.</param>
-        <param name="id">The relationship id.</param>
+        <param name="partType">The part type of the ImagePart</param>
+        <param name="id">The relationship id</param>
         <summary>
-            Adds a ImagePart to the ChartPart.
+            Adds a ImagePart to the ChartPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="AddImagePart">
@@ -164,6 +174,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ImagePart</ReturnType>
@@ -173,13 +184,14 @@
         <Parameter Name="id" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="contentType">the content type of the ImagePart.</param>
-        <param name="id">The relationship id.</param>
+        <param name="contentType">The content type of the ImagePart</param>
+        <param name="id">The relationship id</param>
         <summary>
-            Adds a ImagePart to the ChartPart.
+            Adds a ImagePart to the ChartPart
             </summary>
         <returns>The newly added part.</returns>
         <remarks>To be added.</remarks>
+        <return>The newly added part</return>
       </Docs>
     </Member>
     <Member MemberName="ChartColorStyleParts">
@@ -193,18 +205,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.ChartColorStylePart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the ChartColorStyleParts of the ChartPart., only available in Office2013
+            Gets the ChartColorStyleParts of the ChartPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -221,13 +229,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ChartDrawingPart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the ChartDrawingPart of the ChartPart.
+            Gets the ChartDrawingPart of the ChartPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -244,13 +253,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.ChartSpace</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets/Sets the root element of this part.
+            Gets or sets the root element of this part.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -267,18 +277,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.ChartStylePart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the ChartStyleParts of the ChartPart., only available in Office2013
+            Gets the ChartStyleParts of the ChartPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -295,6 +301,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -305,6 +312,7 @@
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="EmbeddedPackagePart">
@@ -318,13 +326,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.EmbeddedPackagePart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the EmbeddedPackagePart of the ChartPart.
+            Gets the EmbeddedPackagePart of the ChartPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -341,13 +350,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.Packaging.ImagePart&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the ImageParts of the ChartPart.
+            Gets the ImageParts of the ChartPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -364,6 +374,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -374,6 +385,7 @@
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ThemeOverridePart">
@@ -387,13 +399,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.ThemeOverridePart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Gets the ThemeOverridePart of the ChartPart.
+            Gets the ThemeOverridePart of the ChartPart
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

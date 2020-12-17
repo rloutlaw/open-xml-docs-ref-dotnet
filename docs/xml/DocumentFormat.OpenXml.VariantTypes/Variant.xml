@@ -1,4 +1,4 @@
-﻿<Type Name="Variant" FullName="DocumentFormat.OpenXml.VariantTypes.Variant">
+<Type Name="Variant" FullName="DocumentFormat.OpenXml.VariantTypes.Variant">
   <TypeSignature Language="C#" Value="public class Variant : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Variant extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.VariantTypes.Variant" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,122 +16,129 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.Variant))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTVector))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTArray))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTBlob))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTOBlob))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTEmpty))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTNull))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTByte))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTShort))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTInt32))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTInt64))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTInteger))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTUnsignedByte))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTUnsignedShort))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTUnsignedInt32))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTUnsignedInt64))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTUnsignedInteger))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTFloat))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTDouble))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTDecimal))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTLPSTR))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTLPWSTR))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTBString))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTDate))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTFileTime))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTBool))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTCurrency))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTError))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTStreamData))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTOStreamData))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTStorage))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTOStorage))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTVStreamData))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTClassId))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.VariantTypes.VTClipboardData))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(5, "variant")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(5, "variant")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Variant.</para>
-      <para> When the object is serialized out as xml, its qualified name is vt:variant.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is vt:variant.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>Variant &lt;vt:variant&gt;</description></item><item><description>VTVector &lt;vt:vector&gt;</description></item><item><description>VTArray &lt;vt:array&gt;</description></item><item><description>VTBlob &lt;vt:blob&gt;</description></item><item><description>VTOBlob &lt;vt:oblob&gt;</description></item><item><description>VTEmpty &lt;vt:empty&gt;</description></item><item><description>VTNull &lt;vt:null&gt;</description></item><item><description>VTByte &lt;vt:i1&gt;</description></item><item><description>VTShort &lt;vt:i2&gt;</description></item><item><description>VTInt32 &lt;vt:i4&gt;</description></item><item><description>VTInt64 &lt;vt:i8&gt;</description></item><item><description>VTInteger &lt;vt:int&gt;</description></item><item><description>VTUnsignedByte &lt;vt:ui1&gt;</description></item><item><description>VTUnsignedShort &lt;vt:ui2&gt;</description></item><item><description>VTUnsignedInt32 &lt;vt:ui4&gt;</description></item><item><description>VTUnsignedInt64 &lt;vt:ui8&gt;</description></item><item><description>VTUnsignedInteger &lt;vt:uint&gt;</description></item><item><description>VTFloat &lt;vt:r4&gt;</description></item><item><description>VTDouble &lt;vt:r8&gt;</description></item><item><description>VTDecimal &lt;vt:decimal&gt;</description></item><item><description>VTLPSTR &lt;vt:lpstr&gt;</description></item><item><description>VTLPWSTR &lt;vt:lpwstr&gt;</description></item><item><description>VTBString &lt;vt:bstr&gt;</description></item><item><description>VTDate &lt;vt:date&gt;</description></item><item><description>VTFileTime &lt;vt:filetime&gt;</description></item><item><description>VTBool &lt;vt:bool&gt;</description></item><item><description>VTCurrency &lt;vt:cy&gt;</description></item><item><description>VTError &lt;vt:error&gt;</description></item><item><description>VTStreamData &lt;vt:stream&gt;</description></item><item><description>VTOStreamData &lt;vt:ostream&gt;</description></item><item><description>VTStorage &lt;vt:storage&gt;</description></item><item><description>VTOStorage &lt;vt:ostorage&gt;</description></item><item><description>VTVStreamData &lt;vt:vstream&gt;</description></item><item><description>VTClassId &lt;vt:clsid&gt;</description></item><item><description>VTClipboardData &lt;vt:cf&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>Variant &lt;vt:variant&gt;</description>
+        </item>
+        <item>
+          <description>VTVector &lt;vt:vector&gt;</description>
+        </item>
+        <item>
+          <description>VTArray &lt;vt:array&gt;</description>
+        </item>
+        <item>
+          <description>VTBlob &lt;vt:blob&gt;</description>
+        </item>
+        <item>
+          <description>VTOBlob &lt;vt:oblob&gt;</description>
+        </item>
+        <item>
+          <description>VTEmpty &lt;vt:empty&gt;</description>
+        </item>
+        <item>
+          <description>VTNull &lt;vt:null&gt;</description>
+        </item>
+        <item>
+          <description>VTByte &lt;vt:i1&gt;</description>
+        </item>
+        <item>
+          <description>VTShort &lt;vt:i2&gt;</description>
+        </item>
+        <item>
+          <description>VTInt32 &lt;vt:i4&gt;</description>
+        </item>
+        <item>
+          <description>VTInt64 &lt;vt:i8&gt;</description>
+        </item>
+        <item>
+          <description>VTInteger &lt;vt:int&gt;</description>
+        </item>
+        <item>
+          <description>VTUnsignedByte &lt;vt:ui1&gt;</description>
+        </item>
+        <item>
+          <description>VTUnsignedShort &lt;vt:ui2&gt;</description>
+        </item>
+        <item>
+          <description>VTUnsignedInt32 &lt;vt:ui4&gt;</description>
+        </item>
+        <item>
+          <description>VTUnsignedInt64 &lt;vt:ui8&gt;</description>
+        </item>
+        <item>
+          <description>VTUnsignedInteger &lt;vt:uint&gt;</description>
+        </item>
+        <item>
+          <description>VTFloat &lt;vt:r4&gt;</description>
+        </item>
+        <item>
+          <description>VTDouble &lt;vt:r8&gt;</description>
+        </item>
+        <item>
+          <description>VTDecimal &lt;vt:decimal&gt;</description>
+        </item>
+        <item>
+          <description>VTLPSTR &lt;vt:lpstr&gt;</description>
+        </item>
+        <item>
+          <description>VTLPWSTR &lt;vt:lpwstr&gt;</description>
+        </item>
+        <item>
+          <description>VTBString &lt;vt:bstr&gt;</description>
+        </item>
+        <item>
+          <description>VTDate &lt;vt:date&gt;</description>
+        </item>
+        <item>
+          <description>VTFileTime &lt;vt:filetime&gt;</description>
+        </item>
+        <item>
+          <description>VTBool &lt;vt:bool&gt;</description>
+        </item>
+        <item>
+          <description>VTCurrency &lt;vt:cy&gt;</description>
+        </item>
+        <item>
+          <description>VTError &lt;vt:error&gt;</description>
+        </item>
+        <item>
+          <description>VTStreamData &lt;vt:stream&gt;</description>
+        </item>
+        <item>
+          <description>VTOStreamData &lt;vt:ostream&gt;</description>
+        </item>
+        <item>
+          <description>VTStorage &lt;vt:storage&gt;</description>
+        </item>
+        <item>
+          <description>VTOStorage &lt;vt:ostorage&gt;</description>
+        </item>
+        <item>
+          <description>VTVStreamData &lt;vt:vstream&gt;</description>
+        </item>
+        <item>
+          <description>VTClassId &lt;vt:clsid&gt;</description>
+        </item>
+        <item>
+          <description>VTClipboardData &lt;vt:cf&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -143,6 +151,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -163,12 +172,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -192,6 +203,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -200,7 +212,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Variant class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -215,6 +227,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -238,6 +251,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -252,6 +266,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="InnerVariant">
@@ -265,43 +280,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.Variant</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Variant.</para>
-          <para> Represents the following element tag in the schema: vt:variant </para>
+          <para>Variant.</para>
+          <para>Represents the following element tag in the schema: vt:variant.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.Variant" />.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:vt = http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.VariantTypes.Variant.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.VariantTypes.Variant.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="VTArray">
@@ -315,14 +308,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTArray</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Array.</para>
-          <para> Represents the following element tag in the schema: vt:array </para>
+          <para>Array.</para>
+          <para>Represents the following element tag in the schema: vt:array.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTArray" />.</value>
         <remarks>To be added.</remarks>
@@ -342,14 +336,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTBlob</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Binary Blob.</para>
-          <para> Represents the following element tag in the schema: vt:blob </para>
+          <para>Binary Blob.</para>
+          <para>Represents the following element tag in the schema: vt:blob.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTBlob" />.</value>
         <remarks>To be added.</remarks>
@@ -369,14 +364,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTBool</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Boolean.</para>
-          <para> Represents the following element tag in the schema: vt:bool </para>
+          <para>Boolean.</para>
+          <para>Represents the following element tag in the schema: vt:bool.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTBool" />.</value>
         <remarks>To be added.</remarks>
@@ -396,14 +392,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTBString</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Basic String.</para>
-          <para> Represents the following element tag in the schema: vt:bstr </para>
+          <para>Basic String.</para>
+          <para>Represents the following element tag in the schema: vt:bstr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -423,14 +420,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTByte</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> 1-Byte Signed Integer.</para>
-          <para> Represents the following element tag in the schema: vt:i1 </para>
+          <para>1-Byte Signed Integer.</para>
+          <para>Represents the following element tag in the schema: vt:i1.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTByte" />.</value>
         <remarks>To be added.</remarks>
@@ -450,14 +448,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTClassId</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Class ID.</para>
-          <para> Represents the following element tag in the schema: vt:clsid </para>
+          <para>Class ID.</para>
+          <para>Represents the following element tag in the schema: vt:clsid.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTClassId" />.</value>
         <remarks>To be added.</remarks>
@@ -477,14 +476,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTClipboardData</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Clipboard Data.</para>
-          <para> Represents the following element tag in the schema: vt:cf </para>
+          <para>Clipboard Data.</para>
+          <para>Represents the following element tag in the schema: vt:cf.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTClipboardData" />.</value>
         <remarks>To be added.</remarks>
@@ -504,14 +504,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTCurrency</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Currency.</para>
-          <para> Represents the following element tag in the schema: vt:cy </para>
+          <para>Currency.</para>
+          <para>Represents the following element tag in the schema: vt:cy.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTCurrency" />.</value>
         <remarks>To be added.</remarks>
@@ -531,14 +532,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTDate</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Date and Time.</para>
-          <para> Represents the following element tag in the schema: vt:date </para>
+          <para>Date and Time.</para>
+          <para>Represents the following element tag in the schema: vt:date.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTDate" />.</value>
         <remarks>To be added.</remarks>
@@ -558,14 +560,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTDecimal</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Decimal.</para>
-          <para> Represents the following element tag in the schema: vt:decimal </para>
+          <para>Decimal.</para>
+          <para>Represents the following element tag in the schema: vt:decimal.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTDecimal" />.</value>
         <remarks>To be added.</remarks>
@@ -585,14 +588,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTDouble</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> 8-Byte Real Number.</para>
-          <para> Represents the following element tag in the schema: vt:r8 </para>
+          <para>8-Byte Real Number.</para>
+          <para>Represents the following element tag in the schema: vt:r8.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTDouble" />.</value>
         <remarks>To be added.</remarks>
@@ -612,14 +616,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTEmpty</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Empty.</para>
-          <para> Represents the following element tag in the schema: vt:empty </para>
+          <para>Empty.</para>
+          <para>Represents the following element tag in the schema: vt:empty.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTEmpty" />.</value>
         <remarks>To be added.</remarks>
@@ -639,14 +644,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTError</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Error Status Code.</para>
-          <para> Represents the following element tag in the schema: vt:error </para>
+          <para>Error Status Code.</para>
+          <para>Represents the following element tag in the schema: vt:error.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTError" />.</value>
         <remarks>To be added.</remarks>
@@ -666,14 +672,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTFileTime</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> File Time.</para>
-          <para> Represents the following element tag in the schema: vt:filetime </para>
+          <para>File Time.</para>
+          <para>Represents the following element tag in the schema: vt:filetime.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTFileTime" />.</value>
         <remarks>To be added.</remarks>
@@ -693,14 +700,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTFloat</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> 4-Byte Real Number.</para>
-          <para> Represents the following element tag in the schema: vt:r4 </para>
+          <para>4-Byte Real Number.</para>
+          <para>Represents the following element tag in the schema: vt:r4.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTFloat" />.</value>
         <remarks>To be added.</remarks>
@@ -720,14 +728,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTInt32</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> 4-Byte Signed Integer.</para>
-          <para> Represents the following element tag in the schema: vt:i4 </para>
+          <para>4-Byte Signed Integer.</para>
+          <para>Represents the following element tag in the schema: vt:i4.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTInt32" />.</value>
         <remarks>To be added.</remarks>
@@ -747,14 +756,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTInt64</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> 8-Byte Signed Integer.</para>
-          <para> Represents the following element tag in the schema: vt:i8 </para>
+          <para>8-Byte Signed Integer.</para>
+          <para>Represents the following element tag in the schema: vt:i8.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTInt64" />.</value>
         <remarks>To be added.</remarks>
@@ -774,14 +784,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTInteger</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Integer.</para>
-          <para> Represents the following element tag in the schema: vt:int </para>
+          <para>Integer.</para>
+          <para>Represents the following element tag in the schema: vt:int.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTInteger" />.</value>
         <remarks>To be added.</remarks>
@@ -801,14 +812,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTLPSTR</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> LPSTR.</para>
-          <para> Represents the following element tag in the schema: vt:lpstr </para>
+          <para>LPSTR.</para>
+          <para>Represents the following element tag in the schema: vt:lpstr.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTLPSTR" />.</value>
         <remarks>To be added.</remarks>
@@ -828,14 +840,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTLPWSTR</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> LPWSTR.</para>
-          <para> Represents the following element tag in the schema: vt:lpwstr </para>
+          <para>LPWSTR.</para>
+          <para>Represents the following element tag in the schema: vt:lpwstr.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTLPWSTR" />.</value>
         <remarks>To be added.</remarks>
@@ -855,14 +868,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTNull</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Null.</para>
-          <para> Represents the following element tag in the schema: vt:null </para>
+          <para>Null.</para>
+          <para>Represents the following element tag in the schema: vt:null.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTNull" />.</value>
         <remarks>To be added.</remarks>
@@ -882,14 +896,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTOBlob</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Binary Blob Object.</para>
-          <para> Represents the following element tag in the schema: vt:oblob </para>
+          <para>Binary Blob Object.</para>
+          <para>Represents the following element tag in the schema: vt:oblob.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTOBlob" />.</value>
         <remarks>To be added.</remarks>
@@ -909,14 +924,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTOStorage</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Binary Storage Object.</para>
-          <para> Represents the following element tag in the schema: vt:ostorage </para>
+          <para>Binary Storage Object.</para>
+          <para>Represents the following element tag in the schema: vt:ostorage.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTOStorage" />.</value>
         <remarks>To be added.</remarks>
@@ -936,14 +952,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTOStreamData</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Binary Stream Object.</para>
-          <para> Represents the following element tag in the schema: vt:ostream </para>
+          <para>Binary Stream Object.</para>
+          <para>Represents the following element tag in the schema: vt:ostream.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -963,14 +980,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTShort</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> 2-Byte Signed Integer.</para>
-          <para> Represents the following element tag in the schema: vt:i2 </para>
+          <para>2-Byte Signed Integer.</para>
+          <para>Represents the following element tag in the schema: vt:i2.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTShort" />.</value>
         <remarks>To be added.</remarks>
@@ -990,14 +1008,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTStorage</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Binary Storage.</para>
-          <para> Represents the following element tag in the schema: vt:storage </para>
+          <para>Binary Storage.</para>
+          <para>Represents the following element tag in the schema: vt:storage.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTStorage" />.</value>
         <remarks>To be added.</remarks>
@@ -1017,14 +1036,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTStreamData</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Binary Stream.</para>
-          <para> Represents the following element tag in the schema: vt:stream </para>
+          <para>Binary Stream.</para>
+          <para>Represents the following element tag in the schema: vt:stream.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1044,14 +1064,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTUnsignedByte</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> 1-Byte Unsigned Integer.</para>
-          <para> Represents the following element tag in the schema: vt:ui1 </para>
+          <para>1-Byte Unsigned Integer.</para>
+          <para>Represents the following element tag in the schema: vt:ui1.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTUnsignedByte" />.</value>
         <remarks>To be added.</remarks>
@@ -1071,14 +1092,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTUnsignedInt32</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> 4-Byte Unsigned Integer.</para>
-          <para> Represents the following element tag in the schema: vt:ui4 </para>
+          <para>4-Byte Unsigned Integer.</para>
+          <para>Represents the following element tag in the schema: vt:ui4.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTUnsignedInt32" />.</value>
         <remarks>To be added.</remarks>
@@ -1098,14 +1120,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTUnsignedInt64</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> 8-Byte Unsigned Integer.</para>
-          <para> Represents the following element tag in the schema: vt:ui8 </para>
+          <para>8-Byte Unsigned Integer.</para>
+          <para>Represents the following element tag in the schema: vt:ui8.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTUnsignedInt64" />.</value>
         <remarks>To be added.</remarks>
@@ -1125,14 +1148,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTUnsignedInteger</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Unsigned Integer.</para>
-          <para> Represents the following element tag in the schema: vt:uint </para>
+          <para>Unsigned Integer.</para>
+          <para>Represents the following element tag in the schema: vt:uint.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTUnsignedInteger" />.</value>
         <remarks>To be added.</remarks>
@@ -1152,14 +1176,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTUnsignedShort</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> 2-Byte Unsigned Integer.</para>
-          <para> Represents the following element tag in the schema: vt:ui2 </para>
+          <para>2-Byte Unsigned Integer.</para>
+          <para>Represents the following element tag in the schema: vt:ui2.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTUnsignedShort" />.</value>
         <remarks>To be added.</remarks>
@@ -1179,14 +1204,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTVector</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Vector.</para>
-          <para> Represents the following element tag in the schema: vt:vector </para>
+          <para>Vector.</para>
+          <para>Represents the following element tag in the schema: vt:vector.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.VariantTypes.VTVector" />.</value>
         <remarks>To be added.</remarks>
@@ -1206,14 +1232,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.VariantTypes.VTVStreamData</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Binary Versioned Stream.</para>
-          <para> Represents the following element tag in the schema: vt:vstream </para>
+          <para>Binary Versioned Stream.</para>
+          <para>Represents the following element tag in the schema: vt:vstream.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

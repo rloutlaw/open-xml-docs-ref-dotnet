@@ -1,4 +1,4 @@
-﻿<Type Name="AuthorList" FullName="DocumentFormat.OpenXml.Bibliography.AuthorList">
+<Type Name="AuthorList" FullName="DocumentFormat.OpenXml.Bibliography.AuthorList">
   <TypeSignature Language="C#" Value="public class AuthorList : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AuthorList extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Bibliography.AuthorList" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,65 +16,72 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.Artist))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.Author))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.BookAuthor))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.Compiler))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.Composer))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.Conductor))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.Counsel))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.Director))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.Editor))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.Interviewee))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.Interviewer))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.Inventor))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.Performer))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.ProducerName))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.Translator))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Bibliography.Writer))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(9, "Author")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(9, "Author")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Contributors List.</para>
-      <para> When the object is serialized out as xml, its qualified name is b:Author.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is b:Author.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>Artist &lt;b:Artist&gt;</description></item><item><description>Author &lt;b:Author&gt;</description></item><item><description>BookAuthor &lt;b:BookAuthor&gt;</description></item><item><description>Compiler &lt;b:Compiler&gt;</description></item><item><description>Composer &lt;b:Composer&gt;</description></item><item><description>Conductor &lt;b:Conductor&gt;</description></item><item><description>Counsel &lt;b:Counsel&gt;</description></item><item><description>Director &lt;b:Director&gt;</description></item><item><description>Editor &lt;b:Editor&gt;</description></item><item><description>Interviewee &lt;b:Interviewee&gt;</description></item><item><description>Interviewer &lt;b:Interviewer&gt;</description></item><item><description>Inventor &lt;b:Inventor&gt;</description></item><item><description>Performer &lt;b:Performer&gt;</description></item><item><description>ProducerName &lt;b:ProducerName&gt;</description></item><item><description>Translator &lt;b:Translator&gt;</description></item><item><description>Writer &lt;b:Writer&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>Artist &lt;b:Artist&gt;</description>
+        </item>
+        <item>
+          <description>Author &lt;b:Author&gt;</description>
+        </item>
+        <item>
+          <description>BookAuthor &lt;b:BookAuthor&gt;</description>
+        </item>
+        <item>
+          <description>Compiler &lt;b:Compiler&gt;</description>
+        </item>
+        <item>
+          <description>Composer &lt;b:Composer&gt;</description>
+        </item>
+        <item>
+          <description>Conductor &lt;b:Conductor&gt;</description>
+        </item>
+        <item>
+          <description>Counsel &lt;b:Counsel&gt;</description>
+        </item>
+        <item>
+          <description>Director &lt;b:Director&gt;</description>
+        </item>
+        <item>
+          <description>Editor &lt;b:Editor&gt;</description>
+        </item>
+        <item>
+          <description>Interviewee &lt;b:Interviewee&gt;</description>
+        </item>
+        <item>
+          <description>Interviewer &lt;b:Interviewer&gt;</description>
+        </item>
+        <item>
+          <description>Inventor &lt;b:Inventor&gt;</description>
+        </item>
+        <item>
+          <description>Performer &lt;b:Performer&gt;</description>
+        </item>
+        <item>
+          <description>ProducerName &lt;b:ProducerName&gt;</description>
+        </item>
+        <item>
+          <description>Translator &lt;b:Translator&gt;</description>
+        </item>
+        <item>
+          <description>Writer &lt;b:Writer&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -86,6 +94,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -106,12 +115,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -135,6 +146,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -143,7 +155,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the AuthorList class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -158,6 +170,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -181,14 +194,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.Artist</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Artist.</para>
-          <para> Represents the following element tag in the schema: b:Artist </para>
+          <para>Artist.</para>
+          <para>Represents the following element tag in the schema: b:Artist.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.Artist" />.</value>
         <remarks>To be added.</remarks>
@@ -208,14 +222,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.Author</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Author.</para>
-          <para> Represents the following element tag in the schema: b:Author </para>
+          <para>Author.</para>
+          <para>Represents the following element tag in the schema: b:Author.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.Author" />.</value>
         <remarks>To be added.</remarks>
@@ -235,14 +250,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.BookAuthor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Book Author.</para>
-          <para> Represents the following element tag in the schema: b:BookAuthor </para>
+          <para>Book Author.</para>
+          <para>Represents the following element tag in the schema: b:BookAuthor.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.BookAuthor" />.</value>
         <remarks>To be added.</remarks>
@@ -262,6 +278,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -276,6 +293,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Compiler">
@@ -289,14 +307,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.Compiler</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Compiler.</para>
-          <para> Represents the following element tag in the schema: b:Compiler </para>
+          <para>Compiler.</para>
+          <para>Represents the following element tag in the schema: b:Compiler.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.Compiler" />.</value>
         <remarks>To be added.</remarks>
@@ -316,14 +335,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.Composer</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Composer.</para>
-          <para> Represents the following element tag in the schema: b:Composer </para>
+          <para>Composer.</para>
+          <para>Represents the following element tag in the schema: b:Composer.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.Composer" />.</value>
         <remarks>To be added.</remarks>
@@ -343,14 +363,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.Conductor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Conductor.</para>
-          <para> Represents the following element tag in the schema: b:Conductor </para>
+          <para>Conductor.</para>
+          <para>Represents the following element tag in the schema: b:Conductor.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.Conductor" />.</value>
         <remarks>To be added.</remarks>
@@ -370,14 +391,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.Counsel</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Counsel.</para>
-          <para> Represents the following element tag in the schema: b:Counsel </para>
+          <para>Counsel.</para>
+          <para>Represents the following element tag in the schema: b:Counsel.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.Counsel" />.</value>
         <remarks>To be added.</remarks>
@@ -397,14 +419,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.Director</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Director.</para>
-          <para> Represents the following element tag in the schema: b:Director </para>
+          <para>Director.</para>
+          <para>Represents the following element tag in the schema: b:Director.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.Director" />.</value>
         <remarks>To be added.</remarks>
@@ -424,14 +447,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.Editor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Editor.</para>
-          <para> Represents the following element tag in the schema: b:Editor </para>
+          <para>Editor.</para>
+          <para>Represents the following element tag in the schema: b:Editor.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.Editor" />.</value>
         <remarks>To be added.</remarks>
@@ -451,14 +475,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.Interviewee</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Interviewee.</para>
-          <para> Represents the following element tag in the schema: b:Interviewee </para>
+          <para>Interviewee.</para>
+          <para>Represents the following element tag in the schema: b:Interviewee.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.Interviewee" />.</value>
         <remarks>To be added.</remarks>
@@ -478,14 +503,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.Interviewer</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Interviewer.</para>
-          <para> Represents the following element tag in the schema: b:Interviewer </para>
+          <para>Interviewer.</para>
+          <para>Represents the following element tag in the schema: b:Interviewer.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.Interviewer" />.</value>
         <remarks>To be added.</remarks>
@@ -505,43 +531,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.Inventor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Inventor.</para>
-          <para> Represents the following element tag in the schema: b:Inventor </para>
+          <para>Inventor.</para>
+          <para>Represents the following element tag in the schema: b:Inventor.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.Inventor" />.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:b = http://schemas.openxmlformats.org/officeDocument/2006/bibliography
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Bibliography.AuthorList.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Bibliography.AuthorList.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Performer">
@@ -555,14 +559,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.Performer</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Performer.</para>
-          <para> Represents the following element tag in the schema: b:Performer </para>
+          <para>Performer.</para>
+          <para>Represents the following element tag in the schema: b:Performer.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.Performer" />.</value>
         <remarks>To be added.</remarks>
@@ -582,14 +587,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.ProducerName</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Producer Name.</para>
-          <para> Represents the following element tag in the schema: b:ProducerName </para>
+          <para>Producer Name.</para>
+          <para>Represents the following element tag in the schema: b:ProducerName.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.ProducerName" />.</value>
         <remarks>To be added.</remarks>
@@ -609,14 +615,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.Translator</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Translator.</para>
-          <para> Represents the following element tag in the schema: b:Translator </para>
+          <para>Translator.</para>
+          <para>Represents the following element tag in the schema: b:Translator.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.Translator" />.</value>
         <remarks>To be added.</remarks>
@@ -636,14 +643,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Bibliography.Writer</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Writer.</para>
-          <para> Represents the following element tag in the schema: b:Writer </para>
+          <para>Writer.</para>
+          <para>Represents the following element tag in the schema: b:Writer.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Bibliography.Writer" />.</value>
         <remarks>To be added.</remarks>

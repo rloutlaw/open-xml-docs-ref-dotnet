@@ -1,16 +1,17 @@
-﻿<Type Name="Int64Value" FullName="DocumentFormat.OpenXml.Int64Value">
-  <TypeSignature Language="C#" Value="public class Int64Value : DocumentFormat.OpenXml.OpenXmlSimpleValue&lt;long&gt;" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Int64Value extends DocumentFormat.OpenXml.OpenXmlSimpleValue`1&lt;int64&gt;" />
+<Type Name="Int64Value" FullName="DocumentFormat.OpenXml.Int64Value">
+  <TypeSignature Language="C#" Value="public class Int64Value : DocumentFormat.OpenXml.OpenXmlComparableSimpleValue&lt;long&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Int64Value extends DocumentFormat.OpenXml.OpenXmlComparableSimpleValue`1&lt;int64&gt;" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Int64Value" />
-  <TypeSignature Language="VB.NET" Value="Public Class Int64Value&#xA;Inherits OpenXmlSimpleValue(Of Long)" />
-  <TypeSignature Language="F#" Value="type Int64Value = class&#xA;    inherit OpenXmlSimpleValue&lt;int64&gt;" />
+  <TypeSignature Language="VB.NET" Value="Public Class Int64Value&#xA;Inherits OpenXmlComparableSimpleValue(Of Long)" />
+  <TypeSignature Language="F#" Value="type Int64Value = class&#xA;    inherit OpenXmlComparableSimpleValue&lt;int64&gt;" />
   <AssemblyInfo>
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>DocumentFormat.OpenXml.OpenXmlSimpleValue&lt;System.Int64&gt;</BaseTypeName>
+    <BaseTypeName>DocumentFormat.OpenXml.OpenXmlComparableSimpleValue&lt;System.Int64&gt;</BaseTypeName>
     <BaseTypeArguments>
       <BaseTypeArgument TypeParamName="T">System.Int64</BaseTypeArgument>
     </BaseTypeArguments>
@@ -18,7 +19,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Diagnostics.DebuggerDisplay("{InnerText}")</AttributeName>
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("{InnerText}")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("{InnerText}")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -38,6 +40,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -58,6 +61,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="source" Type="DocumentFormat.OpenXml.Int64Value" />
@@ -81,6 +85,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.Int64" />
@@ -104,6 +109,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Int64Value</ReturnType>
@@ -120,28 +126,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="InnerText">
-      <MemberSignature Language="C#" Value="public override string InnerText { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string InnerText" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Int64Value.InnerText" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property InnerText As String" />
-      <MemberSignature Language="F#" Value="member this.InnerText : string" Usage="DocumentFormat.OpenXml.Int64Value.InnerText" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets or sets the inner XML text.</summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
-        <inheritdoc />
-      </Docs>
-    </Member>
     <Member MemberName="op_Implicit">
       <MemberSignature Language="C#" Value="public static implicit operator long (DocumentFormat.OpenXml.Int64Value xmlAttribute);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname int64 op_Implicit(class DocumentFormat.OpenXml.Int64Value xmlAttribute) cil managed" />
@@ -153,6 +137,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -181,6 +166,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Int64Value</ReturnType>
@@ -208,6 +194,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>

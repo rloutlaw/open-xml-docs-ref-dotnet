@@ -1,4 +1,4 @@
-﻿<Type Name="ChildElementInfoAttribute" FullName="DocumentFormat.OpenXml.ChildElementInfoAttribute">
+<Type Name="ChildElementInfoAttribute" FullName="DocumentFormat.OpenXml.ChildElementInfoAttribute">
   <TypeSignature Language="C#" Value="public sealed class ChildElementInfoAttribute : Attribute" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ChildElementInfoAttribute extends System.Attribute" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.ChildElementInfoAttribute" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Attribute</BaseTypeName>
@@ -15,7 +16,16 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.AttributeUsage(System.AttributeTargets.Class, AllowMultiple=true, Inherited=true)</AttributeName>
+      <AttributeName Language="C#">[System.AttributeUsage(System.AttributeTargets.Class, AllowMultiple=true, Inherited=true)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.AttributeUsage(System.AttributeTargets.Class, AllowMultiple=true, Inherited=true)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName Language="C#">[System.Obsolete("This attribute is no longer used and will be removed in a later release")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Obsolete("This attribute is no longer used and will be removed in a later release")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -36,6 +46,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="elementType" Type="System.Type" />
@@ -59,6 +70,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="elementType" Type="System.Type" />
@@ -66,7 +78,7 @@
       </Parameters>
       <Docs>
         <param name="elementType">Specifies the type of the possible child element.</param>
-        <param name="availableInOfficeVersion">Specifies the office version(s) where the child element is available.</param>
+        <param name="availableInOfficeVersion">Specifies the office version where the child element is first available.</param>
         <summary>
             Initialize a new instance of ChildElementTypeAttribute.
             </summary>
@@ -84,6 +96,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.FileFormatVersions</ReturnType>
@@ -107,6 +120,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Type</ReturnType>

@@ -1,4 +1,4 @@
-﻿<Type Name="ColorScheme" FullName="DocumentFormat.OpenXml.Drawing.ColorScheme">
+<Type Name="ColorScheme" FullName="DocumentFormat.OpenXml.Drawing.ColorScheme">
   <TypeSignature Language="C#" Value="public class ColorScheme : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ColorScheme extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Drawing.ColorScheme" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,56 +16,63 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Dark1Color))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Light1Color))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Dark2Color))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Light2Color))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Accent1Color))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Accent2Color))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Accent3Color))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Accent4Color))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Accent5Color))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Accent6Color))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Hyperlink))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.FollowedHyperlinkColor))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.ExtensionList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(10, "clrScheme")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(10, "clrScheme")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the ColorScheme Class.</para>
-      <para> When the object is serialized out as xml, its qualified name is a:clrScheme.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is a:clrScheme.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>Dark1Color &lt;a:dk1&gt;</description></item><item><description>Light1Color &lt;a:lt1&gt;</description></item><item><description>Dark2Color &lt;a:dk2&gt;</description></item><item><description>Light2Color &lt;a:lt2&gt;</description></item><item><description>Accent1Color &lt;a:accent1&gt;</description></item><item><description>Accent2Color &lt;a:accent2&gt;</description></item><item><description>Accent3Color &lt;a:accent3&gt;</description></item><item><description>Accent4Color &lt;a:accent4&gt;</description></item><item><description>Accent5Color &lt;a:accent5&gt;</description></item><item><description>Accent6Color &lt;a:accent6&gt;</description></item><item><description>Hyperlink &lt;a:hlink&gt;</description></item><item><description>FollowedHyperlinkColor &lt;a:folHlink&gt;</description></item><item><description>ExtensionList &lt;a:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>Dark1Color &lt;a:dk1&gt;</description>
+        </item>
+        <item>
+          <description>Light1Color &lt;a:lt1&gt;</description>
+        </item>
+        <item>
+          <description>Dark2Color &lt;a:dk2&gt;</description>
+        </item>
+        <item>
+          <description>Light2Color &lt;a:lt2&gt;</description>
+        </item>
+        <item>
+          <description>Accent1Color &lt;a:accent1&gt;</description>
+        </item>
+        <item>
+          <description>Accent2Color &lt;a:accent2&gt;</description>
+        </item>
+        <item>
+          <description>Accent3Color &lt;a:accent3&gt;</description>
+        </item>
+        <item>
+          <description>Accent4Color &lt;a:accent4&gt;</description>
+        </item>
+        <item>
+          <description>Accent5Color &lt;a:accent5&gt;</description>
+        </item>
+        <item>
+          <description>Accent6Color &lt;a:accent6&gt;</description>
+        </item>
+        <item>
+          <description>Hyperlink &lt;a:hlink&gt;</description>
+        </item>
+        <item>
+          <description>FollowedHyperlinkColor &lt;a:folHlink&gt;</description>
+        </item>
+        <item>
+          <description>ExtensionList &lt;a:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -77,6 +85,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -97,12 +106,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -126,6 +137,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -134,7 +146,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the ColorScheme class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -149,6 +161,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -172,14 +185,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Accent1Color</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Accent 1.</para>
-          <para> Represents the following element tag in the schema: a:accent1 </para>
+          <para>Accent 1.</para>
+          <para>Represents the following element tag in the schema: a:accent1.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Accent1Color" />.</value>
         <remarks>To be added.</remarks>
@@ -199,14 +213,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Accent2Color</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Accent 2.</para>
-          <para> Represents the following element tag in the schema: a:accent2 </para>
+          <para>Accent 2.</para>
+          <para>Represents the following element tag in the schema: a:accent2.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Accent2Color" />.</value>
         <remarks>To be added.</remarks>
@@ -226,14 +241,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Accent3Color</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Accent 3.</para>
-          <para> Represents the following element tag in the schema: a:accent3 </para>
+          <para>Accent 3.</para>
+          <para>Represents the following element tag in the schema: a:accent3.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Accent3Color" />.</value>
         <remarks>To be added.</remarks>
@@ -253,14 +269,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Accent4Color</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Accent 4.</para>
-          <para> Represents the following element tag in the schema: a:accent4 </para>
+          <para>Accent 4.</para>
+          <para>Represents the following element tag in the schema: a:accent4.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Accent4Color" />.</value>
         <remarks>To be added.</remarks>
@@ -280,14 +297,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Accent5Color</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Accent 5.</para>
-          <para> Represents the following element tag in the schema: a:accent5 </para>
+          <para>Accent 5.</para>
+          <para>Represents the following element tag in the schema: a:accent5.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Accent5Color" />.</value>
         <remarks>To be added.</remarks>
@@ -307,14 +325,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Accent6Color</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Accent 6.</para>
-          <para> Represents the following element tag in the schema: a:accent6 </para>
+          <para>Accent 6.</para>
+          <para>Represents the following element tag in the schema: a:accent6.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Accent6Color" />.</value>
         <remarks>To be added.</remarks>
@@ -334,6 +353,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -348,6 +368,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Dark1Color">
@@ -361,14 +382,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Dark1Color</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Dark 1.</para>
-          <para> Represents the following element tag in the schema: a:dk1 </para>
+          <para>Dark 1.</para>
+          <para>Represents the following element tag in the schema: a:dk1.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Dark1Color" />.</value>
         <remarks>To be added.</remarks>
@@ -388,14 +410,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Dark2Color</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Dark 2.</para>
-          <para> Represents the following element tag in the schema: a:dk2 </para>
+          <para>Dark 2.</para>
+          <para>Represents the following element tag in the schema: a:dk2.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Dark2Color" />.</value>
         <remarks>To be added.</remarks>
@@ -415,14 +438,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.ExtensionList</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ExtensionList.</para>
-          <para> Represents the following element tag in the schema: a:extLst </para>
+          <para>ExtensionList.</para>
+          <para>Represents the following element tag in the schema: a:extLst.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.ExtensionList" />.</value>
         <remarks>To be added.</remarks>
@@ -442,14 +466,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.FollowedHyperlinkColor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Followed Hyperlink.</para>
-          <para> Represents the following element tag in the schema: a:folHlink </para>
+          <para>Followed Hyperlink.</para>
+          <para>Represents the following element tag in the schema: a:folHlink.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.FollowedHyperlinkColor" />.</value>
         <remarks>To be added.</remarks>
@@ -469,14 +494,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Hyperlink</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Hyperlink.</para>
-          <para> Represents the following element tag in the schema: a:hlink </para>
+          <para>Hyperlink.</para>
+          <para>Represents the following element tag in the schema: a:hlink.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Hyperlink" />.</value>
         <remarks>To be added.</remarks>
@@ -496,14 +522,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Light1Color</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Light 1.</para>
-          <para> Represents the following element tag in the schema: a:lt1 </para>
+          <para>Light 1.</para>
+          <para>Represents the following element tag in the schema: a:lt1.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Light1Color" />.</value>
         <remarks>To be added.</remarks>
@@ -523,43 +550,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Light2Color</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Light 2.</para>
-          <para> Represents the following element tag in the schema: a:lt2 </para>
+          <para>Light 2.</para>
+          <para>Represents the following element tag in the schema: a:lt2.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Light2Color" />.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:a = http://schemas.openxmlformats.org/drawingml/2006/main
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Drawing.ColorScheme.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Drawing.ColorScheme.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
@@ -573,10 +578,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "name")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "name")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "name")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -584,8 +591,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Name.</para>
-          <para>Represents the following attribute in the schema: name </para>
+          <para>Name</para>
+          <para>Represents the following attribute in the schema: name</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>

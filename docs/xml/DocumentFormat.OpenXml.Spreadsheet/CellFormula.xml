@@ -1,4 +1,4 @@
-﻿<Type Name="CellFormula" FullName="DocumentFormat.OpenXml.Spreadsheet.CellFormula">
+<Type Name="CellFormula" FullName="DocumentFormat.OpenXml.Spreadsheet.CellFormula">
   <TypeSignature Language="C#" Value="public class CellFormula : DocumentFormat.OpenXml.OpenXmlLeafTextElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CellFormula extends DocumentFormat.OpenXml.OpenXmlLeafTextElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Spreadsheet.CellFormula" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafTextElement</BaseTypeName>
@@ -15,13 +16,15 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(22, "f")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(22, "f")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Formula.</para>
-      <para> When the object is serialized out as xml, its qualified name is x:f.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is x:f.</para>
     </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
@@ -113,6 +116,7 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -133,6 +137,7 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="text" Type="System.String" />
@@ -156,10 +161,12 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "aca")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "aca")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "aca")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -167,8 +174,8 @@ SUM(C4:E4)</f>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Always Calculate Array.</para>
-          <para>Represents the following attribute in the schema: aca </para>
+          <para>Always Calculate Array</para>
+          <para>Represents the following attribute in the schema: aca</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -185,10 +192,12 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "bx")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "bx")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "bx")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -196,8 +205,8 @@ SUM(C4:E4)</f>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Assigns Value to Name.</para>
-          <para>Represents the following attribute in the schema: bx </para>
+          <para>Assigns Value to Name</para>
+          <para>Represents the following attribute in the schema: bx</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -214,10 +223,12 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "ca")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "ca")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "ca")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -225,8 +236,8 @@ SUM(C4:E4)</f>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Calculate Cell.</para>
-          <para>Represents the following attribute in the schema: ca </para>
+          <para>Calculate Cell</para>
+          <para>Represents the following attribute in the schema: ca</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -243,6 +254,7 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -257,6 +269,7 @@ SUM(C4:E4)</f>
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="DataTable2D">
@@ -270,10 +283,12 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "dt2D")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "dt2D")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "dt2D")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -281,8 +296,8 @@ SUM(C4:E4)</f>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Data Table 2-D.</para>
-          <para>Represents the following attribute in the schema: dt2D </para>
+          <para>Data Table 2-D</para>
+          <para>Represents the following attribute in the schema: dt2D</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -299,10 +314,12 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "dtr")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "dtr")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "dtr")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -310,8 +327,8 @@ SUM(C4:E4)</f>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Data Table Row.</para>
-          <para>Represents the following attribute in the schema: dtr </para>
+          <para>Data Table Row</para>
+          <para>Represents the following attribute in the schema: dtr</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -328,10 +345,12 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "t")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "t")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "t")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -339,8 +358,8 @@ SUM(C4:E4)</f>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Formula Type.</para>
-          <para>Represents the following attribute in the schema: t </para>
+          <para>Formula Type</para>
+          <para>Represents the following attribute in the schema: t</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
@@ -357,10 +376,12 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "del1")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "del1")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "del1")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -368,8 +389,8 @@ SUM(C4:E4)</f>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Input 1 Deleted.</para>
-          <para>Represents the following attribute in the schema: del1 </para>
+          <para>Input 1 Deleted</para>
+          <para>Represents the following attribute in the schema: del1</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -386,10 +407,12 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "del2")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "del2")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "del2")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -397,33 +420,10 @@ SUM(C4:E4)</f>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Input 2 Deleted.</para>
-          <para>Represents the following attribute in the schema: del2 </para>
+          <para>Input 2 Deleted</para>
+          <para>Represents the following attribute in the schema: del2</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Spreadsheet.CellFormula.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Spreadsheet.CellFormula.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -438,10 +438,12 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "r1")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "r1")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "r1")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -449,8 +451,8 @@ SUM(C4:E4)</f>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Data Table Cell 1.</para>
-          <para>Represents the following attribute in the schema: r1 </para>
+          <para>Data Table Cell 1</para>
+          <para>Represents the following attribute in the schema: r1</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -467,10 +469,12 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "r2")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "r2")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "r2")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -478,8 +482,8 @@ SUM(C4:E4)</f>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Input Cell 2.</para>
-          <para>Represents the following attribute in the schema: r2 </para>
+          <para>Input Cell 2</para>
+          <para>Represents the following attribute in the schema: r2</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -496,10 +500,12 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "ref")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "ref")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "ref")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -507,8 +513,8 @@ SUM(C4:E4)</f>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Range of Cells.</para>
-          <para>Represents the following attribute in the schema: ref </para>
+          <para>Range of Cells</para>
+          <para>Represents the following attribute in the schema: ref</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -525,10 +531,12 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "si")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "si")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "si")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -536,8 +544,8 @@ SUM(C4:E4)</f>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shared Group Index.</para>
-          <para>Represents the following attribute in the schema: si </para>
+          <para>Shared Group Index</para>
+          <para>Represents the following attribute in the schema: si</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.UInt32Value" />.</value>
         <remarks>To be added.</remarks>
@@ -554,10 +562,12 @@ SUM(C4:E4)</f>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(1, "space")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(1, "space")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(1, "space")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -565,12 +575,13 @@ SUM(C4:E4)</f>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Content Contains Significant Whitespace.</para>
-          <para>Represents the following attribute in the schema: xml:space </para>
+          <para>Content Contains Significant Whitespace</para>
+          <para>Represents the following attribute in the schema: xml:space</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:xml=http://www.w3.org/XML/1998/namespace
+        <remark>
+            xmlns:xml=http://www.w3.org/XML/1998/namespace
             </remark>
       </Docs>
     </Member>

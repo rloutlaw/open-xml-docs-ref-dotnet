@@ -1,4 +1,4 @@
-﻿<Type Name="SheetData" FullName="DocumentFormat.OpenXml.Spreadsheet.SheetData">
+<Type Name="SheetData" FullName="DocumentFormat.OpenXml.Spreadsheet.SheetData">
   <TypeSignature Language="C#" Value="public class SheetData : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SheetData extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Spreadsheet.SheetData" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,20 +16,27 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Row))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(22, "sheetData")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(22, "sheetData")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Sheet Data.</para>
-      <para> When the object is serialized out as xml, its qualified name is x:sheetData.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is x:sheetData.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>Row &lt;x:row&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>Row &lt;x:row&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -41,6 +49,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -61,12 +70,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -90,6 +101,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -98,7 +110,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the SheetData class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -113,6 +125,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -136,6 +149,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -150,134 +164,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Spreadsheet.SheetData.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Spreadsheet.SheetData.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>
-          <format type="text/markdown"><![CDATA[  
-  
-## Examples  
- The following example creates a spreadsheet document, adds a workbook, and adds worksheet and named “mySheet.”  
-  
-```csharp  
-using System;  
-using DocumentFormat.OpenXml;  
-using DocumentFormat.OpenXml.Packaging;  
-using DocumentFormat.OpenXml.Spreadsheet;  
-  
-namespace SheetDataEx  
-{  
-    class Program  
-    {  
-        // Create a spreadsheet, and and a sheet into it.  
-        static void Main(string[] args)  
-        {  
-            string fileName = @"C:\Users\Public\Documents\SheetDataEx.xlsx";  
-  
-           // Create a spreadsheet document by using the file path.  
-           SpreadsheetDocument spreadsheetDocument =  
-                SpreadsheetDocument.Create(fileName, SpreadsheetDocumentType.Workbook);  
-  
-           // Add a WorkbookPart and Workbook objects.  
-            WorkbookPart workbookpart = spreadsheetDocument.AddWorkbookPart();  
-            workbookpart.Workbook = new Workbook();  
-  
-            // Add a WorksheetPart.  
-            WorksheetPart worksheetPart = workbookpart.AddNewPart<WorksheetPart>();  
-  
-            // Create Worksheet and SheetData objects.  
-            worksheetPart.Worksheet = new Worksheet(new SheetData());  
-  
-            // Add a Sheets object.  
-            Sheets sheets = spreadsheetDocument.WorkbookPart.Workbook  
-                .AppendChild<Sheets>(new Sheets());  
-  
-            // Append the new worksheet named "mySheet" and associate it   
-            // with the workbook.  
-            Sheet sheet = new Sheet() { Id = spreadsheetDocument.WorkbookPart  
-                .GetIdOfPart(worksheetPart), SheetId = 1, Name = "mySheet" };  
-            sheets.Append(sheet);  
-  
-            // Close the file.  
-            spreadsheetDocument.Close();  
-  
-            Console.WriteLine("The Spreadsheet file is created. Press a key");  
-            Console.ReadKey();  
-        }  
-    }  
-}  
-  
-```  
-  
-```vb  
-Imports System  
-Imports DocumentFormat.OpenXml  
-Imports DocumentFormat.OpenXml.Packaging  
-Imports DocumentFormat.OpenXml.Spreadsheet  
-  
-Module Module1  
-  
-    Sub Main()  
-        Dim fileName As String = "C:\Users\Public\Documents\SheetDataEx.xlsx"  
-  
-        ' Create a spreadsheet document by using the file path.  
-        Dim spreadsheetDocument As SpreadsheetDocument = _  
-            spreadsheetDocument.Create(fileName, SpreadsheetDocumentType.Workbook)  
-  
-        ' Add a WorkbookPart and Workbook objects.  
-        Dim workbookpart As WorkbookPart = spreadsheetDocument.AddWorkbookPart()  
-        workbookpart.Workbook = New Workbook()  
-  
-        ' Add a WorksheetPart.  
-        Dim worksheetPart As WorksheetPart = workbookpart.AddNewPart(Of WorksheetPart)()  
-        worksheetPart.Worksheet = New Worksheet(New SheetData())  
-  
-        ' Create Worksheet and SheetData objects.  
-        worksheetPart.Worksheet = New Worksheet(New SheetData())  
-  
-        ' Add a Sheets object.  
-        Dim sheets As Sheets = spreadsheetDocument.WorkbookPart.Workbook _  
-        .AppendChild(Of Sheets)(New Sheets())  
-  
-        ' Append the new worksheet named "mySheet" and associate it   
-        ' with the workbook.  
-        Dim sheet As New Sheet() With { _  
-         .Id = spreadsheetDocument.WorkbookPart.GetIdOfPart(worksheetPart), _  
-         .SheetId = 1, .Name = "mySheet"}  
-  
-        sheets.Append(sheet)  
-  
-        ' Close the file.  
-        spreadsheetDocument.Close()  
-  
-        Console.WriteLine("The Spreadsheet file is created. Press a key")  
-        Console.ReadKey()  
-    End Sub 'Main  
-End Module  
-  
-```  
-  
- ]]></format>
-        </remarks>
+        <inheritdoc />
       </Docs>
     </Member>
   </Members>

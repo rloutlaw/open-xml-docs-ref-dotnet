@@ -1,4 +1,4 @@
-﻿<Type Name="Level" FullName="DocumentFormat.OpenXml.Wordprocessing.Level">
+<Type Name="Level" FullName="DocumentFormat.OpenXml.Wordprocessing.Level">
   <TypeSignature Language="C#" Value="public class Level : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Level extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.Level" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,53 +16,60 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.StartNumberingValue))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.NumberingFormat))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.LevelRestart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ParagraphStyleIdInLevel))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.IsLegalNumberingStyle))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.LevelSuffix))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.LevelText))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.LevelPictureBulletId))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.LegacyNumbering))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.LevelJustification))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.PreviousParagraphProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.NumberingSymbolRunProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "lvl")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "lvl")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Numbering Level Definition.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:lvl.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:lvl.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>StartNumberingValue &lt;w:start&gt;</description></item><item><description>NumberingFormat &lt;w:numFmt&gt;</description></item><item><description>LevelRestart &lt;w:lvlRestart&gt;</description></item><item><description>ParagraphStyleIdInLevel &lt;w:pStyle&gt;</description></item><item><description>IsLegalNumberingStyle &lt;w:isLgl&gt;</description></item><item><description>LevelSuffix &lt;w:suff&gt;</description></item><item><description>LevelText &lt;w:lvlText&gt;</description></item><item><description>LevelPictureBulletId &lt;w:lvlPicBulletId&gt;</description></item><item><description>LegacyNumbering &lt;w:legacy&gt;</description></item><item><description>LevelJustification &lt;w:lvlJc&gt;</description></item><item><description>PreviousParagraphProperties &lt;w:pPr&gt;</description></item><item><description>NumberingSymbolRunProperties &lt;w:rPr&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>StartNumberingValue &lt;w:start&gt;</description>
+        </item>
+        <item>
+          <description>NumberingFormat &lt;w:numFmt&gt;</description>
+        </item>
+        <item>
+          <description>LevelRestart &lt;w:lvlRestart&gt;</description>
+        </item>
+        <item>
+          <description>ParagraphStyleIdInLevel &lt;w:pStyle&gt;</description>
+        </item>
+        <item>
+          <description>IsLegalNumberingStyle &lt;w:isLgl&gt;</description>
+        </item>
+        <item>
+          <description>LevelSuffix &lt;w:suff&gt;</description>
+        </item>
+        <item>
+          <description>LevelText &lt;w:lvlText&gt;</description>
+        </item>
+        <item>
+          <description>LevelPictureBulletId &lt;w:lvlPicBulletId&gt;</description>
+        </item>
+        <item>
+          <description>LegacyNumbering &lt;w:legacy&gt;</description>
+        </item>
+        <item>
+          <description>LevelJustification &lt;w:lvlJc&gt;</description>
+        </item>
+        <item>
+          <description>PreviousParagraphProperties &lt;w:pPr&gt;</description>
+        </item>
+        <item>
+          <description>NumberingSymbolRunProperties &lt;w:rPr&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -74,6 +82,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -94,12 +103,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -123,6 +134,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -131,7 +143,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Level class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -146,6 +158,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -169,6 +182,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -183,6 +197,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="IsLegalNumberingStyle">
@@ -196,14 +211,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.IsLegalNumberingStyle</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Display All Levels Using Arabic Numerals.</para>
-          <para> Represents the following element tag in the schema: w:isLgl </para>
+          <para>Display All Levels Using Arabic Numerals.</para>
+          <para>Represents the following element tag in the schema: w:isLgl.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.IsLegalNumberingStyle" />.</value>
         <remarks>To be added.</remarks>
@@ -223,14 +239,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.LegacyNumbering</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Legacy Numbering Level Properties.</para>
-          <para> Represents the following element tag in the schema: w:legacy </para>
+          <para>Legacy Numbering Level Properties.</para>
+          <para>Represents the following element tag in the schema: w:legacy.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.LegacyNumbering" />.</value>
         <remarks>To be added.</remarks>
@@ -250,10 +267,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "ilvl")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "ilvl")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "ilvl")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -261,12 +280,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Numbering Level.</para>
-          <para>Represents the following attribute in the schema: w:ilvl </para>
+          <para>Numbering Level</para>
+          <para>Represents the following attribute in the schema: w:ilvl</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -281,14 +301,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.LevelJustification</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Justification.</para>
-          <para> Represents the following element tag in the schema: w:lvlJc </para>
+          <para>Justification.</para>
+          <para>Represents the following element tag in the schema: w:lvlJc.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.LevelJustification" />.</value>
         <remarks>To be added.</remarks>
@@ -308,14 +329,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.LevelPictureBulletId</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Picture Numbering Symbol Definition Reference.</para>
-          <para> Represents the following element tag in the schema: w:lvlPicBulletId </para>
+          <para>Picture Numbering Symbol Definition Reference.</para>
+          <para>Represents the following element tag in the schema: w:lvlPicBulletId.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.LevelPictureBulletId" />.</value>
         <remarks>To be added.</remarks>
@@ -335,14 +357,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.LevelRestart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Restart Numbering Level Symbol.</para>
-          <para> Represents the following element tag in the schema: w:lvlRestart </para>
+          <para>Restart Numbering Level Symbol.</para>
+          <para>Represents the following element tag in the schema: w:lvlRestart.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.LevelRestart" />.</value>
         <remarks>To be added.</remarks>
@@ -362,14 +385,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.LevelSuffix</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Content Between Numbering Symbol and Paragraph Text.</para>
-          <para> Represents the following element tag in the schema: w:suff </para>
+          <para>Content Between Numbering Symbol and Paragraph Text.</para>
+          <para>Represents the following element tag in the schema: w:suff.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.LevelSuffix" />.</value>
         <remarks>To be added.</remarks>
@@ -389,43 +413,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.LevelText</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Numbering Level Text.</para>
-          <para> Represents the following element tag in the schema: w:lvlText </para>
+          <para>Numbering Level Text.</para>
+          <para>Represents the following element tag in the schema: w:lvlText.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.LevelText" />.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:w = http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.Level.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.Level.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="NumberingFormat">
@@ -439,14 +441,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.NumberingFormat</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Numbering Format.</para>
-          <para> Represents the following element tag in the schema: w:numFmt </para>
+          <para>Numbering Format.</para>
+          <para>Represents the following element tag in the schema: w:numFmt.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.NumberingFormat" />.</value>
         <remarks>To be added.</remarks>
@@ -466,14 +469,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.NumberingSymbolRunProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Numbering Symbol Run Properties.</para>
-          <para> Represents the following element tag in the schema: w:rPr </para>
+          <para>Numbering Symbol Run Properties.</para>
+          <para>Represents the following element tag in the schema: w:rPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -493,14 +497,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.ParagraphStyleIdInLevel</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Paragraph Style's Associated Numbering Level.</para>
-          <para> Represents the following element tag in the schema: w:pStyle </para>
+          <para>Paragraph Style's Associated Numbering Level.</para>
+          <para>Represents the following element tag in the schema: w:pStyle.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -520,14 +525,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.PreviousParagraphProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Numbering Level Associated Paragraph Properties.</para>
-          <para> Represents the following element tag in the schema: w:pPr </para>
+          <para>Numbering Level Associated Paragraph Properties.</para>
+          <para>Represents the following element tag in the schema: w:pPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -547,14 +553,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.StartNumberingValue</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Starting Value.</para>
-          <para> Represents the following element tag in the schema: w:start </para>
+          <para>Starting Value.</para>
+          <para>Represents the following element tag in the schema: w:start.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.StartNumberingValue" />.</value>
         <remarks>To be added.</remarks>
@@ -574,10 +581,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "tplc")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "tplc")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "tplc")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -585,12 +594,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Template Code.</para>
-          <para>Represents the following attribute in the schema: w:tplc </para>
+          <para>Template Code</para>
+          <para>Represents the following attribute in the schema: w:tplc</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -605,10 +615,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "tentative")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "tentative")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "tentative")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -616,12 +628,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Tentative Numbering.</para>
-          <para>Represents the following attribute in the schema: w:tentative </para>
+          <para>Tentative Numbering</para>
+          <para>Represents the following attribute in the schema: w:tentative</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>

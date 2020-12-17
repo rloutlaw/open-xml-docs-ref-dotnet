@@ -1,4 +1,4 @@
-﻿<Type Name="PivotCacheDefinition" FullName="DocumentFormat.OpenXml.Spreadsheet.PivotCacheDefinition">
+<Type Name="PivotCacheDefinition" FullName="DocumentFormat.OpenXml.Spreadsheet.PivotCacheDefinition">
   <TypeSignature Language="C#" Value="public class PivotCacheDefinition : DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PivotCacheDefinition extends DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Spreadsheet.PivotCacheDefinition" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlPartRootElement</BaseTypeName>
@@ -15,50 +16,57 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.CacheSource))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.CacheFields))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.CacheHierarchies))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Kpis))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.TupleCache))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.CalculatedItems))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.CalculatedMembers))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Dimensions))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.MeasureGroups))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Maps))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.PivotCacheDefinitionExtensionList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(22, "pivotCacheDefinition")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(22, "pivotCacheDefinition")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
-      <para>PivotCache Definition. The root element of PivotTableCacheDefinitionPart.</para>
-      <para> When the object is serialized out as xml, its qualified name is x:pivotCacheDefinition.</para>
+      <para>PivotCache Definition.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is x:pivotCacheDefinition.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>CacheSource &lt;x:cacheSource&gt;</description></item><item><description>CacheFields &lt;x:cacheFields&gt;</description></item><item><description>CacheHierarchies &lt;x:cacheHierarchies&gt;</description></item><item><description>Kpis &lt;x:kpis&gt;</description></item><item><description>TupleCache &lt;x:tupleCache&gt;</description></item><item><description>CalculatedItems &lt;x:calculatedItems&gt;</description></item><item><description>CalculatedMembers &lt;x:calculatedMembers&gt;</description></item><item><description>Dimensions &lt;x:dimensions&gt;</description></item><item><description>MeasureGroups &lt;x:measureGroups&gt;</description></item><item><description>Maps &lt;x:maps&gt;</description></item><item><description>PivotCacheDefinitionExtensionList &lt;x:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>CacheSource &lt;x:cacheSource&gt;</description>
+        </item>
+        <item>
+          <description>CacheFields &lt;x:cacheFields&gt;</description>
+        </item>
+        <item>
+          <description>CacheHierarchies &lt;x:cacheHierarchies&gt;</description>
+        </item>
+        <item>
+          <description>Kpis &lt;x:kpis&gt;</description>
+        </item>
+        <item>
+          <description>TupleCache &lt;x:tupleCache&gt;</description>
+        </item>
+        <item>
+          <description>CalculatedItems &lt;x:calculatedItems&gt;</description>
+        </item>
+        <item>
+          <description>CalculatedMembers &lt;x:calculatedMembers&gt;</description>
+        </item>
+        <item>
+          <description>Dimensions &lt;x:dimensions&gt;</description>
+        </item>
+        <item>
+          <description>MeasureGroups &lt;x:measureGroups&gt;</description>
+        </item>
+        <item>
+          <description>Maps &lt;x:maps&gt;</description>
+        </item>
+        <item>
+          <description>PivotCacheDefinitionExtensionList &lt;x:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -71,6 +79,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -91,12 +100,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -120,6 +131,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -128,7 +140,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the PivotCacheDefinition class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -143,6 +155,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -166,10 +179,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "backgroundQuery")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "backgroundQuery")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "backgroundQuery")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -177,8 +192,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> backgroundQuery.</para>
-          <para>Represents the following attribute in the schema: backgroundQuery </para>
+          <para>backgroundQuery</para>
+          <para>Represents the following attribute in the schema: backgroundQuery</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -195,14 +210,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.CacheFields</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> CacheFields.</para>
-          <para> Represents the following element tag in the schema: x:cacheFields </para>
+          <para>CacheFields.</para>
+          <para>Represents the following element tag in the schema: x:cacheFields.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.CacheFields" />.</value>
         <remarks>To be added.</remarks>
@@ -222,14 +238,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.CacheHierarchies</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> CacheHierarchies.</para>
-          <para> Represents the following element tag in the schema: x:cacheHierarchies </para>
+          <para>CacheHierarchies.</para>
+          <para>Represents the following element tag in the schema: x:cacheHierarchies.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.CacheHierarchies" />.</value>
         <remarks>To be added.</remarks>
@@ -249,14 +266,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.CacheSource</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> CacheSource.</para>
-          <para> Represents the following element tag in the schema: x:cacheSource </para>
+          <para>CacheSource.</para>
+          <para>Represents the following element tag in the schema: x:cacheSource.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.CacheSource" />.</value>
         <remarks>To be added.</remarks>
@@ -276,14 +294,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.CalculatedItems</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> CalculatedItems.</para>
-          <para> Represents the following element tag in the schema: x:calculatedItems </para>
+          <para>CalculatedItems.</para>
+          <para>Represents the following element tag in the schema: x:calculatedItems.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.CalculatedItems" />.</value>
         <remarks>To be added.</remarks>
@@ -303,14 +322,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.CalculatedMembers</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> CalculatedMembers.</para>
-          <para> Represents the following element tag in the schema: x:calculatedMembers </para>
+          <para>CalculatedMembers.</para>
+          <para>Represents the following element tag in the schema: x:calculatedMembers.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.CalculatedMembers" />.</value>
         <remarks>To be added.</remarks>
@@ -330,6 +350,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -344,6 +365,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="CreatedVersion">
@@ -357,10 +379,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "createdVersion")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "createdVersion")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "createdVersion")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -368,8 +392,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> createdVersion.</para>
-          <para>Represents the following attribute in the schema: createdVersion </para>
+          <para>createdVersion</para>
+          <para>Represents the following attribute in the schema: createdVersion</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ByteValue" />.</value>
         <remarks>To be added.</remarks>
@@ -386,14 +410,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.Dimensions</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Dimensions.</para>
-          <para> Represents the following element tag in the schema: x:dimensions </para>
+          <para>Dimensions.</para>
+          <para>Represents the following element tag in the schema: x:dimensions.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.Dimensions" />.</value>
         <remarks>To be added.</remarks>
@@ -413,10 +438,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "enableRefresh")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "enableRefresh")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "enableRefresh")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -424,8 +451,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> enableRefresh.</para>
-          <para>Represents the following attribute in the schema: enableRefresh </para>
+          <para>enableRefresh</para>
+          <para>Represents the following attribute in the schema: enableRefresh</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -442,10 +469,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(19, "id")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(19, "id")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(19, "id")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -453,12 +482,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> id.</para>
-          <para>Represents the following attribute in the schema: r:id </para>
+          <para>id</para>
+          <para>Represents the following attribute in the schema: r:id</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:r=http://schemas.openxmlformats.org/officeDocument/2006/relationships
+        <remark>
+            xmlns:r=http://schemas.openxmlformats.org/officeDocument/2006/relationships
             </remark>
       </Docs>
     </Member>
@@ -473,10 +503,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "invalid")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "invalid")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "invalid")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -484,8 +516,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> invalid.</para>
-          <para>Represents the following attribute in the schema: invalid </para>
+          <para>invalid</para>
+          <para>Represents the following attribute in the schema: invalid</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -502,10 +534,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "tupleCache")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "tupleCache")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "tupleCache")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -513,8 +547,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> tupleCache.</para>
-          <para>Represents the following attribute in the schema: tupleCache </para>
+          <para>tupleCache</para>
+          <para>Represents the following attribute in the schema: tupleCache</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -531,14 +565,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.Kpis</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Kpis.</para>
-          <para> Represents the following element tag in the schema: x:kpis </para>
+          <para>Kpis.</para>
+          <para>Represents the following element tag in the schema: x:kpis.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.Kpis" />.</value>
         <remarks>To be added.</remarks>
@@ -558,10 +593,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "refreshedDateIso")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "refreshedDateIso")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "refreshedDateIso")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -569,8 +606,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> refreshedDateIso.</para>
-          <para>Represents the following attribute in the schema: refreshedDateIso </para>
+          <para>refreshedDateIso</para>
+          <para>Represents the following attribute in the schema: refreshedDateIso</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -587,6 +624,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -597,31 +635,8 @@
       <Docs>
         <param name="openXmlPart">Specifies the part to be loaded.</param>
         <summary>
-            Loads the DOM from the PivotTableCacheDefinitionPart.
+            Loads the DOM from the PivotTableCacheDefinitionPart
             </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Spreadsheet.PivotCacheDefinition.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Spreadsheet.PivotCacheDefinition.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -636,14 +651,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.Maps</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Maps.</para>
-          <para> Represents the following element tag in the schema: x:maps </para>
+          <para>Maps.</para>
+          <para>Represents the following element tag in the schema: x:maps.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.Maps" />.</value>
         <remarks>To be added.</remarks>
@@ -663,14 +679,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.MeasureGroups</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> MeasureGroups.</para>
-          <para> Represents the following element tag in the schema: x:measureGroups </para>
+          <para>MeasureGroups.</para>
+          <para>Represents the following element tag in the schema: x:measureGroups.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.MeasureGroups" />.</value>
         <remarks>To be added.</remarks>
@@ -690,10 +707,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "minRefreshableVersion")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "minRefreshableVersion")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "minRefreshableVersion")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -701,8 +720,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> minRefreshableVersion.</para>
-          <para>Represents the following attribute in the schema: minRefreshableVersion </para>
+          <para>minRefreshableVersion</para>
+          <para>Represents the following attribute in the schema: minRefreshableVersion</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ByteValue" />.</value>
         <remarks>To be added.</remarks>
@@ -719,10 +738,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "missingItemsLimit")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "missingItemsLimit")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "missingItemsLimit")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -730,8 +751,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> missingItemsLimit.</para>
-          <para>Represents the following attribute in the schema: missingItemsLimit </para>
+          <para>missingItemsLimit</para>
+          <para>Represents the following attribute in the schema: missingItemsLimit</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.UInt32Value" />.</value>
         <remarks>To be added.</remarks>
@@ -748,10 +769,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "optimizeMemory")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "optimizeMemory")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "optimizeMemory")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -759,8 +782,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> optimizeMemory.</para>
-          <para>Represents the following attribute in the schema: optimizeMemory </para>
+          <para>optimizeMemory</para>
+          <para>Represents the following attribute in the schema: optimizeMemory</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -777,14 +800,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.PivotCacheDefinitionExtensionList</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> PivotCacheDefinitionExtensionList.</para>
-          <para> Represents the following element tag in the schema: x:extLst </para>
+          <para>PivotCacheDefinitionExtensionList.</para>
+          <para>Represents the following element tag in the schema: x:extLst.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -804,6 +828,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.PivotTableCacheDefinitionPart</ReturnType>
@@ -827,10 +852,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "recordCount")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "recordCount")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "recordCount")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -838,8 +865,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> recordCount.</para>
-          <para>Represents the following attribute in the schema: recordCount </para>
+          <para>recordCount</para>
+          <para>Represents the following attribute in the schema: recordCount</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.UInt32Value" />.</value>
         <remarks>To be added.</remarks>
@@ -856,10 +883,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "refreshedBy")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "refreshedBy")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "refreshedBy")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -867,8 +896,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> refreshedBy.</para>
-          <para>Represents the following attribute in the schema: refreshedBy </para>
+          <para>refreshedBy</para>
+          <para>Represents the following attribute in the schema: refreshedBy</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -885,10 +914,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "refreshedDate")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "refreshedDate")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "refreshedDate")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -896,8 +927,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> refreshedDate.</para>
-          <para>Represents the following attribute in the schema: refreshedDate </para>
+          <para>refreshedDate</para>
+          <para>Represents the following attribute in the schema: refreshedDate</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.DoubleValue" />.</value>
         <remarks>To be added.</remarks>
@@ -914,10 +945,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "refreshedVersion")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "refreshedVersion")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "refreshedVersion")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -925,8 +958,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> refreshedVersion.</para>
-          <para>Represents the following attribute in the schema: refreshedVersion </para>
+          <para>refreshedVersion</para>
+          <para>Represents the following attribute in the schema: refreshedVersion</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.ByteValue" />.</value>
         <remarks>To be added.</remarks>
@@ -943,10 +976,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "refreshOnLoad")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "refreshOnLoad")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "refreshOnLoad")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -954,8 +989,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> refreshOnLoad.</para>
-          <para>Represents the following attribute in the schema: refreshOnLoad </para>
+          <para>refreshOnLoad</para>
+          <para>Represents the following attribute in the schema: refreshOnLoad</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -972,6 +1007,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -998,10 +1034,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "saveData")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "saveData")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "saveData")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1009,8 +1047,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> saveData.</para>
-          <para>Represents the following attribute in the schema: saveData </para>
+          <para>saveData</para>
+          <para>Represents the following attribute in the schema: saveData</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -1027,10 +1065,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "supportAdvancedDrill")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "supportAdvancedDrill")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "supportAdvancedDrill")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1038,8 +1078,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> supportAdvancedDrill.</para>
-          <para>Represents the following attribute in the schema: supportAdvancedDrill </para>
+          <para>supportAdvancedDrill</para>
+          <para>Represents the following attribute in the schema: supportAdvancedDrill</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -1056,10 +1096,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "supportSubquery")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "supportSubquery")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "supportSubquery")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1067,8 +1109,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> supportSubquery.</para>
-          <para>Represents the following attribute in the schema: supportSubquery </para>
+          <para>supportSubquery</para>
+          <para>Represents the following attribute in the schema: supportSubquery</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>
@@ -1085,14 +1127,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.TupleCache</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TupleCache.</para>
-          <para> Represents the following element tag in the schema: x:tupleCache </para>
+          <para>TupleCache.</para>
+          <para>Represents the following element tag in the schema: x:tupleCache.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Spreadsheet.TupleCache" />.</value>
         <remarks>To be added.</remarks>
@@ -1112,10 +1155,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "upgradeOnRefresh")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "upgradeOnRefresh")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "upgradeOnRefresh")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1123,8 +1168,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> upgradeOnRefresh.</para>
-          <para>Represents the following attribute in the schema: upgradeOnRefresh </para>
+          <para>upgradeOnRefresh</para>
+          <para>Represents the following attribute in the schema: upgradeOnRefresh</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.BooleanValue" />.</value>
         <remarks>To be added.</remarks>

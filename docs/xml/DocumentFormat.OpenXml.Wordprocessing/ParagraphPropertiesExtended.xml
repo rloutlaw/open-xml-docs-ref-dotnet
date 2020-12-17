@@ -1,4 +1,4 @@
-﻿<Type Name="ParagraphPropertiesExtended" FullName="DocumentFormat.OpenXml.Wordprocessing.ParagraphPropertiesExtended">
+<Type Name="ParagraphPropertiesExtended" FullName="DocumentFormat.OpenXml.Wordprocessing.ParagraphPropertiesExtended">
   <TypeSignature Language="C#" Value="public class ParagraphPropertiesExtended : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ParagraphPropertiesExtended extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.ParagraphPropertiesExtended" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,116 +16,123 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ParagraphStyleId))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.KeepNext))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.KeepLines))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.PageBreakBefore))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.FrameProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.WidowControl))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.NumberingProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SuppressLineNumbers))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ParagraphBorders))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Shading))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Tabs))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SuppressAutoHyphens))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Kinsoku))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.WordWrap))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.OverflowPunctuation))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TopLinePunctuation))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.AutoSpaceDE))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.AutoSpaceDN))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BiDi))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.AdjustRightIndent))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SnapToGrid))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SpacingBetweenLines))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Indentation))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ContextualSpacing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MirrorIndents))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SuppressOverlap))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Justification))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TextDirection))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TextAlignment))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TextBoxTightWrap))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.OutlineLevel))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DivId))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ConditionalFormatStyle))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "pPr")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "pPr")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Previous Paragraph Properties.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:pPr.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:pPr.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>ParagraphStyleId &lt;w:pStyle&gt;</description></item><item><description>KeepNext &lt;w:keepNext&gt;</description></item><item><description>KeepLines &lt;w:keepLines&gt;</description></item><item><description>PageBreakBefore &lt;w:pageBreakBefore&gt;</description></item><item><description>FrameProperties &lt;w:framePr&gt;</description></item><item><description>WidowControl &lt;w:widowControl&gt;</description></item><item><description>NumberingProperties &lt;w:numPr&gt;</description></item><item><description>SuppressLineNumbers &lt;w:suppressLineNumbers&gt;</description></item><item><description>ParagraphBorders &lt;w:pBdr&gt;</description></item><item><description>Shading &lt;w:shd&gt;</description></item><item><description>Tabs &lt;w:tabs&gt;</description></item><item><description>SuppressAutoHyphens &lt;w:suppressAutoHyphens&gt;</description></item><item><description>Kinsoku &lt;w:kinsoku&gt;</description></item><item><description>WordWrap &lt;w:wordWrap&gt;</description></item><item><description>OverflowPunctuation &lt;w:overflowPunct&gt;</description></item><item><description>TopLinePunctuation &lt;w:topLinePunct&gt;</description></item><item><description>AutoSpaceDE &lt;w:autoSpaceDE&gt;</description></item><item><description>AutoSpaceDN &lt;w:autoSpaceDN&gt;</description></item><item><description>BiDi &lt;w:bidi&gt;</description></item><item><description>AdjustRightIndent &lt;w:adjustRightInd&gt;</description></item><item><description>SnapToGrid &lt;w:snapToGrid&gt;</description></item><item><description>SpacingBetweenLines &lt;w:spacing&gt;</description></item><item><description>Indentation &lt;w:ind&gt;</description></item><item><description>ContextualSpacing &lt;w:contextualSpacing&gt;</description></item><item><description>MirrorIndents &lt;w:mirrorIndents&gt;</description></item><item><description>SuppressOverlap &lt;w:suppressOverlap&gt;</description></item><item><description>Justification &lt;w:jc&gt;</description></item><item><description>TextDirection &lt;w:textDirection&gt;</description></item><item><description>TextAlignment &lt;w:textAlignment&gt;</description></item><item><description>TextBoxTightWrap &lt;w:textboxTightWrap&gt;</description></item><item><description>OutlineLevel &lt;w:outlineLvl&gt;</description></item><item><description>DivId &lt;w:divId&gt;</description></item><item><description>ConditionalFormatStyle &lt;w:cnfStyle&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>ParagraphStyleId &lt;w:pStyle&gt;</description>
+        </item>
+        <item>
+          <description>KeepNext &lt;w:keepNext&gt;</description>
+        </item>
+        <item>
+          <description>KeepLines &lt;w:keepLines&gt;</description>
+        </item>
+        <item>
+          <description>PageBreakBefore &lt;w:pageBreakBefore&gt;</description>
+        </item>
+        <item>
+          <description>FrameProperties &lt;w:framePr&gt;</description>
+        </item>
+        <item>
+          <description>WidowControl &lt;w:widowControl&gt;</description>
+        </item>
+        <item>
+          <description>NumberingProperties &lt;w:numPr&gt;</description>
+        </item>
+        <item>
+          <description>SuppressLineNumbers &lt;w:suppressLineNumbers&gt;</description>
+        </item>
+        <item>
+          <description>ParagraphBorders &lt;w:pBdr&gt;</description>
+        </item>
+        <item>
+          <description>Shading &lt;w:shd&gt;</description>
+        </item>
+        <item>
+          <description>Tabs &lt;w:tabs&gt;</description>
+        </item>
+        <item>
+          <description>SuppressAutoHyphens &lt;w:suppressAutoHyphens&gt;</description>
+        </item>
+        <item>
+          <description>Kinsoku &lt;w:kinsoku&gt;</description>
+        </item>
+        <item>
+          <description>WordWrap &lt;w:wordWrap&gt;</description>
+        </item>
+        <item>
+          <description>OverflowPunctuation &lt;w:overflowPunct&gt;</description>
+        </item>
+        <item>
+          <description>TopLinePunctuation &lt;w:topLinePunct&gt;</description>
+        </item>
+        <item>
+          <description>AutoSpaceDE &lt;w:autoSpaceDE&gt;</description>
+        </item>
+        <item>
+          <description>AutoSpaceDN &lt;w:autoSpaceDN&gt;</description>
+        </item>
+        <item>
+          <description>BiDi &lt;w:bidi&gt;</description>
+        </item>
+        <item>
+          <description>AdjustRightIndent &lt;w:adjustRightInd&gt;</description>
+        </item>
+        <item>
+          <description>SnapToGrid &lt;w:snapToGrid&gt;</description>
+        </item>
+        <item>
+          <description>SpacingBetweenLines &lt;w:spacing&gt;</description>
+        </item>
+        <item>
+          <description>Indentation &lt;w:ind&gt;</description>
+        </item>
+        <item>
+          <description>ContextualSpacing &lt;w:contextualSpacing&gt;</description>
+        </item>
+        <item>
+          <description>MirrorIndents &lt;w:mirrorIndents&gt;</description>
+        </item>
+        <item>
+          <description>SuppressOverlap &lt;w:suppressOverlap&gt;</description>
+        </item>
+        <item>
+          <description>Justification &lt;w:jc&gt;</description>
+        </item>
+        <item>
+          <description>TextDirection &lt;w:textDirection&gt;</description>
+        </item>
+        <item>
+          <description>TextAlignment &lt;w:textAlignment&gt;</description>
+        </item>
+        <item>
+          <description>TextBoxTightWrap &lt;w:textboxTightWrap&gt;</description>
+        </item>
+        <item>
+          <description>OutlineLevel &lt;w:outlineLvl&gt;</description>
+        </item>
+        <item>
+          <description>DivId &lt;w:divId&gt;</description>
+        </item>
+        <item>
+          <description>ConditionalFormatStyle &lt;w:cnfStyle&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -137,6 +145,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -157,12 +166,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -186,6 +197,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -194,7 +206,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the ParagraphPropertiesExtended class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -209,6 +221,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -232,14 +245,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.AdjustRightIndent</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> AdjustRightIndent.</para>
-          <para> Represents the following element tag in the schema: w:adjustRightInd </para>
+          <para>AdjustRightIndent.</para>
+          <para>Represents the following element tag in the schema: w:adjustRightInd.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -259,14 +273,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.AutoSpaceDE</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> AutoSpaceDE.</para>
-          <para> Represents the following element tag in the schema: w:autoSpaceDE </para>
+          <para>AutoSpaceDE.</para>
+          <para>Represents the following element tag in the schema: w:autoSpaceDE.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -286,14 +301,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.AutoSpaceDN</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> AutoSpaceDN.</para>
-          <para> Represents the following element tag in the schema: w:autoSpaceDN </para>
+          <para>AutoSpaceDN.</para>
+          <para>Represents the following element tag in the schema: w:autoSpaceDN.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -313,14 +329,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.BiDi</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> BiDi.</para>
-          <para> Represents the following element tag in the schema: w:bidi </para>
+          <para>BiDi.</para>
+          <para>Represents the following element tag in the schema: w:bidi.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -340,6 +357,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -354,6 +372,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ConditionalFormatStyle">
@@ -367,14 +386,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.ConditionalFormatStyle</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ConditionalFormatStyle.</para>
-          <para> Represents the following element tag in the schema: w:cnfStyle </para>
+          <para>ConditionalFormatStyle.</para>
+          <para>Represents the following element tag in the schema: w:cnfStyle.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -394,14 +414,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.ContextualSpacing</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ContextualSpacing.</para>
-          <para> Represents the following element tag in the schema: w:contextualSpacing </para>
+          <para>ContextualSpacing.</para>
+          <para>Represents the following element tag in the schema: w:contextualSpacing.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -421,14 +442,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.DivId</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> DivId.</para>
-          <para> Represents the following element tag in the schema: w:divId </para>
+          <para>DivId.</para>
+          <para>Represents the following element tag in the schema: w:divId.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -448,14 +470,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.FrameProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> FrameProperties.</para>
-          <para> Represents the following element tag in the schema: w:framePr </para>
+          <para>FrameProperties.</para>
+          <para>Represents the following element tag in the schema: w:framePr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -475,14 +498,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Indentation</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Indentation.</para>
-          <para> Represents the following element tag in the schema: w:ind </para>
+          <para>Indentation.</para>
+          <para>Represents the following element tag in the schema: w:ind.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -502,14 +526,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Justification</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Justification.</para>
-          <para> Represents the following element tag in the schema: w:jc </para>
+          <para>Justification.</para>
+          <para>Represents the following element tag in the schema: w:jc.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -529,14 +554,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.KeepLines</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> KeepLines.</para>
-          <para> Represents the following element tag in the schema: w:keepLines </para>
+          <para>KeepLines.</para>
+          <para>Represents the following element tag in the schema: w:keepLines.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -556,14 +582,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.KeepNext</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> KeepNext.</para>
-          <para> Represents the following element tag in the schema: w:keepNext </para>
+          <para>KeepNext.</para>
+          <para>Represents the following element tag in the schema: w:keepNext.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -583,43 +610,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Kinsoku</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Kinsoku.</para>
-          <para> Represents the following element tag in the schema: w:kinsoku </para>
+          <para>Kinsoku.</para>
+          <para>Represents the following element tag in the schema: w:kinsoku.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:w = http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.ParagraphPropertiesExtended.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.ParagraphPropertiesExtended.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="MirrorIndents">
@@ -633,14 +638,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.MirrorIndents</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> MirrorIndents.</para>
-          <para> Represents the following element tag in the schema: w:mirrorIndents </para>
+          <para>MirrorIndents.</para>
+          <para>Represents the following element tag in the schema: w:mirrorIndents.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -660,14 +666,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.NumberingProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> NumberingProperties.</para>
-          <para> Represents the following element tag in the schema: w:numPr </para>
+          <para>NumberingProperties.</para>
+          <para>Represents the following element tag in the schema: w:numPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -687,14 +694,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.OutlineLevel</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> OutlineLevel.</para>
-          <para> Represents the following element tag in the schema: w:outlineLvl </para>
+          <para>OutlineLevel.</para>
+          <para>Represents the following element tag in the schema: w:outlineLvl.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -714,14 +722,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.OverflowPunctuation</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> OverflowPunctuation.</para>
-          <para> Represents the following element tag in the schema: w:overflowPunct </para>
+          <para>OverflowPunctuation.</para>
+          <para>Represents the following element tag in the schema: w:overflowPunct.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -741,14 +750,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.PageBreakBefore</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> PageBreakBefore.</para>
-          <para> Represents the following element tag in the schema: w:pageBreakBefore </para>
+          <para>PageBreakBefore.</para>
+          <para>Represents the following element tag in the schema: w:pageBreakBefore.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -768,14 +778,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.ParagraphBorders</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ParagraphBorders.</para>
-          <para> Represents the following element tag in the schema: w:pBdr </para>
+          <para>ParagraphBorders.</para>
+          <para>Represents the following element tag in the schema: w:pBdr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -795,14 +806,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.ParagraphStyleId</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ParagraphStyleId.</para>
-          <para> Represents the following element tag in the schema: w:pStyle </para>
+          <para>ParagraphStyleId.</para>
+          <para>Represents the following element tag in the schema: w:pStyle.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -822,14 +834,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Shading</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shading.</para>
-          <para> Represents the following element tag in the schema: w:shd </para>
+          <para>Shading.</para>
+          <para>Represents the following element tag in the schema: w:shd.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -849,14 +862,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.SnapToGrid</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> SnapToGrid.</para>
-          <para> Represents the following element tag in the schema: w:snapToGrid </para>
+          <para>SnapToGrid.</para>
+          <para>Represents the following element tag in the schema: w:snapToGrid.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -876,14 +890,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.SpacingBetweenLines</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> SpacingBetweenLines.</para>
-          <para> Represents the following element tag in the schema: w:spacing </para>
+          <para>SpacingBetweenLines.</para>
+          <para>Represents the following element tag in the schema: w:spacing.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -903,14 +918,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.SuppressAutoHyphens</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> SuppressAutoHyphens.</para>
-          <para> Represents the following element tag in the schema: w:suppressAutoHyphens </para>
+          <para>SuppressAutoHyphens.</para>
+          <para>Represents the following element tag in the schema: w:suppressAutoHyphens.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -930,14 +946,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.SuppressLineNumbers</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> SuppressLineNumbers.</para>
-          <para> Represents the following element tag in the schema: w:suppressLineNumbers </para>
+          <para>SuppressLineNumbers.</para>
+          <para>Represents the following element tag in the schema: w:suppressLineNumbers.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -957,14 +974,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.SuppressOverlap</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> SuppressOverlap.</para>
-          <para> Represents the following element tag in the schema: w:suppressOverlap </para>
+          <para>SuppressOverlap.</para>
+          <para>Represents the following element tag in the schema: w:suppressOverlap.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -984,14 +1002,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Tabs</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Tabs.</para>
-          <para> Represents the following element tag in the schema: w:tabs </para>
+          <para>Tabs.</para>
+          <para>Represents the following element tag in the schema: w:tabs.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1011,14 +1030,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TextAlignment</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TextAlignment.</para>
-          <para> Represents the following element tag in the schema: w:textAlignment </para>
+          <para>TextAlignment.</para>
+          <para>Represents the following element tag in the schema: w:textAlignment.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1038,14 +1058,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TextBoxTightWrap</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TextBoxTightWrap.</para>
-          <para> Represents the following element tag in the schema: w:textboxTightWrap </para>
+          <para>TextBoxTightWrap.</para>
+          <para>Represents the following element tag in the schema: w:textboxTightWrap.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1065,14 +1086,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TextDirection</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TextDirection.</para>
-          <para> Represents the following element tag in the schema: w:textDirection </para>
+          <para>TextDirection.</para>
+          <para>Represents the following element tag in the schema: w:textDirection.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1092,14 +1114,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TopLinePunctuation</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TopLinePunctuation.</para>
-          <para> Represents the following element tag in the schema: w:topLinePunct </para>
+          <para>TopLinePunctuation.</para>
+          <para>Represents the following element tag in the schema: w:topLinePunct.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1119,14 +1142,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.WidowControl</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> WidowControl.</para>
-          <para> Represents the following element tag in the schema: w:widowControl </para>
+          <para>WidowControl.</para>
+          <para>Represents the following element tag in the schema: w:widowControl.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1146,14 +1170,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.WordWrap</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> WordWrap.</para>
-          <para> Represents the following element tag in the schema: w:wordWrap </para>
+          <para>WordWrap.</para>
+          <para>Represents the following element tag in the schema: w:wordWrap.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

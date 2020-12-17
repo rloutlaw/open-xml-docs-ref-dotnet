@@ -1,4 +1,4 @@
-﻿<Type Name="Settings" FullName="DocumentFormat.OpenXml.Wordprocessing.Settings">
+<Type Name="Settings" FullName="DocumentFormat.OpenXml.Wordprocessing.Settings">
   <TypeSignature Language="C#" Value="public class Settings : DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Settings extends DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.Settings" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlPartRootElement</BaseTypeName>
@@ -15,326 +16,333 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.WriteProtection))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.View))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Zoom))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.RemovePersonalInformation))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.RemoveDateAndTime))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DoNotDisplayPageBoundaries))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DisplayBackgroundShape))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.PrintPostScriptOverText))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.PrintFractionalCharacterWidth))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.PrintFormsData))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.EmbedTrueTypeFonts))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.EmbedSystemFonts))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SaveSubsetFonts))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SaveFormsData))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MirrorMargins))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.AlignBorderAndEdges))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BordersDoNotSurroundHeader))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BordersDoNotSurroundFooter))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.GutterAtTop))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.HideSpellingErrors))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.HideGrammaticalErrors))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ActiveWritingStyle))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ProofState))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.FormsDesign))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.AttachedTemplate))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.LinkStyles))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.StylePaneFormatFilter))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.StylePaneSortMethods))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DocumentType))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MailMerge))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.RevisionView))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TrackRevisions))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DoNotTrackMoves))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DoNotTrackFormatting))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DocumentProtection))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.AutoFormatOverride))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.StyleLockThemesPart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.StyleLockStylesPart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DefaultTabStop))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.AutoHyphenation))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ConsecutiveHyphenLimit))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.HyphenationZone))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DoNotHyphenateCaps))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ShowEnvelope))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SummaryLength))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ClickAndTypeStyle))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DefaultTableStyle))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.EvenAndOddHeaders))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BookFoldReversePrinting))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BookFoldPrinting))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BookFoldPrintingSheets))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DrawingGridHorizontalSpacing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DrawingGridVerticalSpacing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DisplayHorizontalDrawingGrid))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DisplayVerticalDrawingGrid))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DoNotUseMarginsForDrawingGridOrigin))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DrawingGridHorizontalOrigin))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DrawingGridVerticalOrigin))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DoNotShadeFormData))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.NoPunctuationKerning))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CharacterSpacingControl))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.PrintTwoOnOne))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.StrictFirstAndLastChars))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.NoLineBreaksAfterKinsoku))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.NoLineBreaksBeforeKinsoku))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SavePreviewPicture))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DoNotValidateAgainstSchema))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SaveInvalidXml))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.IgnoreMixedContent))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.AlwaysShowPlaceholderText))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DoNotDemarcateInvalidXml))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SaveXmlDataOnly))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.UseXsltWhenSaving))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SaveThroughXslt))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ShowXmlTags))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.AlwaysMergeEmptyNamespace))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.UpdateFieldsOnOpen))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.HeaderShapeDefaults))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.FootnoteDocumentWideProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.EndnoteDocumentWideProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Compatibility))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DocumentVariables))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Rsids))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.MathProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.UICompatibleWith97To2003))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.AttachedSchema))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ThemeFontLanguages))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ColorSchemeMapping))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DoNotIncludeSubdocsInStats))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DoNotAutoCompressPictures))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ForceUpgrade))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Captions))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ReadModeInkLockDown))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.CustomXmlSchemaReferences.SchemaLibrary))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ShapeDefaults))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DecimalSymbol))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ListSeparator))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.DocumentId), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.DiscardImageEditingData), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.DefaultImageDpi), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Word.ConflictMode), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2013.Word.ChartTrackingRefBased), DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2013.Word.PersistentDocumentId), DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "settings")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "settings")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
-      <para>Document Settings. The root element of DocumentSettingsPart.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:settings.</para>
+      <para>Document Settings.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:settings.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>WriteProtection &lt;w:writeProtection&gt;</description></item><item><description>View &lt;w:view&gt;</description></item><item><description>Zoom &lt;w:zoom&gt;</description></item><item><description>RemovePersonalInformation &lt;w:removePersonalInformation&gt;</description></item><item><description>RemoveDateAndTime &lt;w:removeDateAndTime&gt;</description></item><item><description>DoNotDisplayPageBoundaries &lt;w:doNotDisplayPageBoundaries&gt;</description></item><item><description>DisplayBackgroundShape &lt;w:displayBackgroundShape&gt;</description></item><item><description>PrintPostScriptOverText &lt;w:printPostScriptOverText&gt;</description></item><item><description>PrintFractionalCharacterWidth &lt;w:printFractionalCharacterWidth&gt;</description></item><item><description>PrintFormsData &lt;w:printFormsData&gt;</description></item><item><description>EmbedTrueTypeFonts &lt;w:embedTrueTypeFonts&gt;</description></item><item><description>EmbedSystemFonts &lt;w:embedSystemFonts&gt;</description></item><item><description>SaveSubsetFonts &lt;w:saveSubsetFonts&gt;</description></item><item><description>SaveFormsData &lt;w:saveFormsData&gt;</description></item><item><description>MirrorMargins &lt;w:mirrorMargins&gt;</description></item><item><description>AlignBorderAndEdges &lt;w:alignBordersAndEdges&gt;</description></item><item><description>BordersDoNotSurroundHeader &lt;w:bordersDoNotSurroundHeader&gt;</description></item><item><description>BordersDoNotSurroundFooter &lt;w:bordersDoNotSurroundFooter&gt;</description></item><item><description>GutterAtTop &lt;w:gutterAtTop&gt;</description></item><item><description>HideSpellingErrors &lt;w:hideSpellingErrors&gt;</description></item><item><description>HideGrammaticalErrors &lt;w:hideGrammaticalErrors&gt;</description></item><item><description>ActiveWritingStyle &lt;w:activeWritingStyle&gt;</description></item><item><description>ProofState &lt;w:proofState&gt;</description></item><item><description>FormsDesign &lt;w:formsDesign&gt;</description></item><item><description>AttachedTemplate &lt;w:attachedTemplate&gt;</description></item><item><description>LinkStyles &lt;w:linkStyles&gt;</description></item><item><description>StylePaneFormatFilter &lt;w:stylePaneFormatFilter&gt;</description></item><item><description>StylePaneSortMethods &lt;w:stylePaneSortMethod&gt;</description></item><item><description>DocumentType &lt;w:documentType&gt;</description></item><item><description>MailMerge &lt;w:mailMerge&gt;</description></item><item><description>RevisionView &lt;w:revisionView&gt;</description></item><item><description>TrackRevisions &lt;w:trackRevisions&gt;</description></item><item><description>DoNotTrackMoves &lt;w:doNotTrackMoves&gt;</description></item><item><description>DoNotTrackFormatting &lt;w:doNotTrackFormatting&gt;</description></item><item><description>DocumentProtection &lt;w:documentProtection&gt;</description></item><item><description>AutoFormatOverride &lt;w:autoFormatOverride&gt;</description></item><item><description>StyleLockThemesPart &lt;w:styleLockTheme&gt;</description></item><item><description>StyleLockStylesPart &lt;w:styleLockQFSet&gt;</description></item><item><description>DefaultTabStop &lt;w:defaultTabStop&gt;</description></item><item><description>AutoHyphenation &lt;w:autoHyphenation&gt;</description></item><item><description>ConsecutiveHyphenLimit &lt;w:consecutiveHyphenLimit&gt;</description></item><item><description>HyphenationZone &lt;w:hyphenationZone&gt;</description></item><item><description>DoNotHyphenateCaps &lt;w:doNotHyphenateCaps&gt;</description></item><item><description>ShowEnvelope &lt;w:showEnvelope&gt;</description></item><item><description>SummaryLength &lt;w:summaryLength&gt;</description></item><item><description>ClickAndTypeStyle &lt;w:clickAndTypeStyle&gt;</description></item><item><description>DefaultTableStyle &lt;w:defaultTableStyle&gt;</description></item><item><description>EvenAndOddHeaders &lt;w:evenAndOddHeaders&gt;</description></item><item><description>BookFoldReversePrinting &lt;w:bookFoldRevPrinting&gt;</description></item><item><description>BookFoldPrinting &lt;w:bookFoldPrinting&gt;</description></item><item><description>BookFoldPrintingSheets &lt;w:bookFoldPrintingSheets&gt;</description></item><item><description>DrawingGridHorizontalSpacing &lt;w:drawingGridHorizontalSpacing&gt;</description></item><item><description>DrawingGridVerticalSpacing &lt;w:drawingGridVerticalSpacing&gt;</description></item><item><description>DisplayHorizontalDrawingGrid &lt;w:displayHorizontalDrawingGridEvery&gt;</description></item><item><description>DisplayVerticalDrawingGrid &lt;w:displayVerticalDrawingGridEvery&gt;</description></item><item><description>DoNotUseMarginsForDrawingGridOrigin &lt;w:doNotUseMarginsForDrawingGridOrigin&gt;</description></item><item><description>DrawingGridHorizontalOrigin &lt;w:drawingGridHorizontalOrigin&gt;</description></item><item><description>DrawingGridVerticalOrigin &lt;w:drawingGridVerticalOrigin&gt;</description></item><item><description>DoNotShadeFormData &lt;w:doNotShadeFormData&gt;</description></item><item><description>NoPunctuationKerning &lt;w:noPunctuationKerning&gt;</description></item><item><description>CharacterSpacingControl &lt;w:characterSpacingControl&gt;</description></item><item><description>PrintTwoOnOne &lt;w:printTwoOnOne&gt;</description></item><item><description>StrictFirstAndLastChars &lt;w:strictFirstAndLastChars&gt;</description></item><item><description>NoLineBreaksAfterKinsoku &lt;w:noLineBreaksAfter&gt;</description></item><item><description>NoLineBreaksBeforeKinsoku &lt;w:noLineBreaksBefore&gt;</description></item><item><description>SavePreviewPicture &lt;w:savePreviewPicture&gt;</description></item><item><description>DoNotValidateAgainstSchema &lt;w:doNotValidateAgainstSchema&gt;</description></item><item><description>SaveInvalidXml &lt;w:saveInvalidXml&gt;</description></item><item><description>IgnoreMixedContent &lt;w:ignoreMixedContent&gt;</description></item><item><description>AlwaysShowPlaceholderText &lt;w:alwaysShowPlaceholderText&gt;</description></item><item><description>DoNotDemarcateInvalidXml &lt;w:doNotDemarcateInvalidXml&gt;</description></item><item><description>SaveXmlDataOnly &lt;w:saveXmlDataOnly&gt;</description></item><item><description>UseXsltWhenSaving &lt;w:useXSLTWhenSaving&gt;</description></item><item><description>SaveThroughXslt &lt;w:saveThroughXslt&gt;</description></item><item><description>ShowXmlTags &lt;w:showXMLTags&gt;</description></item><item><description>AlwaysMergeEmptyNamespace &lt;w:alwaysMergeEmptyNamespace&gt;</description></item><item><description>UpdateFieldsOnOpen &lt;w:updateFields&gt;</description></item><item><description>HeaderShapeDefaults &lt;w:hdrShapeDefaults&gt;</description></item><item><description>FootnoteDocumentWideProperties &lt;w:footnotePr&gt;</description></item><item><description>EndnoteDocumentWideProperties &lt;w:endnotePr&gt;</description></item><item><description>Compatibility &lt;w:compat&gt;</description></item><item><description>DocumentVariables &lt;w:docVars&gt;</description></item><item><description>Rsids &lt;w:rsids&gt;</description></item><item><description>DocumentFormat.OpenXml.Math.MathProperties &lt;m:mathPr&gt;</description></item><item><description>UICompatibleWith97To2003 &lt;w:uiCompat97To2003&gt;</description></item><item><description>AttachedSchema &lt;w:attachedSchema&gt;</description></item><item><description>ThemeFontLanguages &lt;w:themeFontLang&gt;</description></item><item><description>ColorSchemeMapping &lt;w:clrSchemeMapping&gt;</description></item><item><description>DoNotIncludeSubdocsInStats &lt;w:doNotIncludeSubdocsInStats&gt;</description></item><item><description>DoNotAutoCompressPictures &lt;w:doNotAutoCompressPictures&gt;</description></item><item><description>ForceUpgrade &lt;w:forceUpgrade&gt;</description></item><item><description>Captions &lt;w:captions&gt;</description></item><item><description>ReadModeInkLockDown &lt;w:readModeInkLockDown&gt;</description></item><item><description>DocumentFormat.OpenXml.CustomXmlSchemaReferences.SchemaLibrary &lt;sl:schemaLibrary&gt;</description></item><item><description>ShapeDefaults &lt;w:shapeDefaults&gt;</description></item><item><description>DecimalSymbol &lt;w:decimalSymbol&gt;</description></item><item><description>ListSeparator &lt;w:listSeparator&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.DocumentId &lt;w14:docId&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.DiscardImageEditingData &lt;w14:discardImageEditingData&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.DefaultImageDpi &lt;w14:defaultImageDpi&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2010.Word.ConflictMode &lt;w14:conflictMode&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2013.Word.ChartTrackingRefBased &lt;w15:chartTrackingRefBased&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2013.Word.PersistentDocumentId &lt;w15:docId&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>WriteProtection &lt;w:writeProtection&gt;</description>
+        </item>
+        <item>
+          <description>View &lt;w:view&gt;</description>
+        </item>
+        <item>
+          <description>Zoom &lt;w:zoom&gt;</description>
+        </item>
+        <item>
+          <description>RemovePersonalInformation &lt;w:removePersonalInformation&gt;</description>
+        </item>
+        <item>
+          <description>RemoveDateAndTime &lt;w:removeDateAndTime&gt;</description>
+        </item>
+        <item>
+          <description>DoNotDisplayPageBoundaries &lt;w:doNotDisplayPageBoundaries&gt;</description>
+        </item>
+        <item>
+          <description>DisplayBackgroundShape &lt;w:displayBackgroundShape&gt;</description>
+        </item>
+        <item>
+          <description>PrintPostScriptOverText &lt;w:printPostScriptOverText&gt;</description>
+        </item>
+        <item>
+          <description>PrintFractionalCharacterWidth &lt;w:printFractionalCharacterWidth&gt;</description>
+        </item>
+        <item>
+          <description>PrintFormsData &lt;w:printFormsData&gt;</description>
+        </item>
+        <item>
+          <description>EmbedTrueTypeFonts &lt;w:embedTrueTypeFonts&gt;</description>
+        </item>
+        <item>
+          <description>EmbedSystemFonts &lt;w:embedSystemFonts&gt;</description>
+        </item>
+        <item>
+          <description>SaveSubsetFonts &lt;w:saveSubsetFonts&gt;</description>
+        </item>
+        <item>
+          <description>SaveFormsData &lt;w:saveFormsData&gt;</description>
+        </item>
+        <item>
+          <description>MirrorMargins &lt;w:mirrorMargins&gt;</description>
+        </item>
+        <item>
+          <description>AlignBorderAndEdges &lt;w:alignBordersAndEdges&gt;</description>
+        </item>
+        <item>
+          <description>BordersDoNotSurroundHeader &lt;w:bordersDoNotSurroundHeader&gt;</description>
+        </item>
+        <item>
+          <description>BordersDoNotSurroundFooter &lt;w:bordersDoNotSurroundFooter&gt;</description>
+        </item>
+        <item>
+          <description>GutterAtTop &lt;w:gutterAtTop&gt;</description>
+        </item>
+        <item>
+          <description>HideSpellingErrors &lt;w:hideSpellingErrors&gt;</description>
+        </item>
+        <item>
+          <description>HideGrammaticalErrors &lt;w:hideGrammaticalErrors&gt;</description>
+        </item>
+        <item>
+          <description>ActiveWritingStyle &lt;w:activeWritingStyle&gt;</description>
+        </item>
+        <item>
+          <description>ProofState &lt;w:proofState&gt;</description>
+        </item>
+        <item>
+          <description>FormsDesign &lt;w:formsDesign&gt;</description>
+        </item>
+        <item>
+          <description>AttachedTemplate &lt;w:attachedTemplate&gt;</description>
+        </item>
+        <item>
+          <description>LinkStyles &lt;w:linkStyles&gt;</description>
+        </item>
+        <item>
+          <description>StylePaneFormatFilter &lt;w:stylePaneFormatFilter&gt;</description>
+        </item>
+        <item>
+          <description>StylePaneSortMethods &lt;w:stylePaneSortMethod&gt;</description>
+        </item>
+        <item>
+          <description>DocumentType &lt;w:documentType&gt;</description>
+        </item>
+        <item>
+          <description>MailMerge &lt;w:mailMerge&gt;</description>
+        </item>
+        <item>
+          <description>RevisionView &lt;w:revisionView&gt;</description>
+        </item>
+        <item>
+          <description>TrackRevisions &lt;w:trackRevisions&gt;</description>
+        </item>
+        <item>
+          <description>DoNotTrackMoves &lt;w:doNotTrackMoves&gt;</description>
+        </item>
+        <item>
+          <description>DoNotTrackFormatting &lt;w:doNotTrackFormatting&gt;</description>
+        </item>
+        <item>
+          <description>DocumentProtection &lt;w:documentProtection&gt;</description>
+        </item>
+        <item>
+          <description>AutoFormatOverride &lt;w:autoFormatOverride&gt;</description>
+        </item>
+        <item>
+          <description>StyleLockThemesPart &lt;w:styleLockTheme&gt;</description>
+        </item>
+        <item>
+          <description>StyleLockStylesPart &lt;w:styleLockQFSet&gt;</description>
+        </item>
+        <item>
+          <description>DefaultTabStop &lt;w:defaultTabStop&gt;</description>
+        </item>
+        <item>
+          <description>AutoHyphenation &lt;w:autoHyphenation&gt;</description>
+        </item>
+        <item>
+          <description>ConsecutiveHyphenLimit &lt;w:consecutiveHyphenLimit&gt;</description>
+        </item>
+        <item>
+          <description>HyphenationZone &lt;w:hyphenationZone&gt;</description>
+        </item>
+        <item>
+          <description>DoNotHyphenateCaps &lt;w:doNotHyphenateCaps&gt;</description>
+        </item>
+        <item>
+          <description>ShowEnvelope &lt;w:showEnvelope&gt;</description>
+        </item>
+        <item>
+          <description>SummaryLength &lt;w:summaryLength&gt;</description>
+        </item>
+        <item>
+          <description>ClickAndTypeStyle &lt;w:clickAndTypeStyle&gt;</description>
+        </item>
+        <item>
+          <description>DefaultTableStyle &lt;w:defaultTableStyle&gt;</description>
+        </item>
+        <item>
+          <description>EvenAndOddHeaders &lt;w:evenAndOddHeaders&gt;</description>
+        </item>
+        <item>
+          <description>BookFoldReversePrinting &lt;w:bookFoldRevPrinting&gt;</description>
+        </item>
+        <item>
+          <description>BookFoldPrinting &lt;w:bookFoldPrinting&gt;</description>
+        </item>
+        <item>
+          <description>BookFoldPrintingSheets &lt;w:bookFoldPrintingSheets&gt;</description>
+        </item>
+        <item>
+          <description>DrawingGridHorizontalSpacing &lt;w:drawingGridHorizontalSpacing&gt;</description>
+        </item>
+        <item>
+          <description>DrawingGridVerticalSpacing &lt;w:drawingGridVerticalSpacing&gt;</description>
+        </item>
+        <item>
+          <description>DisplayHorizontalDrawingGrid &lt;w:displayHorizontalDrawingGridEvery&gt;</description>
+        </item>
+        <item>
+          <description>DisplayVerticalDrawingGrid &lt;w:displayVerticalDrawingGridEvery&gt;</description>
+        </item>
+        <item>
+          <description>DoNotUseMarginsForDrawingGridOrigin &lt;w:doNotUseMarginsForDrawingGridOrigin&gt;</description>
+        </item>
+        <item>
+          <description>DrawingGridHorizontalOrigin &lt;w:drawingGridHorizontalOrigin&gt;</description>
+        </item>
+        <item>
+          <description>DrawingGridVerticalOrigin &lt;w:drawingGridVerticalOrigin&gt;</description>
+        </item>
+        <item>
+          <description>DoNotShadeFormData &lt;w:doNotShadeFormData&gt;</description>
+        </item>
+        <item>
+          <description>NoPunctuationKerning &lt;w:noPunctuationKerning&gt;</description>
+        </item>
+        <item>
+          <description>CharacterSpacingControl &lt;w:characterSpacingControl&gt;</description>
+        </item>
+        <item>
+          <description>PrintTwoOnOne &lt;w:printTwoOnOne&gt;</description>
+        </item>
+        <item>
+          <description>StrictFirstAndLastChars &lt;w:strictFirstAndLastChars&gt;</description>
+        </item>
+        <item>
+          <description>NoLineBreaksAfterKinsoku &lt;w:noLineBreaksAfter&gt;</description>
+        </item>
+        <item>
+          <description>NoLineBreaksBeforeKinsoku &lt;w:noLineBreaksBefore&gt;</description>
+        </item>
+        <item>
+          <description>SavePreviewPicture &lt;w:savePreviewPicture&gt;</description>
+        </item>
+        <item>
+          <description>DoNotValidateAgainstSchema &lt;w:doNotValidateAgainstSchema&gt;</description>
+        </item>
+        <item>
+          <description>SaveInvalidXml &lt;w:saveInvalidXml&gt;</description>
+        </item>
+        <item>
+          <description>IgnoreMixedContent &lt;w:ignoreMixedContent&gt;</description>
+        </item>
+        <item>
+          <description>AlwaysShowPlaceholderText &lt;w:alwaysShowPlaceholderText&gt;</description>
+        </item>
+        <item>
+          <description>DoNotDemarcateInvalidXml &lt;w:doNotDemarcateInvalidXml&gt;</description>
+        </item>
+        <item>
+          <description>SaveXmlDataOnly &lt;w:saveXmlDataOnly&gt;</description>
+        </item>
+        <item>
+          <description>UseXsltWhenSaving &lt;w:useXSLTWhenSaving&gt;</description>
+        </item>
+        <item>
+          <description>SaveThroughXslt &lt;w:saveThroughXslt&gt;</description>
+        </item>
+        <item>
+          <description>ShowXmlTags &lt;w:showXMLTags&gt;</description>
+        </item>
+        <item>
+          <description>AlwaysMergeEmptyNamespace &lt;w:alwaysMergeEmptyNamespace&gt;</description>
+        </item>
+        <item>
+          <description>UpdateFieldsOnOpen &lt;w:updateFields&gt;</description>
+        </item>
+        <item>
+          <description>HeaderShapeDefaults &lt;w:hdrShapeDefaults&gt;</description>
+        </item>
+        <item>
+          <description>FootnoteDocumentWideProperties &lt;w:footnotePr&gt;</description>
+        </item>
+        <item>
+          <description>EndnoteDocumentWideProperties &lt;w:endnotePr&gt;</description>
+        </item>
+        <item>
+          <description>Compatibility &lt;w:compat&gt;</description>
+        </item>
+        <item>
+          <description>DocumentVariables &lt;w:docVars&gt;</description>
+        </item>
+        <item>
+          <description>Rsids &lt;w:rsids&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Math.MathProperties &lt;m:mathPr&gt;</description>
+        </item>
+        <item>
+          <description>UICompatibleWith97To2003 &lt;w:uiCompat97To2003&gt;</description>
+        </item>
+        <item>
+          <description>AttachedSchema &lt;w:attachedSchema&gt;</description>
+        </item>
+        <item>
+          <description>ThemeFontLanguages &lt;w:themeFontLang&gt;</description>
+        </item>
+        <item>
+          <description>ColorSchemeMapping &lt;w:clrSchemeMapping&gt;</description>
+        </item>
+        <item>
+          <description>DoNotIncludeSubdocsInStats &lt;w:doNotIncludeSubdocsInStats&gt;</description>
+        </item>
+        <item>
+          <description>DoNotAutoCompressPictures &lt;w:doNotAutoCompressPictures&gt;</description>
+        </item>
+        <item>
+          <description>ForceUpgrade &lt;w:forceUpgrade&gt;</description>
+        </item>
+        <item>
+          <description>Captions &lt;w:captions&gt;</description>
+        </item>
+        <item>
+          <description>ReadModeInkLockDown &lt;w:readModeInkLockDown&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.CustomXmlSchemaReferences.SchemaLibrary &lt;sl:schemaLibrary&gt;</description>
+        </item>
+        <item>
+          <description>ShapeDefaults &lt;w:shapeDefaults&gt;</description>
+        </item>
+        <item>
+          <description>DecimalSymbol &lt;w:decimalSymbol&gt;</description>
+        </item>
+        <item>
+          <description>ListSeparator &lt;w:listSeparator&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.DocumentId &lt;w14:docId&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.DiscardImageEditingData &lt;w14:discardImageEditingData&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.DefaultImageDpi &lt;w14:defaultImageDpi&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2010.Word.ConflictMode &lt;w14:conflictMode&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2013.Word.ChartTrackingRefBased &lt;w15:chartTrackingRefBased&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2013.Word.PersistentDocumentId &lt;w15:docId&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -347,6 +355,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -367,12 +376,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -396,6 +407,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -404,7 +416,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Settings class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -419,6 +431,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -442,14 +455,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.AlignBorderAndEdges</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Align Paragraph and Table Borders with Page Border.</para>
-          <para> Represents the following element tag in the schema: w:alignBordersAndEdges </para>
+          <para>Align Paragraph and Table Borders with Page Border.</para>
+          <para>Represents the following element tag in the schema: w:alignBordersAndEdges.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -469,14 +483,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.BordersDoNotSurroundFooter</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Page Border Excludes Footer.</para>
-          <para> Represents the following element tag in the schema: w:bordersDoNotSurroundFooter </para>
+          <para>Page Border Excludes Footer.</para>
+          <para>Represents the following element tag in the schema: w:bordersDoNotSurroundFooter.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -496,14 +511,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.BordersDoNotSurroundHeader</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Page Border Excludes Header.</para>
-          <para> Represents the following element tag in the schema: w:bordersDoNotSurroundHeader </para>
+          <para>Page Border Excludes Header.</para>
+          <para>Represents the following element tag in the schema: w:bordersDoNotSurroundHeader.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -523,6 +539,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -537,6 +554,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="DisplayBackgroundShape">
@@ -550,14 +568,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.DisplayBackgroundShape</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Display Background Objects When Displaying Document.</para>
-          <para> Represents the following element tag in the schema: w:displayBackgroundShape </para>
+          <para>Display Background Objects When Displaying Document.</para>
+          <para>Represents the following element tag in the schema: w:displayBackgroundShape.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -577,6 +596,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.DocumentSettingsPart</ReturnType>
@@ -600,14 +620,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.DoNotDisplayPageBoundaries</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Do Not Display Visual Boundary For Header/Footer or Between Pages.</para>
-          <para> Represents the following element tag in the schema: w:doNotDisplayPageBoundaries </para>
+          <para>Do Not Display Visual Boundary For Header/Footer or Between Pages.</para>
+          <para>Represents the following element tag in the schema: w:doNotDisplayPageBoundaries.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -627,14 +648,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.EmbedSystemFonts</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Embed Common System Fonts.</para>
-          <para> Represents the following element tag in the schema: w:embedSystemFonts </para>
+          <para>Embed Common System Fonts.</para>
+          <para>Represents the following element tag in the schema: w:embedSystemFonts.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -654,14 +676,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.EmbedTrueTypeFonts</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Embed TrueType Fonts.</para>
-          <para> Represents the following element tag in the schema: w:embedTrueTypeFonts </para>
+          <para>Embed TrueType Fonts.</para>
+          <para>Represents the following element tag in the schema: w:embedTrueTypeFonts.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -681,14 +704,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.GutterAtTop</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Position Gutter At Top of Page.</para>
-          <para> Represents the following element tag in the schema: w:gutterAtTop </para>
+          <para>Position Gutter At Top of Page.</para>
+          <para>Represents the following element tag in the schema: w:gutterAtTop.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -708,14 +732,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.HideGrammaticalErrors</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Do Not Display Visual Indication of Grammatical Errors.</para>
-          <para> Represents the following element tag in the schema: w:hideGrammaticalErrors </para>
+          <para>Do Not Display Visual Indication of Grammatical Errors.</para>
+          <para>Represents the following element tag in the schema: w:hideGrammaticalErrors.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -735,14 +760,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.HideSpellingErrors</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Do Not Display Visual Indication of Spelling Errors.</para>
-          <para> Represents the following element tag in the schema: w:hideSpellingErrors </para>
+          <para>Do Not Display Visual Indication of Spelling Errors.</para>
+          <para>Represents the following element tag in the schema: w:hideSpellingErrors.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -762,6 +788,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -772,31 +799,8 @@
       <Docs>
         <param name="openXmlPart">Specifies the part to be loaded.</param>
         <summary>
-            Loads the DOM from the DocumentSettingsPart.
+            Loads the DOM from the DocumentSettingsPart
             </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.Settings.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.Settings.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -811,14 +815,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.MirrorMargins</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Mirror Page Margins.</para>
-          <para> Represents the following element tag in the schema: w:mirrorMargins </para>
+          <para>Mirror Page Margins.</para>
+          <para>Represents the following element tag in the schema: w:mirrorMargins.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -838,14 +843,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.PrintFormsData</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Only Print Form Field Content.</para>
-          <para> Represents the following element tag in the schema: w:printFormsData </para>
+          <para>Only Print Form Field Content.</para>
+          <para>Represents the following element tag in the schema: w:printFormsData.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -865,14 +871,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.PrintFractionalCharacterWidth</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Print Fractional Character Widths.</para>
-          <para> Represents the following element tag in the schema: w:printFractionalCharacterWidth </para>
+          <para>Print Fractional Character Widths.</para>
+          <para>Represents the following element tag in the schema: w:printFractionalCharacterWidth.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -892,14 +899,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.PrintPostScriptOverText</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Print PostScript Codes With Document Text.</para>
-          <para> Represents the following element tag in the schema: w:printPostScriptOverText </para>
+          <para>Print PostScript Codes With Document Text.</para>
+          <para>Represents the following element tag in the schema: w:printPostScriptOverText.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -919,14 +927,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.RemoveDateAndTime</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Remove Date and Time from Annotations.</para>
-          <para> Represents the following element tag in the schema: w:removeDateAndTime </para>
+          <para>Remove Date and Time from Annotations.</para>
+          <para>Represents the following element tag in the schema: w:removeDateAndTime.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -946,14 +955,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.RemovePersonalInformation</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Remove Personal Information from Document Properties.</para>
-          <para> Represents the following element tag in the schema: w:removePersonalInformation </para>
+          <para>Remove Personal Information from Document Properties.</para>
+          <para>Represents the following element tag in the schema: w:removePersonalInformation.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -973,6 +983,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -999,14 +1010,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.SaveFormsData</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Only Save Form Field Content.</para>
-          <para> Represents the following element tag in the schema: w:saveFormsData </para>
+          <para>Only Save Form Field Content.</para>
+          <para>Represents the following element tag in the schema: w:saveFormsData.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1026,14 +1038,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.SaveSubsetFonts</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Subset Fonts When Embedding.</para>
-          <para> Represents the following element tag in the schema: w:saveSubsetFonts </para>
+          <para>Subset Fonts When Embedding.</para>
+          <para>Represents the following element tag in the schema: w:saveSubsetFonts.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1053,14 +1066,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.View</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Document View Setting.</para>
-          <para> Represents the following element tag in the schema: w:view </para>
+          <para>Document View Setting.</para>
+          <para>Represents the following element tag in the schema: w:view.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1080,14 +1094,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.WriteProtection</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Write Protection.</para>
-          <para> Represents the following element tag in the schema: w:writeProtection </para>
+          <para>Write Protection.</para>
+          <para>Represents the following element tag in the schema: w:writeProtection.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1107,14 +1122,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Zoom</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Magnification Setting.</para>
-          <para> Represents the following element tag in the schema: w:zoom </para>
+          <para>Magnification Setting.</para>
+          <para>Represents the following element tag in the schema: w:zoom.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

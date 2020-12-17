@@ -1,4 +1,4 @@
-﻿<Type Name="Workbook" FullName="DocumentFormat.OpenXml.Spreadsheet.Workbook">
+<Type Name="Workbook" FullName="DocumentFormat.OpenXml.Spreadsheet.Workbook">
   <TypeSignature Language="C#" Value="public class Workbook : DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Workbook extends DocumentFormat.OpenXml.OpenXmlPartRootElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Spreadsheet.Workbook" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlPartRootElement</BaseTypeName>
@@ -15,71 +16,78 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.FileVersion))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.FileSharing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.WorkbookProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2013.ExcelAc.AbsolutePath), DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.WorkbookProtection))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.BookViews))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.Sheets))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.FunctionGroups))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.ExternalReferences))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.DefinedNames))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.CalculationProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.OleSize))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.CustomWorkbookViews))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.PivotCaches))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.WebPublishing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.FileRecoveryProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.WebPublishObjects))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Spreadsheet.WorkbookExtensionList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(22, "workbook")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(22, "workbook")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
-      <para>Workbook. The root element of WorkbookPart.</para>
-      <para> When the object is serialized out as xml, its qualified name is x:workbook.</para>
+      <para>Workbook.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is x:workbook.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>FileVersion &lt;x:fileVersion&gt;</description></item><item><description>FileSharing &lt;x:fileSharing&gt;</description></item><item><description>WorkbookProperties &lt;x:workbookPr&gt;</description></item><item><description>DocumentFormat.OpenXml.Office2013.ExcelAc.AbsolutePath &lt;x15ac:absPath&gt;</description></item><item><description>WorkbookProtection &lt;x:workbookProtection&gt;</description></item><item><description>BookViews &lt;x:bookViews&gt;</description></item><item><description>Sheets &lt;x:sheets&gt;</description></item><item><description>FunctionGroups &lt;x:functionGroups&gt;</description></item><item><description>ExternalReferences &lt;x:externalReferences&gt;</description></item><item><description>DefinedNames &lt;x:definedNames&gt;</description></item><item><description>CalculationProperties &lt;x:calcPr&gt;</description></item><item><description>OleSize &lt;x:oleSize&gt;</description></item><item><description>CustomWorkbookViews &lt;x:customWorkbookViews&gt;</description></item><item><description>PivotCaches &lt;x:pivotCaches&gt;</description></item><item><description>WebPublishing &lt;x:webPublishing&gt;</description></item><item><description>FileRecoveryProperties &lt;x:fileRecoveryPr&gt;</description></item><item><description>WebPublishObjects &lt;x:webPublishObjects&gt;</description></item><item><description>WorkbookExtensionList &lt;x:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>FileVersion &lt;x:fileVersion&gt;</description>
+        </item>
+        <item>
+          <description>FileSharing &lt;x:fileSharing&gt;</description>
+        </item>
+        <item>
+          <description>WorkbookProperties &lt;x:workbookPr&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Office2013.ExcelAc.AbsolutePath &lt;x15ac:absPath&gt;</description>
+        </item>
+        <item>
+          <description>WorkbookProtection &lt;x:workbookProtection&gt;</description>
+        </item>
+        <item>
+          <description>BookViews &lt;x:bookViews&gt;</description>
+        </item>
+        <item>
+          <description>Sheets &lt;x:sheets&gt;</description>
+        </item>
+        <item>
+          <description>FunctionGroups &lt;x:functionGroups&gt;</description>
+        </item>
+        <item>
+          <description>ExternalReferences &lt;x:externalReferences&gt;</description>
+        </item>
+        <item>
+          <description>DefinedNames &lt;x:definedNames&gt;</description>
+        </item>
+        <item>
+          <description>CalculationProperties &lt;x:calcPr&gt;</description>
+        </item>
+        <item>
+          <description>OleSize &lt;x:oleSize&gt;</description>
+        </item>
+        <item>
+          <description>CustomWorkbookViews &lt;x:customWorkbookViews&gt;</description>
+        </item>
+        <item>
+          <description>PivotCaches &lt;x:pivotCaches&gt;</description>
+        </item>
+        <item>
+          <description>WebPublishing &lt;x:webPublishing&gt;</description>
+        </item>
+        <item>
+          <description>FileRecoveryProperties &lt;x:fileRecoveryPr&gt;</description>
+        </item>
+        <item>
+          <description>WebPublishObjects &lt;x:webPublishObjects&gt;</description>
+        </item>
+        <item>
+          <description>WorkbookExtensionList &lt;x:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -92,6 +100,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -112,12 +121,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -141,6 +152,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -149,7 +161,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Workbook class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -164,6 +176,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -187,19 +200,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2013.ExcelAc.AbsolutePath</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> AbsolutePath, this property is only available in Office2013.</para>
-          <para> Represents the following element tag in the schema: x15ac:absPath </para>
+          <para>AbsolutePath.</para>
+          <para>Represents the following element tag in the schema: x15ac:absPath.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -219,14 +228,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.BookViews</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> BookViews.</para>
-          <para> Represents the following element tag in the schema: x:bookViews </para>
+          <para>BookViews.</para>
+          <para>Represents the following element tag in the schema: x:bookViews.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -246,14 +256,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.CalculationProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> CalculationProperties.</para>
-          <para> Represents the following element tag in the schema: x:calcPr </para>
+          <para>CalculationProperties.</para>
+          <para>Represents the following element tag in the schema: x:calcPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -273,6 +284,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -287,6 +299,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Conformance">
@@ -300,10 +313,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "conformance")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "conformance")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "conformance")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -311,8 +326,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> conformance.</para>
-          <para>Represents the following attribute in the schema: conformance </para>
+          <para>conformance</para>
+          <para>Represents the following attribute in the schema: conformance</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -329,14 +344,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.CustomWorkbookViews</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> CustomWorkbookViews.</para>
-          <para> Represents the following element tag in the schema: x:customWorkbookViews </para>
+          <para>CustomWorkbookViews.</para>
+          <para>Represents the following element tag in the schema: x:customWorkbookViews.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -356,14 +372,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.DefinedNames</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> DefinedNames.</para>
-          <para> Represents the following element tag in the schema: x:definedNames </para>
+          <para>DefinedNames.</para>
+          <para>Represents the following element tag in the schema: x:definedNames.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -383,14 +400,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.ExternalReferences</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ExternalReferences.</para>
-          <para> Represents the following element tag in the schema: x:externalReferences </para>
+          <para>ExternalReferences.</para>
+          <para>Represents the following element tag in the schema: x:externalReferences.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -410,14 +428,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.FileSharing</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> FileSharing.</para>
-          <para> Represents the following element tag in the schema: x:fileSharing </para>
+          <para>FileSharing.</para>
+          <para>Represents the following element tag in the schema: x:fileSharing.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -437,14 +456,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.FileVersion</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> FileVersion.</para>
-          <para> Represents the following element tag in the schema: x:fileVersion </para>
+          <para>FileVersion.</para>
+          <para>Represents the following element tag in the schema: x:fileVersion.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -464,14 +484,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.FunctionGroups</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> FunctionGroups.</para>
-          <para> Represents the following element tag in the schema: x:functionGroups </para>
+          <para>FunctionGroups.</para>
+          <para>Represents the following element tag in the schema: x:functionGroups.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -491,6 +512,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -501,31 +523,8 @@
       <Docs>
         <param name="openXmlPart">Specifies the part to be loaded.</param>
         <summary>
-            Loads the DOM from the WorkbookPart.
+            Loads the DOM from the WorkbookPart
             </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Spreadsheet.Workbook.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Spreadsheet.Workbook.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -540,14 +539,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.OleSize</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> OleSize.</para>
-          <para> Represents the following element tag in the schema: x:oleSize </para>
+          <para>OleSize.</para>
+          <para>Represents the following element tag in the schema: x:oleSize.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -567,14 +567,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.PivotCaches</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> PivotCaches.</para>
-          <para> Represents the following element tag in the schema: x:pivotCaches </para>
+          <para>PivotCaches.</para>
+          <para>Represents the following element tag in the schema: x:pivotCaches.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -594,6 +595,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -620,14 +622,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.Sheets</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Sheets.</para>
-          <para> Represents the following element tag in the schema: x:sheets </para>
+          <para>Sheets.</para>
+          <para>Represents the following element tag in the schema: x:sheets.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -647,14 +650,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.WebPublishing</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> WebPublishing.</para>
-          <para> Represents the following element tag in the schema: x:webPublishing </para>
+          <para>WebPublishing.</para>
+          <para>Represents the following element tag in the schema: x:webPublishing.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -674,6 +678,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Packaging.WorkbookPart</ReturnType>
@@ -697,14 +702,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.WorkbookProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> WorkbookProperties.</para>
-          <para> Represents the following element tag in the schema: x:workbookPr </para>
+          <para>WorkbookProperties.</para>
+          <para>Represents the following element tag in the schema: x:workbookPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -724,14 +730,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Spreadsheet.WorkbookProtection</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> WorkbookProtection.</para>
-          <para> Represents the following element tag in the schema: x:workbookProtection </para>
+          <para>WorkbookProtection.</para>
+          <para>Represents the following element tag in the schema: x:workbookProtection.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

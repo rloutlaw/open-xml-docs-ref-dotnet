@@ -1,4 +1,4 @@
-﻿<Type Name="SignatureLine" FullName="DocumentFormat.OpenXml.Office2013.Drawing.SignatureLine">
+<Type Name="SignatureLine" FullName="DocumentFormat.OpenXml.Office2013.Drawing.SignatureLine">
   <TypeSignature Language="C#" Value="public class SignatureLine : DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SignatureLine extends DocumentFormat.OpenXml.OpenXmlLeafElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2013.Drawing.SignatureLine" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlLeafElement</BaseTypeName>
@@ -15,17 +16,15 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(67, "signatureLine")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(67, "signatureLine")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the SignatureLine Class.</para>
-      <para>This class is only available in Office2013.</para>
-      <para> When the object is serialized out as xml, its qualified name is a15:signatureLine.</para>
+      <para>This class is available in Office 2013 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is a15:signatureLine.</para>
     </summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
@@ -123,6 +122,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -143,10 +143,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "addlXml")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "addlXml")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "addlXml")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -154,8 +156,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> addlXml.</para>
-          <para>Represents the following attribute in the schema: addlXml </para>
+          <para>addlXml, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: addlXml</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -172,10 +174,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "allowComments")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "allowComments")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "allowComments")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -183,8 +187,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> allowComments.</para>
-          <para>Represents the following attribute in the schema: allowComments </para>
+          <para>allowComments, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: allowComments</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -201,6 +205,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -215,6 +220,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Id">
@@ -228,10 +234,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "id")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "id")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "id")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -239,8 +247,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> id.</para>
-          <para>Represents the following attribute in the schema: id </para>
+          <para>id, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: id</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -257,10 +265,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "isSignatureLine")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "isSignatureLine")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "isSignatureLine")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -268,32 +278,9 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> isSignatureLine.</para>
-          <para>Represents the following attribute in the schema: isSignatureLine </para>
+          <para>isSignatureLine, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: isSignatureLine</para>
         </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2013.Drawing.SignatureLine.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office2013.Drawing.SignatureLine.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -309,10 +296,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "provId")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "provId")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "provId")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -320,8 +309,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> provId.</para>
-          <para>Represents the following attribute in the schema: provId </para>
+          <para>provId, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: provId</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -338,10 +327,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "showSignDate")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "showSignDate")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "showSignDate")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -349,8 +340,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> showSignDate.</para>
-          <para>Represents the following attribute in the schema: showSignDate </para>
+          <para>showSignDate, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: showSignDate</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -367,10 +358,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "sigProvUrl")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "sigProvUrl")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "sigProvUrl")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -378,8 +371,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> sigProvUrl.</para>
-          <para>Represents the following attribute in the schema: sigProvUrl </para>
+          <para>sigProvUrl, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: sigProvUrl</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -396,10 +389,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "signingInstructions")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "signingInstructions")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "signingInstructions")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -407,8 +402,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> signingInstructions.</para>
-          <para>Represents the following attribute in the schema: signingInstructions </para>
+          <para>signingInstructions, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: signingInstructions</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -425,10 +420,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "signingInstructionsSet")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "signingInstructionsSet")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "signingInstructionsSet")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -436,8 +433,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> signingInstructionsSet.</para>
-          <para>Represents the following attribute in the schema: signingInstructionsSet </para>
+          <para>signingInstructionsSet, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: signingInstructionsSet</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -454,10 +451,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "suggestedSigner")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "suggestedSigner")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "suggestedSigner")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -465,8 +464,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> suggestedSigner.</para>
-          <para>Represents the following attribute in the schema: suggestedSigner </para>
+          <para>suggestedSigner, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: suggestedSigner</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -483,10 +482,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "suggestedSigner2")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "suggestedSigner2")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "suggestedSigner2")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -494,8 +495,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> suggestedSigner2.</para>
-          <para>Represents the following attribute in the schema: suggestedSigner2 </para>
+          <para>suggestedSigner2, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: suggestedSigner2</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -512,10 +513,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "suggestedSignerEmail")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "suggestedSignerEmail")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "suggestedSignerEmail")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -523,8 +526,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> suggestedSignerEmail.</para>
-          <para>Represents the following attribute in the schema: suggestedSignerEmail </para>
+          <para>suggestedSignerEmail, this property is only available in Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: suggestedSignerEmail</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

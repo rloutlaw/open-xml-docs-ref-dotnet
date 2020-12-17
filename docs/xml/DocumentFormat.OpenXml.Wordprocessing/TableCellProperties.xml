@@ -1,4 +1,4 @@
-﻿<Type Name="TableCellProperties" FullName="DocumentFormat.OpenXml.Wordprocessing.TableCellProperties">
+<Type Name="TableCellProperties" FullName="DocumentFormat.OpenXml.Wordprocessing.TableCellProperties">
   <TypeSignature Language="C#" Value="public class TableCellProperties : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TableCellProperties extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.TableCellProperties" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,68 +16,75 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ConditionalFormatStyle))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableCellWidth))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.GridSpan))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.HorizontalMerge))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.VerticalMerge))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableCellBorders))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Shading))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.NoWrap))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableCellMargin))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TextDirection))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableCellFitText))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableCellVerticalAlignment))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.HideMark))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CellInsertion))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CellDeletion))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CellMerge))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableCellPropertiesChange))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "tcPr")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "tcPr")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Table Cell Properties.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:tcPr.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:tcPr.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>ConditionalFormatStyle &lt;w:cnfStyle&gt;</description></item><item><description>TableCellWidth &lt;w:tcW&gt;</description></item><item><description>GridSpan &lt;w:gridSpan&gt;</description></item><item><description>HorizontalMerge &lt;w:hMerge&gt;</description></item><item><description>VerticalMerge &lt;w:vMerge&gt;</description></item><item><description>TableCellBorders &lt;w:tcBorders&gt;</description></item><item><description>Shading &lt;w:shd&gt;</description></item><item><description>NoWrap &lt;w:noWrap&gt;</description></item><item><description>TableCellMargin &lt;w:tcMar&gt;</description></item><item><description>TextDirection &lt;w:textDirection&gt;</description></item><item><description>TableCellFitText &lt;w:tcFitText&gt;</description></item><item><description>TableCellVerticalAlignment &lt;w:vAlign&gt;</description></item><item><description>HideMark &lt;w:hideMark&gt;</description></item><item><description>CellInsertion &lt;w:cellIns&gt;</description></item><item><description>CellDeletion &lt;w:cellDel&gt;</description></item><item><description>CellMerge &lt;w:cellMerge&gt;</description></item><item><description>TableCellPropertiesChange &lt;w:tcPrChange&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>ConditionalFormatStyle &lt;w:cnfStyle&gt;</description>
+        </item>
+        <item>
+          <description>TableCellWidth &lt;w:tcW&gt;</description>
+        </item>
+        <item>
+          <description>GridSpan &lt;w:gridSpan&gt;</description>
+        </item>
+        <item>
+          <description>HorizontalMerge &lt;w:hMerge&gt;</description>
+        </item>
+        <item>
+          <description>VerticalMerge &lt;w:vMerge&gt;</description>
+        </item>
+        <item>
+          <description>TableCellBorders &lt;w:tcBorders&gt;</description>
+        </item>
+        <item>
+          <description>Shading &lt;w:shd&gt;</description>
+        </item>
+        <item>
+          <description>NoWrap &lt;w:noWrap&gt;</description>
+        </item>
+        <item>
+          <description>TableCellMargin &lt;w:tcMar&gt;</description>
+        </item>
+        <item>
+          <description>TextDirection &lt;w:textDirection&gt;</description>
+        </item>
+        <item>
+          <description>TableCellFitText &lt;w:tcFitText&gt;</description>
+        </item>
+        <item>
+          <description>TableCellVerticalAlignment &lt;w:vAlign&gt;</description>
+        </item>
+        <item>
+          <description>HideMark &lt;w:hideMark&gt;</description>
+        </item>
+        <item>
+          <description>CellInsertion &lt;w:cellIns&gt;</description>
+        </item>
+        <item>
+          <description>CellDeletion &lt;w:cellDel&gt;</description>
+        </item>
+        <item>
+          <description>CellMerge &lt;w:cellMerge&gt;</description>
+        </item>
+        <item>
+          <description>TableCellPropertiesChange &lt;w:tcPrChange&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -89,6 +97,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -109,12 +118,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -138,6 +149,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -146,7 +158,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the TableCellProperties class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -161,6 +173,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -184,6 +197,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -198,6 +212,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ConditionalFormatStyle">
@@ -211,14 +226,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.ConditionalFormatStyle</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ConditionalFormatStyle.</para>
-          <para> Represents the following element tag in the schema: w:cnfStyle </para>
+          <para>ConditionalFormatStyle.</para>
+          <para>Represents the following element tag in the schema: w:cnfStyle.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -238,14 +254,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.GridSpan</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> GridSpan.</para>
-          <para> Represents the following element tag in the schema: w:gridSpan </para>
+          <para>GridSpan.</para>
+          <para>Represents the following element tag in the schema: w:gridSpan.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -265,14 +282,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.HideMark</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> HideMark.</para>
-          <para> Represents the following element tag in the schema: w:hideMark </para>
+          <para>HideMark.</para>
+          <para>Represents the following element tag in the schema: w:hideMark.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -292,43 +310,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.HorizontalMerge</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> HorizontalMerge.</para>
-          <para> Represents the following element tag in the schema: w:hMerge </para>
+          <para>HorizontalMerge.</para>
+          <para>Represents the following element tag in the schema: w:hMerge.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:w = http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.TableCellProperties.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.TableCellProperties.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="NoWrap">
@@ -342,14 +338,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.NoWrap</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> NoWrap.</para>
-          <para> Represents the following element tag in the schema: w:noWrap </para>
+          <para>NoWrap.</para>
+          <para>Represents the following element tag in the schema: w:noWrap.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -369,14 +366,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Shading</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shading.</para>
-          <para> Represents the following element tag in the schema: w:shd </para>
+          <para>Shading.</para>
+          <para>Represents the following element tag in the schema: w:shd.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -396,14 +394,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TableCellBorders</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TableCellBorders.</para>
-          <para> Represents the following element tag in the schema: w:tcBorders </para>
+          <para>TableCellBorders.</para>
+          <para>Represents the following element tag in the schema: w:tcBorders.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -423,14 +422,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TableCellFitText</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TableCellFitText.</para>
-          <para> Represents the following element tag in the schema: w:tcFitText </para>
+          <para>TableCellFitText.</para>
+          <para>Represents the following element tag in the schema: w:tcFitText.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -450,14 +450,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TableCellMargin</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TableCellMargin.</para>
-          <para> Represents the following element tag in the schema: w:tcMar </para>
+          <para>TableCellMargin.</para>
+          <para>Represents the following element tag in the schema: w:tcMar.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -477,14 +478,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TableCellVerticalAlignment</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TableCellVerticalAlignment.</para>
-          <para> Represents the following element tag in the schema: w:vAlign </para>
+          <para>TableCellVerticalAlignment.</para>
+          <para>Represents the following element tag in the schema: w:vAlign.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -504,14 +506,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TableCellWidth</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TableCellWidth.</para>
-          <para> Represents the following element tag in the schema: w:tcW </para>
+          <para>TableCellWidth.</para>
+          <para>Represents the following element tag in the schema: w:tcW.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -531,14 +534,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TextDirection</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TextDirection.</para>
-          <para> Represents the following element tag in the schema: w:textDirection </para>
+          <para>TextDirection.</para>
+          <para>Represents the following element tag in the schema: w:textDirection.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -558,14 +562,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.VerticalMerge</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> VerticalMerge.</para>
-          <para> Represents the following element tag in the schema: w:vMerge </para>
+          <para>VerticalMerge.</para>
+          <para>Represents the following element tag in the schema: w:vMerge.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

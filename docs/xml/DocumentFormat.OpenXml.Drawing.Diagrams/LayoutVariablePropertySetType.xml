@@ -1,4 +1,4 @@
-﻿<Type Name="LayoutVariablePropertySetType" FullName="DocumentFormat.OpenXml.Drawing.Diagrams.LayoutVariablePropertySetType">
+<Type Name="LayoutVariablePropertySetType" FullName="DocumentFormat.OpenXml.Drawing.Diagrams.LayoutVariablePropertySetType">
   <TypeSignature Language="C#" Value="public abstract class LayoutVariablePropertySetType : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit LayoutVariablePropertySetType extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Drawing.Diagrams.LayoutVariablePropertySetType" />
@@ -8,50 +8,53 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
   </Base>
   <Interfaces />
-  <Attributes>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Diagrams.OrganizationChart))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Diagrams.MaxNumberOfChildren))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Diagrams.PreferredNumberOfChildren))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Diagrams.BulletEnabled))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Diagrams.Direction))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Diagrams.HierarchyBranch))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Diagrams.AnimateOneByOne))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Diagrams.AnimationLevel))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Diagrams.ResizeHandles))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
-    </Attribute>
-  </Attributes>
   <Docs>
     <summary>
-             Defines the LayoutVariablePropertySetType class.
-             </summary>
+      <para>Defines the LayoutVariablePropertySetType Class.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is :.</para>
+    </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>OrganizationChart &lt;dgm:orgChart&gt;</description></item><item><description>MaxNumberOfChildren &lt;dgm:chMax&gt;</description></item><item><description>PreferredNumberOfChildren &lt;dgm:chPref&gt;</description></item><item><description>BulletEnabled &lt;dgm:bulletEnabled&gt;</description></item><item><description>Direction &lt;dgm:dir&gt;</description></item><item><description>HierarchyBranch &lt;dgm:hierBranch&gt;</description></item><item><description>AnimateOneByOne &lt;dgm:animOne&gt;</description></item><item><description>AnimationLevel &lt;dgm:animLvl&gt;</description></item><item><description>ResizeHandles &lt;dgm:resizeHandles&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>OrganizationChart &lt;dgm:orgChart&gt;</description>
+        </item>
+        <item>
+          <description>MaxNumberOfChildren &lt;dgm:chMax&gt;</description>
+        </item>
+        <item>
+          <description>PreferredNumberOfChildren &lt;dgm:chPref&gt;</description>
+        </item>
+        <item>
+          <description>BulletEnabled &lt;dgm:bulletEnabled&gt;</description>
+        </item>
+        <item>
+          <description>Direction &lt;dgm:dir&gt;</description>
+        </item>
+        <item>
+          <description>HierarchyBranch &lt;dgm:hierBranch&gt;</description>
+        </item>
+        <item>
+          <description>AnimateOneByOne &lt;dgm:animOne&gt;</description>
+        </item>
+        <item>
+          <description>AnimationLevel &lt;dgm:animLvl&gt;</description>
+        </item>
+        <item>
+          <description>ResizeHandles &lt;dgm:resizeHandles&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -64,6 +67,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -84,12 +88,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -113,6 +119,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -121,7 +128,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the LayoutVariablePropertySetType class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -136,6 +143,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -159,14 +167,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Diagrams.AnimateOneByOne</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> One by One Animation String.</para>
-          <para> Represents the following element tag in the schema: dgm:animOne </para>
+          <para>One by One Animation String.</para>
+          <para>Represents the following element tag in the schema: dgm:animOne.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Diagrams.AnimateOneByOne" />.</value>
         <remarks>To be added.</remarks>
@@ -186,14 +195,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Diagrams.AnimationLevel</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Level Animation.</para>
-          <para> Represents the following element tag in the schema: dgm:animLvl </para>
+          <para>Level Animation.</para>
+          <para>Represents the following element tag in the schema: dgm:animLvl.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Diagrams.AnimationLevel" />.</value>
         <remarks>To be added.</remarks>
@@ -213,14 +223,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Diagrams.BulletEnabled</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Show Insert Bullet.</para>
-          <para> Represents the following element tag in the schema: dgm:bulletEnabled </para>
+          <para>Show Insert Bullet.</para>
+          <para>Represents the following element tag in the schema: dgm:bulletEnabled.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Diagrams.BulletEnabled" />.</value>
         <remarks>To be added.</remarks>
@@ -240,14 +251,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Diagrams.Direction</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Diagram Direction.</para>
-          <para> Represents the following element tag in the schema: dgm:dir </para>
+          <para>Diagram Direction.</para>
+          <para>Represents the following element tag in the schema: dgm:dir.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Diagrams.Direction" />.</value>
         <remarks>To be added.</remarks>
@@ -267,14 +279,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Diagrams.HierarchyBranch</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Organization Chart Branch Style.</para>
-          <para> Represents the following element tag in the schema: dgm:hierBranch </para>
+          <para>Organization Chart Branch Style.</para>
+          <para>Represents the following element tag in the schema: dgm:hierBranch.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Diagrams.HierarchyBranch" />.</value>
         <remarks>To be added.</remarks>
@@ -294,14 +307,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Diagrams.MaxNumberOfChildren</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Maximum Children.</para>
-          <para> Represents the following element tag in the schema: dgm:chMax </para>
+          <para>Maximum Children.</para>
+          <para>Represents the following element tag in the schema: dgm:chMax.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Diagrams.MaxNumberOfChildren" />.</value>
         <remarks>To be added.</remarks>
@@ -321,14 +335,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Diagrams.OrganizationChart</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Show Organization Chart User Interface.</para>
-          <para> Represents the following element tag in the schema: dgm:orgChart </para>
+          <para>Show Organization Chart User Interface.</para>
+          <para>Represents the following element tag in the schema: dgm:orgChart.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Diagrams.OrganizationChart" />.</value>
         <remarks>To be added.</remarks>
@@ -348,14 +363,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Diagrams.PreferredNumberOfChildren</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Preferred Number of Children.</para>
-          <para> Represents the following element tag in the schema: dgm:chPref </para>
+          <para>Preferred Number of Children.</para>
+          <para>Represents the following element tag in the schema: dgm:chPref.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Diagrams.PreferredNumberOfChildren" />.</value>
         <remarks>To be added.</remarks>
@@ -375,14 +391,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Diagrams.ResizeHandles</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shape Resize Style.</para>
-          <para> Represents the following element tag in the schema: dgm:resizeHandles </para>
+          <para>Shape Resize Style.</para>
+          <para>Represents the following element tag in the schema: dgm:resizeHandles.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Drawing.Diagrams.ResizeHandles" />.</value>
         <remarks>To be added.</remarks>

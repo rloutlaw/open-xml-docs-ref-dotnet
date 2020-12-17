@@ -1,4 +1,4 @@
-﻿<Type Name="Group" FullName="DocumentFormat.OpenXml.EMMA.Group">
+<Type Name="Group" FullName="DocumentFormat.OpenXml.EMMA.Group">
   <TypeSignature Language="C#" Value="public class Group : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Group extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.EMMA.Group" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,38 +16,45 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.EMMA.DerivedFrom))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.EMMA.GroupInfo))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.EMMA.Info))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.EMMA.Interpretation))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.EMMA.OneOf))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.EMMA.Group))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.EMMA.Sequence))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "group")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "group")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the Group Class.</para>
-      <para> When the object is serialized out as xml, its qualified name is emma:group.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is emma:group.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>DerivedFrom &lt;emma:derived-from&gt;</description></item><item><description>GroupInfo &lt;emma:group-info&gt;</description></item><item><description>Info &lt;emma:info&gt;</description></item><item><description>Interpretation &lt;emma:interpretation&gt;</description></item><item><description>OneOf &lt;emma:one-of&gt;</description></item><item><description>Group &lt;emma:group&gt;</description></item><item><description>Sequence &lt;emma:sequence&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>DerivedFrom &lt;emma:derived-from&gt;</description>
+        </item>
+        <item>
+          <description>GroupInfo &lt;emma:group-info&gt;</description>
+        </item>
+        <item>
+          <description>Info &lt;emma:info&gt;</description>
+        </item>
+        <item>
+          <description>Interpretation &lt;emma:interpretation&gt;</description>
+        </item>
+        <item>
+          <description>OneOf &lt;emma:one-of&gt;</description>
+        </item>
+        <item>
+          <description>Group &lt;emma:group&gt;</description>
+        </item>
+        <item>
+          <description>Sequence &lt;emma:sequence&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -59,6 +67,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -79,12 +88,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -108,6 +119,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -116,7 +128,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Group class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -131,6 +143,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -154,6 +167,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -168,6 +182,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Confidence">
@@ -181,10 +196,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "confidence")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "confidence")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "confidence")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -192,12 +209,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> confidence.</para>
-          <para>Represents the following attribute in the schema: emma:confidence </para>
+          <para>confidence</para>
+          <para>Represents the following attribute in the schema: emma:confidence</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -212,10 +230,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "cost")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "cost")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "cost")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -223,12 +243,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> cost.</para>
-          <para>Represents the following attribute in the schema: emma:cost </para>
+          <para>cost</para>
+          <para>Represents the following attribute in the schema: emma:cost</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -243,10 +264,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "dialog-turn")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "dialog-turn")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "dialog-turn")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -254,12 +277,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> dialog-turn.</para>
-          <para>Represents the following attribute in the schema: emma:dialog-turn </para>
+          <para>dialog-turn</para>
+          <para>Represents the following attribute in the schema: emma:dialog-turn</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -274,10 +298,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "duration")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "duration")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "duration")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -285,12 +311,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> duration.</para>
-          <para>Represents the following attribute in the schema: emma:duration </para>
+          <para>duration</para>
+          <para>Represents the following attribute in the schema: emma:duration</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -305,10 +332,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "end")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "end")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "end")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -316,12 +345,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> end.</para>
-          <para>Represents the following attribute in the schema: emma:end </para>
+          <para>end</para>
+          <para>Represents the following attribute in the schema: emma:end</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -336,10 +366,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "endpoint-info-ref")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "endpoint-info-ref")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "endpoint-info-ref")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -347,12 +379,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> endpoint-info-ref.</para>
-          <para>Represents the following attribute in the schema: emma:endpoint-info-ref </para>
+          <para>endpoint-info-ref</para>
+          <para>Represents the following attribute in the schema: emma:endpoint-info-ref</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -367,10 +400,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "function")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "function")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "function")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -378,12 +413,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> function.</para>
-          <para>Represents the following attribute in the schema: emma:function </para>
+          <para>function</para>
+          <para>Represents the following attribute in the schema: emma:function</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -398,10 +434,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "grammar-ref")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "grammar-ref")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "grammar-ref")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -409,12 +447,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> grammar-ref.</para>
-          <para>Represents the following attribute in the schema: emma:grammar-ref </para>
+          <para>grammar-ref</para>
+          <para>Represents the following attribute in the schema: emma:grammar-ref</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -429,10 +468,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "id")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "id")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "id")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -440,8 +481,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> id.</para>
-          <para>Represents the following attribute in the schema: id </para>
+          <para>id</para>
+          <para>Represents the following attribute in the schema: id</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -458,10 +499,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "lang")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "lang")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "lang")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -469,36 +512,14 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> lang.</para>
-          <para>Represents the following attribute in the schema: emma:lang </para>
+          <para>lang</para>
+          <para>Represents the following attribute in the schema: emma:lang</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.EMMA.Group.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.EMMA.Group.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="MediaType">
@@ -512,10 +533,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "media-type")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "media-type")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "media-type")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -523,12 +546,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> media-type.</para>
-          <para>Represents the following attribute in the schema: emma:media-type </para>
+          <para>media-type</para>
+          <para>Represents the following attribute in the schema: emma:media-type</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -543,10 +567,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "medium")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "medium")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "medium")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -554,12 +580,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> medium.</para>
-          <para>Represents the following attribute in the schema: emma:medium </para>
+          <para>medium</para>
+          <para>Represents the following attribute in the schema: emma:medium</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -574,10 +601,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "mode")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "mode")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "mode")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -585,12 +614,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> mode.</para>
-          <para>Represents the following attribute in the schema: emma:mode </para>
+          <para>mode</para>
+          <para>Represents the following attribute in the schema: emma:mode</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -605,10 +635,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "model-ref")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "model-ref")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "model-ref")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -616,12 +648,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> model-ref.</para>
-          <para>Represents the following attribute in the schema: emma:model-ref </para>
+          <para>model-ref</para>
+          <para>Represents the following attribute in the schema: emma:model-ref</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -636,10 +669,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "offset-to-start")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "offset-to-start")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "offset-to-start")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -647,12 +682,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> offset-to-start.</para>
-          <para>Represents the following attribute in the schema: emma:offset-to-start </para>
+          <para>offset-to-start</para>
+          <para>Represents the following attribute in the schema: emma:offset-to-start</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -667,10 +703,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "process")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "process")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "process")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -678,12 +716,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> process.</para>
-          <para>Represents the following attribute in the schema: emma:process </para>
+          <para>process</para>
+          <para>Represents the following attribute in the schema: emma:process</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -698,10 +737,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "signal")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "signal")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "signal")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -709,12 +750,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> signal.</para>
-          <para>Represents the following attribute in the schema: emma:signal </para>
+          <para>signal</para>
+          <para>Represents the following attribute in the schema: emma:signal</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -729,10 +771,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "signal-size")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "signal-size")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "signal-size")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -740,12 +784,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> signal-size.</para>
-          <para>Represents the following attribute in the schema: emma:signal-size </para>
+          <para>signal-size</para>
+          <para>Represents the following attribute in the schema: emma:signal-size</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -760,10 +805,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "source")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "source")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "source")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -771,12 +818,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> source.</para>
-          <para>Represents the following attribute in the schema: emma:source </para>
+          <para>source</para>
+          <para>Represents the following attribute in the schema: emma:source</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -791,10 +839,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "start")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "start")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "start")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -802,12 +852,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> start.</para>
-          <para>Represents the following attribute in the schema: emma:start </para>
+          <para>start</para>
+          <para>Represents the following attribute in the schema: emma:start</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -822,10 +873,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "time-ref-uri")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "time-ref-uri")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "time-ref-uri")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -833,12 +886,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> time-ref-uri.</para>
-          <para>Represents the following attribute in the schema: emma:time-ref-uri </para>
+          <para>time-ref-uri</para>
+          <para>Represents the following attribute in the schema: emma:time-ref-uri</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -853,10 +907,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "time-ref-anchor-point")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "time-ref-anchor-point")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "time-ref-anchor-point")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -864,12 +920,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> time-ref-anchor-point.</para>
-          <para>Represents the following attribute in the schema: emma:time-ref-anchor-point </para>
+          <para>time-ref-anchor-point</para>
+          <para>Represents the following attribute in the schema: emma:time-ref-anchor-point</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -884,10 +941,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "tokens")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "tokens")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "tokens")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -895,12 +954,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> tokens.</para>
-          <para>Represents the following attribute in the schema: emma:tokens </para>
+          <para>tokens</para>
+          <para>Represents the following attribute in the schema: emma:tokens</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>
@@ -915,10 +975,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(44, "verbal")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(44, "verbal")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(44, "verbal")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -926,12 +988,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> verbal.</para>
-          <para>Represents the following attribute in the schema: emma:verbal </para>
+          <para>verbal</para>
+          <para>Represents the following attribute in the schema: emma:verbal</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:emma=http://www.w3.org/2003/04/emma
+        <remark>
+            xmlns:emma=http://www.w3.org/2003/04/emma
             </remark>
       </Docs>
     </Member>

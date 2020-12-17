@@ -1,4 +1,4 @@
-﻿<Type Name="TextCharacterPropertiesType" FullName="DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType">
+<Type Name="TextCharacterPropertiesType" FullName="DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType">
   <TypeSignature Language="C#" Value="public class TextCharacterPropertiesType : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TextCharacterPropertiesType extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,87 +16,90 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Outline))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.NoFill))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.SolidFill))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.GradientFill))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.BlipFill))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.PatternFill))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.GroupFill))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.EffectList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.EffectDag))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Highlight))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.UnderlineFollowsText))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Underline))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.UnderlineFillText))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.UnderlineFill))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.LatinFont))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.EastAsianFont))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.ComplexScriptFont))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.SymbolFont))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.HyperlinkOnClick))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.HyperlinkOnMouseOver))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.RightToLeft))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.ExtensionList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(65, "defRPr")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(65, "defRPr")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the TextCharacterPropertiesType Class.</para>
-      <para>This class is only available in Office2013.</para>
-      <para> When the object is serialized out as xml, its qualified name is cs:defRPr.</para>
+      <para>This class is available in Office 2013 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is cs:defRPr.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>DocumentFormat.OpenXml.Drawing.Outline &lt;a:ln&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.NoFill &lt;a:noFill&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.SolidFill &lt;a:solidFill&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.GradientFill &lt;a:gradFill&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.BlipFill &lt;a:blipFill&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.PatternFill &lt;a:pattFill&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.GroupFill &lt;a:grpFill&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.EffectList &lt;a:effectLst&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.EffectDag &lt;a:effectDag&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.Highlight &lt;a:highlight&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.UnderlineFollowsText &lt;a:uLnTx&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.Underline &lt;a:uLn&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.UnderlineFillText &lt;a:uFillTx&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.UnderlineFill &lt;a:uFill&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.LatinFont &lt;a:latin&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.EastAsianFont &lt;a:ea&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.ComplexScriptFont &lt;a:cs&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.SymbolFont &lt;a:sym&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.HyperlinkOnClick &lt;a:hlinkClick&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.HyperlinkOnMouseOver &lt;a:hlinkMouseOver&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.RightToLeft &lt;a:rtl&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.ExtensionList &lt;a:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.Outline &lt;a:ln&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.NoFill &lt;a:noFill&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.SolidFill &lt;a:solidFill&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.GradientFill &lt;a:gradFill&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.BlipFill &lt;a:blipFill&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.PatternFill &lt;a:pattFill&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.GroupFill &lt;a:grpFill&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.EffectList &lt;a:effectLst&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.EffectDag &lt;a:effectDag&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.Highlight &lt;a:highlight&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.UnderlineFollowsText &lt;a:uLnTx&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.Underline &lt;a:uLn&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.UnderlineFillText &lt;a:uFillTx&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.UnderlineFill &lt;a:uFill&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.LatinFont &lt;a:latin&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.EastAsianFont &lt;a:ea&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.ComplexScriptFont &lt;a:cs&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.SymbolFont &lt;a:sym&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.HyperlinkOnClick &lt;a:hlinkClick&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.HyperlinkOnMouseOver &lt;a:hlinkMouseOver&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.RightToLeft &lt;a:rtl&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.ExtensionList &lt;a:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -108,6 +112,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -128,12 +133,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -157,6 +164,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -165,7 +173,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the TextCharacterPropertiesType class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -180,6 +188,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -203,10 +212,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "altLang")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "altLang")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "altLang")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -214,8 +225,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> altLang.</para>
-          <para>Represents the following attribute in the schema: altLang </para>
+          <para>altLang</para>
+          <para>Represents the following attribute in the schema: altLang</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -232,10 +243,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "baseline")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "baseline")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "baseline")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -243,8 +256,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> baseline.</para>
-          <para>Represents the following attribute in the schema: baseline </para>
+          <para>baseline</para>
+          <para>Represents the following attribute in the schema: baseline</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -261,10 +274,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "b")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "b")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "b")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -272,8 +287,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> b.</para>
-          <para>Represents the following attribute in the schema: b </para>
+          <para>b</para>
+          <para>Represents the following attribute in the schema: b</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -290,10 +305,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "bmk")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "bmk")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "bmk")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -301,8 +318,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> bmk.</para>
-          <para>Represents the following attribute in the schema: bmk </para>
+          <para>bmk</para>
+          <para>Represents the following attribute in the schema: bmk</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -319,10 +336,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "cap")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "cap")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "cap")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -330,8 +349,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> cap.</para>
-          <para>Represents the following attribute in the schema: cap </para>
+          <para>cap</para>
+          <para>Represents the following attribute in the schema: cap</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -348,6 +367,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -362,6 +382,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Dirty">
@@ -375,10 +396,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "dirty")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "dirty")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "dirty")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -386,8 +409,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> dirty.</para>
-          <para>Represents the following attribute in the schema: dirty </para>
+          <para>dirty</para>
+          <para>Represents the following attribute in the schema: dirty</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -404,10 +427,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "sz")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "sz")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "sz")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -415,8 +440,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> sz.</para>
-          <para>Represents the following attribute in the schema: sz </para>
+          <para>sz</para>
+          <para>Represents the following attribute in the schema: sz</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -433,10 +458,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "i")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "i")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "i")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -444,8 +471,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> i.</para>
-          <para>Represents the following attribute in the schema: i </para>
+          <para>i</para>
+          <para>Represents the following attribute in the schema: i</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -462,10 +489,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "kern")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "kern")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "kern")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -473,8 +502,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> kern.</para>
-          <para>Represents the following attribute in the schema: kern </para>
+          <para>kern</para>
+          <para>Represents the following attribute in the schema: kern</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -491,10 +520,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "kumimoji")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "kumimoji")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "kumimoji")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -502,8 +533,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> kumimoji.</para>
-          <para>Represents the following attribute in the schema: kumimoji </para>
+          <para>kumimoji</para>
+          <para>Represents the following attribute in the schema: kumimoji</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -520,10 +551,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "lang")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "lang")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "lang")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -531,32 +564,9 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> lang.</para>
-          <para>Represents the following attribute in the schema: lang </para>
+          <para>lang</para>
+          <para>Represents the following attribute in the schema: lang</para>
         </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -572,10 +582,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "noProof")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "noProof")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "noProof")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -583,8 +595,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> noProof.</para>
-          <para>Represents the following attribute in the schema: noProof </para>
+          <para>noProof</para>
+          <para>Represents the following attribute in the schema: noProof</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -601,10 +613,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "normalizeH")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "normalizeH")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "normalizeH")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -612,8 +626,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> normalizeH.</para>
-          <para>Represents the following attribute in the schema: normalizeH </para>
+          <para>normalizeH</para>
+          <para>Represents the following attribute in the schema: normalizeH</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -630,20 +644,145 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Outline</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Outline.</para>
-          <para> Represents the following element tag in the schema: a:ln </para>
+          <para>Outline.</para>
+          <para>Represents the following element tag in the schema: a:ln.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:a = http://schemas.openxmlformats.org/drawingml/2006/main
             </remark>
+      </Docs>
+    </Member>
+    <Member MemberName="SmartTagClean">
+      <MemberSignature Language="C#" Value="public DocumentFormat.OpenXml.BooleanValue SmartTagClean { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class DocumentFormat.OpenXml.BooleanValue SmartTagClean" />
+      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType.SmartTagClean" />
+      <MemberSignature Language="VB.NET" Value="Public Property SmartTagClean As BooleanValue" />
+      <MemberSignature Language="F#" Value="member this.SmartTagClean : DocumentFormat.OpenXml.BooleanValue with get, set" Usage="DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType.SmartTagClean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "smtClean")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "smtClean")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>DocumentFormat.OpenXml.BooleanValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <para>smtClean</para>
+          <para>Represents the following attribute in the schema: smtClean</para>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmartTagId">
+      <MemberSignature Language="C#" Value="public DocumentFormat.OpenXml.UInt32Value SmartTagId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class DocumentFormat.OpenXml.UInt32Value SmartTagId" />
+      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType.SmartTagId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SmartTagId As UInt32Value" />
+      <MemberSignature Language="F#" Value="member this.SmartTagId : DocumentFormat.OpenXml.UInt32Value with get, set" Usage="DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType.SmartTagId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "smtId")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "smtId")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>DocumentFormat.OpenXml.UInt32Value</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <para>smtId</para>
+          <para>Represents the following attribute in the schema: smtId</para>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtClean">
+      <MemberSignature Language="C#" Value="public DocumentFormat.OpenXml.BooleanValue SmtClean { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class DocumentFormat.OpenXml.BooleanValue SmtClean" />
+      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType.SmtClean" />
+      <MemberSignature Language="VB.NET" Value="Public Property SmtClean As BooleanValue" />
+      <MemberSignature Language="F#" Value="member this.SmtClean : DocumentFormat.OpenXml.BooleanValue with get, set" Usage="DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType.SmtClean" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("Please use the property 'SmartTagClean' as this property will be removed in a future version")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("Please use the property 'SmartTagClean' as this property will be removed in a future version")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>DocumentFormat.OpenXml.BooleanValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the <see cref="P:DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType.SmartTagClean" /> value. It is only available for backwards compatibility
+            until the next major version change. The <see cref="P:DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType.SmartTagClean" /> property should be used instead.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtId">
+      <MemberSignature Language="C#" Value="public DocumentFormat.OpenXml.UInt32Value SmtId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class DocumentFormat.OpenXml.UInt32Value SmtId" />
+      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType.SmtId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SmtId As UInt32Value" />
+      <MemberSignature Language="F#" Value="member this.SmtId : DocumentFormat.OpenXml.UInt32Value with get, set" Usage="DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType.SmtId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName Language="C#">[System.Obsolete("Please use the property 'SmartTagId' as this property will be removed in a future version")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("Please use the property 'SmartTagId' as this property will be removed in a future version")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>DocumentFormat.OpenXml.UInt32Value</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the <see cref="P:DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType.SmartTagId" /> value. It is only available for backwards compatibility
+            until the next major version change. The <see cref="P:DocumentFormat.OpenXml.Office2013.Drawing.ChartStyle.TextCharacterPropertiesType.SmartTagId" /> property should be used instead.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Spacing">
@@ -657,10 +796,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "spc")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "spc")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "spc")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -668,8 +809,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> spc.</para>
-          <para>Represents the following attribute in the schema: spc </para>
+          <para>spc</para>
+          <para>Represents the following attribute in the schema: spc</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -686,10 +827,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "err")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "err")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "err")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -697,8 +840,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> err.</para>
-          <para>Represents the following attribute in the schema: err </para>
+          <para>err</para>
+          <para>Represents the following attribute in the schema: err</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -715,10 +858,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "strike")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "strike")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "strike")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -726,8 +871,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> strike.</para>
-          <para>Represents the following attribute in the schema: strike </para>
+          <para>strike</para>
+          <para>Represents the following attribute in the schema: strike</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -744,10 +889,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "u")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "u")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "u")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -755,8 +902,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> u.</para>
-          <para>Represents the following attribute in the schema: u </para>
+          <para>u</para>
+          <para>Represents the following attribute in the schema: u</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

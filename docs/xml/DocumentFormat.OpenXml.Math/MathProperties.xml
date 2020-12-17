@@ -1,4 +1,4 @@
-﻿<Type Name="MathProperties" FullName="DocumentFormat.OpenXml.Math.MathProperties">
+<Type Name="MathProperties" FullName="DocumentFormat.OpenXml.Math.MathProperties">
   <TypeSignature Language="C#" Value="public class MathProperties : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MathProperties extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Math.MathProperties" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,65 +16,72 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.MathFont))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.BreakBinary))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.BreakBinarySubtraction))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.SmallFraction))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.DisplayDefaults))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.LeftMargin))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.RightMargin))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.DefaultJustification))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.PreSpacing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.PostSpacing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.InterSpacing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.IntraSpacing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.WrapIndent))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.WrapRight))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.IntegralLimitLocation))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Math.NaryLimitLocation))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(21, "mathPr")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(21, "mathPr")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Math Properties.</para>
-      <para> When the object is serialized out as xml, its qualified name is m:mathPr.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is m:mathPr.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>MathFont &lt;m:mathFont&gt;</description></item><item><description>BreakBinary &lt;m:brkBin&gt;</description></item><item><description>BreakBinarySubtraction &lt;m:brkBinSub&gt;</description></item><item><description>SmallFraction &lt;m:smallFrac&gt;</description></item><item><description>DisplayDefaults &lt;m:dispDef&gt;</description></item><item><description>LeftMargin &lt;m:lMargin&gt;</description></item><item><description>RightMargin &lt;m:rMargin&gt;</description></item><item><description>DefaultJustification &lt;m:defJc&gt;</description></item><item><description>PreSpacing &lt;m:preSp&gt;</description></item><item><description>PostSpacing &lt;m:postSp&gt;</description></item><item><description>InterSpacing &lt;m:interSp&gt;</description></item><item><description>IntraSpacing &lt;m:intraSp&gt;</description></item><item><description>WrapIndent &lt;m:wrapIndent&gt;</description></item><item><description>WrapRight &lt;m:wrapRight&gt;</description></item><item><description>IntegralLimitLocation &lt;m:intLim&gt;</description></item><item><description>NaryLimitLocation &lt;m:naryLim&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>MathFont &lt;m:mathFont&gt;</description>
+        </item>
+        <item>
+          <description>BreakBinary &lt;m:brkBin&gt;</description>
+        </item>
+        <item>
+          <description>BreakBinarySubtraction &lt;m:brkBinSub&gt;</description>
+        </item>
+        <item>
+          <description>SmallFraction &lt;m:smallFrac&gt;</description>
+        </item>
+        <item>
+          <description>DisplayDefaults &lt;m:dispDef&gt;</description>
+        </item>
+        <item>
+          <description>LeftMargin &lt;m:lMargin&gt;</description>
+        </item>
+        <item>
+          <description>RightMargin &lt;m:rMargin&gt;</description>
+        </item>
+        <item>
+          <description>DefaultJustification &lt;m:defJc&gt;</description>
+        </item>
+        <item>
+          <description>PreSpacing &lt;m:preSp&gt;</description>
+        </item>
+        <item>
+          <description>PostSpacing &lt;m:postSp&gt;</description>
+        </item>
+        <item>
+          <description>InterSpacing &lt;m:interSp&gt;</description>
+        </item>
+        <item>
+          <description>IntraSpacing &lt;m:intraSp&gt;</description>
+        </item>
+        <item>
+          <description>WrapIndent &lt;m:wrapIndent&gt;</description>
+        </item>
+        <item>
+          <description>WrapRight &lt;m:wrapRight&gt;</description>
+        </item>
+        <item>
+          <description>IntegralLimitLocation &lt;m:intLim&gt;</description>
+        </item>
+        <item>
+          <description>NaryLimitLocation &lt;m:naryLim&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -86,6 +94,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -106,12 +115,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -135,6 +146,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -143,7 +155,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the MathProperties class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -158,6 +170,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -181,14 +194,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Math.BreakBinary</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Break on Binary Operators.</para>
-          <para> Represents the following element tag in the schema: m:brkBin </para>
+          <para>Break on Binary Operators.</para>
+          <para>Represents the following element tag in the schema: m:brkBin.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -208,14 +222,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Math.BreakBinarySubtraction</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Break on Binary Subtraction.</para>
-          <para> Represents the following element tag in the schema: m:brkBinSub </para>
+          <para>Break on Binary Subtraction.</para>
+          <para>Represents the following element tag in the schema: m:brkBinSub.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -235,6 +250,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -249,6 +265,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="DefaultJustification">
@@ -262,14 +279,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Math.DefaultJustification</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Default Justification.</para>
-          <para> Represents the following element tag in the schema: m:defJc </para>
+          <para>Default Justification.</para>
+          <para>Represents the following element tag in the schema: m:defJc.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -289,14 +307,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Math.DisplayDefaults</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Use Display Math Defaults.</para>
-          <para> Represents the following element tag in the schema: m:dispDef </para>
+          <para>Use Display Math Defaults.</para>
+          <para>Represents the following element tag in the schema: m:dispDef.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -316,14 +335,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Math.InterSpacing</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Inter-Equation Spacing.</para>
-          <para> Represents the following element tag in the schema: m:interSp </para>
+          <para>Inter-Equation Spacing.</para>
+          <para>Represents the following element tag in the schema: m:interSp.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -343,14 +363,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Math.IntraSpacing</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Intra-Equation Spacing.</para>
-          <para> Represents the following element tag in the schema: m:intraSp </para>
+          <para>Intra-Equation Spacing.</para>
+          <para>Represents the following element tag in the schema: m:intraSp.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -370,43 +391,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Math.LeftMargin</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Left Margin.</para>
-          <para> Represents the following element tag in the schema: m:lMargin </para>
+          <para>Left Margin.</para>
+          <para>Represents the following element tag in the schema: m:lMargin.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:m = http://schemas.openxmlformats.org/officeDocument/2006/math
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Math.MathProperties.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Math.MathProperties.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="MathFont">
@@ -420,14 +419,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Math.MathFont</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Math Font.</para>
-          <para> Represents the following element tag in the schema: m:mathFont </para>
+          <para>Math Font.</para>
+          <para>Represents the following element tag in the schema: m:mathFont.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -447,14 +447,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Math.PostSpacing</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Post-Equation Spacing.</para>
-          <para> Represents the following element tag in the schema: m:postSp </para>
+          <para>Post-Equation Spacing.</para>
+          <para>Represents the following element tag in the schema: m:postSp.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -474,14 +475,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Math.PreSpacing</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Pre-Equation Spacing.</para>
-          <para> Represents the following element tag in the schema: m:preSp </para>
+          <para>Pre-Equation Spacing.</para>
+          <para>Represents the following element tag in the schema: m:preSp.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -501,14 +503,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Math.RightMargin</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Right Margin.</para>
-          <para> Represents the following element tag in the schema: m:rMargin </para>
+          <para>Right Margin.</para>
+          <para>Represents the following element tag in the schema: m:rMargin.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -528,14 +531,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Math.SmallFraction</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Small Fraction.</para>
-          <para> Represents the following element tag in the schema: m:smallFrac </para>
+          <para>Small Fraction.</para>
+          <para>Represents the following element tag in the schema: m:smallFrac.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

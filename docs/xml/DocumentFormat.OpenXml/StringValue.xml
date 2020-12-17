@@ -1,21 +1,26 @@
-﻿<Type Name="StringValue" FullName="DocumentFormat.OpenXml.StringValue">
-  <TypeSignature Language="C#" Value="public class StringValue : DocumentFormat.OpenXml.OpenXmlSimpleType" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StringValue extends DocumentFormat.OpenXml.OpenXmlSimpleType" />
+<Type Name="StringValue" FullName="DocumentFormat.OpenXml.StringValue">
+  <TypeSignature Language="C#" Value="public class StringValue : DocumentFormat.OpenXml.OpenXmlComparableSimpleReference&lt;string&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit StringValue extends DocumentFormat.OpenXml.OpenXmlComparableSimpleReference`1&lt;string&gt;" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.StringValue" />
-  <TypeSignature Language="VB.NET" Value="Public Class StringValue&#xA;Inherits OpenXmlSimpleType" />
-  <TypeSignature Language="F#" Value="type StringValue = class&#xA;    inherit OpenXmlSimpleType" />
+  <TypeSignature Language="VB.NET" Value="Public Class StringValue&#xA;Inherits OpenXmlComparableSimpleReference(Of String)" />
+  <TypeSignature Language="F#" Value="type StringValue = class&#xA;    inherit OpenXmlComparableSimpleReference&lt;string&gt;" />
   <AssemblyInfo>
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>DocumentFormat.OpenXml.OpenXmlSimpleType</BaseTypeName>
+    <BaseTypeName>DocumentFormat.OpenXml.OpenXmlComparableSimpleReference&lt;System.String&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="T">System.String</BaseTypeArgument>
+    </BaseTypeArguments>
   </Base>
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Diagnostics.DebuggerDisplay("{InnerText}")</AttributeName>
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("{InnerText}")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("{InnerText}")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -35,6 +40,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -55,6 +61,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="source" Type="DocumentFormat.OpenXml.StringValue" />
@@ -78,6 +85,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.String" />
@@ -101,6 +109,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.StringValue</ReturnType>
@@ -128,6 +137,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -157,6 +167,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.StringValue</ReturnType>
@@ -184,6 +195,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -203,16 +215,17 @@
       </Docs>
     </Member>
     <Member MemberName="Value">
-      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="C#" Value="public override string Value { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Value" />
       <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.StringValue.Value" />
-      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Property Value As String" />
       <MemberSignature Language="F#" Value="member this.Value : string with get, set" Usage="DocumentFormat.OpenXml.StringValue.Value" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

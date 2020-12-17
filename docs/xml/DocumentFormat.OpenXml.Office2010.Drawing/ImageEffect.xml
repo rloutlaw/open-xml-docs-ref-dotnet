@@ -1,4 +1,4 @@
-﻿<Type Name="ImageEffect" FullName="DocumentFormat.OpenXml.Office2010.Drawing.ImageEffect">
+<Type Name="ImageEffect" FullName="DocumentFormat.OpenXml.Office2010.Drawing.ImageEffect">
   <TypeSignature Language="C#" Value="public class ImageEffect : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ImageEffect extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2010.Drawing.ImageEffect" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,102 +16,105 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticBlur), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticCement), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticChalkSketch), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticCrisscrossEtching), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticCutout), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticFilmGrain), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticGlass), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticGlowDiffused), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticGlowEdges), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticLightScreen), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticLineDrawing), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticMarker), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticMosaicBubbles), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticPaintStrokes), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticPaintBrush), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticPastelsSmooth), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticPencilGrayscale), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticPencilSketch), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticPhotocopy), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticPlasticWrap), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticTexturizer), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ArtisticWatercolorSponge), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.BackgroundRemoval), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.BrightnessContrast), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.ColorTemperature), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.Saturation), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office2010.Drawing.SharpenSoften), DocumentFormat.OpenXml.FileFormatVersions.Office2010 | DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2010)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(48, "imgEffect")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(48, "imgEffect")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the ImageEffect Class.</para>
-      <para>This class is available in Office2010 or above.</para>
-      <para> When the object is serialized out as xml, its qualified name is a14:imgEffect.</para>
+      <para>This class is available in Office 2010 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is a14:imgEffect.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>ArtisticBlur &lt;a14:artisticBlur&gt;</description></item><item><description>ArtisticCement &lt;a14:artisticCement&gt;</description></item><item><description>ArtisticChalkSketch &lt;a14:artisticChalkSketch&gt;</description></item><item><description>ArtisticCrisscrossEtching &lt;a14:artisticCrisscrossEtching&gt;</description></item><item><description>ArtisticCutout &lt;a14:artisticCutout&gt;</description></item><item><description>ArtisticFilmGrain &lt;a14:artisticFilmGrain&gt;</description></item><item><description>ArtisticGlass &lt;a14:artisticGlass&gt;</description></item><item><description>ArtisticGlowDiffused &lt;a14:artisticGlowDiffused&gt;</description></item><item><description>ArtisticGlowEdges &lt;a14:artisticGlowEdges&gt;</description></item><item><description>ArtisticLightScreen &lt;a14:artisticLightScreen&gt;</description></item><item><description>ArtisticLineDrawing &lt;a14:artisticLineDrawing&gt;</description></item><item><description>ArtisticMarker &lt;a14:artisticMarker&gt;</description></item><item><description>ArtisticMosaicBubbles &lt;a14:artisticMosiaicBubbles&gt;</description></item><item><description>ArtisticPaintStrokes &lt;a14:artisticPaintStrokes&gt;</description></item><item><description>ArtisticPaintBrush &lt;a14:artisticPaintBrush&gt;</description></item><item><description>ArtisticPastelsSmooth &lt;a14:artisticPastelsSmooth&gt;</description></item><item><description>ArtisticPencilGrayscale &lt;a14:artisticPencilGrayscale&gt;</description></item><item><description>ArtisticPencilSketch &lt;a14:artisticPencilSketch&gt;</description></item><item><description>ArtisticPhotocopy &lt;a14:artisticPhotocopy&gt;</description></item><item><description>ArtisticPlasticWrap &lt;a14:artisticPlasticWrap&gt;</description></item><item><description>ArtisticTexturizer &lt;a14:artisticTexturizer&gt;</description></item><item><description>ArtisticWatercolorSponge &lt;a14:artisticWatercolorSponge&gt;</description></item><item><description>BackgroundRemoval &lt;a14:backgroundRemoval&gt;</description></item><item><description>BrightnessContrast &lt;a14:brightnessContrast&gt;</description></item><item><description>ColorTemperature &lt;a14:colorTemperature&gt;</description></item><item><description>Saturation &lt;a14:saturation&gt;</description></item><item><description>SharpenSoften &lt;a14:sharpenSoften&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>ArtisticBlur &lt;a14:artisticBlur&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticCement &lt;a14:artisticCement&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticChalkSketch &lt;a14:artisticChalkSketch&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticCrisscrossEtching &lt;a14:artisticCrisscrossEtching&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticCutout &lt;a14:artisticCutout&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticFilmGrain &lt;a14:artisticFilmGrain&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticGlass &lt;a14:artisticGlass&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticGlowDiffused &lt;a14:artisticGlowDiffused&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticGlowEdges &lt;a14:artisticGlowEdges&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticLightScreen &lt;a14:artisticLightScreen&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticLineDrawing &lt;a14:artisticLineDrawing&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticMarker &lt;a14:artisticMarker&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticMosaicBubbles &lt;a14:artisticMosiaicBubbles&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticPaintStrokes &lt;a14:artisticPaintStrokes&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticPaintBrush &lt;a14:artisticPaintBrush&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticPastelsSmooth &lt;a14:artisticPastelsSmooth&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticPencilGrayscale &lt;a14:artisticPencilGrayscale&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticPencilSketch &lt;a14:artisticPencilSketch&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticPhotocopy &lt;a14:artisticPhotocopy&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticPlasticWrap &lt;a14:artisticPlasticWrap&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticTexturizer &lt;a14:artisticTexturizer&gt;</description>
+        </item>
+        <item>
+          <description>ArtisticWatercolorSponge &lt;a14:artisticWatercolorSponge&gt;</description>
+        </item>
+        <item>
+          <description>BackgroundRemoval &lt;a14:backgroundRemoval&gt;</description>
+        </item>
+        <item>
+          <description>BrightnessContrast &lt;a14:brightnessContrast&gt;</description>
+        </item>
+        <item>
+          <description>ColorTemperature &lt;a14:colorTemperature&gt;</description>
+        </item>
+        <item>
+          <description>Saturation &lt;a14:saturation&gt;</description>
+        </item>
+        <item>
+          <description>SharpenSoften &lt;a14:sharpenSoften&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -123,6 +127,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -143,12 +148,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -172,6 +179,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -180,7 +188,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the ImageEffect class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -195,6 +203,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -218,14 +227,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticBlur</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticBlur.</para>
-          <para> Represents the following element tag in the schema: a14:artisticBlur </para>
+          <para>ArtisticBlur.</para>
+          <para>Represents the following element tag in the schema: a14:artisticBlur.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -245,14 +255,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticCement</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticCement.</para>
-          <para> Represents the following element tag in the schema: a14:artisticCement </para>
+          <para>ArtisticCement.</para>
+          <para>Represents the following element tag in the schema: a14:artisticCement.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -272,14 +283,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticChalkSketch</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticChalkSketch.</para>
-          <para> Represents the following element tag in the schema: a14:artisticChalkSketch </para>
+          <para>ArtisticChalkSketch.</para>
+          <para>Represents the following element tag in the schema: a14:artisticChalkSketch.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -299,14 +311,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticCrisscrossEtching</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticCrisscrossEtching.</para>
-          <para> Represents the following element tag in the schema: a14:artisticCrisscrossEtching </para>
+          <para>ArtisticCrisscrossEtching.</para>
+          <para>Represents the following element tag in the schema: a14:artisticCrisscrossEtching.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -326,14 +339,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticCutout</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticCutout.</para>
-          <para> Represents the following element tag in the schema: a14:artisticCutout </para>
+          <para>ArtisticCutout.</para>
+          <para>Represents the following element tag in the schema: a14:artisticCutout.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -353,14 +367,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticFilmGrain</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticFilmGrain.</para>
-          <para> Represents the following element tag in the schema: a14:artisticFilmGrain </para>
+          <para>ArtisticFilmGrain.</para>
+          <para>Represents the following element tag in the schema: a14:artisticFilmGrain.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -380,14 +395,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticGlass</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticGlass.</para>
-          <para> Represents the following element tag in the schema: a14:artisticGlass </para>
+          <para>ArtisticGlass.</para>
+          <para>Represents the following element tag in the schema: a14:artisticGlass.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -407,14 +423,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticGlowDiffused</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticGlowDiffused.</para>
-          <para> Represents the following element tag in the schema: a14:artisticGlowDiffused </para>
+          <para>ArtisticGlowDiffused.</para>
+          <para>Represents the following element tag in the schema: a14:artisticGlowDiffused.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -434,14 +451,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticGlowEdges</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticGlowEdges.</para>
-          <para> Represents the following element tag in the schema: a14:artisticGlowEdges </para>
+          <para>ArtisticGlowEdges.</para>
+          <para>Represents the following element tag in the schema: a14:artisticGlowEdges.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -461,14 +479,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticLightScreen</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticLightScreen.</para>
-          <para> Represents the following element tag in the schema: a14:artisticLightScreen </para>
+          <para>ArtisticLightScreen.</para>
+          <para>Represents the following element tag in the schema: a14:artisticLightScreen.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -488,14 +507,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticLineDrawing</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticLineDrawing.</para>
-          <para> Represents the following element tag in the schema: a14:artisticLineDrawing </para>
+          <para>ArtisticLineDrawing.</para>
+          <para>Represents the following element tag in the schema: a14:artisticLineDrawing.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -515,14 +535,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticMarker</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticMarker.</para>
-          <para> Represents the following element tag in the schema: a14:artisticMarker </para>
+          <para>ArtisticMarker.</para>
+          <para>Represents the following element tag in the schema: a14:artisticMarker.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -542,14 +563,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticMosaicBubbles</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticMosaicBubbles.</para>
-          <para> Represents the following element tag in the schema: a14:artisticMosiaicBubbles </para>
+          <para>ArtisticMosaicBubbles.</para>
+          <para>Represents the following element tag in the schema: a14:artisticMosiaicBubbles.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -569,14 +591,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticPaintBrush</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticPaintBrush.</para>
-          <para> Represents the following element tag in the schema: a14:artisticPaintBrush </para>
+          <para>ArtisticPaintBrush.</para>
+          <para>Represents the following element tag in the schema: a14:artisticPaintBrush.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -596,14 +619,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticPaintStrokes</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticPaintStrokes.</para>
-          <para> Represents the following element tag in the schema: a14:artisticPaintStrokes </para>
+          <para>ArtisticPaintStrokes.</para>
+          <para>Represents the following element tag in the schema: a14:artisticPaintStrokes.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -623,14 +647,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticPastelsSmooth</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticPastelsSmooth.</para>
-          <para> Represents the following element tag in the schema: a14:artisticPastelsSmooth </para>
+          <para>ArtisticPastelsSmooth.</para>
+          <para>Represents the following element tag in the schema: a14:artisticPastelsSmooth.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -650,14 +675,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticPencilGrayscale</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticPencilGrayscale.</para>
-          <para> Represents the following element tag in the schema: a14:artisticPencilGrayscale </para>
+          <para>ArtisticPencilGrayscale.</para>
+          <para>Represents the following element tag in the schema: a14:artisticPencilGrayscale.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -677,14 +703,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticPencilSketch</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticPencilSketch.</para>
-          <para> Represents the following element tag in the schema: a14:artisticPencilSketch </para>
+          <para>ArtisticPencilSketch.</para>
+          <para>Represents the following element tag in the schema: a14:artisticPencilSketch.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -704,14 +731,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticPhotocopy</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticPhotocopy.</para>
-          <para> Represents the following element tag in the schema: a14:artisticPhotocopy </para>
+          <para>ArtisticPhotocopy.</para>
+          <para>Represents the following element tag in the schema: a14:artisticPhotocopy.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -731,14 +759,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticPlasticWrap</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticPlasticWrap.</para>
-          <para> Represents the following element tag in the schema: a14:artisticPlasticWrap </para>
+          <para>ArtisticPlasticWrap.</para>
+          <para>Represents the following element tag in the schema: a14:artisticPlasticWrap.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -758,14 +787,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticTexturizer</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticTexturizer.</para>
-          <para> Represents the following element tag in the schema: a14:artisticTexturizer </para>
+          <para>ArtisticTexturizer.</para>
+          <para>Represents the following element tag in the schema: a14:artisticTexturizer.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -785,14 +815,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ArtisticWatercolorSponge</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ArtisticWatercolorSponge.</para>
-          <para> Represents the following element tag in the schema: a14:artisticWatercolorSponge </para>
+          <para>ArtisticWatercolorSponge.</para>
+          <para>Represents the following element tag in the schema: a14:artisticWatercolorSponge.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -812,14 +843,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.BackgroundRemoval</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> BackgroundRemoval.</para>
-          <para> Represents the following element tag in the schema: a14:backgroundRemoval </para>
+          <para>BackgroundRemoval.</para>
+          <para>Represents the following element tag in the schema: a14:backgroundRemoval.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -839,14 +871,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.BrightnessContrast</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> BrightnessContrast.</para>
-          <para> Represents the following element tag in the schema: a14:brightnessContrast </para>
+          <para>BrightnessContrast.</para>
+          <para>Represents the following element tag in the schema: a14:brightnessContrast.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -866,6 +899,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -880,6 +914,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ColorTemperature">
@@ -893,43 +928,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.ColorTemperature</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ColorTemperature.</para>
-          <para> Represents the following element tag in the schema: a14:colorTemperature </para>
+          <para>ColorTemperature.</para>
+          <para>Represents the following element tag in the schema: a14:colorTemperature.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:a14 = http://schemas.microsoft.com/office/drawing/2010/main
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2010.Drawing.ImageEffect.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office2010.Drawing.ImageEffect.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Saturation">
@@ -943,14 +956,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.Saturation</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Saturation.</para>
-          <para> Represents the following element tag in the schema: a14:saturation </para>
+          <para>Saturation.</para>
+          <para>Represents the following element tag in the schema: a14:saturation.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -970,14 +984,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office2010.Drawing.SharpenSoften</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> SharpenSoften.</para>
-          <para> Represents the following element tag in the schema: a14:sharpenSoften </para>
+          <para>SharpenSoften.</para>
+          <para>Represents the following element tag in the schema: a14:sharpenSoften.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -997,10 +1012,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "visible")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "visible")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "visible")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1008,8 +1025,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> visible.</para>
-          <para>Represents the following attribute in the schema: visible </para>
+          <para>visible, this property is only available in Office2010, Office2013, Office2016</para>
+          <para>Represents the following attribute in the schema: visible</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

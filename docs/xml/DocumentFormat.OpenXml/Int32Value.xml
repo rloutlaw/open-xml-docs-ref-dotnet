@@ -1,16 +1,17 @@
-﻿<Type Name="Int32Value" FullName="DocumentFormat.OpenXml.Int32Value">
-  <TypeSignature Language="C#" Value="public class Int32Value : DocumentFormat.OpenXml.OpenXmlSimpleValue&lt;int&gt;" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Int32Value extends DocumentFormat.OpenXml.OpenXmlSimpleValue`1&lt;int32&gt;" />
+<Type Name="Int32Value" FullName="DocumentFormat.OpenXml.Int32Value">
+  <TypeSignature Language="C#" Value="public class Int32Value : DocumentFormat.OpenXml.OpenXmlComparableSimpleValue&lt;int&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Int32Value extends DocumentFormat.OpenXml.OpenXmlComparableSimpleValue`1&lt;int32&gt;" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Int32Value" />
-  <TypeSignature Language="VB.NET" Value="Public Class Int32Value&#xA;Inherits OpenXmlSimpleValue(Of Integer)" />
-  <TypeSignature Language="F#" Value="type Int32Value = class&#xA;    inherit OpenXmlSimpleValue&lt;int&gt;" />
+  <TypeSignature Language="VB.NET" Value="Public Class Int32Value&#xA;Inherits OpenXmlComparableSimpleValue(Of Integer)" />
+  <TypeSignature Language="F#" Value="type Int32Value = class&#xA;    inherit OpenXmlComparableSimpleValue&lt;int&gt;" />
   <AssemblyInfo>
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>DocumentFormat.OpenXml.OpenXmlSimpleValue&lt;System.Int32&gt;</BaseTypeName>
+    <BaseTypeName>DocumentFormat.OpenXml.OpenXmlComparableSimpleValue&lt;System.Int32&gt;</BaseTypeName>
     <BaseTypeArguments>
       <BaseTypeArgument TypeParamName="T">System.Int32</BaseTypeArgument>
     </BaseTypeArguments>
@@ -18,7 +19,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Diagnostics.DebuggerDisplay("{InnerText}")</AttributeName>
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("{InnerText}")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("{InnerText}")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -38,6 +40,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -58,6 +61,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="source" Type="DocumentFormat.OpenXml.Int32Value" />
@@ -81,6 +85,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.Int32" />
@@ -104,6 +109,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Int32Value</ReturnType>
@@ -120,28 +126,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="InnerText">
-      <MemberSignature Language="C#" Value="public override string InnerText { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string InnerText" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Int32Value.InnerText" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property InnerText As String" />
-      <MemberSignature Language="F#" Value="member this.InnerText : string" Usage="DocumentFormat.OpenXml.Int32Value.InnerText" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets or sets the inner XML text.</summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
-        <inheritdoc />
-      </Docs>
-    </Member>
     <Member MemberName="op_Implicit">
       <MemberSignature Language="C#" Value="public static implicit operator int (DocumentFormat.OpenXml.Int32Value xmlAttribute);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname int32 op_Implicit(class DocumentFormat.OpenXml.Int32Value xmlAttribute) cil managed" />
@@ -153,6 +137,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -183,6 +168,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Int32Value</ReturnType>
@@ -210,6 +196,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>

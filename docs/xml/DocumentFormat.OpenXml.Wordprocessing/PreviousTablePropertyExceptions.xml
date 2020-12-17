@@ -1,4 +1,4 @@
-﻿<Type Name="PreviousTablePropertyExceptions" FullName="DocumentFormat.OpenXml.Wordprocessing.PreviousTablePropertyExceptions">
+<Type Name="PreviousTablePropertyExceptions" FullName="DocumentFormat.OpenXml.Wordprocessing.PreviousTablePropertyExceptions">
   <TypeSignature Language="C#" Value="public class PreviousTablePropertyExceptions : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PreviousTablePropertyExceptions extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.PreviousTablePropertyExceptions" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,44 +16,51 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableWidth))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableJustification))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableCellSpacing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableIndentation))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableBorders))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Shading))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableLayout))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableCellMarginDefault))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TableLook))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "tblPrEx")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "tblPrEx")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Previous Table-Level Property Exceptions.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:tblPrEx.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:tblPrEx.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>TableWidth &lt;w:tblW&gt;</description></item><item><description>TableJustification &lt;w:jc&gt;</description></item><item><description>TableCellSpacing &lt;w:tblCellSpacing&gt;</description></item><item><description>TableIndentation &lt;w:tblInd&gt;</description></item><item><description>TableBorders &lt;w:tblBorders&gt;</description></item><item><description>Shading &lt;w:shd&gt;</description></item><item><description>TableLayout &lt;w:tblLayout&gt;</description></item><item><description>TableCellMarginDefault &lt;w:tblCellMar&gt;</description></item><item><description>TableLook &lt;w:tblLook&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>TableWidth &lt;w:tblW&gt;</description>
+        </item>
+        <item>
+          <description>TableJustification &lt;w:jc&gt;</description>
+        </item>
+        <item>
+          <description>TableCellSpacing &lt;w:tblCellSpacing&gt;</description>
+        </item>
+        <item>
+          <description>TableIndentation &lt;w:tblInd&gt;</description>
+        </item>
+        <item>
+          <description>TableBorders &lt;w:tblBorders&gt;</description>
+        </item>
+        <item>
+          <description>Shading &lt;w:shd&gt;</description>
+        </item>
+        <item>
+          <description>TableLayout &lt;w:tblLayout&gt;</description>
+        </item>
+        <item>
+          <description>TableCellMarginDefault &lt;w:tblCellMar&gt;</description>
+        </item>
+        <item>
+          <description>TableLook &lt;w:tblLook&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -65,6 +73,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -85,12 +94,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -114,6 +125,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -122,7 +134,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the PreviousTablePropertyExceptions class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -137,6 +149,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -160,6 +173,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -174,29 +188,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.PreviousTablePropertyExceptions.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.PreviousTablePropertyExceptions.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Shading">
@@ -210,14 +202,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Shading</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Shading Exception.</para>
-          <para> Represents the following element tag in the schema: w:shd </para>
+          <para>Table Shading Exception.</para>
+          <para>Represents the following element tag in the schema: w:shd.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.Shading" />.</value>
         <remarks>To be added.</remarks>
@@ -237,14 +230,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TableBorders</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Borders Exceptions.</para>
-          <para> Represents the following element tag in the schema: w:tblBorders </para>
+          <para>Table Borders Exceptions.</para>
+          <para>Represents the following element tag in the schema: w:tblBorders.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.TableBorders" />.</value>
         <remarks>To be added.</remarks>
@@ -264,14 +258,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TableCellMarginDefault</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Cell Margin Exceptions.</para>
-          <para> Represents the following element tag in the schema: w:tblCellMar </para>
+          <para>Table Cell Margin Exceptions.</para>
+          <para>Represents the following element tag in the schema: w:tblCellMar.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.TableCellMarginDefault" />.</value>
         <remarks>To be added.</remarks>
@@ -291,14 +286,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TableCellSpacing</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Cell Spacing Exception.</para>
-          <para> Represents the following element tag in the schema: w:tblCellSpacing </para>
+          <para>Table Cell Spacing Exception.</para>
+          <para>Represents the following element tag in the schema: w:tblCellSpacing.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.TableCellSpacing" />.</value>
         <remarks>To be added.</remarks>
@@ -318,14 +314,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TableIndentation</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Indent from Leading Margin Exception.</para>
-          <para> Represents the following element tag in the schema: w:tblInd </para>
+          <para>Table Indent from Leading Margin Exception.</para>
+          <para>Represents the following element tag in the schema: w:tblInd.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.TableIndentation" />.</value>
         <remarks>To be added.</remarks>
@@ -345,14 +342,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TableJustification</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Alignment Exception.</para>
-          <para> Represents the following element tag in the schema: w:jc </para>
+          <para>Table Alignment Exception.</para>
+          <para>Represents the following element tag in the schema: w:jc.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -372,14 +370,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TableLayout</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Layout Exception.</para>
-          <para> Represents the following element tag in the schema: w:tblLayout </para>
+          <para>Table Layout Exception.</para>
+          <para>Represents the following element tag in the schema: w:tblLayout.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.TableLayout" />.</value>
         <remarks>To be added.</remarks>
@@ -399,14 +398,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TableLook</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Table Style Conditional Formatting Settings Exception.</para>
-          <para> Represents the following element tag in the schema: w:tblLook </para>
+          <para>Table Style Conditional Formatting Settings Exception.</para>
+          <para>Represents the following element tag in the schema: w:tblLook.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.TableLook" />.</value>
         <remarks>To be added.</remarks>
@@ -426,14 +426,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TableWidth</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Preferred Table Width Exception.</para>
-          <para> Represents the following element tag in the schema: w:tblW </para>
+          <para>Preferred Table Width Exception.</para>
+          <para>Represents the following element tag in the schema: w:tblW.</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Wordprocessing.TableWidth" />.</value>
         <remarks>To be added.</remarks>

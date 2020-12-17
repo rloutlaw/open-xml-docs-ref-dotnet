@@ -1,4 +1,4 @@
-﻿<Type Name="KeyMapEntry" FullName="DocumentFormat.OpenXml.Office.Word.KeyMapEntry">
+<Type Name="KeyMapEntry" FullName="DocumentFormat.OpenXml.Office.Word.KeyMapEntry">
   <TypeSignature Language="C#" Value="public class KeyMapEntry : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit KeyMapEntry extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office.Word.KeyMapEntry" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,32 +16,39 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office.Word.FixedCommandKeyboardCustomization))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office.Word.MacroKeyboardCustomization))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office.Word.AllocatedCommandKeyboardCustomization))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office.Word.WllMacroKeyboardCustomization))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Office.Word.CharacterInsertion))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(33, "keymap")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(33, "keymap")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the KeyMapEntry Class.</para>
-      <para> When the object is serialized out as xml, its qualified name is wne:keymap.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is wne:keymap.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>FixedCommandKeyboardCustomization &lt;wne:fci&gt;</description></item><item><description>MacroKeyboardCustomization &lt;wne:macro&gt;</description></item><item><description>AllocatedCommandKeyboardCustomization &lt;wne:acd&gt;</description></item><item><description>WllMacroKeyboardCustomization &lt;wne:wll&gt;</description></item><item><description>CharacterInsertion &lt;wne:wch&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>FixedCommandKeyboardCustomization &lt;wne:fci&gt;</description>
+        </item>
+        <item>
+          <description>MacroKeyboardCustomization &lt;wne:macro&gt;</description>
+        </item>
+        <item>
+          <description>AllocatedCommandKeyboardCustomization &lt;wne:acd&gt;</description>
+        </item>
+        <item>
+          <description>WllMacroKeyboardCustomization &lt;wne:wll&gt;</description>
+        </item>
+        <item>
+          <description>CharacterInsertion &lt;wne:wch&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -53,6 +61,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -73,12 +82,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -102,6 +113,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -110,7 +122,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the KeyMapEntry class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -125,6 +137,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -148,14 +161,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office.Word.AllocatedCommandKeyboardCustomization</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> AllocatedCommandKeyboardCustomization.</para>
-          <para> Represents the following element tag in the schema: wne:acd </para>
+          <para>AllocatedCommandKeyboardCustomization.</para>
+          <para>Represents the following element tag in the schema: wne:acd.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -175,14 +189,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office.Word.CharacterInsertion</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> CharacterInsertion.</para>
-          <para> Represents the following element tag in the schema: wne:wch </para>
+          <para>CharacterInsertion.</para>
+          <para>Represents the following element tag in the schema: wne:wch.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -202,10 +217,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(33, "chmPrimary")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(33, "chmPrimary")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(33, "chmPrimary")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -213,12 +230,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> chmPrimary.</para>
-          <para>Represents the following attribute in the schema: wne:chmPrimary </para>
+          <para>chmPrimary</para>
+          <para>Represents the following attribute in the schema: wne:chmPrimary</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:wne=http://schemas.microsoft.com/office/word/2006/wordml
+        <remark>
+            xmlns:wne=http://schemas.microsoft.com/office/word/2006/wordml
             </remark>
       </Docs>
     </Member>
@@ -233,10 +251,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(33, "chmSecondary")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(33, "chmSecondary")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(33, "chmSecondary")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -244,12 +264,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> chmSecondary.</para>
-          <para>Represents the following attribute in the schema: wne:chmSecondary </para>
+          <para>chmSecondary</para>
+          <para>Represents the following attribute in the schema: wne:chmSecondary</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:wne=http://schemas.microsoft.com/office/word/2006/wordml
+        <remark>
+            xmlns:wne=http://schemas.microsoft.com/office/word/2006/wordml
             </remark>
       </Docs>
     </Member>
@@ -264,6 +285,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -278,6 +300,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="FixedCommandKeyboardCustomization">
@@ -291,14 +314,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office.Word.FixedCommandKeyboardCustomization</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> FixedCommandKeyboardCustomization.</para>
-          <para> Represents the following element tag in the schema: wne:fci </para>
+          <para>FixedCommandKeyboardCustomization.</para>
+          <para>Represents the following element tag in the schema: wne:fci.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -318,10 +342,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(33, "kcmPrimary")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(33, "kcmPrimary")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(33, "kcmPrimary")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -329,12 +355,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> kcmPrimary.</para>
-          <para>Represents the following attribute in the schema: wne:kcmPrimary </para>
+          <para>kcmPrimary</para>
+          <para>Represents the following attribute in the schema: wne:kcmPrimary</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:wne=http://schemas.microsoft.com/office/word/2006/wordml
+        <remark>
+            xmlns:wne=http://schemas.microsoft.com/office/word/2006/wordml
             </remark>
       </Docs>
     </Member>
@@ -349,10 +376,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(33, "kcmSecondary")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(33, "kcmSecondary")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(33, "kcmSecondary")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -360,36 +389,14 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> kcmSecondary.</para>
-          <para>Represents the following attribute in the schema: wne:kcmSecondary </para>
+          <para>kcmSecondary</para>
+          <para>Represents the following attribute in the schema: wne:kcmSecondary</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:wne=http://schemas.microsoft.com/office/word/2006/wordml
+        <remark>
+            xmlns:wne=http://schemas.microsoft.com/office/word/2006/wordml
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office.Word.KeyMapEntry.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office.Word.KeyMapEntry.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="MacroKeyboardCustomization">
@@ -403,14 +410,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office.Word.MacroKeyboardCustomization</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> MacroKeyboardCustomization.</para>
-          <para> Represents the following element tag in the schema: wne:macro </para>
+          <para>MacroKeyboardCustomization.</para>
+          <para>Represents the following element tag in the schema: wne:macro.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -430,10 +438,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(33, "mask")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(33, "mask")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(33, "mask")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -441,12 +451,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> mask.</para>
-          <para>Represents the following attribute in the schema: wne:mask </para>
+          <para>mask</para>
+          <para>Represents the following attribute in the schema: wne:mask</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:wne=http://schemas.microsoft.com/office/word/2006/wordml
+        <remark>
+            xmlns:wne=http://schemas.microsoft.com/office/word/2006/wordml
             </remark>
       </Docs>
     </Member>
@@ -461,14 +472,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Office.Word.WllMacroKeyboardCustomization</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> WllMacroKeyboardCustomization.</para>
-          <para> Represents the following element tag in the schema: wne:wll </para>
+          <para>WllMacroKeyboardCustomization.</para>
+          <para>Represents the following element tag in the schema: wne:wll.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

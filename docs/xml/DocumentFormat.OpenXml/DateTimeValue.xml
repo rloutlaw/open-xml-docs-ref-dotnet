@@ -1,16 +1,17 @@
-﻿<Type Name="DateTimeValue" FullName="DocumentFormat.OpenXml.DateTimeValue">
-  <TypeSignature Language="C#" Value="public class DateTimeValue : DocumentFormat.OpenXml.OpenXmlSimpleValue&lt;DateTime&gt;" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DateTimeValue extends DocumentFormat.OpenXml.OpenXmlSimpleValue`1&lt;valuetype System.DateTime&gt;" />
+<Type Name="DateTimeValue" FullName="DocumentFormat.OpenXml.DateTimeValue">
+  <TypeSignature Language="C#" Value="public class DateTimeValue : DocumentFormat.OpenXml.OpenXmlComparableSimpleValue&lt;DateTime&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DateTimeValue extends DocumentFormat.OpenXml.OpenXmlComparableSimpleValue`1&lt;valuetype System.DateTime&gt;" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.DateTimeValue" />
-  <TypeSignature Language="VB.NET" Value="Public Class DateTimeValue&#xA;Inherits OpenXmlSimpleValue(Of DateTime)" />
-  <TypeSignature Language="F#" Value="type DateTimeValue = class&#xA;    inherit OpenXmlSimpleValue&lt;DateTime&gt;" />
+  <TypeSignature Language="VB.NET" Value="Public Class DateTimeValue&#xA;Inherits OpenXmlComparableSimpleValue(Of DateTime)" />
+  <TypeSignature Language="F#" Value="type DateTimeValue = class&#xA;    inherit OpenXmlComparableSimpleValue&lt;DateTime&gt;" />
   <AssemblyInfo>
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>DocumentFormat.OpenXml.OpenXmlSimpleValue&lt;System.DateTime&gt;</BaseTypeName>
+    <BaseTypeName>DocumentFormat.OpenXml.OpenXmlComparableSimpleValue&lt;System.DateTime&gt;</BaseTypeName>
     <BaseTypeArguments>
       <BaseTypeArgument TypeParamName="T">System.DateTime</BaseTypeArgument>
     </BaseTypeArguments>
@@ -18,7 +19,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.Diagnostics.DebuggerDisplay("{InnerText}")</AttributeName>
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("{InnerText}")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("{InnerText}")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -38,6 +40,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -58,6 +61,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="source" Type="DocumentFormat.OpenXml.DateTimeValue" />
@@ -84,6 +88,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.DateTime" />
@@ -108,6 +113,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.DateTimeValue</ReturnType>
@@ -124,28 +130,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="InnerText">
-      <MemberSignature Language="C#" Value="public override string InnerText { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string InnerText" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.DateTimeValue.InnerText" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property InnerText As String" />
-      <MemberSignature Language="F#" Value="member this.InnerText : string" Usage="DocumentFormat.OpenXml.DateTimeValue.InnerText" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets or sets the inner XML text.</summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
-        <inheritdoc />
-      </Docs>
-    </Member>
     <Member MemberName="op_Implicit">
       <MemberSignature Language="C#" Value="public static implicit operator DateTime (DocumentFormat.OpenXml.DateTimeValue xmlAttribute);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.DateTime op_Implicit(class DocumentFormat.OpenXml.DateTimeValue xmlAttribute) cil managed" />
@@ -157,6 +141,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -189,6 +174,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.DateTimeValue</ReturnType>
@@ -219,6 +205,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>

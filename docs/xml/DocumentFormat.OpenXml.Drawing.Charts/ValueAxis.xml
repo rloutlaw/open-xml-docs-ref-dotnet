@@ -1,4 +1,4 @@
-﻿<Type Name="ValueAxis" FullName="DocumentFormat.OpenXml.Drawing.Charts.ValueAxis">
+<Type Name="ValueAxis" FullName="DocumentFormat.OpenXml.Drawing.Charts.ValueAxis">
   <TypeSignature Language="C#" Value="public class ValueAxis : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ValueAxis extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Drawing.Charts.ValueAxis" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,80 +16,87 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.AxisId))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.Scaling))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.Delete))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.AxisPosition))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.MajorGridlines))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.MinorGridlines))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.Title))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.NumberingFormat))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.MajorTickMark))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.MinorTickMark))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.TickLabelPosition))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.ChartShapeProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.TextProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.CrossingAxis))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.Crosses))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.CrossesAt))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.CrossBetween))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.MajorUnit))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.MinorUnit))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.DisplayUnits))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.ValAxExtensionList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(11, "valAx")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(11, "valAx")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Value Axis.</para>
-      <para> When the object is serialized out as xml, its qualified name is c:valAx.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is c:valAx.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>AxisId &lt;c:axId&gt;</description></item><item><description>Scaling &lt;c:scaling&gt;</description></item><item><description>Delete &lt;c:delete&gt;</description></item><item><description>AxisPosition &lt;c:axPos&gt;</description></item><item><description>MajorGridlines &lt;c:majorGridlines&gt;</description></item><item><description>MinorGridlines &lt;c:minorGridlines&gt;</description></item><item><description>Title &lt;c:title&gt;</description></item><item><description>NumberingFormat &lt;c:numFmt&gt;</description></item><item><description>MajorTickMark &lt;c:majorTickMark&gt;</description></item><item><description>MinorTickMark &lt;c:minorTickMark&gt;</description></item><item><description>TickLabelPosition &lt;c:tickLblPos&gt;</description></item><item><description>ChartShapeProperties &lt;c:spPr&gt;</description></item><item><description>TextProperties &lt;c:txPr&gt;</description></item><item><description>CrossingAxis &lt;c:crossAx&gt;</description></item><item><description>Crosses &lt;c:crosses&gt;</description></item><item><description>CrossesAt &lt;c:crossesAt&gt;</description></item><item><description>CrossBetween &lt;c:crossBetween&gt;</description></item><item><description>MajorUnit &lt;c:majorUnit&gt;</description></item><item><description>MinorUnit &lt;c:minorUnit&gt;</description></item><item><description>DisplayUnits &lt;c:dispUnits&gt;</description></item><item><description>ValAxExtensionList &lt;c:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>AxisId &lt;c:axId&gt;</description>
+        </item>
+        <item>
+          <description>Scaling &lt;c:scaling&gt;</description>
+        </item>
+        <item>
+          <description>Delete &lt;c:delete&gt;</description>
+        </item>
+        <item>
+          <description>AxisPosition &lt;c:axPos&gt;</description>
+        </item>
+        <item>
+          <description>MajorGridlines &lt;c:majorGridlines&gt;</description>
+        </item>
+        <item>
+          <description>MinorGridlines &lt;c:minorGridlines&gt;</description>
+        </item>
+        <item>
+          <description>Title &lt;c:title&gt;</description>
+        </item>
+        <item>
+          <description>NumberingFormat &lt;c:numFmt&gt;</description>
+        </item>
+        <item>
+          <description>MajorTickMark &lt;c:majorTickMark&gt;</description>
+        </item>
+        <item>
+          <description>MinorTickMark &lt;c:minorTickMark&gt;</description>
+        </item>
+        <item>
+          <description>TickLabelPosition &lt;c:tickLblPos&gt;</description>
+        </item>
+        <item>
+          <description>ChartShapeProperties &lt;c:spPr&gt;</description>
+        </item>
+        <item>
+          <description>TextProperties &lt;c:txPr&gt;</description>
+        </item>
+        <item>
+          <description>CrossingAxis &lt;c:crossAx&gt;</description>
+        </item>
+        <item>
+          <description>Crosses &lt;c:crosses&gt;</description>
+        </item>
+        <item>
+          <description>CrossesAt &lt;c:crossesAt&gt;</description>
+        </item>
+        <item>
+          <description>CrossBetween &lt;c:crossBetween&gt;</description>
+        </item>
+        <item>
+          <description>MajorUnit &lt;c:majorUnit&gt;</description>
+        </item>
+        <item>
+          <description>MinorUnit &lt;c:minorUnit&gt;</description>
+        </item>
+        <item>
+          <description>DisplayUnits &lt;c:dispUnits&gt;</description>
+        </item>
+        <item>
+          <description>ValAxExtensionList &lt;c:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -101,6 +109,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -121,12 +130,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -150,6 +161,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -158,7 +170,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the ValueAxis class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -173,6 +185,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -196,14 +209,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.AxisId</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Axis ID.</para>
-          <para> Represents the following element tag in the schema: c:axId </para>
+          <para>Axis ID.</para>
+          <para>Represents the following element tag in the schema: c:axId.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -223,14 +237,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.AxisPosition</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Axis Position.</para>
-          <para> Represents the following element tag in the schema: c:axPos </para>
+          <para>Axis Position.</para>
+          <para>Represents the following element tag in the schema: c:axPos.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -250,14 +265,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.ChartShapeProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ChartShapeProperties.</para>
-          <para> Represents the following element tag in the schema: c:spPr </para>
+          <para>ChartShapeProperties.</para>
+          <para>Represents the following element tag in the schema: c:spPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -277,6 +293,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -291,6 +308,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="CrossingAxis">
@@ -304,14 +322,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.CrossingAxis</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Crossing Axis ID.</para>
-          <para> Represents the following element tag in the schema: c:crossAx </para>
+          <para>Crossing Axis ID.</para>
+          <para>Represents the following element tag in the schema: c:crossAx.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -331,43 +350,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.Delete</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Delete.</para>
-          <para> Represents the following element tag in the schema: c:delete </para>
+          <para>Delete.</para>
+          <para>Represents the following element tag in the schema: c:delete.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:c = http://schemas.openxmlformats.org/drawingml/2006/chart
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Drawing.Charts.ValueAxis.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Drawing.Charts.ValueAxis.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="MajorGridlines">
@@ -381,14 +378,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.MajorGridlines</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Major Gridlines.</para>
-          <para> Represents the following element tag in the schema: c:majorGridlines </para>
+          <para>Major Gridlines.</para>
+          <para>Represents the following element tag in the schema: c:majorGridlines.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -408,14 +406,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.MajorTickMark</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Major Tick Mark.</para>
-          <para> Represents the following element tag in the schema: c:majorTickMark </para>
+          <para>Major Tick Mark.</para>
+          <para>Represents the following element tag in the schema: c:majorTickMark.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -435,14 +434,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.MinorGridlines</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Minor Gridlines.</para>
-          <para> Represents the following element tag in the schema: c:minorGridlines </para>
+          <para>Minor Gridlines.</para>
+          <para>Represents the following element tag in the schema: c:minorGridlines.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -462,14 +462,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.MinorTickMark</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Minor Tick Mark.</para>
-          <para> Represents the following element tag in the schema: c:minorTickMark </para>
+          <para>Minor Tick Mark.</para>
+          <para>Represents the following element tag in the schema: c:minorTickMark.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -489,14 +490,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.NumberingFormat</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Number Format.</para>
-          <para> Represents the following element tag in the schema: c:numFmt </para>
+          <para>Number Format.</para>
+          <para>Represents the following element tag in the schema: c:numFmt.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -516,14 +518,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.Scaling</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Scaling.</para>
-          <para> Represents the following element tag in the schema: c:scaling </para>
+          <para>Scaling.</para>
+          <para>Represents the following element tag in the schema: c:scaling.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -543,14 +546,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.TextProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TextProperties.</para>
-          <para> Represents the following element tag in the schema: c:txPr </para>
+          <para>TextProperties.</para>
+          <para>Represents the following element tag in the schema: c:txPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -570,14 +574,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.TickLabelPosition</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Tick Label Position.</para>
-          <para> Represents the following element tag in the schema: c:tickLblPos </para>
+          <para>Tick Label Position.</para>
+          <para>Represents the following element tag in the schema: c:tickLblPos.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -597,14 +602,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.Title</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Title.</para>
-          <para> Represents the following element tag in the schema: c:title </para>
+          <para>Title.</para>
+          <para>Represents the following element tag in the schema: c:title.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

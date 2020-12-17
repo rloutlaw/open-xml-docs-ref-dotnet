@@ -1,4 +1,4 @@
-﻿<Type Name="Run" FullName="DocumentFormat.OpenXml.Wordprocessing.Run">
+<Type Name="Run" FullName="DocumentFormat.OpenXml.Wordprocessing.Run">
   <TypeSignature Language="C#" Value="public class Run : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Run extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.Run" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,116 +16,123 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.RunProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Break))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Text))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DeletedText))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.FieldCode))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DeletedFieldCode))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.NoBreakHyphen))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SoftHyphen))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DayShort))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MonthShort))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.YearShort))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DayLong))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.MonthLong))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.YearLong))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.AnnotationReferenceMark))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.FootnoteReferenceMark))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.EndnoteReferenceMark))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SeparatorMark))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ContinuationSeparatorMark))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SymbolChar))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.PageNumber))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CarriageReturn))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TabChar))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.EmbeddedObject))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Picture))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.FieldChar))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Ruby))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.FootnoteReference))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.EndnoteReference))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CommentReference))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Drawing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.PositionalTab))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.LastRenderedPageBreak))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "r")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "r")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Phonetic Guide Text Run.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:r.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:r.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>RunProperties &lt;w:rPr&gt;</description></item><item><description>Break &lt;w:br&gt;</description></item><item><description>Text &lt;w:t&gt;</description></item><item><description>DeletedText &lt;w:delText&gt;</description></item><item><description>FieldCode &lt;w:instrText&gt;</description></item><item><description>DeletedFieldCode &lt;w:delInstrText&gt;</description></item><item><description>NoBreakHyphen &lt;w:noBreakHyphen&gt;</description></item><item><description>SoftHyphen &lt;w:softHyphen&gt;</description></item><item><description>DayShort &lt;w:dayShort&gt;</description></item><item><description>MonthShort &lt;w:monthShort&gt;</description></item><item><description>YearShort &lt;w:yearShort&gt;</description></item><item><description>DayLong &lt;w:dayLong&gt;</description></item><item><description>MonthLong &lt;w:monthLong&gt;</description></item><item><description>YearLong &lt;w:yearLong&gt;</description></item><item><description>AnnotationReferenceMark &lt;w:annotationRef&gt;</description></item><item><description>FootnoteReferenceMark &lt;w:footnoteRef&gt;</description></item><item><description>EndnoteReferenceMark &lt;w:endnoteRef&gt;</description></item><item><description>SeparatorMark &lt;w:separator&gt;</description></item><item><description>ContinuationSeparatorMark &lt;w:continuationSeparator&gt;</description></item><item><description>SymbolChar &lt;w:sym&gt;</description></item><item><description>PageNumber &lt;w:pgNum&gt;</description></item><item><description>CarriageReturn &lt;w:cr&gt;</description></item><item><description>TabChar &lt;w:tab&gt;</description></item><item><description>EmbeddedObject &lt;w:object&gt;</description></item><item><description>Picture &lt;w:pict&gt;</description></item><item><description>FieldChar &lt;w:fldChar&gt;</description></item><item><description>Ruby &lt;w:ruby&gt;</description></item><item><description>FootnoteReference &lt;w:footnoteReference&gt;</description></item><item><description>EndnoteReference &lt;w:endnoteReference&gt;</description></item><item><description>CommentReference &lt;w:commentReference&gt;</description></item><item><description>Drawing &lt;w:drawing&gt;</description></item><item><description>PositionalTab &lt;w:ptab&gt;</description></item><item><description>LastRenderedPageBreak &lt;w:lastRenderedPageBreak&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>RunProperties &lt;w:rPr&gt;</description>
+        </item>
+        <item>
+          <description>Break &lt;w:br&gt;</description>
+        </item>
+        <item>
+          <description>Text &lt;w:t&gt;</description>
+        </item>
+        <item>
+          <description>DeletedText &lt;w:delText&gt;</description>
+        </item>
+        <item>
+          <description>FieldCode &lt;w:instrText&gt;</description>
+        </item>
+        <item>
+          <description>DeletedFieldCode &lt;w:delInstrText&gt;</description>
+        </item>
+        <item>
+          <description>NoBreakHyphen &lt;w:noBreakHyphen&gt;</description>
+        </item>
+        <item>
+          <description>SoftHyphen &lt;w:softHyphen&gt;</description>
+        </item>
+        <item>
+          <description>DayShort &lt;w:dayShort&gt;</description>
+        </item>
+        <item>
+          <description>MonthShort &lt;w:monthShort&gt;</description>
+        </item>
+        <item>
+          <description>YearShort &lt;w:yearShort&gt;</description>
+        </item>
+        <item>
+          <description>DayLong &lt;w:dayLong&gt;</description>
+        </item>
+        <item>
+          <description>MonthLong &lt;w:monthLong&gt;</description>
+        </item>
+        <item>
+          <description>YearLong &lt;w:yearLong&gt;</description>
+        </item>
+        <item>
+          <description>AnnotationReferenceMark &lt;w:annotationRef&gt;</description>
+        </item>
+        <item>
+          <description>FootnoteReferenceMark &lt;w:footnoteRef&gt;</description>
+        </item>
+        <item>
+          <description>EndnoteReferenceMark &lt;w:endnoteRef&gt;</description>
+        </item>
+        <item>
+          <description>SeparatorMark &lt;w:separator&gt;</description>
+        </item>
+        <item>
+          <description>ContinuationSeparatorMark &lt;w:continuationSeparator&gt;</description>
+        </item>
+        <item>
+          <description>SymbolChar &lt;w:sym&gt;</description>
+        </item>
+        <item>
+          <description>PageNumber &lt;w:pgNum&gt;</description>
+        </item>
+        <item>
+          <description>CarriageReturn &lt;w:cr&gt;</description>
+        </item>
+        <item>
+          <description>TabChar &lt;w:tab&gt;</description>
+        </item>
+        <item>
+          <description>EmbeddedObject &lt;w:object&gt;</description>
+        </item>
+        <item>
+          <description>Picture &lt;w:pict&gt;</description>
+        </item>
+        <item>
+          <description>FieldChar &lt;w:fldChar&gt;</description>
+        </item>
+        <item>
+          <description>Ruby &lt;w:ruby&gt;</description>
+        </item>
+        <item>
+          <description>FootnoteReference &lt;w:footnoteReference&gt;</description>
+        </item>
+        <item>
+          <description>EndnoteReference &lt;w:endnoteReference&gt;</description>
+        </item>
+        <item>
+          <description>CommentReference &lt;w:commentReference&gt;</description>
+        </item>
+        <item>
+          <description>Drawing &lt;w:drawing&gt;</description>
+        </item>
+        <item>
+          <description>PositionalTab &lt;w:ptab&gt;</description>
+        </item>
+        <item>
+          <description>LastRenderedPageBreak &lt;w:lastRenderedPageBreak&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -137,6 +145,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -157,12 +166,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -186,6 +197,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -194,7 +206,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Run class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -209,6 +221,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -232,6 +245,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -246,29 +260,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.Run.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.Run.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="RsidRunAddition">
@@ -282,10 +274,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "rsidR")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "rsidR")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "rsidR")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -293,12 +287,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Revision Identifier for Run.</para>
-          <para>Represents the following attribute in the schema: w:rsidR </para>
+          <para>Revision Identifier for Run</para>
+          <para>Represents the following attribute in the schema: w:rsidR</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -313,10 +308,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "rsidDel")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "rsidDel")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "rsidDel")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -324,12 +321,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Revision Identifier for Run Deletion.</para>
-          <para>Represents the following attribute in the schema: w:rsidDel </para>
+          <para>Revision Identifier for Run Deletion</para>
+          <para>Represents the following attribute in the schema: w:rsidDel</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -344,10 +342,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(23, "rsidRPr")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "rsidRPr")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "rsidRPr")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -355,12 +355,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Revision Identifier for Run Properties.</para>
-          <para>Represents the following attribute in the schema: w:rsidRPr </para>
+          <para>Revision Identifier for Run Properties</para>
+          <para>Represents the following attribute in the schema: w:rsidRPr</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
+        <remark>
+            xmlns:w=http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
       </Docs>
     </Member>
@@ -375,14 +376,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.RunProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Run Properties.</para>
-          <para> Represents the following element tag in the schema: w:rPr </para>
+          <para>Run Properties.</para>
+          <para>Represents the following element tag in the schema: w:rPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

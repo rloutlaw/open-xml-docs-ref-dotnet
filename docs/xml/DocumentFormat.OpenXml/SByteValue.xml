@@ -1,16 +1,17 @@
-﻿<Type Name="SByteValue" FullName="DocumentFormat.OpenXml.SByteValue">
-  <TypeSignature Language="C#" Value="public class SByteValue : DocumentFormat.OpenXml.OpenXmlSimpleValue&lt;sbyte&gt;" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SByteValue extends DocumentFormat.OpenXml.OpenXmlSimpleValue`1&lt;int8&gt;" />
+<Type Name="SByteValue" FullName="DocumentFormat.OpenXml.SByteValue">
+  <TypeSignature Language="C#" Value="public class SByteValue : DocumentFormat.OpenXml.OpenXmlComparableSimpleValue&lt;sbyte&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SByteValue extends DocumentFormat.OpenXml.OpenXmlComparableSimpleValue`1&lt;int8&gt;" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.SByteValue" />
-  <TypeSignature Language="VB.NET" Value="Public Class SByteValue&#xA;Inherits OpenXmlSimpleValue(Of SByte)" />
-  <TypeSignature Language="F#" Value="type SByteValue = class&#xA;    inherit OpenXmlSimpleValue&lt;sbyte&gt;" />
+  <TypeSignature Language="VB.NET" Value="Public Class SByteValue&#xA;Inherits OpenXmlComparableSimpleValue(Of SByte)" />
+  <TypeSignature Language="F#" Value="type SByteValue = class&#xA;    inherit OpenXmlComparableSimpleValue&lt;sbyte&gt;" />
   <AssemblyInfo>
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>DocumentFormat.OpenXml.OpenXmlSimpleValue&lt;System.SByte&gt;</BaseTypeName>
+    <BaseTypeName>DocumentFormat.OpenXml.OpenXmlComparableSimpleValue&lt;System.SByte&gt;</BaseTypeName>
     <BaseTypeArguments>
       <BaseTypeArgument TypeParamName="T">System.SByte</BaseTypeArgument>
     </BaseTypeArguments>
@@ -18,10 +19,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>System.CLSCompliant(false)</AttributeName>
+      <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName>System.Diagnostics.DebuggerDisplay("{InnerText}")</AttributeName>
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("{InnerText}")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("{InnerText}")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -41,6 +44,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -61,6 +65,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="source" Type="DocumentFormat.OpenXml.SByteValue" />
@@ -84,6 +89,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.SByte" />
@@ -107,6 +113,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.SByteValue</ReturnType>
@@ -123,28 +130,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="InnerText">
-      <MemberSignature Language="C#" Value="public override string InnerText { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string InnerText" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.SByteValue.InnerText" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property InnerText As String" />
-      <MemberSignature Language="F#" Value="member this.InnerText : string" Usage="DocumentFormat.OpenXml.SByteValue.InnerText" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>Gets or sets the inner XML text.</summary>
-        <value>Returns <see cref="T:System.String" />.</value>
-        <remarks>To be added.</remarks>
-        <inheritdoc />
-      </Docs>
-    </Member>
     <Member MemberName="op_Implicit">
       <MemberSignature Language="C#" Value="public static implicit operator sbyte (DocumentFormat.OpenXml.SByteValue xmlAttribute);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname int8 op_Implicit(class DocumentFormat.OpenXml.SByteValue xmlAttribute) cil managed" />
@@ -156,6 +141,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.SByte</ReturnType>
@@ -184,6 +170,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.SByteValue</ReturnType>
@@ -211,6 +198,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.SByte</ReturnType>

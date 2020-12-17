@@ -1,4 +1,4 @@
-﻿<Type Name="Shape" FullName="DocumentFormat.OpenXml.Vml.Shape">
+<Type Name="Shape" FullName="DocumentFormat.OpenXml.Vml.Shape">
   <TypeSignature Language="C#" Value="public class Shape : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Shape extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Vml.Shape" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,92 +16,99 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Path))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Formulas))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.ShapeHandles))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Fill))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Stroke))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Shadow))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.TextBox))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.TextPath))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.ImageData))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Office.Skew))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Office.Extrusion))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Office.Callout))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Office.Lock))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Office.ClipPath))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Office.SignatureLine))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Wordprocessing.TextWrap))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Wordprocessing.AnchorLock))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Wordprocessing.TopBorder))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Wordprocessing.BottomBorder))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Wordprocessing.LeftBorder))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Wordprocessing.RightBorder))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Spreadsheet.ClientData))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Presentation.TextData))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Office.Ink))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Vml.Presentation.InkAnnotationFlag))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(26, "shape")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(26, "shape")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Shape Definition.</para>
-      <para> When the object is serialized out as xml, its qualified name is v:shape.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is v:shape.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>Path &lt;v:path&gt;</description></item><item><description>Formulas &lt;v:formulas&gt;</description></item><item><description>ShapeHandles &lt;v:handles&gt;</description></item><item><description>Fill &lt;v:fill&gt;</description></item><item><description>Stroke &lt;v:stroke&gt;</description></item><item><description>Shadow &lt;v:shadow&gt;</description></item><item><description>TextBox &lt;v:textbox&gt;</description></item><item><description>TextPath &lt;v:textpath&gt;</description></item><item><description>ImageData &lt;v:imagedata&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Office.Skew &lt;o:skew&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Office.Extrusion &lt;o:extrusion&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Office.Callout &lt;o:callout&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Office.Lock &lt;o:lock&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Office.ClipPath &lt;o:clippath&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Office.SignatureLine &lt;o:signatureline&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Wordprocessing.TextWrap &lt;w10:wrap&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Wordprocessing.AnchorLock &lt;w10:anchorlock&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Wordprocessing.TopBorder &lt;w10:bordertop&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Wordprocessing.BottomBorder &lt;w10:borderbottom&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Wordprocessing.LeftBorder &lt;w10:borderleft&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Wordprocessing.RightBorder &lt;w10:borderright&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Spreadsheet.ClientData &lt;xvml:ClientData&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Presentation.TextData &lt;pvml:textdata&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Office.Ink &lt;o:ink&gt;</description></item><item><description>DocumentFormat.OpenXml.Vml.Presentation.InkAnnotationFlag &lt;pvml:iscomment&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>Path &lt;v:path&gt;</description>
+        </item>
+        <item>
+          <description>Formulas &lt;v:formulas&gt;</description>
+        </item>
+        <item>
+          <description>ShapeHandles &lt;v:handles&gt;</description>
+        </item>
+        <item>
+          <description>Fill &lt;v:fill&gt;</description>
+        </item>
+        <item>
+          <description>Stroke &lt;v:stroke&gt;</description>
+        </item>
+        <item>
+          <description>Shadow &lt;v:shadow&gt;</description>
+        </item>
+        <item>
+          <description>TextBox &lt;v:textbox&gt;</description>
+        </item>
+        <item>
+          <description>TextPath &lt;v:textpath&gt;</description>
+        </item>
+        <item>
+          <description>ImageData &lt;v:imagedata&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Office.Skew &lt;o:skew&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Office.Extrusion &lt;o:extrusion&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Office.Callout &lt;o:callout&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Office.Lock &lt;o:lock&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Office.ClipPath &lt;o:clippath&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Office.SignatureLine &lt;o:signatureline&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Wordprocessing.TextWrap &lt;w10:wrap&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Wordprocessing.AnchorLock &lt;w10:anchorlock&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Wordprocessing.TopBorder &lt;w10:bordertop&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Wordprocessing.BottomBorder &lt;w10:borderbottom&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Wordprocessing.LeftBorder &lt;w10:borderleft&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Wordprocessing.RightBorder &lt;w10:borderright&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Spreadsheet.ClientData &lt;xvml:ClientData&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Presentation.TextData &lt;pvml:textdata&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Office.Ink &lt;o:ink&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Vml.Presentation.InkAnnotationFlag &lt;pvml:iscomment&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -113,6 +121,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -133,12 +142,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -162,6 +173,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -170,7 +182,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the Shape class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -185,6 +197,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -208,10 +221,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "adj")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "adj")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "adj")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -219,8 +234,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Adjustment Parameters.</para>
-          <para>Represents the following attribute in the schema: adj </para>
+          <para>Adjustment Parameters</para>
+          <para>Represents the following attribute in the schema: adj</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -237,10 +252,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "allowincell")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "allowincell")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "allowincell")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -248,12 +265,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Allow in Table Cell.</para>
-          <para>Represents the following attribute in the schema: o:allowincell </para>
+          <para>Allow in Table Cell</para>
+          <para>Represents the following attribute in the schema: o:allowincell</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -268,10 +286,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "allowoverlap")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "allowoverlap")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "allowoverlap")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -279,12 +299,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Allow Shape Overlap.</para>
-          <para>Represents the following attribute in the schema: o:allowoverlap </para>
+          <para>Allow Shape Overlap</para>
+          <para>Represents the following attribute in the schema: o:allowoverlap</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -299,10 +320,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "alt")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "alt")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "alt")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -310,8 +333,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Alternate Text.</para>
-          <para>Represents the following attribute in the schema: alt </para>
+          <para>Alternate Text</para>
+          <para>Represents the following attribute in the schema: alt</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -328,10 +351,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "bwmode")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "bwmode")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "bwmode")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -339,12 +364,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Black-and-White Mode.</para>
-          <para>Represents the following attribute in the schema: o:bwmode </para>
+          <para>Black-and-White Mode</para>
+          <para>Represents the following attribute in the schema: o:bwmode</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -359,10 +385,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "borderbottomcolor")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "borderbottomcolor")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "borderbottomcolor")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -370,12 +398,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Bottom Border Color.</para>
-          <para>Represents the following attribute in the schema: o:borderbottomcolor </para>
+          <para>Bottom Border Color</para>
+          <para>Represents the following attribute in the schema: o:borderbottomcolor</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -390,10 +419,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "borderleftcolor")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "borderleftcolor")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "borderleftcolor")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -401,12 +432,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Border Left Color.</para>
-          <para>Represents the following attribute in the schema: o:borderleftcolor </para>
+          <para>Border Left Color</para>
+          <para>Represents the following attribute in the schema: o:borderleftcolor</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -421,10 +453,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "borderrightcolor")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "borderrightcolor")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "borderrightcolor")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -432,12 +466,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Border Right Color.</para>
-          <para>Represents the following attribute in the schema: o:borderrightcolor </para>
+          <para>Border Right Color</para>
+          <para>Represents the following attribute in the schema: o:borderrightcolor</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -452,10 +487,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "bordertopcolor")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "bordertopcolor")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "bordertopcolor")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -463,12 +500,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Border Top Color.</para>
-          <para>Represents the following attribute in the schema: o:bordertopcolor </para>
+          <para>Border Top Color</para>
+          <para>Represents the following attribute in the schema: o:bordertopcolor</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -483,10 +521,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "bullet")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "bullet")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "bullet")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -494,12 +534,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Graphical Bullet.</para>
-          <para>Represents the following attribute in the schema: o:bullet </para>
+          <para>Graphical Bullet</para>
+          <para>Represents the following attribute in the schema: o:bullet</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -514,10 +555,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "button")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "button")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "button")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -525,12 +568,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Button Behavior Toggle.</para>
-          <para>Represents the following attribute in the schema: o:button </para>
+          <para>Button Behavior Toggle</para>
+          <para>Represents the following attribute in the schema: o:button</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -545,10 +589,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "class")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "class")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "class")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -556,8 +602,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> CSS Reference.</para>
-          <para>Represents the following attribute in the schema: class </para>
+          <para>CSS Reference</para>
+          <para>Represents the following attribute in the schema: class</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -574,10 +620,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "clip")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "clip")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "clip")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -585,12 +633,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Clipping Toggle.</para>
-          <para>Represents the following attribute in the schema: o:clip </para>
+          <para>Clipping Toggle</para>
+          <para>Represents the following attribute in the schema: o:clip</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -605,10 +654,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "cliptowrap")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "cliptowrap")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "cliptowrap")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -616,12 +667,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Clip to Wrapping Polygon.</para>
-          <para>Represents the following attribute in the schema: o:cliptowrap </para>
+          <para>Clip to Wrapping Polygon</para>
+          <para>Represents the following attribute in the schema: o:cliptowrap</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -636,6 +688,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -650,6 +703,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="ConnectorType">
@@ -663,10 +717,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "connectortype")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "connectortype")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "connectortype")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -674,12 +730,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shape Connector Type.</para>
-          <para>Represents the following attribute in the schema: o:connectortype </para>
+          <para>Shape Connector Type</para>
+          <para>Represents the following attribute in the schema: o:connectortype</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -694,10 +751,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "coordorigin")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "coordorigin")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "coordorigin")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -705,8 +764,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Coordinate Space Origin.</para>
-          <para>Represents the following attribute in the schema: coordorigin </para>
+          <para>Coordinate Space Origin</para>
+          <para>Represents the following attribute in the schema: coordorigin</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -723,10 +782,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "coordsize")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "coordsize")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "coordsize")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -734,8 +795,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Coordinate Space Size.</para>
-          <para>Represents the following attribute in the schema: coordsize </para>
+          <para>Coordinate Space Size</para>
+          <para>Represents the following attribute in the schema: coordsize</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -752,10 +813,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "dgmlayout")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "dgmlayout")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "dgmlayout")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -763,12 +826,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Diagram Node Layout Identifier.</para>
-          <para>Represents the following attribute in the schema: o:dgmlayout </para>
+          <para>Diagram Node Layout Identifier</para>
+          <para>Represents the following attribute in the schema: o:dgmlayout</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -783,10 +847,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "dgmlayoutmru")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "dgmlayoutmru")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "dgmlayoutmru")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -794,12 +860,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Diagram Node Recent Layout Identifier.</para>
-          <para>Represents the following attribute in the schema: o:dgmlayoutmru </para>
+          <para>Diagram Node Recent Layout Identifier</para>
+          <para>Represents the following attribute in the schema: o:dgmlayoutmru</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -814,10 +881,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "dgmnodekind")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "dgmnodekind")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "dgmnodekind")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -825,12 +894,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Diagram Node Identifier.</para>
-          <para>Represents the following attribute in the schema: o:dgmnodekind </para>
+          <para>Diagram Node Identifier</para>
+          <para>Represents the following attribute in the schema: o:dgmnodekind</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -845,10 +915,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "doubleclicknotify")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "doubleclicknotify")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "doubleclicknotify")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -856,12 +928,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Double-click Notification Toggle.</para>
-          <para>Represents the following attribute in the schema: o:doubleclicknotify </para>
+          <para>Double-click Notification Toggle</para>
+          <para>Represents the following attribute in the schema: o:doubleclicknotify</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -876,10 +949,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "path")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "path")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "path")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -887,8 +962,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Edge Path.</para>
-          <para>Represents the following attribute in the schema: path </para>
+          <para>Edge Path</para>
+          <para>Represents the following attribute in the schema: path</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -905,10 +980,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "gfxdata")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "gfxdata")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "gfxdata")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -916,12 +993,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Encoded Package.</para>
-          <para>Represents the following attribute in the schema: o:gfxdata </para>
+          <para>Encoded Package</para>
+          <para>Represents the following attribute in the schema: o:gfxdata</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -936,10 +1014,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "equationxml")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "equationxml")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "equationxml")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -947,8 +1027,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Storage for Alternate Math Content.</para>
-          <para>Represents the following attribute in the schema: equationxml </para>
+          <para>Storage for Alternate Math Content</para>
+          <para>Represents the following attribute in the schema: equationxml</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -965,10 +1045,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "fillcolor")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "fillcolor")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "fillcolor")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -976,8 +1058,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Fill Color.</para>
-          <para>Represents the following attribute in the schema: fillcolor </para>
+          <para>Fill Color</para>
+          <para>Represents the following attribute in the schema: fillcolor</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -994,10 +1076,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "filled")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "filled")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "filled")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1005,8 +1089,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shape Fill Toggle.</para>
-          <para>Represents the following attribute in the schema: filled </para>
+          <para>Shape Fill Toggle</para>
+          <para>Represents the following attribute in the schema: filled</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
@@ -1023,10 +1107,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "forcedash")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "forcedash")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "forcedash")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1034,12 +1120,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Force Dashed Outline.</para>
-          <para>Represents the following attribute in the schema: o:forcedash </para>
+          <para>Force Dashed Outline</para>
+          <para>Represents the following attribute in the schema: o:forcedash</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1054,10 +1141,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "hr")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "hr")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "hr")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1065,12 +1154,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Horizontal Rule Toggle.</para>
-          <para>Represents the following attribute in the schema: o:hr </para>
+          <para>Horizontal Rule Toggle</para>
+          <para>Represents the following attribute in the schema: o:hr</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1085,10 +1175,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "hralign")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "hralign")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "hralign")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1096,12 +1188,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Horizontal Rule Alignment.</para>
-          <para>Represents the following attribute in the schema: o:hralign </para>
+          <para>Horizontal Rule Alignment</para>
+          <para>Represents the following attribute in the schema: o:hralign</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1116,10 +1209,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "hrnoshade")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "hrnoshade")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "hrnoshade")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1127,12 +1222,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Horizontal Rule 3D Shading Toggle.</para>
-          <para>Represents the following attribute in the schema: o:hrnoshade </para>
+          <para>Horizontal Rule 3D Shading Toggle</para>
+          <para>Represents the following attribute in the schema: o:hrnoshade</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1147,10 +1243,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "hrpct")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "hrpct")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "hrpct")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1158,12 +1256,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Horizontal Rule Length Percentage.</para>
-          <para>Represents the following attribute in the schema: o:hrpct </para>
+          <para>Horizontal Rule Length Percentage</para>
+          <para>Represents the following attribute in the schema: o:hrpct</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.SingleValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1178,10 +1277,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "hrstd")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "hrstd")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "hrstd")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1189,12 +1290,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Horizontal Rule Standard Display Toggle.</para>
-          <para>Represents the following attribute in the schema: o:hrstd </para>
+          <para>Horizontal Rule Standard Display Toggle</para>
+          <para>Represents the following attribute in the schema: o:hrstd</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1209,10 +1311,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "href")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "href")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "href")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1220,8 +1324,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Hyperlink Target.</para>
-          <para>Represents the following attribute in the schema: href </para>
+          <para>Hyperlink Target</para>
+          <para>Represents the following attribute in the schema: href</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -1238,10 +1342,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "id")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "id")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "id")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1249,8 +1355,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Unique Identifier.</para>
-          <para>Represents the following attribute in the schema: id </para>
+          <para>Unique Identifier</para>
+          <para>Represents the following attribute in the schema: id</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -1267,10 +1373,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "insetmode")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "insetmode")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "insetmode")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1278,12 +1386,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Text Inset Mode.</para>
-          <para>Represents the following attribute in the schema: o:insetmode </para>
+          <para>Text Inset Mode</para>
+          <para>Represents the following attribute in the schema: o:insetmode</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1298,10 +1407,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "insetpen")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "insetpen")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "insetpen")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1309,33 +1420,10 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Inset Border From Path.</para>
-          <para>Represents the following attribute in the schema: insetpen </para>
+          <para>Inset Border From Path</para>
+          <para>Represents the following attribute in the schema: insetpen</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Vml.Shape.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Vml.Shape.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1350,10 +1438,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "bwnormal")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "bwnormal")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "bwnormal")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1361,12 +1451,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Normal Black-and-White Mode.</para>
-          <para>Represents the following attribute in the schema: o:bwnormal </para>
+          <para>Normal Black-and-White Mode</para>
+          <para>Represents the following attribute in the schema: o:bwnormal</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1381,10 +1472,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "ole")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "ole")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "ole")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1392,12 +1485,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Embedded Object Toggle.</para>
-          <para>Represents the following attribute in the schema: o:ole </para>
+          <para>Embedded Object Toggle</para>
+          <para>Represents the following attribute in the schema: o:ole</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1412,10 +1506,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "oleicon")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "oleicon")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "oleicon")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1423,12 +1519,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Embedded Object Icon Toggle.</para>
-          <para>Represents the following attribute in the schema: o:oleicon </para>
+          <para>Embedded Object Icon Toggle</para>
+          <para>Represents the following attribute in the schema: o:oleicon</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1443,10 +1540,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "oned")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "oned")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "oned")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1454,12 +1553,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shape Handle Toggle.</para>
-          <para>Represents the following attribute in the schema: o:oned </para>
+          <para>Shape Handle Toggle</para>
+          <para>Represents the following attribute in the schema: o:oned</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1474,10 +1574,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "spt")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "spt")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "spt")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1485,12 +1587,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Optional Number.</para>
-          <para>Represents the following attribute in the schema: o:spt </para>
+          <para>Optional Number</para>
+          <para>Represents the following attribute in the schema: o:spt</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.SingleValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1505,10 +1608,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "spid")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "spid")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "spid")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1516,12 +1621,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Optional String.</para>
-          <para>Represents the following attribute in the schema: o:spid </para>
+          <para>Optional String</para>
+          <para>Represents the following attribute in the schema: o:spid</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1536,10 +1642,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "preferrelative")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "preferrelative")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "preferrelative")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1547,12 +1655,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Relative Resize Toggle.</para>
-          <para>Represents the following attribute in the schema: o:preferrelative </para>
+          <para>Relative Resize Toggle</para>
+          <para>Represents the following attribute in the schema: o:preferrelative</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1567,10 +1676,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "print")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "print")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "print")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1578,8 +1689,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Print Toggle.</para>
-          <para>Represents the following attribute in the schema: print </para>
+          <para>Print Toggle</para>
+          <para>Represents the following attribute in the schema: print</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
@@ -1596,10 +1707,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "bwpure")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "bwpure")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "bwpure")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1607,12 +1720,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Pure Black-and-White Mode.</para>
-          <para>Represents the following attribute in the schema: o:bwpure </para>
+          <para>Pure Black-and-White Mode</para>
+          <para>Represents the following attribute in the schema: o:bwpure</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1627,10 +1741,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "regroupid")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "regroupid")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "regroupid")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1638,12 +1754,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Regroup ID.</para>
-          <para>Represents the following attribute in the schema: o:regroupid </para>
+          <para>Regroup ID</para>
+          <para>Represents the following attribute in the schema: o:regroupid</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.Int32Value" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1658,10 +1775,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "strokecolor")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "strokecolor")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "strokecolor")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1669,8 +1788,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shape Stroke Color.</para>
-          <para>Represents the following attribute in the schema: strokecolor </para>
+          <para>Shape Stroke Color</para>
+          <para>Represents the following attribute in the schema: strokecolor</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -1687,10 +1806,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "stroked")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "stroked")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "stroked")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1698,8 +1819,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shape Stroke Toggle.</para>
-          <para>Represents the following attribute in the schema: stroked </para>
+          <para>Shape Stroke Toggle</para>
+          <para>Represents the following attribute in the schema: stroked</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
@@ -1716,10 +1837,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "strokeweight")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "strokeweight")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "strokeweight")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1727,8 +1850,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shape Stroke Weight.</para>
-          <para>Represents the following attribute in the schema: strokeweight </para>
+          <para>Shape Stroke Weight</para>
+          <para>Represents the following attribute in the schema: strokeweight</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -1745,10 +1868,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "style")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "style")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "style")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1756,8 +1881,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shape Styling Properties.</para>
-          <para>Represents the following attribute in the schema: style </para>
+          <para>Shape Styling Properties</para>
+          <para>Represents the following attribute in the schema: style</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -1774,10 +1899,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "target")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "target")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "target")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1785,8 +1912,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Hyperlink Display Target.</para>
-          <para>Represents the following attribute in the schema: target </para>
+          <para>Hyperlink Display Target</para>
+          <para>Represents the following attribute in the schema: target</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -1803,10 +1930,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "title")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "title")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "title")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1814,8 +1943,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shape Title.</para>
-          <para>Represents the following attribute in the schema: title </para>
+          <para>Shape Title</para>
+          <para>Represents the following attribute in the schema: title</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -1832,10 +1961,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "type")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "type")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "type")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1843,8 +1974,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shape Type Reference.</para>
-          <para>Represents the following attribute in the schema: type </para>
+          <para>Shape Type Reference</para>
+          <para>Represents the following attribute in the schema: type</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>
@@ -1861,10 +1992,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "userdrawn")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "userdrawn")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "userdrawn")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1872,12 +2005,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Exists In Master Slide.</para>
-          <para>Represents the following attribute in the schema: o:userdrawn </para>
+          <para>Exists In Master Slide</para>
+          <para>Represents the following attribute in the schema: o:userdrawn</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1892,10 +2026,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(27, "userhidden")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(27, "userhidden")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(27, "userhidden")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1903,12 +2039,13 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Hide Script Anchors.</para>
-          <para>Represents the following attribute in the schema: o:userhidden </para>
+          <para>Hide Script Anchors</para>
+          <para>Represents the following attribute in the schema: o:userhidden</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.EnumValue`1" />.</value>
         <remarks>To be added.</remarks>
-        <remark> xmlns:o=urn:schemas-microsoft-com:office:office
+        <remark>
+            xmlns:o=urn:schemas-microsoft-com:office:office
             </remark>
       </Docs>
     </Member>
@@ -1923,10 +2060,12 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>DocumentFormat.OpenXml.SchemaAttr(0, "wrapcoords")</AttributeName>
+          <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(0, "wrapcoords")]</AttributeName>
+          <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(0, "wrapcoords")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1934,8 +2073,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shape Bounding Polygon.</para>
-          <para>Represents the following attribute in the schema: wrapcoords </para>
+          <para>Shape Bounding Polygon</para>
+          <para>Represents the following attribute in the schema: wrapcoords</para>
         </summary>
         <value>Returns <see cref="T:DocumentFormat.OpenXml.StringValue" />.</value>
         <remarks>To be added.</remarks>

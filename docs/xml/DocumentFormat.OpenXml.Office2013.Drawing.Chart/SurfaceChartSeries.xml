@@ -1,4 +1,4 @@
-﻿<Type Name="SurfaceChartSeries" FullName="DocumentFormat.OpenXml.Office2013.Drawing.Chart.SurfaceChartSeries">
+<Type Name="SurfaceChartSeries" FullName="DocumentFormat.OpenXml.Office2013.Drawing.Chart.SurfaceChartSeries">
   <TypeSignature Language="C#" Value="public class SurfaceChartSeries : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SurfaceChartSeries extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Office2013.Drawing.Chart.SurfaceChartSeries" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,48 +16,51 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.Index))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.Order))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.SeriesText))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.ChartShapeProperties))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.PictureOptions))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.CategoryAxisData))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.Values))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.Bubble3D))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Drawing.Charts.SurfaceSerExtensionList))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.OfficeAvailability(DocumentFormat.OpenXml.FileFormatVersions.Office2013)</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(64, "ser")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(64, "ser")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Defines the SurfaceChartSeries Class.</para>
-      <para>This class is only available in Office2013.</para>
-      <para> When the object is serialized out as xml, its qualified name is c15:ser.</para>
+      <para>This class is available in Office 2013 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is c15:ser.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>DocumentFormat.OpenXml.Drawing.Charts.Index &lt;c:idx&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.Charts.Order &lt;c:order&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.Charts.SeriesText &lt;c:tx&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.Charts.ChartShapeProperties &lt;c:spPr&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.Charts.PictureOptions &lt;c:pictureOptions&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.Charts.CategoryAxisData &lt;c:cat&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.Charts.Values &lt;c:val&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.Charts.Bubble3D &lt;c:bubble3D&gt;</description></item><item><description>DocumentFormat.OpenXml.Drawing.Charts.SurfaceSerExtensionList &lt;c:extLst&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.Charts.Index &lt;c:idx&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.Charts.Order &lt;c:order&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.Charts.SeriesText &lt;c:tx&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.Charts.ChartShapeProperties &lt;c:spPr&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.Charts.PictureOptions &lt;c:pictureOptions&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.Charts.CategoryAxisData &lt;c:cat&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.Charts.Values &lt;c:val&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.Charts.Bubble3D &lt;c:bubble3D&gt;</description>
+        </item>
+        <item>
+          <description>DocumentFormat.OpenXml.Drawing.Charts.SurfaceSerExtensionList &lt;c:extLst&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -69,6 +73,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -89,12 +94,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -118,6 +125,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -126,7 +134,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the SurfaceChartSeries class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -141,6 +149,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -164,14 +173,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.Bubble3D</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Bubble3D.</para>
-          <para> Represents the following element tag in the schema: c:bubble3D </para>
+          <para>Bubble3D.</para>
+          <para>Represents the following element tag in the schema: c:bubble3D.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -191,14 +201,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.CategoryAxisData</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> CategoryAxisData.</para>
-          <para> Represents the following element tag in the schema: c:cat </para>
+          <para>CategoryAxisData.</para>
+          <para>Represents the following element tag in the schema: c:cat.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -218,14 +229,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.ChartShapeProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ChartShapeProperties.</para>
-          <para> Represents the following element tag in the schema: c:spPr </para>
+          <para>ChartShapeProperties.</para>
+          <para>Represents the following element tag in the schema: c:spPr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -245,6 +257,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -259,6 +272,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Index">
@@ -272,43 +286,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.Index</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Index.</para>
-          <para> Represents the following element tag in the schema: c:idx </para>
+          <para>Index.</para>
+          <para>Represents the following element tag in the schema: c:idx.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:c = http://schemas.openxmlformats.org/drawingml/2006/chart
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Office2013.Drawing.Chart.SurfaceChartSeries.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Office2013.Drawing.Chart.SurfaceChartSeries.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Order">
@@ -322,14 +314,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.Order</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Order.</para>
-          <para> Represents the following element tag in the schema: c:order </para>
+          <para>Order.</para>
+          <para>Represents the following element tag in the schema: c:order.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -349,14 +342,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.PictureOptions</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> PictureOptions.</para>
-          <para> Represents the following element tag in the schema: c:pictureOptions </para>
+          <para>PictureOptions.</para>
+          <para>Represents the following element tag in the schema: c:pictureOptions.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -376,14 +370,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.SeriesText</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Series Text.</para>
-          <para> Represents the following element tag in the schema: c:tx </para>
+          <para>Series Text.</para>
+          <para>Represents the following element tag in the schema: c:tx.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -403,14 +398,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.SurfaceSerExtensionList</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> SurfaceSerExtensionList.</para>
-          <para> Represents the following element tag in the schema: c:extLst </para>
+          <para>SurfaceSerExtensionList.</para>
+          <para>Represents the following element tag in the schema: c:extLst.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -430,14 +426,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Drawing.Charts.Values</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Values.</para>
-          <para> Represents the following element tag in the schema: c:val </para>
+          <para>Values.</para>
+          <para>Represents the following element tag in the schema: c:val.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

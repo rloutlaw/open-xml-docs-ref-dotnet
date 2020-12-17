@@ -1,4 +1,4 @@
-﻿<Type Name="RunPropertiesBaseStyle" FullName="DocumentFormat.OpenXml.Wordprocessing.RunPropertiesBaseStyle">
+<Type Name="RunPropertiesBaseStyle" FullName="DocumentFormat.OpenXml.Wordprocessing.RunPropertiesBaseStyle">
   <TypeSignature Language="C#" Value="public class RunPropertiesBaseStyle : DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RunPropertiesBaseStyle extends DocumentFormat.OpenXml.OpenXmlCompositeElement" />
   <TypeSignature Language="DocId" Value="T:DocumentFormat.OpenXml.Wordprocessing.RunPropertiesBaseStyle" />
@@ -8,6 +8,7 @@
     <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
     <AssemblyVersion>2.7.2.0</AssemblyVersion>
     <AssemblyVersion>2.8.1.0</AssemblyVersion>
+    <AssemblyVersion>2.12.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>DocumentFormat.OpenXml.OpenXmlCompositeElement</BaseTypeName>
@@ -15,119 +16,126 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.RunFonts))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Bold))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.BoldComplexScript))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Italic))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.ItalicComplexScript))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Caps))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SmallCaps))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Strike))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.DoubleStrike))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Outline))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Shadow))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Emboss))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Imprint))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.NoProof))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SnapToGrid))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Vanish))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.WebHidden))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Color))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Spacing))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.CharacterScale))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Kern))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Position))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.FontSize))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.FontSizeComplexScript))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Underline))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.TextEffect))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Border))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Shading))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.FitText))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.VerticalTextAlignment))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Emphasis))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.Languages))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.EastAsianLayout))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>DocumentFormat.OpenXml.ChildElementInfo(typeof(DocumentFormat.OpenXml.Wordprocessing.SpecVanish))</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName>System.CodeDom.Compiler.GeneratedCode("DomGen", "2.0")</AttributeName>
+      <AttributeName Language="C#">[DocumentFormat.OpenXml.SchemaAttr(23, "rPr")]</AttributeName>
+      <AttributeName Language="F#">[&lt;DocumentFormat.OpenXml.SchemaAttr(23, "rPr")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
     <summary>
       <para>Run Properties.</para>
-      <para> When the object is serialized out as xml, its qualified name is w:rPr.</para>
+      <para>This class is available in Office 2007 or above.</para>
+      <para>When the object is serialized out as xml, it's qualified name is w:rPr.</para>
     </summary>
     <remarks>
              The following table lists the possible child types:
              <list type="bullet"><item><description>RunFonts &lt;w:rFonts&gt;</description></item><item><description>Bold &lt;w:b&gt;</description></item><item><description>BoldComplexScript &lt;w:bCs&gt;</description></item><item><description>Italic &lt;w:i&gt;</description></item><item><description>ItalicComplexScript &lt;w:iCs&gt;</description></item><item><description>Caps &lt;w:caps&gt;</description></item><item><description>SmallCaps &lt;w:smallCaps&gt;</description></item><item><description>Strike &lt;w:strike&gt;</description></item><item><description>DoubleStrike &lt;w:dstrike&gt;</description></item><item><description>Outline &lt;w:outline&gt;</description></item><item><description>Shadow &lt;w:shadow&gt;</description></item><item><description>Emboss &lt;w:emboss&gt;</description></item><item><description>Imprint &lt;w:imprint&gt;</description></item><item><description>NoProof &lt;w:noProof&gt;</description></item><item><description>SnapToGrid &lt;w:snapToGrid&gt;</description></item><item><description>Vanish &lt;w:vanish&gt;</description></item><item><description>WebHidden &lt;w:webHidden&gt;</description></item><item><description>Color &lt;w:color&gt;</description></item><item><description>Spacing &lt;w:spacing&gt;</description></item><item><description>CharacterScale &lt;w:w&gt;</description></item><item><description>Kern &lt;w:kern&gt;</description></item><item><description>Position &lt;w:position&gt;</description></item><item><description>FontSize &lt;w:sz&gt;</description></item><item><description>FontSizeComplexScript &lt;w:szCs&gt;</description></item><item><description>Underline &lt;w:u&gt;</description></item><item><description>TextEffect &lt;w:effect&gt;</description></item><item><description>Border &lt;w:bdr&gt;</description></item><item><description>Shading &lt;w:shd&gt;</description></item><item><description>FitText &lt;w:fitText&gt;</description></item><item><description>VerticalTextAlignment &lt;w:vertAlign&gt;</description></item><item><description>Emphasis &lt;w:em&gt;</description></item><item><description>Languages &lt;w:lang&gt;</description></item><item><description>EastAsianLayout &lt;w:eastAsianLayout&gt;</description></item><item><description>SpecVanish &lt;w:specVanish&gt;</description></item></list></remarks>
+    <remark>
+      <para>The following table lists the possible child types:</para>
+      <list type="bullet">
+        <item>
+          <description>RunFonts &lt;w:rFonts&gt;</description>
+        </item>
+        <item>
+          <description>Bold &lt;w:b&gt;</description>
+        </item>
+        <item>
+          <description>BoldComplexScript &lt;w:bCs&gt;</description>
+        </item>
+        <item>
+          <description>Italic &lt;w:i&gt;</description>
+        </item>
+        <item>
+          <description>ItalicComplexScript &lt;w:iCs&gt;</description>
+        </item>
+        <item>
+          <description>Caps &lt;w:caps&gt;</description>
+        </item>
+        <item>
+          <description>SmallCaps &lt;w:smallCaps&gt;</description>
+        </item>
+        <item>
+          <description>Strike &lt;w:strike&gt;</description>
+        </item>
+        <item>
+          <description>DoubleStrike &lt;w:dstrike&gt;</description>
+        </item>
+        <item>
+          <description>Outline &lt;w:outline&gt;</description>
+        </item>
+        <item>
+          <description>Shadow &lt;w:shadow&gt;</description>
+        </item>
+        <item>
+          <description>Emboss &lt;w:emboss&gt;</description>
+        </item>
+        <item>
+          <description>Imprint &lt;w:imprint&gt;</description>
+        </item>
+        <item>
+          <description>NoProof &lt;w:noProof&gt;</description>
+        </item>
+        <item>
+          <description>SnapToGrid &lt;w:snapToGrid&gt;</description>
+        </item>
+        <item>
+          <description>Vanish &lt;w:vanish&gt;</description>
+        </item>
+        <item>
+          <description>WebHidden &lt;w:webHidden&gt;</description>
+        </item>
+        <item>
+          <description>Color &lt;w:color&gt;</description>
+        </item>
+        <item>
+          <description>Spacing &lt;w:spacing&gt;</description>
+        </item>
+        <item>
+          <description>CharacterScale &lt;w:w&gt;</description>
+        </item>
+        <item>
+          <description>Kern &lt;w:kern&gt;</description>
+        </item>
+        <item>
+          <description>Position &lt;w:position&gt;</description>
+        </item>
+        <item>
+          <description>FontSize &lt;w:sz&gt;</description>
+        </item>
+        <item>
+          <description>FontSizeComplexScript &lt;w:szCs&gt;</description>
+        </item>
+        <item>
+          <description>Underline &lt;w:u&gt;</description>
+        </item>
+        <item>
+          <description>TextEffect &lt;w:effect&gt;</description>
+        </item>
+        <item>
+          <description>Border &lt;w:bdr&gt;</description>
+        </item>
+        <item>
+          <description>Shading &lt;w:shd&gt;</description>
+        </item>
+        <item>
+          <description>FitText &lt;w:fitText&gt;</description>
+        </item>
+        <item>
+          <description>VerticalTextAlignment &lt;w:vertAlign&gt;</description>
+        </item>
+        <item>
+          <description>Emphasis &lt;w:em&gt;</description>
+        </item>
+        <item>
+          <description>Languages &lt;w:lang&gt;</description>
+        </item>
+        <item>
+          <description>EastAsianLayout &lt;w:eastAsianLayout&gt;</description>
+        </item>
+        <item>
+          <description>SpecVanish &lt;w:specVanish&gt;</description>
+        </item>
+      </list>
+    </remark>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -140,6 +148,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -160,12 +169,14 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="DocumentFormat.OpenXml.OpenXmlElement[]">
           <Attributes>
             <Attribute>
-              <AttributeName>System.ParamArray</AttributeName>
+              <AttributeName Language="C#">[System.ParamArray]</AttributeName>
+              <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
@@ -189,6 +200,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="childElements" Type="System.Collections.Generic.IEnumerable&lt;DocumentFormat.OpenXml.OpenXmlElement&gt;" />
@@ -197,7 +209,7 @@
         <param name="childElements">Specifies the child elements.</param>
         <summary>
             Initializes a new instance of the RunPropertiesBaseStyle class with the specified child elements.
-             </summary>
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -212,6 +224,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="outerXml" Type="System.String" />
@@ -235,14 +248,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Bold</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Bold.</para>
-          <para> Represents the following element tag in the schema: w:b </para>
+          <para>Bold.</para>
+          <para>Represents the following element tag in the schema: w:b.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -262,14 +276,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.BoldComplexScript</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> BoldComplexScript.</para>
-          <para> Represents the following element tag in the schema: w:bCs </para>
+          <para>BoldComplexScript.</para>
+          <para>Represents the following element tag in the schema: w:bCs.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -289,14 +304,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Border</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Border.</para>
-          <para> Represents the following element tag in the schema: w:bdr </para>
+          <para>Border.</para>
+          <para>Represents the following element tag in the schema: w:bdr.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -316,14 +332,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Caps</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Caps.</para>
-          <para> Represents the following element tag in the schema: w:caps </para>
+          <para>Caps.</para>
+          <para>Represents the following element tag in the schema: w:caps.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -343,14 +360,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.CharacterScale</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> CharacterScale.</para>
-          <para> Represents the following element tag in the schema: w:w </para>
+          <para>CharacterScale.</para>
+          <para>Represents the following element tag in the schema: w:w.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -370,6 +388,7 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.OpenXmlElement</ReturnType>
@@ -384,6 +403,7 @@
             </summary>
         <returns>Returns the cloned node. </returns>
         <remarks>To be added.</remarks>
+        <inheritdoc />
       </Docs>
     </Member>
     <Member MemberName="Color">
@@ -397,14 +417,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Color</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Color.</para>
-          <para> Represents the following element tag in the schema: w:color </para>
+          <para>Color.</para>
+          <para>Represents the following element tag in the schema: w:color.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -424,14 +445,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.DoubleStrike</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> DoubleStrike.</para>
-          <para> Represents the following element tag in the schema: w:dstrike </para>
+          <para>DoubleStrike.</para>
+          <para>Represents the following element tag in the schema: w:dstrike.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -451,14 +473,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.EastAsianLayout</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> EastAsianLayout.</para>
-          <para> Represents the following element tag in the schema: w:eastAsianLayout </para>
+          <para>EastAsianLayout.</para>
+          <para>Represents the following element tag in the schema: w:eastAsianLayout.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -478,14 +501,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Emboss</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Emboss.</para>
-          <para> Represents the following element tag in the schema: w:emboss </para>
+          <para>Emboss.</para>
+          <para>Represents the following element tag in the schema: w:emboss.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -505,14 +529,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Emphasis</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Emphasis.</para>
-          <para> Represents the following element tag in the schema: w:em </para>
+          <para>Emphasis.</para>
+          <para>Represents the following element tag in the schema: w:em.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -532,14 +557,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.FitText</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> FitText.</para>
-          <para> Represents the following element tag in the schema: w:fitText </para>
+          <para>FitText.</para>
+          <para>Represents the following element tag in the schema: w:fitText.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -559,14 +585,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.FontSize</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> FontSize.</para>
-          <para> Represents the following element tag in the schema: w:sz </para>
+          <para>FontSize.</para>
+          <para>Represents the following element tag in the schema: w:sz.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -586,14 +613,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.FontSizeComplexScript</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> FontSizeComplexScript.</para>
-          <para> Represents the following element tag in the schema: w:szCs </para>
+          <para>FontSizeComplexScript.</para>
+          <para>Represents the following element tag in the schema: w:szCs.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -613,14 +641,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Imprint</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Imprint.</para>
-          <para> Represents the following element tag in the schema: w:imprint </para>
+          <para>Imprint.</para>
+          <para>Represents the following element tag in the schema: w:imprint.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -640,14 +669,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Italic</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Italic.</para>
-          <para> Represents the following element tag in the schema: w:i </para>
+          <para>Italic.</para>
+          <para>Represents the following element tag in the schema: w:i.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -667,14 +697,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.ItalicComplexScript</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> ItalicComplexScript.</para>
-          <para> Represents the following element tag in the schema: w:iCs </para>
+          <para>ItalicComplexScript.</para>
+          <para>Represents the following element tag in the schema: w:iCs.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -694,14 +725,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Kern</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Kern.</para>
-          <para> Represents the following element tag in the schema: w:kern </para>
+          <para>Kern.</para>
+          <para>Represents the following element tag in the schema: w:kern.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -721,43 +753,21 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Languages</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Languages.</para>
-          <para> Represents the following element tag in the schema: w:lang </para>
+          <para>Languages.</para>
+          <para>Represents the following element tag in the schema: w:lang.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <remark>
             xmlns:w = http://schemas.openxmlformats.org/wordprocessingml/2006/main
             </remark>
-      </Docs>
-    </Member>
-    <Member MemberName="LocalName">
-      <MemberSignature Language="C#" Value="public override string LocalName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LocalName" />
-      <MemberSignature Language="DocId" Value="P:DocumentFormat.OpenXml.Wordprocessing.RunPropertiesBaseStyle.LocalName" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property LocalName As String" />
-      <MemberSignature Language="F#" Value="member this.LocalName : string" Usage="DocumentFormat.OpenXml.Wordprocessing.RunPropertiesBaseStyle.LocalName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
-        <AssemblyVersion>2.7.2.0</AssemblyVersion>
-        <AssemblyVersion>2.8.1.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the local name of the element.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="NoProof">
@@ -771,14 +781,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.NoProof</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> NoProof.</para>
-          <para> Represents the following element tag in the schema: w:noProof </para>
+          <para>NoProof.</para>
+          <para>Represents the following element tag in the schema: w:noProof.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -798,14 +809,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Outline</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Outline.</para>
-          <para> Represents the following element tag in the schema: w:outline </para>
+          <para>Outline.</para>
+          <para>Represents the following element tag in the schema: w:outline.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -825,14 +837,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Position</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Position.</para>
-          <para> Represents the following element tag in the schema: w:position </para>
+          <para>Position.</para>
+          <para>Represents the following element tag in the schema: w:position.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -852,14 +865,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.RunFonts</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> RunFonts.</para>
-          <para> Represents the following element tag in the schema: w:rFonts </para>
+          <para>RunFonts.</para>
+          <para>Represents the following element tag in the schema: w:rFonts.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -879,14 +893,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Shading</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shading.</para>
-          <para> Represents the following element tag in the schema: w:shd </para>
+          <para>Shading.</para>
+          <para>Represents the following element tag in the schema: w:shd.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -906,14 +921,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Shadow</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Shadow.</para>
-          <para> Represents the following element tag in the schema: w:shadow </para>
+          <para>Shadow.</para>
+          <para>Represents the following element tag in the schema: w:shadow.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -933,14 +949,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.SmallCaps</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> SmallCaps.</para>
-          <para> Represents the following element tag in the schema: w:smallCaps </para>
+          <para>SmallCaps.</para>
+          <para>Represents the following element tag in the schema: w:smallCaps.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -960,14 +977,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.SnapToGrid</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> SnapToGrid.</para>
-          <para> Represents the following element tag in the schema: w:snapToGrid </para>
+          <para>SnapToGrid.</para>
+          <para>Represents the following element tag in the schema: w:snapToGrid.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -987,14 +1005,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Spacing</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Spacing.</para>
-          <para> Represents the following element tag in the schema: w:spacing </para>
+          <para>Spacing.</para>
+          <para>Represents the following element tag in the schema: w:spacing.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1014,14 +1033,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.SpecVanish</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> SpecVanish.</para>
-          <para> Represents the following element tag in the schema: w:specVanish </para>
+          <para>SpecVanish.</para>
+          <para>Represents the following element tag in the schema: w:specVanish.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1041,14 +1061,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Strike</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Strike.</para>
-          <para> Represents the following element tag in the schema: w:strike </para>
+          <para>Strike.</para>
+          <para>Represents the following element tag in the schema: w:strike.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1068,14 +1089,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.TextEffect</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> TextEffect.</para>
-          <para> Represents the following element tag in the schema: w:effect </para>
+          <para>TextEffect.</para>
+          <para>Represents the following element tag in the schema: w:effect.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1095,14 +1117,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Underline</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Underline.</para>
-          <para> Represents the following element tag in the schema: w:u </para>
+          <para>Underline.</para>
+          <para>Represents the following element tag in the schema: w:u.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1122,14 +1145,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.Vanish</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> Vanish.</para>
-          <para> Represents the following element tag in the schema: w:vanish </para>
+          <para>Vanish.</para>
+          <para>Represents the following element tag in the schema: w:vanish.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1149,14 +1173,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.VerticalTextAlignment</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> VerticalTextAlignment.</para>
-          <para> Represents the following element tag in the schema: w:vertAlign </para>
+          <para>VerticalTextAlignment.</para>
+          <para>Represents the following element tag in the schema: w:vertAlign.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1176,14 +1201,15 @@
         <AssemblyName>DocumentFormat.OpenXml</AssemblyName>
         <AssemblyVersion>2.7.2.0</AssemblyVersion>
         <AssemblyVersion>2.8.1.0</AssemblyVersion>
+        <AssemblyVersion>2.12.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>DocumentFormat.OpenXml.Wordprocessing.WebHidden</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-          <para> WebHidden.</para>
-          <para> Represents the following element tag in the schema: w:webHidden </para>
+          <para>WebHidden.</para>
+          <para>Represents the following element tag in the schema: w:webHidden.</para>
         </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
